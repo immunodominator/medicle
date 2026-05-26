@@ -431,6 +431,7 @@ export default function Home() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
   const [showECG, setShowECG] = useState(false);
+  const [showSystem, setShowSystem] = useState(true);
   const [solvedAtClueCount, setSolvedAtClueCount] = useState(1);
   const [loadError, setLoadError] = useState("");
 
