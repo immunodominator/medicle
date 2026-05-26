@@ -317,7 +317,7 @@ export default function Home() {
         </p>
         <p className="text-xs" style={{ color: "#2d7a8a" }}>
           Questions or feedback?{" "}
-          <a href="mailto:medicle.game@gmail.com" style={{ color: "#14b8a6" }}>
+          <a href="mailto:medle.game@gmail.com" style={{ color: "#14b8a6" }}>
             medle.game@gmail.com
           </a>
         </p>
