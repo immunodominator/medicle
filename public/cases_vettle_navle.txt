@@ -1,0 +1,197 @@
+CASE_ID: 001
+DIFFICULTY: navle
+SYSTEM: small_animal_infectious_disease
+DIAGNOSIS:
+Canine Parvovirus Enteritis
+ALIASES:
+parvo
+canine parvoviral enteritis
+CPV-2 infection
+VIGNETTE_LINES:
+1. A 10-week-old unvaccinated mixed-breed puppy presents with sudden lethargy, anorexia, and profuse foul-smelling diarrhea that became hemorrhagic overnight.
+2. The owner reports multiple episodes of vomiting and that two littermates were recently ill after a visit to a dog park.
+3. Physical exam shows dehydration (tacky gums, prolonged skin tent), painful abdomen, and a rectal temperature of 39.7°C.
+4. CBC reveals marked leukopenia with neutropenia and lymphopenia; serum chemistry shows hypoglycemia and mild hypokalemia.
+5. A fecal antigen ELISA is positive for canine parvovirus; abdominal radiographs show gas-filled intestinal loops without obstruction.
+6. The puppy is hospitalized for aggressive IV fluids, antiemetics, broad-spectrum antibiotics for bacterial translocation risk, and monitored for sepsis.
+TEACHING_POINTS:
+- Parvovirus targets rapidly dividing cells (intestinal crypts and bone marrow), explaining hemorrhagic diarrhea and leukopenia.
+- High-risk signalment: young, unvaccinated puppies with exposure to contaminated environments.
+- Treatment is supportive: fluids, antiemetics, nutrition support; antibiotics are often used due to mucosal barrier breakdown and sepsis risk.
+
+==================================================
+CASE_ID: 002
+DIFFICULTY: navle
+SYSTEM: feline_cardiology
+DIAGNOSIS:
+Feline Hypertrophic Cardiomyopathy
+ALIASES:
+HCM (cat)
+feline HCM
+hypertrophic cardiomyopathy in cats
+VIGNETTE_LINES:
+1. A 6-year-old male Maine Coon is brought in for intermittent open-mouth breathing and decreased activity over two weeks.
+2. On exam, the cat is tachypneic with mild expiratory effort and has a new grade III/VI systolic murmur best heard over the left parasternal region.
+3. Thoracic radiographs show mild cardiomegaly and a diffuse interstitial pattern consistent with early pulmonary edema.
+4. Point-of-care ultrasound suggests left atrial enlargement; echocardiography demonstrates concentric left ventricular hypertrophy with systolic anterior motion of the mitral valve.
+5. NT-proBNP is elevated; the cat improves after oxygen and furosemide, and is discharged on diuretics with cardiology follow-up.
+6. The owner is counseled about risk of arterial thromboembolism (sudden hindlimb paralysis) and the need for rechecks.
+TEACHING_POINTS:
+- Feline HCM is the most common heart disease in cats; breeds like Maine Coon have increased risk.
+- Left atrial enlargement increases risk for thromboembolism (aortic thromboembolism “saddle thrombus”).
+- Echocardiography is the diagnostic test of choice; treatment focuses on managing congestive signs and reducing complications.
+
+==================================================
+CASE_ID: 003
+DIFFICULTY: navle
+SYSTEM: equine_emergency
+DIAGNOSIS:
+Large Colon Volvulus
+ALIASES:
+equine colic - large colon volvulus
+colon torsion
+twist of the large colon
+VIGNETTE_LINES:
+1. A 10-year-old postpartum mare develops acute severe colic, repeatedly rolling and sweating despite analgesia.
+2. Heart rate is 80 bpm, mucous membranes are congested with a prolonged capillary refill time, and abdominal distension is evident.
+3. Nasogastric intubation yields minimal reflux; rectal exam reveals markedly distended large colon with tight bands and poor motility.
+4. Abdominocentesis yields serosanguinous fluid with elevated lactate compared with peripheral blood.
+5. The mare shows rapid progression of cardiovascular compromise despite IV fluids and flunixin.
+6. Emergency exploratory laparotomy confirms a large colon volvulus; the colon is de-rotated and devitalized segments are resected.
+TEACHING_POINTS:
+- Large colon volvulus is a surgical emergency with rapid progression to shock and endotoxemia; postpartum mares are a classic risk group.
+- Severe unrelenting pain, high heart rate, distension, and abnormal peritoneal fluid/lactate suggest strangulating obstruction.
+- Prompt surgical intervention is critical; prognosis worsens with duration of volvulus and degree of devitalization.
+
+==================================================
+CASE_ID: 004
+DIFFICULTY: navle
+SYSTEM: dairy_medicine
+DIAGNOSIS:
+Coliform Mastitis (E. coli Mastitis)
+ALIASES:
+acute toxic mastitis
+E. coli mastitis
+environmental mastitis
+VIGNETTE_LINES:
+1. A high-producing Holstein cow 7 days fresh is found depressed with decreased feed intake and a sudden drop in milk yield.
+2. The affected quarter is swollen and painful; the milk is watery with flakes and a foul odor.
+3. Rectal temperature is 40.2°C and the cow is tachycardic with injected sclera and cool extremities.
+4. California Mastitis Test is strongly positive; on-farm culture shows gram-negative rods consistent with coliform bacteria.
+5. The cow receives aggressive IV fluids, NSAIDs, frequent milking/stripping of the affected quarter, and supportive care.
+6. Over 24 hours, systemic signs improve, but the quarter remains firm with ongoing decreased production.
+TEACHING_POINTS:
+- Coliform mastitis can cause severe systemic illness from endotoxemia, especially in early lactation.
+- Management emphasizes fluids, anti-inflammatory therapy, and frequent milk-out; prognosis depends on systemic severity and response.
+- Prevention focuses on environment/hygiene (bedding management) and milking procedure consistency.
+
+==================================================
+CASE_ID: 005
+DIFFICULTY: navle
+SYSTEM: small_animal_endocrinology
+DIAGNOSIS:
+Canine Diabetes Mellitus
+ALIASES:
+diabetes in dogs
+insulin-dependent diabetes in dogs
+canine DM
+VIGNETTE_LINES:
+1. A 9-year-old female spayed Miniature Schnauzer presents with two months of polyuria, polydipsia, weight loss despite increased appetite, and recurrent urinary tract infections.
+2. Physical exam shows mild dehydration and cataract formation in both eyes.
+3. Urinalysis reveals marked glucosuria and ketones are negative; urine culture is positive for bacterial growth.
+4. Bloodwork shows persistent hyperglycemia and elevated fructosamine, confirming chronic hyperglycemia rather than stress hyperglycemia.
+5. Abdominal ultrasound is unremarkable; the dog is started on twice-daily insulin and a consistent diet, and the owner is trained to monitor clinical signs and glucose curves.
+6. At recheck, water intake decreases and weight stabilizes with improved regulation.
+TEACHING_POINTS:
+- Canine diabetes is commonly insulin-dependent and presents with PU/PD, polyphagia, weight loss, and cataracts.
+- Fructosamine helps confirm persistent hyperglycemia over weeks and can help monitor control.
+- Concurrent infections (especially UTIs) can worsen regulation; consistent feeding and insulin timing are key.
+
+==================================================
+CASE_ID: 006
+DIFFICULTY: navle
+SYSTEM: small_animal_reproduction
+DIAGNOSIS:
+Canine Pyometra
+ALIASES:
+open pyometra
+closed pyometra
+uterine infection
+VIGNETTE_LINES:
+1. A 7-year-old intact female dog presents with lethargy, vomiting, increased drinking/urination, and decreased appetite.
+2. The owner notes a malodorous vaginal discharge that started two days ago; last estrus was approximately 5 weeks ago.
+3. On exam, the dog is febrile and mildly dehydrated; abdominal palpation suggests uterine enlargement.
+4. CBC shows leukocytosis with a left shift; chemistry shows mild azotemia and elevated ALP.
+5. Abdominal ultrasound reveals a fluid-filled enlarged uterus with echogenic contents consistent with purulent material.
+6. The dog is stabilized with IV fluids and antibiotics, then undergoes emergency ovariohysterectomy with rapid improvement.
+TEACHING_POINTS:
+- Pyometra classically occurs in diestrus due to progesterone effects causing uterine gland secretion and reduced myometrial contraction.
+- Systemic illness can progress to sepsis; stabilization is important but surgery is definitive treatment in most cases.
+- “Open” pyometra may have discharge; “closed” pyometra can be more dangerous due to uterine rupture risk.
+
+==================================================
+CASE_ID: 007
+DIFFICULTY: navle
+SYSTEM: small_animal_neurology
+DIAGNOSIS:
+Intervertebral Disc Disease (Thoracolumbar Hansen Type I)
+ALIASES:
+IVDD
+disc extrusion
+Hansen type I IVDD
+VIGNETTE_LINES:
+1. A 5-year-old Dachshund presents with acute onset back pain followed by progressive hindlimb weakness over 12 hours.
+2. The dog is reluctant to walk and cries when picked up; neurologic exam shows proprioceptive deficits and reduced withdrawal reflexes in the pelvic limbs.
+3. Spinal palpation elicits pain in the thoracolumbar region; deep pain sensation is present but diminished.
+4. Survey radiographs show narrowed intervertebral disc space and mineralized disc material; MRI confirms an acute disc extrusion compressing the spinal cord.
+5. The dog is managed with strict cage rest and analgesia while surgery is discussed; neurologic deterioration prompts hemilaminectomy.
+6. Post-op, the dog improves with physiotherapy and returns to ambulatory function.
+TEACHING_POINTS:
+- Hansen type I IVDD is common in chondrodystrophic breeds (Dachshunds) and can cause rapid neurologic decline.
+- Presence/absence of deep pain is a major prognostic indicator.
+- MRI is the gold standard for localization and surgical planning; timely decompression improves outcomes in severe cases.
+
+==================================================
+CASE_ID: 008
+DIFFICULTY: navle
+SYSTEM: tox_emergency
+DIAGNOSIS:
+Chocolate (Theobromine) Toxicity in Dogs
+ALIASES:
+theobromine poisoning
+caffeine/theobromine toxicity
+chocolate ingestion
+VIGNETTE_LINES:
+1. A 3-year-old Labrador retriever is brought in after ingesting a large quantity of dark chocolate brownies 3 hours ago.
+2. The dog is restless and panting; heart rate is 180 bpm with premature beats ausculted, and the dog has tremors.
+3. The owner reports vomiting at home with chocolate fragments present.
+4. ECG shows ventricular premature complexes; blood pressure is elevated.
+5. The dog receives emesis (if appropriate), activated charcoal, IV fluids, and beta-blocker therapy as needed for arrhythmias; tremors are controlled with sedation.
+6. Over 24 hours, clinical signs resolve and the dog is discharged with counseling on toxicity risk by chocolate type.
+TEACHING_POINTS:
+- Dark chocolate and baking chocolate contain higher theobromine concentrations and are more toxic than milk chocolate.
+- Clinical signs include GI upset, CNS stimulation (tremors/seizures), and cardiac arrhythmias.
+- Treatment is decontamination + supportive care; charcoal may be repeated due to enterohepatic recirculation.
+
+==================================================
+CASE_ID: 009
+DIFFICULTY: navle
+SYSTEM: exotic_pet_medicine
+DIAGNOSIS:
+Metabolic Bone Disease in a Bearded Dragon
+ALIASES:
+nutritional secondary hyperparathyroidism
+MBD (reptile)
+hypocalcemia in reptiles
+VIGNETTE_LINES:
+1. A 1-year-old bearded dragon is presented for lethargy, decreased appetite, and progressive limb weakness with difficulty climbing.
+2. The owner reports the diet consists mostly of mealworms and lettuce; UVB lighting is old and the enclosure temperature is inconsistent.
+3. Physical exam reveals softening of the mandible and long bones, muscle tremors, and an abnormal gait.
+4. Radiographs show generalized osteopenia and pathologic fractures; bloodwork reveals low ionized calcium and elevated phosphorus.
+5. Husbandry is corrected with proper UVB, temperature gradients, and balanced diet with calcium/vitamin D3 supplementation.
+6. With supportive care and improved husbandry, the lizard regains strength over weeks and fracture healing is monitored.
+TEACHING_POINTS:
+- Reptile MBD is commonly due to inadequate UVB exposure and dietary calcium imbalance leading to secondary hyperparathyroidism.
+- Radiographic osteopenia and pathologic fractures are classic; husbandry correction is the cornerstone of treatment.
+- Prevention: appropriate UVB, heat gradients, and species-appropriate diet with correct calcium:phosphorus ratio.
+
