@@ -82,7 +82,6 @@ function ECGCanvas({ points, color, xSpeed, flatlined }: {
     const H = canvas.height;
     const scaleX = W / 300;
     const scaleY = H / 100;
-
     const drawFrame = () => {
       ctx.clearRect(0, 0, W, H);
       ctx.strokeStyle = "#0d1f2d";
@@ -114,13 +113,8 @@ function ECGCanvas({ points, color, xSpeed, flatlined }: {
   }, [points, color, xSpeed, flatlined]);
 
   return (
-    <canvas
-      ref={canvasRef}
-      width={600}
-      height={80}
-      className="w-full rounded-xl"
-      style={{ background: "#050a0e", display: "block" }}
-    />
+    <canvas ref={canvasRef} width={600} height={80} className="w-full rounded-xl"
+      style={{ background: "#050a0e", display: "block" }} />
   );
 }
 
@@ -188,7 +182,8 @@ function ResultModal({ won, current, guesses, onNext }: {
 }) {
   const [showTeaching, setShowTeaching] = useState(false);
   return (
-    <div className="fixed inset-0 z-40 flex items-center justify-center p-4" style={{ background: "rgba(0,0,0,0.75)" }}>
+    <div className="fixed inset-0 z-40 flex items-center justify-center p-4"
+      style={{ background: "rgba(0,0,0,0.75)" }}>
       <div className="w-full max-w-lg rounded-2xl p-7 text-center shadow-2xl"
         style={{ background: won ? "#0a3320" : "#2d0a0a", border: `1px solid ${won ? "#22c55e" : "#dc2626"}` }}>
         {won ? (
@@ -323,7 +318,22 @@ export default function Home() {
         <ResultModal won={won} current={current} guesses={guesses} onNext={startNextCase} />
       )}
 
-      <img src="/logo.png" alt="Medicle" className="mt-8 mb-5" style={{ height: "80px" }} />
+      {/* Header */}
+      <div className="mt-8 mb-6 flex flex-col items-center text-center">
+        <img src="/logo.png" alt="Medicle" style={{ height: "80px" }} />
+        <p className="mt-3 text-sm" style={{ color: "#4a9aaa" }}>
+          The endless clinical vignette diagnosis game for medical students
+        </p>
+        
+          href="https://www.medicle.net"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-1 text-sm font-bold tracking-wide"
+          style={{ color: "#14b8a6" }}
+        >
+          www.medicle.net
+        </a>
+      </div>
 
       {/* Clue progress */}
       <div className="flex items-center gap-2 mb-3 text-sm w-full max-w-3xl" style={{ color: "#6b7280" }}>
@@ -341,7 +351,11 @@ export default function Home() {
       <div className="w-full max-w-3xl space-y-2 mb-4">
         {current.clues.slice(0, revealed).map((clue, i) => (
           <div key={i} className="rounded-xl px-4 py-3 text-sm border-l-4 transition-all duration-300"
-            style={{ background: "#0a2f38", borderColor: i === revealed - 1 ? "#14b8a6" : "#0e3d4a", color: "#e2e8f0" }}>
+            style={{
+              background: "#0a2f38",
+              borderColor: i === revealed - 1 ? "#14b8a6" : "#0e3d4a",
+              color: "#e2e8f0"
+            }}>
             <span className="text-xs font-mono mr-2" style={{ color: "#2d7a8a" }}>#{i + 1}</span>
             {clue}
           </div>
@@ -396,12 +410,14 @@ export default function Home() {
             <span style={{ color: g.skipped ? "#6b7280" : g.correct ? "#4ade80" : "#f87171" }}>
               {g.skipped ? "—" : g.correct ? "✓" : "✗"}
             </span>
-            <span style={{ color: g.skipped ? "#6b7280" : g.correct ? "#4ade80" : "#f87171" }}>{g.text}</span>
+            <span style={{ color: g.skipped ? "#6b7280" : g.correct ? "#4ade80" : "#f87171" }}>
+              {g.text}
+            </span>
           </div>
         ))}
       </div>
 
-      {/* ECG toggle + monitor at bottom */}
+      {/* ECG toggle */}
       <div className="mt-8 w-full max-w-3xl">
         <button
           onClick={() => setShowECG(s => !s)}
@@ -409,7 +425,7 @@ export default function Home() {
           style={{
             background: showECG ? "#0a2f38" : "transparent",
             border: "1px solid #0e3d4a",
-            color: showECG ? "#14b8a6" : "#2d7a8a"
+            color: showECG ? "#14b8a6" : "#2d7a8a",
           }}
         >
           <span style={{ color: showECG ? "#22c55e" : "#2d7a8a" }}>●</span>
@@ -427,12 +443,17 @@ export default function Home() {
         </p>
         <p className="text-xs" style={{ color: "#1d5a66" }}>
           Medicle is an independent, fan-made endless diagnosis game inspired by{" "}
-          <a href="https://doctordle.org" target="_blank" rel="noopener noreferrer" style={{ color: "#14b8a6" }}>Doctordle</a>
-          . We love what they built and created this as a complement — not a competitor — so medical students can practice endlessly. All credit to the Doctordle team for the original concept.
+          <a href="https://doctordle.org" target="_blank" rel="noopener noreferrer" style={{ color: "#14b8a6" }}>
+            Doctordle
+          </a>
+          . We love what they built and created this as a complement — not a competitor — so medical students can
+          practice endlessly. All credit to the Doctordle team for the original concept.
         </p>
         <p className="text-xs" style={{ color: "#2d7a8a" }}>
           Questions or feedback?{" "}
-          <a href="mailto:medicle.game@gmail.com" style={{ color: "#14b8a6" }}>medicle.game@gmail.com</a>
+          <a href="mailto:medicle.game@gmail.com" style={{ color: "#14b8a6" }}>
+            medicle.game@gmail.com
+          </a>
         </p>
       </div>
     </main>
