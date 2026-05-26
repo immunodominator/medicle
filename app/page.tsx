@@ -32,100 +32,84 @@ function parseCases(text: string): Case[] {
 
 const MAX_GUESSES = 6;
 
-// Real ECG QRS complex path - one beat cycle
-const ECG_BEAT = "M0,50 L10,50 L12,48 L14,52 L16,20 L18,80 L20,45 L22,50 L34,50 L36,48 L38,52 L40,16 L42,84 L44,45 L46,50 L58,50 L60,48 L62,52 L64,20 L66,80 L68,45 L70,50 L82,50 L84,48 L86,52 L88,16 L90,84 L92,45 L94,50 L106,50 L108,48 L110,52 L112,20 L114,80 L116,45 L118,50 L130,50 L132,48 L134,52 L136,16 L138,84 L140,45 L142,50 L160,50 L162,48 L164,52 L166,20 L168,80 L170,45 L172,50 L184,50 L186,48 L188,52 L190,16 L192,84 L194,45 L196,50 L200,50";
-
-// Deteriorating rhythms
 const ECG_PATHS = [
-  // 0 wrong - normal sinus
-  ECG_BEAT,
-  // 1 wrong - slightly fast
-  "M0,50 L8,50 L10,47 L12,53 L14,18 L16,82 L18,44 L20,50 L30,50 L32,47 L34,53 L36,14 L38,86 L40,44 L42,50 L52,50 L54,47 L56,53 L58,18 L60,82 L62,44 L64,50 L74,50 L76,47 L78,53 L80,14 L82,86 L84,44 L86,50 L96,50 L98,47 L100,53 L102,18 L104,82 L106,44 L108,50 L118,50 L120,47 L122,53 L124,14 L126,86 L128,44 L130,50 L140,50 L142,47 L144,53 L146,18 L148,82 L150,44 L152,50 L162,50 L164,47 L166,53 L168,14 L170,86 L172,44 L174,50 L184,50 L186,47 L188,53 L190,18 L192,82 L194,44 L196,50 L200,50",
-  // 2 wrong - tachycardia, irregular
-  "M0,50 L6,50 L8,46 L10,54 L12,15 L14,85 L16,43 L18,50 L26,50 L28,55 L30,45 L32,50 L38,50 L40,46 L42,54 L44,12 L46,88 L48,43 L50,50 L58,50 L60,46 L62,54 L64,15 L66,85 L68,43 L70,50 L78,52 L80,48 L82,50 L88,50 L90,46 L92,54 L94,12 L96,88 L98,43 L100,50 L108,50 L110,46 L112,54 L114,15 L116,85 L118,43 L120,50 L128,50 L130,53 L132,47 L134,50 L140,50 L142,46 L144,54 L146,12 L148,88 L150,43 L152,50 L160,50 L162,46 L164,54 L166,15 L168,85 L170,43 L172,50 L180,50 L182,53 L184,47 L186,50 L192,46 L194,54 L196,12 L198,88 L200,50",
-  // 3 wrong - ST changes, wide QRS
-  "M0,50 L5,50 L7,55 L9,45 L11,10 L13,90 L15,55 L17,45 L19,50 L25,50 L27,53 L29,47 L31,50 L37,50 L39,55 L41,45 L43,10 L45,90 L47,55 L49,45 L51,50 L57,50 L59,55 L61,45 L63,10 L65,90 L67,55 L69,45 L71,50 L77,53 L79,47 L81,50 L87,50 L89,55 L91,45 L93,10 L95,90 L97,55 L99,45 L101,50 L107,50 L109,55 L111,45 L113,10 L115,90 L117,55 L119,45 L121,50 L127,53 L129,47 L131,50 L137,50 L139,55 L141,45 L143,10 L145,90 L147,55 L149,45 L151,50 L160,50 L162,55 L164,45 L166,10 L168,90 L170,55 L172,45 L174,50 L180,53 L182,47 L184,50 L190,50 L192,55 L194,45 L196,10 L198,90 L200,50",
-  // 4 wrong - V-tach like, chaotic
-  "M0,50 L4,30 L6,70 L8,20 L10,80 L12,40 L14,60 L16,25 L18,75 L20,45 L22,55 L24,30 L26,70 L28,15 L30,85 L32,45 L34,55 L36,35 L38,65 L40,20 L42,80 L44,40 L46,60 L48,30 L50,70 L52,50 L54,25 L56,75 L58,40 L60,60 L62,20 L64,80 L66,45 L68,55 L70,30 L72,70 L74,15 L76,85 L78,45 L80,55 L82,35 L84,65 L86,20 L88,80 L90,40 L92,60 L94,30 L96,70 L98,50 L100,25 L102,75 L104,40 L106,60 L108,20 L110,80 L112,45 L114,55 L116,30 L118,70 L120,15 L122,85 L124,45 L126,55 L128,35 L130,65 L132,20 L134,80 L136,40 L138,60 L140,30 L142,70 L144,50 L146,25 L148,75 L150,40 L152,60 L154,20 L156,80 L158,45 L160,55 L162,30 L164,70 L166,15 L168,85 L170,45 L172,55 L174,35 L176,65 L178,20 L180,80 L182,40 L184,60 L186,30 L188,70 L190,50 L192,25 L194,75 L196,45 L198,55 L200,50",
-  // 5 wrong - v-fib, completely chaotic
-  "M0,50 L2,42 L4,63 L6,35 L8,71 L10,28 L12,58 L14,44 L16,67 L18,32 L20,55 L22,40 L24,68 L26,25 L28,72 L30,38 L32,56 L34,48 L36,65 L38,30 L40,60 L42,45 L44,70 L46,28 L48,55 L50,42 L52,68 L54,33 L56,58 L58,47 L60,72 L62,30 L64,55 L66,43 L68,65 L70,28 L72,60 L74,45 L76,70 L78,32 L80,55 L82,40 L84,68 L86,25 L88,72 L90,38 L92,56 L94,48 L96,63 L98,30 L100,58 L102,44 L104,67 L106,28 L108,55 L110,42 L112,70 L114,33 L116,58 L118,47 L120,72 L122,30 L124,53 L126,43 L128,65 L130,28 L132,60 L134,45 L136,68 L138,32 L140,55 L142,40 L144,70 L146,25 L148,72 L150,38 L152,56 L154,48 L156,63 L158,30 L160,58 L162,44 L164,67 L166,28 L168,55 L170,42 L172,68 L174,33 L176,58 L178,47 L180,72 L182,30 L184,55 L186,43 L188,65 L190,28 L192,60 L194,45 L196,70 L198,35 L200,50",
+  // 0 wrong - normal sinus rhythm
+  "M0,50 L15,50 L17,47 L19,53 L21,15 L23,85 L25,45 L27,50 L42,50 L44,47 L46,53 L48,15 L50,85 L52,45 L54,50 L69,50 L71,47 L73,53 L75,15 L77,85 L79,45 L81,50 L96,50 L98,47 L100,53 L102,15 L104,85 L106,45 L108,50 L123,50 L125,47 L127,53 L129,15 L131,85 L133,45 L135,50 L150,50 L152,47 L154,53 L156,15 L158,85 L160,45 L162,50 L177,50 L179,47 L181,53 L183,15 L185,85 L187,45 L189,50 L200,50",
+  // 1 wrong - mild tachycardia
+  "M0,50 L12,50 L14,46 L16,54 L18,12 L20,88 L22,44 L24,50 L36,50 L38,46 L40,54 L42,12 L44,88 L46,44 L48,50 L60,50 L62,46 L64,54 L66,12 L68,88 L70,44 L72,50 L84,50 L86,46 L88,54 L90,12 L92,88 L94,44 L96,50 L108,50 L110,46 L112,54 L114,12 L116,88 L118,44 L120,50 L132,50 L134,46 L136,54 L138,12 L140,88 L142,44 L144,50 L156,50 L158,46 L160,54 L162,12 L164,88 L166,44 L168,50 L180,50 L182,46 L184,54 L186,12 L188,88 L190,44 L192,50 L200,50",
+  // 2 wrong - tachycardia with ST changes
+  "M0,50 L9,50 L11,45 L13,55 L15,10 L17,90 L19,43 L21,50 L30,50 L32,55 L34,45 L36,50 L45,50 L47,45 L49,55 L51,10 L53,90 L55,43 L57,50 L66,50 L68,45 L70,55 L72,10 L74,90 L76,43 L78,50 L87,50 L89,55 L91,45 L93,50 L102,50 L104,45 L106,55 L108,10 L110,90 L112,43 L114,50 L123,50 L125,45 L127,55 L129,10 L131,90 L133,43 L135,50 L144,50 L146,55 L148,45 L150,50 L159,50 L161,45 L163,55 L165,10 L167,90 L169,43 L171,50 L180,50 L182,55 L184,45 L186,50 L195,50 L197,45 L199,55 L200,50",
+  // 3 wrong - wide complex, bradycardia
+  "M0,50 L18,50 L20,58 L22,42 L24,8 L26,92 L28,58 L30,42 L32,50 L50,50 L52,58 L54,42 L56,8 L58,92 L60,58 L62,42 L64,50 L82,50 L84,58 L86,42 L88,8 L90,92 L92,58 L94,42 L96,50 L114,50 L116,58 L118,42 L120,8 L122,92 L124,58 L126,42 L128,50 L146,50 L148,58 L150,42 L152,8 L154,92 L156,58 L158,42 L160,50 L178,50 L180,58 L182,42 L184,8 L186,92 L188,58 L190,42 L192,50 L200,50",
+  // 4 wrong - v-tach chaotic
+  "M0,50 L3,32 L6,68 L9,22 L12,78 L15,38 L18,62 L21,28 L24,72 L27,42 L30,58 L33,25 L36,75 L39,35 L42,65 L45,20 L48,80 L51,40 L54,60 L57,30 L60,70 L63,45 L66,55 L69,25 L72,75 L75,38 L78,62 L81,22 L84,78 L87,42 L90,58 L93,28 L96,72 L99,35 L102,65 L105,20 L108,80 L111,40 L114,60 L117,32 L120,68 L123,25 L126,75 L129,38 L132,62 L135,22 L138,78 L141,42 L144,58 L147,28 L150,72 L153,35 L156,65 L159,20 L162,80 L165,40 L168,60 L171,30 L174,70 L177,45 L180,55 L183,25 L186,75 L189,38 L192,62 L195,28 L198,72 L200,50",
+  // 5 wrong - v-fib
+  "M0,50 L2,44 L4,61 L6,37 L8,68 L10,30 L12,57 L14,43 L16,65 L18,33 L20,54 L22,41 L24,67 L26,28 L28,71 L30,39 L32,55 L34,47 L36,63 L38,31 L40,59 L42,44 L44,69 L46,27 L48,54 L50,41 L52,66 L54,34 L56,57 L58,46 L60,70 L62,29 L64,53 L66,42 L68,64 L70,27 L72,59 L74,44 L76,69 L78,31 L80,54 L82,39 L84,67 L86,24 L88,71 L90,37 L92,55 L94,47 L96,62 L98,29 L100,57 L102,43 L104,66 L106,27 L108,54 L110,41 L112,69 L114,32 L116,57 L118,46 L120,71 L122,29 L124,52 L126,42 L128,64 L130,27 L132,59 L134,44 L136,67 L138,31 L140,54 L142,39 L144,69 L146,24 L148,71 L150,37 L152,55 L154,46 L156,62 L158,29 L160,57 L162,43 L164,66 L166,27 L168,53 L170,41 L172,67 L174,32 L176,57 L178,46 L180,71 L182,29 L184,54 L186,42 L188,64 L190,27 L192,59 L194,44 L196,69 L198,34 L200,50",
 ];
 
-const VITALS_STAGES = [
-  { hr: "72", bp: "118/76", o2: "99", rhythm: "Normal Sinus", hrColor: "#22c55e", o2Color: "#22c55e", bpColor: "#22c55e", ecgColor: "#22c55e" },
-  { hr: "88", bp: "134/84", o2: "97", rhythm: "Sinus Tachycardia", hrColor: "#86efac", o2Color: "#22c55e", bpColor: "#86efac", ecgColor: "#86efac" },
-  { hr: "108", bp: "152/96", o2: "94", rhythm: "Tachycardia", hrColor: "#facc15", o2Color: "#facc15", bpColor: "#facc15", ecgColor: "#facc15" },
-  { hr: "128", bp: "168/108", o2: "90", rhythm: "ST Changes", hrColor: "#f97316", o2Color: "#f97316", bpColor: "#f97316", ecgColor: "#f97316" },
-  { hr: "156", bp: "88/52", o2: "84", rhythm: "V-Tach", hrColor: "#ef4444", o2Color: "#ef4444", bpColor: "#ef4444", ecgColor: "#ef4444" },
-  { hr: "180", bp: "72/40", o2: "76", rhythm: "V-Fib", hrColor: "#dc2626", o2Color: "#dc2626", bpColor: "#dc2626", ecgColor: "#dc2626" },
-];
+const ECG_COLORS = ["#22c55e", "#86efac", "#facc15", "#f97316", "#ef4444", "#dc2626"];
+const ECG_SPEEDS = ["1.6s", "1.3s", "1.0s", "1.4s", "0.6s", "0.5s"];
+const ECG_LABELS = ["Normal Sinus", "Tachycardia", "ST Changes", "Bradycardia", "V-Tach", "V-Fib"];
 
-function VitalsMonitor({ wrongGuesses, gameOver, won }: { wrongGuesses: number; gameOver: boolean; won: boolean }) {
-  const idx = Math.min(wrongGuesses, VITALS_STAGES.length - 1);
-  const stage = VITALS_STAGES[idx];
+function ECGMonitor({ wrongGuesses, gameOver, won, guessesLeft }: {
+  wrongGuesses: number;
+  gameOver: boolean;
+  won: boolean;
+  guessesLeft: number;
+}) {
+  const idx = Math.min(wrongGuesses, ECG_PATHS.length - 1);
   const flatlined = gameOver && !won;
-  const ecgPath = flatlined ? "M0,50 L200,50" : ECG_PATHS[idx];
-  const ecgColor = flatlined ? "#ef4444" : stage.ecgColor;
+  const path = flatlined ? "M0,50 L200,50" : ECG_PATHS[idx];
+  const color = flatlined ? "#ef4444" : ECG_COLORS[idx];
+  const speed = ECG_SPEEDS[idx];
+  const label = flatlined ? "FLATLINE" : ECG_LABELS[idx];
 
   return (
-    <div className="max-w-xl w-full mb-4 bg-slate-950 rounded-2xl p-4 border border-slate-800">
-      <div className="flex items-center justify-between mb-3">
-        <span className="text-xs font-mono text-slate-500 tracking-widest">PATIENT MONITOR</span>
-        <span className="text-xs font-mono animate-pulse" style={{ color: ecgColor }}>
-          ● {flatlined ? "FLATLINE" : stage.rhythm}
+    <div className="w-full max-w-xl mb-4 bg-slate-950 rounded-2xl p-3 border border-slate-800">
+      <div className="flex items-center justify-between mb-2 px-1">
+        <span className="text-xs font-mono tracking-widest" style={{ color }}>
+          ● {label}
         </span>
+        {!gameOver && (
+          <span className="text-xs font-mono text-slate-400">
+            {guessesLeft} guess{guessesLeft !== 1 ? "es" : ""} left
+          </span>
+        )}
       </div>
-
-      {/* ECG */}
-      <svg viewBox="0 0 200 100" className="w-full h-14 mb-3" style={{ background: "#050a0e", borderRadius: "8px" }}>
+      <svg viewBox="0 0 200 100" className="w-full h-16" style={{ background: "#050a0e", borderRadius: "10px" }}>
+        {/* Grid */}
         {[25, 50, 75].map(y => (
-          <line key={y} x1="0" y1={y} x2="200" y2={y} stroke="#0f2027" strokeWidth="0.5" />
+          <line key={y} x1="0" y1={y} x2="200" y2={y} stroke="#0d1f2d" strokeWidth="0.5" />
         ))}
         {[40, 80, 120, 160].map(x => (
-          <line key={x} x1={x} y1="0" x2={x} y2="100" stroke="#0f2027" strokeWidth="0.5" />
+          <line key={x} x1={x} y1="0" x2={x} y2="100" stroke="#0d1f2d" strokeWidth="0.5" />
         ))}
+        {/* ECG line */}
         <path
-          d={ecgPath}
+          d={path}
           fill="none"
-          stroke={ecgColor}
-          strokeWidth="1.5"
+          stroke={color}
+          strokeWidth="1.8"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
+        {/* Glow effect */}
+        <path
+          d={path}
+          fill="none"
+          stroke={color}
+          strokeWidth="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          opacity="0.15"
+        />
+        {/* Moving dot */}
         {!flatlined && (
-          <circle r="2.5" fill={ecgColor}>
-            <animateMotion dur={wrongGuesses >= 4 ? "0.6s" : wrongGuesses >= 2 ? "1s" : "1.4s"} repeatCount="indefinite" path={ecgPath} />
+          <circle r="3" fill={color} opacity="0.9">
+            <animateMotion dur={speed} repeatCount="indefinite" path={path} />
           </circle>
         )}
       </svg>
-
-      {/* Vitals row */}
-      <div className="grid grid-cols-3 gap-2">
-        {/* HR */}
-        <div className="bg-slate-900 rounded-xl p-2 text-center border border-slate-800">
-          <p className="text-slate-500 text-xs font-mono mb-1">HR</p>
-          <p className="font-bold text-lg font-mono leading-none" style={{ color: flatlined ? "#ef4444" : stage.hrColor }}>
-            {flatlined ? "---" : stage.hr}
-          </p>
-          <p className="text-slate-600 text-xs font-mono">bpm</p>
-        </div>
-        {/* BP */}
-        <div className="bg-slate-900 rounded-xl p-2 text-center border border-slate-800">
-          <p className="text-slate-500 text-xs font-mono mb-1">BP</p>
-          <p className="font-bold text-sm font-mono leading-none" style={{ color: flatlined ? "#ef4444" : stage.bpColor }}>
-            {flatlined ? "---" : stage.bp}
-          </p>
-          <p className="text-slate-600 text-xs font-mono">mmHg</p>
-        </div>
-        {/* O2 */}
-        <div className="bg-slate-900 rounded-xl p-2 text-center border border-slate-800">
-          <p className="text-slate-500 text-xs font-mono mb-1">SpO₂</p>
-          <p className="font-bold text-lg font-mono leading-none" style={{ color: flatlined ? "#ef4444" : stage.o2Color }}>
-            {flatlined ? "---" : stage.o2}%
-          </p>
-          <p className="text-slate-600 text-xs font-mono">O₂ sat</p>
-        </div>
-      </div>
     </div>
   );
 }
@@ -181,6 +165,7 @@ export default function Home() {
     : [];
 
   const wrongGuesses = guesses.filter(g => !g.correct && !g.skipped).length;
+  const guessesLeft = MAX_GUESSES - guesses.length;
 
   const submitGuess = (text: string, skipped = false) => {
     if (!current || gameOver) return;
@@ -204,10 +189,7 @@ export default function Home() {
     }
 
     setRevealed(prev => Math.min(prev + 1, current.clues.length));
-
-    if (newGuesses.length >= MAX_GUESSES) {
-      setGameOver(true);
-    }
+    if (newGuesses.length >= MAX_GUESSES) setGameOver(true);
   };
 
   if (!current) return (
@@ -216,30 +198,31 @@ export default function Home() {
     </main>
   );
 
-  const guessesLeft = MAX_GUESSES - guesses.length;
-
   return (
     <main className="min-h-screen bg-slate-900 flex flex-col items-center p-6 pb-16">
 
       <h1 className="text-3xl font-bold text-white mt-8 mb-1">Medicle</h1>
-      <p className="text-teal-400 mb-1">What&apos;s the Diagnosis?</p>
-      {gamesPlayed > 0 && (
-        <p className="text-slate-500 text-xs mb-3">Case #{gamesPlayed + 1}</p>
-      )}
+      <p className="text-teal-400 mb-4">What&apos;s the Diagnosis?</p>
 
-      <div className="flex items-center gap-2 mb-4 text-sm text-slate-400">
+      <ECGMonitor
+        wrongGuesses={wrongGuesses}
+        gameOver={gameOver}
+        won={won}
+        guessesLeft={guessesLeft}
+      />
+
+      {/* Clue progress */}
+      <div className="flex items-center gap-2 mb-3 text-sm text-slate-400 self-start max-w-xl w-full">
         <span>Clue {revealed}/{current.clues.length}</span>
-        <div className="w-32 h-2 bg-slate-700 rounded-full overflow-hidden">
+        <div className="flex-1 h-1.5 bg-slate-700 rounded-full overflow-hidden">
           <div
             className="h-full bg-teal-500 rounded-full transition-all duration-500"
             style={{ width: `${(revealed / current.clues.length) * 100}%` }}
           />
         </div>
-        {!gameOver && <span>{guessesLeft} guess{guessesLeft !== 1 ? "es" : ""} left</span>}
       </div>
 
-      <VitalsMonitor wrongGuesses={wrongGuesses} gameOver={gameOver} won={won} />
-
+      {/* Clue cards */}
       <div className="max-w-xl w-full space-y-2 mb-4">
         {current.clues.slice(0, revealed).map((clue, i) => (
           <div
@@ -253,6 +236,7 @@ export default function Home() {
         ))}
       </div>
 
+      {/* End screen */}
       {gameOver ? (
         <div
           className="max-w-xl w-full rounded-2xl p-6 text-center mt-2"
@@ -322,6 +306,7 @@ export default function Home() {
         </div>
       )}
 
+      {/* Guess history */}
       <div className="mt-3 space-y-1 max-w-xl w-full">
         {guesses.map((g, i) => (
           <div key={i} className="flex items-center gap-2 text-sm">
@@ -335,6 +320,7 @@ export default function Home() {
         ))}
       </div>
 
+      {/* Footer */}
       <div className="mt-12 max-w-xl w-full text-center space-y-3">
         <p className="text-slate-500 text-xs">
           ⚠️ Cases are AI-generated for educational purposes only and may contain inaccuracies. Not for clinical use.
