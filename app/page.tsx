@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 
 type Case = {
   id: string;
@@ -42,24 +42,68 @@ const ECG_PATHS = [
 ];
 
 const ECG_COLORS = ["#22c55e", "#84cc16", "#facc15", "#f97316", "#ef4444", "#dc2626"];
-const ECG_SPEEDS = ["1.8s", "1.4s", "1.1s", "1.5s", "0.7s", "0.5s"];
+const ECG_SPEEDS = ["4.0s", "3.4s", "2.8s", "3.2s", "2.0s", "1.4s"];
 const ECG_LABELS = ["Stable", "Ill-Appearing", "Distressed", "Obtunded", "Critical", "Peri-Arrest"];
 
-function ECGMonitor({ wrongGuesses, gameOver, won, guessesLeft }: {
-  wrongGuesses: number;
+function Confetti() {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    const colors = ["#14b8a6", "#22c55e", "#86efac", "#facc15", "#f97316", "#ffffff", "#a78bfa"];
+    const pieces = Array.from({ length: 200 }, () => ({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height - canvas.height,
+      r: Math.random() * 7 + 3,
+      color: colors[Math.floor(Math.random() * colors.length)],
+      tilt: 0,
+      tiltAngle: Math.random() * Math.PI * 2,
+      tiltSpeed: Math.random() * 0.07 + 0.03,
+      speed: Math.random() * 2.5 + 1.5,
+    }));
+    let animId: number;
+    const draw = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      pieces.forEach(p => {
+        p.tiltAngle += p.tiltSpeed;
+        p.y += p.speed;
+        p.tilt = Math.sin(p.tiltAngle) * 14;
+        ctx.beginPath();
+        ctx.lineWidth = p.r;
+        ctx.strokeStyle = p.color;
+        ctx.moveTo(p.x + p.tilt + p.r / 2, p.y);
+        ctx.lineTo(p.x + p.tilt, p.y + p.tilt + p.r / 2);
+        ctx.stroke();
+        if (p.y > canvas.height) p.y = -10;
+      });
+      animId = requestAnimationFrame(draw);
+    };
+    draw();
+    const stop = setTimeout(() => cancelAnimationFrame(animId), 5000);
+    return () => { cancelAnimationFrame(animId); clearTimeout(stop); };
+  }, []);
+  return <canvas ref={canvasRef} className="fixed inset-0 pointer-events-none z-50" />;
+}
+
+function ECGMonitor({ badGuesses, gameOver, won, guessesLeft }: {
+  badGuesses: number;
   gameOver: boolean;
   won: boolean;
   guessesLeft: number;
 }) {
-  const idx = Math.min(wrongGuesses, ECG_PATHS.length - 1);
+  const idx = won ? 0 : Math.min(badGuesses, ECG_PATHS.length - 1);
   const flatlined = gameOver && !won;
   const path = flatlined ? "M0,50 L300,50" : ECG_PATHS[idx];
-  const color = flatlined ? "#dc2626" : ECG_COLORS[idx];
+  const color = won ? "#22c55e" : flatlined ? "#dc2626" : ECG_COLORS[idx];
   const speed = ECG_SPEEDS[idx];
-  const label = flatlined ? "FLATLINE" : ECG_LABELS[idx];
+  const label = won ? "Patient Saved ✓" : flatlined ? "FLATLINE" : ECG_LABELS[idx];
 
   return (
-    <div className="w-full max-w-xl mb-4 rounded-2xl p-3 border" style={{ background: "#011a1f", borderColor: "#0e3d4a" }}>
+    <div className="w-full mb-4 rounded-2xl p-3 border" style={{ background: "#011a1f", borderColor: "#0e3d4a" }}>
       <div className="flex items-center justify-between mb-2 px-1">
         <span className="text-xs font-mono tracking-widest" style={{ color }}>
           ● {label}
@@ -70,17 +114,17 @@ function ECGMonitor({ wrongGuesses, gameOver, won, guessesLeft }: {
           </span>
         )}
       </div>
-      <svg viewBox="0 0 300 100" className="w-full h-20" style={{ background: "#050a0e", borderRadius: "10px" }}>
+      <svg viewBox="0 0 300 100" className="w-full h-24" style={{ background: "#050a0e", borderRadius: "10px" }}>
         {[25, 50, 75].map(y => (
           <line key={y} x1="0" y1={y} x2="300" y2={y} stroke="#0d1f2d" strokeWidth="0.5" />
         ))}
         {[60, 120, 180, 240].map(x => (
           <line key={x} x1={x} y1="0" x2={x} y2="100" stroke="#0d1f2d" strokeWidth="0.5" />
         ))}
-        <path d={path} fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-        <path d={path} fill="none" stroke={color} strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" opacity="0.12" />
+        <path d={path} fill="none" stroke={color} strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+        <path d={path} fill="none" stroke={color} strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" opacity="0.12" />
         {!flatlined && (
-          <circle r="3" fill={color} opacity="0.9">
+          <circle r="3.5" fill={color} opacity="0.95">
             <animateMotion dur={speed} repeatCount="indefinite" path={path} />
           </circle>
         )}
@@ -100,6 +144,7 @@ export default function Home() {
   const [won, setWon] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const [gamesPlayed, setGamesPlayed] = useState(0);
+  const [showConfetti, setShowConfetti] = useState(false);
 
   const pickNewCase = useCallback((allCases: Case[], seen: Set<string>) => {
     const unseen = allCases.filter(c => !seen.has(c.id));
@@ -131,6 +176,7 @@ export default function Home() {
     setGameOver(false);
     setWon(false);
     setShowDropdown(false);
+    setShowConfetti(false);
     setGamesPlayed(g => g + 1);
   };
 
@@ -139,7 +185,8 @@ export default function Home() {
     ? allDiagnoses.filter(d => d.toLowerCase().includes(guess.toLowerCase().trim())).slice(0, 6)
     : [];
 
-  const wrongGuesses = guesses.filter(g => !g.correct && !g.skipped).length;
+  // skips AND wrong guesses both count as bad
+  const badGuesses = guesses.filter(g => !g.correct).length;
   const guessesLeft = MAX_GUESSES - guesses.length;
 
   const submitGuess = (text: string, skipped = false) => {
@@ -160,6 +207,7 @@ export default function Home() {
     if (correct) {
       setWon(true);
       setGameOver(true);
+      setShowConfetti(true);
       return;
     }
 
@@ -174,18 +222,24 @@ export default function Home() {
   );
 
   return (
-    <main className="min-h-screen flex flex-col items-center p-6 pb-16" style={{ background: "#022129" }}>
+    <main className="min-h-screen flex flex-col items-center px-6 pb-16" style={{ background: "#022129" }}>
+      {showConfetti && <Confetti />}
 
-      <img src="/logo.png" alt="Medicle" className="mt-8 mb-6" style={{ height: "52px" }} />
+      {/* Logo */}
+      <img src="/logo.png" alt="Medicle" className="mt-8 mb-5" style={{ height: "80px" }} />
 
-      <ECGMonitor
-        wrongGuesses={wrongGuesses}
-        gameOver={gameOver}
-        won={won}
-        guessesLeft={guessesLeft}
-      />
+      {/* ECG full width */}
+      <div className="w-full max-w-3xl">
+        <ECGMonitor
+          badGuesses={badGuesses}
+          gameOver={gameOver}
+          won={won}
+          guessesLeft={guessesLeft}
+        />
+      </div>
 
-      <div className="flex items-center gap-2 mb-3 text-sm w-full max-w-xl" style={{ color: "#6b7280" }}>
+      {/* Clue progress */}
+      <div className="flex items-center gap-2 mb-3 text-sm w-full max-w-3xl" style={{ color: "#6b7280" }}>
         <span>Clue {revealed}/{current.clues.length}</span>
         <div className="flex-1 h-1.5 rounded-full overflow-hidden" style={{ background: "#0e3d4a" }}>
           <div
@@ -195,7 +249,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full max-w-xl space-y-2 mb-4">
+      {/* Clue cards */}
+      <div className="w-full max-w-3xl space-y-2 mb-4">
         {current.clues.slice(0, revealed).map((clue, i) => (
           <div
             key={i}
@@ -212,38 +267,39 @@ export default function Home() {
         ))}
       </div>
 
+      {/* End screen */}
       {gameOver ? (
         <div
-          className="w-full max-w-xl rounded-2xl p-6 text-center mt-2"
-          style={{ background: won ? "#0f3d1f" : "#3d0f0f" }}
+          className="w-full max-w-3xl rounded-2xl p-8 text-center mt-2"
+          style={{ background: won ? "#0a3320" : "#3d0f0f" }}
         >
           {won ? (
             <>
-              <p className="text-4xl mb-2">🎉</p>
-              <p className="text-2xl font-bold mb-1" style={{ color: "#86efac" }}>Correct!</p>
-              <p className="text-white text-lg font-semibold mb-1">{current.diagnosis}</p>
-              <p className="text-sm mb-4" style={{ color: "#bbf7d0" }}>
-                You got it in {guesses.length} guess{guesses.length !== 1 ? "es" : ""}.
+              <p className="text-5xl mb-3">🎉</p>
+              <p className="text-3xl font-bold mb-2" style={{ color: "#86efac" }}>Patient Saved!</p>
+              <p className="text-white text-xl font-semibold mb-1">{current.diagnosis}</p>
+              <p className="text-sm mb-6" style={{ color: "#bbf7d0" }}>
+                Diagnosed in {guesses.length} guess{guesses.length !== 1 ? "es" : ""}. Outstanding clinical reasoning!
               </p>
             </>
           ) : (
             <>
-              <p className="text-4xl mb-2">💀</p>
-              <p className="text-2xl font-bold mb-1" style={{ color: "#fca5a5" }}>Patient Lost</p>
+              <p className="text-5xl mb-3">💀</p>
+              <p className="text-3xl font-bold mb-2" style={{ color: "#fca5a5" }}>Patient Lost</p>
               <p className="text-white text-sm mb-1">The diagnosis was:</p>
-              <p className="text-white text-xl font-bold mb-4">{current.diagnosis}</p>
+              <p className="text-white text-2xl font-bold mb-6">{current.diagnosis}</p>
             </>
           )}
           <button
             onClick={startNextCase}
-            className="text-white px-8 py-3 rounded-xl font-bold text-lg"
+            className="text-white px-10 py-3 rounded-xl font-bold text-lg"
             style={{ background: "#14b8a6" }}
           >
             Next Case →
           </button>
         </div>
       ) : (
-        <div className="relative w-full max-w-xl mb-2">
+        <div className="relative w-full max-w-3xl mb-2">
           <div className="flex gap-2">
             <input
               className="flex-1 rounded-xl text-white px-4 py-2 outline-none"
@@ -256,14 +312,14 @@ export default function Home() {
             />
             <button
               onClick={() => submitGuess(guess)}
-              className="text-white px-4 py-2 rounded-xl font-bold"
+              className="text-white px-5 py-2 rounded-xl font-bold"
               style={{ background: "#14b8a6" }}
             >
               Guess
             </button>
             <button
               onClick={() => submitGuess("", true)}
-              className="text-white px-4 py-2 rounded-xl font-bold"
+              className="text-white px-5 py-2 rounded-xl font-bold"
               style={{ background: "#0e3d4a" }}
             >
               Skip
@@ -291,7 +347,8 @@ export default function Home() {
         </div>
       )}
 
-      <div className="mt-3 space-y-1 w-full max-w-xl">
+      {/* Guess history */}
+      <div className="mt-3 space-y-1 w-full max-w-3xl">
         {guesses.map((g, i) => (
           <div key={i} className="flex items-center gap-2 text-sm">
             <span style={{ color: g.skipped ? "#6b7280" : g.correct ? "#4ade80" : "#f87171" }}>
@@ -304,7 +361,8 @@ export default function Home() {
         ))}
       </div>
 
-      <div className="mt-12 w-full max-w-xl text-center space-y-3">
+      {/* Footer */}
+      <div className="mt-12 w-full max-w-3xl text-center space-y-3">
         <p className="text-xs" style={{ color: "#2d7a8a" }}>
           ⚠️ Cases are AI-generated for educational purposes only and may contain inaccuracies. Not for clinical use.
         </p>
@@ -317,12 +375,11 @@ export default function Home() {
         </p>
         <p className="text-xs" style={{ color: "#2d7a8a" }}>
           Questions or feedback?{" "}
-          <a href="mailto:medicle.game@gmail.com" style={{ color: "#14b8a6" }}>
+          <a href="mailto:medle.game@gmail.com" style={{ color: "#14b8a6" }}>
             medle.game@gmail.com
           </a>
         </p>
       </div>
-
     </main>
   );
 }
