@@ -59,13 +59,13 @@ function ECGMonitor({ wrongGuesses, gameOver, won, guessesLeft }: {
   const label = flatlined ? "FLATLINE" : ECG_LABELS[idx];
 
   return (
-    <div className="w-full max-w-xl mb-4 rounded-2xl p-3 border border-[#0e3d4a]" style={{ background: "#011a1f" }}>
+    <div className="w-full max-w-xl mb-4 rounded-2xl p-3 border" style={{ background: "#011a1f", borderColor: "#0e3d4a" }}>
       <div className="flex items-center justify-between mb-2 px-1">
         <span className="text-xs font-mono tracking-widest" style={{ color }}>
           ● {label}
         </span>
         {!gameOver && (
-          <span className="text-xs font-mono text-slate-400">
+          <span className="text-xs font-mono" style={{ color: "#6b7280" }}>
             {guessesLeft} guess{guessesLeft !== 1 ? "es" : ""} left
           </span>
         )}
@@ -177,7 +177,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col items-center p-6 pb-16" style={{ background: "#022129" }}>
 
       {/* Logo */}
-      <img src="/logo.png" alt="Medicle" className="h-14 mt-8 mb-4" />
+      <img src="/logo.png" alt="Medicle" className="h-14 mt-8 mb-6" />
 
       {/* ECG Monitor */}
       <ECGMonitor
@@ -187,8 +187,8 @@ export default function Home() {
         guessesLeft={guessesLeft}
       />
 
-      {/* Clue progress */}
-      <div className="flex items-center gap-2 mb-3 text-sm text-slate-400 w-full max-w-xl">
+      {/* Clue progress bar */}
+      <div className="flex items-center gap-2 mb-3 text-sm w-full max-w-xl" style={{ color: "#6b7280" }}>
         <span>Clue {revealed}/{current.clues.length}</span>
         <div className="flex-1 h-1.5 rounded-full overflow-hidden" style={{ background: "#0e3d4a" }}>
           <div
@@ -203,10 +203,11 @@ export default function Home() {
         {current.clues.slice(0, revealed).map((clue, i) => (
           <div
             key={i}
-            className="rounded-xl px-5 py-3 text-gray-200 text-sm border-l-4 transition-all duration-300"
+            className="rounded-xl px-5 py-3 text-sm border-l-4 transition-all duration-300"
             style={{
               background: "#0a2f38",
-              borderColor: i === revealed - 1 ? "#14b8a6" : "#0e3d4a"
+              borderColor: i === revealed - 1 ? "#14b8a6" : "#0e3d4a",
+              color: "#e2e8f0"
             }}
           >
             <span className="text-xs font-mono mr-2" style={{ color: "#2d7a8a" }}>#{i + 1}</span>
@@ -224,26 +225,24 @@ export default function Home() {
           {won ? (
             <>
               <p className="text-4xl mb-2">🎉</p>
-              <p className="text-green-300 text-2xl font-bold mb-1">Correct!</p>
+              <p className="text-2xl font-bold mb-1" style={{ color: "#86efac" }}>Correct!</p>
               <p className="text-white text-lg font-semibold mb-1">{current.diagnosis}</p>
-              <p className="text-green-200 text-sm mb-4">
+              <p className="text-sm mb-4" style={{ color: "#bbf7d0" }}>
                 You got it in {guesses.length} guess{guesses.length !== 1 ? "es" : ""}.
               </p>
             </>
           ) : (
             <>
               <p className="text-4xl mb-2">💀</p>
-              <p className="text-red-300 text-2xl font-bold mb-1">Patient Lost</p>
+              <p className="text-2xl font-bold mb-1" style={{ color: "#fca5a5" }}>Patient Lost</p>
               <p className="text-white text-sm mb-1">The diagnosis was:</p>
               <p className="text-white text-xl font-bold mb-4">{current.diagnosis}</p>
             </>
           )}
           <button
             onClick={startNextCase}
-            className="text-white px-8 py-3 rounded-xl font-bold text-lg transition-colors"
+            className="text-white px-8 py-3 rounded-xl font-bold text-lg"
             style={{ background: "#14b8a6" }}
-            onMouseOver={e => (e.currentTarget.style.background = "#0d9488")}
-            onMouseOut={e => (e.currentTarget.style.background = "#14b8a6")}
           >
             Next Case →
           </button>
@@ -252,8 +251,8 @@ export default function Home() {
         <div className="relative w-full max-w-xl mb-2">
           <div className="flex gap-2">
             <input
-              className="flex-1 rounded-xl text-white px-4 py-2 outline-none placeholder-slate-500"
-              style={{ background: "#0a2f38", border: "1px solid #0e3d4a" }}
+              className="flex-1 rounded-xl text-white px-4 py-2 outline-none"
+              style={{ background: "#0a2f38", border: "1px solid #0e3d4a", color: "white" }}
               placeholder="Enter diagnosis..."
               value={guess}
               onChange={e => { setGuess(e.target.value); setShowDropdown(true); }}
@@ -262,25 +261,28 @@ export default function Home() {
             />
             <button
               onClick={() => submitGuess(guess)}
-              className="text-white px-4 py-2 rounded-xl font-bold transition-colors"
+              className="text-white px-4 py-2 rounded-xl font-bold"
               style={{ background: "#14b8a6" }}
             >
               Guess
             </button>
             <button
               onClick={() => submitGuess("", true)}
-              className="text-white px-4 py-2 rounded-xl font-bold transition-colors"
+              className="text-white px-4 py-2 rounded-xl font-bold"
               style={{ background: "#0e3d4a" }}
             >
               Skip
             </button>
           </div>
           {showDropdown && filtered.length > 0 && (
-            <div className="absolute z-10 w-full rounded-xl mt-1 overflow-hidden shadow-lg" style={{ background: "#0a2f38", border: "1px solid #0e3d4a" }}>
+            <div
+              className="absolute z-10 w-full rounded-xl mt-1 overflow-hidden shadow-lg"
+              style={{ background: "#0a2f38", border: "1px solid #0e3d4a" }}
+            >
               {filtered.map((d, i) => (
                 <div
                   key={i}
-                  className="px-4 py-2 text-white cursor-pointer transition-colors"
+                  className="px-4 py-2 text-white cursor-pointer"
                   style={{ borderBottom: "1px solid #0e3d4a" }}
                   onMouseDown={() => submitGuess(d)}
                   onMouseOver={e => (e.currentTarget.style.background = "#14b8a6")}
@@ -298,10 +300,10 @@ export default function Home() {
       <div className="mt-3 space-y-1 w-full max-w-xl">
         {guesses.map((g, i) => (
           <div key={i} className="flex items-center gap-2 text-sm">
-            <span className={g.skipped ? "text-slate-500" : g.correct ? "text-green-400" : "text-red-400"}>
+            <span style={{ color: g.skipped ? "#6b7280" : g.correct ? "#4ade80" : "#f87171" }}>
               {g.skipped ? "—" : g.correct ? "✓" : "✗"}
             </span>
-            <span className={g.skipped ? "text-slate-500" : g.correct ? "text-green-400" : "text-red-400"}>
+            <span style={{ color: g.skipped ? "#6b7280" : g.correct ? "#4ade80" : "#f87171" }}>
               {g.text}
             </span>
           </div>
