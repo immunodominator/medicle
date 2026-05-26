@@ -431,7 +431,7 @@ export default function Home() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
   const [showECG, setShowECG] = useState(true);
-  const [showSystem, setShowSystem] = useState(true);
+  const [showSystem, setShowSystem] = useState(false);
   const [solvedAtClueCount, setSolvedAtClueCount] = useState(1);
   const [loadError, setLoadError] = useState("");
 
@@ -520,8 +520,14 @@ export default function Home() {
   );
 
   const caseOptions = useMemo(
-    () => cases.map((c) => ({ id: c.id, label: `Case ${c.id}${c.system ? ` • ${c.system}` : ""}` })),
-    [cases]
+    () =>
+      cases.map((c) => ({
+        id: c.id,
+        label: showSystem
+          ? `Case ${c.id}${c.system ? ` • ${c.system}` : ""}`
+          : `Case ${c.id}`,
+      })),
+    [cases, showSystem]
   );
 
   const filtered = useMemo(() => {
@@ -657,7 +663,7 @@ export default function Home() {
               <p className="text-lg font-bold" style={{ color: "#e2e8f0" }}>
                 #{current.id}
               </p>
-              {current.system && (
+              {showSystem && current.system && (
                 <p className="text-xs" style={{ color: "#4a9aaa" }}>
                   {current.system}
                 </p>
@@ -768,6 +774,7 @@ export default function Home() {
       </div>
 
       <div className="mt-8 w-full max-w-3xl">
+        <div className="flex items-center gap-2 mb-2">
         <button
           onClick={() => setShowECG((s) => !s)}
           className="flex items-center gap-2 text-xs font-mono mb-2 px-3 py-1 rounded-lg transition-all"
@@ -780,6 +787,21 @@ export default function Home() {
           <span style={{ color: showECG ? "#22c55e" : "#2d7a8a" }}>●</span>
           {showECG ? "Hide" : "Show"} Patient Monitor
         </button>
+        <button
+          onClick={() => setShowSystem((s) => !s)}
+          className="flex items-center gap-2 text-xs font-mono mb-2 px-3 py-1 rounded-lg transition-all"
+          style={{
+            background: showSystem ? "#0a2f38" : "transparent",
+            border: "1px solid #0e3d4a",
+            color: showSystem ? "#14b8a6" : "#2d7a8a",
+          }}
+        >
+          <span style={{ color: showSystem ? "#14b8a6" : "#2d7a8a" }}>●</span>
+          {showSystem ? "Hide" : "Show"} Body System
+        </button>
+        
+        </div>
+
         {showECG && <ECGMonitor badGuesses={badGuesses} gameOver={gameOver} won={won} guessesLeft={guessesLeft} />}
       </div>
 
