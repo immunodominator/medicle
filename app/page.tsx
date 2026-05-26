@@ -323,7 +323,22 @@ export default function Home() {
         <ResultModal won={won} current={current} guesses={guesses} onNext={startNextCase} />
       )}
 
-      <img src="/logo.png" alt="Medicle" className="mt-8 mb-5" style={{ height: "80px" }} />
+      {/* Header */}
+      <div className="mt-8 mb-5 text-center">
+        <img src="/logo.png" alt="Medicle" className="mx-auto mb-2" style={{ height: "80px" }} />
+        <p className="text-xs mb-1" style={{ color: "#4a9aaa" }}>
+          The endless clinical vignette diagnosis game for medical students
+        </p>
+        
+          href="https://www.medicle.net"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs font-bold"
+          style={{ color: "#14b8a6" }}
+        >
+          www.medicle.net
+        </a>
+      </div>
 
       {/* Clue progress */}
       <div className="flex items-center gap-2 mb-3 text-sm w-full max-w-3xl" style={{ color: "#6b7280" }}>
@@ -401,7 +416,7 @@ export default function Home() {
         ))}
       </div>
 
-      {/* ECG toggle + monitor at bottom */}
+      {/* ECG toggle */}
       <div className="mt-8 w-full max-w-3xl">
         <button
           onClick={() => setShowECG(s => !s)}
