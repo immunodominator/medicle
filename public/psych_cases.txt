@@ -1,22 +1,20 @@
 CASE_ID: 001
 DIFFICULTY: psychodle
-SYSTEM: psychiatry_mood_disorders
+SYSTEM: psychiatry_mood
 DIAGNOSIS:
 Major Depressive Disorder
 ALIASES:
-depression
-clinical depression
 MDD
+clinical depression
 VIGNETTE_LINES:
-- A 28-year-old presents with persistent low mood, loss of interest in activities, and fatigue lasting over two months.
-- The patient reports difficulty sleeping, poor concentration, and feelings of worthlessness.
-- Appetite has decreased and there has been unintentional weight loss.
-- No history of manic episodes is reported.
-- Symptoms cause significant impairment in daily functioning.
+- 28yo presents with persistent low mood and fatigue >2 months.
+- Reports difficulty sleeping, poor concentration, worthlessness.
+- Decreased appetite and weight loss.
+- No history of manic episodes.
+- Causes significant functional impairment.
 TEACHING_POINTS:
-- MDD requires at least 2 weeks of depressive symptoms with functional impairment.
+- MDD requires >2 weeks of depressive symptoms.
 - Anhedonia and low mood are key diagnostic features.
-- Always assess for suicidality and risk factors.
 ==================================================
 
 CASE_ID: 002
@@ -28,15 +26,14 @@ ALIASES:
 GAD
 chronic anxiety
 VIGNETTE_LINES:
-- A 35-year-old reports excessive worry about multiple aspects of life for over 6 months.
-- The patient experiences restlessness, muscle tension, and difficulty concentrating.
-- Sleep is disturbed with frequent awakenings.
-- The worry is difficult to control and not limited to one specific trigger.
-- Symptoms interfere with work and relationships.
+- 35yo excessive worry about multiple aspects of life >6 months.
+- Restlessness, muscle tension, difficulty concentrating.
+- Sleep disturbed with frequent awakenings.
+- Worry is difficult to control.
+- Interferes with work and relationships.
 TEACHING_POINTS:
-- GAD involves excessive uncontrollable worry lasting at least 6 months.
-- Physical symptoms like muscle tension and sleep disturbance are common.
-- Cognitive behavioral therapy is a first-line treatment alongside SSRIs.
+- GAD requires excessive worry >6 months.
+- Physical symptoms like muscle tension are common.
 ==================================================
 
 CASE_ID: 003
@@ -46,17 +43,15 @@ DIAGNOSIS:
 Schizophrenia
 ALIASES:
 psychotic disorder
-chronic schizophrenia
 VIGNETTE_LINES:
-- A 22-year-old presents with auditory hallucinations and paranoid delusions.
-- The patient believes others are plotting against them and reports hearing voices commenting on actions.
-- Social withdrawal and reduced emotional expression are noted.
+- 22yo with auditory hallucinations and paranoid delusions.
+- Believes others are plotting against them.
+- Social withdrawal and reduced emotional expression.
 - Symptoms have persisted for over 6 months.
-- Functioning in school and work has significantly declined.
+- Functioning has significantly declined.
 TEACHING_POINTS:
-- Schizophrenia requires at least 6 months of symptoms including psychosis.
-- Positive symptoms include hallucinations and delusions.
-- Negative symptoms include flat affect and social withdrawal.
+- Requires 6+ months of symptoms including >1 month active psychosis.
+- Positive symptoms (delusions/hallucinations) and negative symptoms (flat affect).
 ==================================================
 
 CASE_ID: 004
@@ -66,17 +61,15 @@ DIAGNOSIS:
 Post-Traumatic Stress Disorder
 ALIASES:
 PTSD
-trauma disorder
 VIGNETTE_LINES:
-- A 30-year-old presents after a traumatic event with recurrent nightmares and flashbacks.
-- The patient avoids reminders of the trauma and feels persistently on edge.
-- Sleep disturbances and irritability are present.
-- Symptoms have lasted for several months after the event.
-- There is significant impairment in daily functioning.
+- 30yo presents after trauma with recurrent nightmares.
+- Avoids reminders of trauma, constantly on edge.
+- Sleep disturbances and irritability present.
+- Symptoms have lasted for several months.
+- Significant impairment in daily functioning.
 TEACHING_POINTS:
-- PTSD includes intrusion, avoidance, negative mood, and hyperarousal.
-- Symptoms must last more than 1 month.
-- Trauma-focused therapy is first-line treatment.
+- PTSD includes intrusion, avoidance, altered mood, and hyperarousal.
+- Symptoms must last >1 month.
 ==================================================
 
 CASE_ID: 005
@@ -86,15 +79,1731 @@ DIAGNOSIS:
 Borderline Personality Disorder
 ALIASES:
 BPD
-emotion dysregulation disorder
 VIGNETTE_LINES:
-- A 24-year-old presents with intense unstable relationships and fear of abandonment.
-- The patient reports impulsive behaviors and frequent mood swings.
-- Episodes of self-harm and chronic feelings of emptiness are described.
-- Identity disturbance and unstable self-image are noted.
-- Interpersonal conflicts are frequent and severe.
+- 24yo intense unstable relationships, fear of abandonment.
+- Impulsive behaviors and frequent mood swings.
+- Episodes of self-harm and feelings of emptiness.
+- Identity disturbance and unstable self-image.
+- Frequent severe interpersonal conflicts.
 TEACHING_POINTS:
-- BPD involves instability in relationships, self-image, and emotions.
-- Impulsivity and self-harm are common features.
-- Dialectical behavior therapy is a key treatment approach.
+- BPD involves instability in relationships and self-image.
+- Impulsivity and self-harm are very common.
 ==================================================
+
+CASE_ID: 006
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_mood
+DIAGNOSIS:
+Bipolar I Disorder
+ALIASES:
+manic depression
+VIGNETTE_LINES:
+- 32yo brought in after 1 week of severely elevated mood and grandiosity.
+- Has barely slept in 5 days but feels excessively energetic.
+- Rapid, pressured speech and racing thoughts.
+- Recently spent life savings on a reckless business venture.
+- Requires hospitalization to prevent further harm.
+TEACHING_POINTS:
+- Mania lasts >1 week or requires hospitalization.
+- A history of major depression is common but not required for diagnosis.
+==================================================
+
+CASE_ID: 007
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_mood
+DIAGNOSIS:
+Bipolar II Disorder
+ALIASES:
+Bipolar 2
+VIGNETTE_LINES:
+- 29yo presents with a history of severe depressive episodes.
+- Reports a distinct 5-day period of elevated mood and increased productivity.
+- During the elevated phase, she needed less sleep but remained functional.
+- No history of severe impairment or hospitalization during the 'highs'.
+- Currently feeling low and hopeless.
+TEACHING_POINTS:
+- Characterized by hypomania (>4 days) and major depressive episodes.
+- Full manic episodes rule out this diagnosis.
+==================================================
+
+CASE_ID: 008
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_mood
+DIAGNOSIS:
+Cyclothymic Disorder
+ALIASES:
+cyclothymia
+VIGNETTE_LINES:
+- 25yo reports 2 years of alternating 'ups' and 'downs'.
+- Mood swings do not meet full criteria for hypomania or major depression.
+- Has not been without symptoms for more than 2 months.
+- Periods of increased energy followed by mild lethargy.
+- Causes distress but maintains a steady job.
+TEACHING_POINTS:
+- Chronic, fluctuating mood disturbance lasting >2 years.
+- Symptoms never meet full criteria for MDD, mania, or hypomania.
+==================================================
+
+CASE_ID: 009
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_mood
+DIAGNOSIS:
+Persistent Depressive Disorder
+ALIASES:
+dysthymia
+PDD
+VIGNETTE_LINES:
+- 40yo reports feeling 'down' for as long as he can remember, at least 3 years.
+- Low energy, poor self-esteem, and feelings of hopelessness.
+- Able to go to work but finds little joy in life.
+- Has never been without symptoms for more than 2 months.
+- No history of manic or hypomanic episodes.
+TEACHING_POINTS:
+- Depressed mood for most of the day, more days than not, for >2 years.
+- Milder but more chronic than episodic Major Depressive Disorder.
+==================================================
+
+CASE_ID: 010
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_mood
+DIAGNOSIS:
+Premenstrual Dysphoric Disorder
+ALIASES:
+PMDD
+VIGNETTE_LINES:
+- 28yo experiences severe mood swings and irritability monthly.
+- Symptoms start the week before her period and resolve shortly after it begins.
+- Reports feeling overwhelmed, with breast tenderness and bloating.
+- Symptoms severely impact her relationship with her partner.
+- Asymptomatic during the follicular phase.
+TEACHING_POINTS:
+- Symptoms must be present in the final week before onset of menses.
+- Significant distress/impairment distinguishes it from typical PMS.
+==================================================
+
+CASE_ID: 011
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_mood
+DIAGNOSIS:
+Disruptive Mood Dysregulation Disorder
+ALIASES:
+DMDD
+VIGNETTE_LINES:
+- 10yo boy with severe, recurrent temper outbursts out of proportion to the situation.
+- Outbursts occur 3+ times a week for over a year.
+- Between outbursts, his mood is persistently irritable and angry.
+- Trouble at school and at home due to volatility.
+- Never had a distinct period of elevated mood (mania).
+TEACHING_POINTS:
+- Diagnosed in children (onset before age 10) to avoid over-diagnosing Bipolar.
+- Requires persistent irritability between frequent severe temper outbursts.
+==================================================
+
+CASE_ID: 012
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_anxiety
+DIAGNOSIS:
+Panic Disorder
+ALIASES:
+panic attacks
+VIGNETTE_LINES:
+- 24yo presents to the ER fearing a heart attack.
+- Experienced sudden intense fear, palpitations, sweating, and shortness of breath.
+- Episodes peak within 10 minutes and resolve spontaneously.
+- EKG and cardiac enzymes are completely normal.
+- Now lives in constant fear of having another attack.
+TEACHING_POINTS:
+- Recurrent unexpected panic attacks.
+- Followed by >1 month of persistent worry about additional attacks.
+==================================================
+
+CASE_ID: 013
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_anxiety
+DIAGNOSIS:
+Agoraphobia
+ALIASES:
+fear of open spaces
+VIGNETTE_LINES:
+- 45yo rarely leaves her house without her husband.
+- Fears using public transportation or standing in crowds.
+- Worries she would be unable to escape or get help if she panicked.
+- Endures immense anxiety if forced to leave her safe zones.
+- Avoidance behavior has lasted for over a year.
+TEACHING_POINTS:
+- Fear/anxiety about >2 situations (e.g., crowds, open spaces, enclosed spaces).
+- Avoidance is due to fear that escape might be difficult.
+==================================================
+
+CASE_ID: 014
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_anxiety
+DIAGNOSIS:
+Social Anxiety Disorder
+ALIASES:
+social phobia
+VIGNETTE_LINES:
+- 19yo college student intensely fears speaking in class.
+- Worries others will judge him or notice his hands shaking.
+- Avoids parties and social gatherings entirely.
+- Anxiety is out of proportion to the actual threat posed.
+- Symptoms have persisted for over 6 months.
+TEACHING_POINTS:
+- Marked fear or anxiety about one or more social situations involving possible scrutiny.
+- Fear of negative evaluation is the core cognitive component.
+==================================================
+
+CASE_ID: 015
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_anxiety
+DIAGNOSIS:
+Specific Phobia
+ALIASES:
+simple phobia
+VIGNETTE_LINES:
+- 30yo refuses to fly, driving across the country instead.
+- Experiences intense anxiety even looking at pictures of airplanes.
+- Recognizes the fear is irrational but cannot control it.
+- The avoidance significantly complicates her professional travel.
+- Fear has been present since childhood.
+TEACHING_POINTS:
+- Marked fear or anxiety about a specific object or situation (e.g., heights, animals).
+- The phobic object almost always provokes immediate fear.
+==================================================
+
+CASE_ID: 016
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_anxiety
+DIAGNOSIS:
+Separation Anxiety Disorder
+ALIASES:
+separation anxiety
+VIGNETTE_LINES:
+- 8yo refuses to go to school or sleep alone.
+- Constantly worries her parents will die in a car accident if she isn't with them.
+- Complains of stomachaches every morning before school.
+- Symptoms have been present for 2 months.
+- Parents are exhausted from her clinging behavior.
+TEACHING_POINTS:
+- Developmentally inappropriate excessive fear concerning separation from attached figures.
+- Must last >4 weeks in children, >6 months in adults.
+==================================================
+
+CASE_ID: 017
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_anxiety
+DIAGNOSIS:
+Selective Mutism
+ALIASES:
+SM
+VIGNETTE_LINES:
+- 5yo talks normally at home with her parents and siblings.
+- Has not spoken a single word at kindergarten for 3 months.
+- Follows instructions and points but remains completely silent in class.
+- No hearing deficits or language delays noted.
+- Teachers are concerned about her academic progress.
+TEACHING_POINTS:
+- Consistent failure to speak in specific social situations despite speaking elsewhere.
+- Duration must be >1 month (not limited to the first month of school).
+==================================================
+
+CASE_ID: 018
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotic
+DIAGNOSIS:
+Schizoaffective Disorder
+ALIASES:
+schizoaffective
+VIGNETTE_LINES:
+- 27yo with a history of auditory hallucinations and paranoia.
+- Currently experiencing a severe depressive episode alongside the psychosis.
+- Two months ago, he had delusions and hallucinations for 3 weeks with completely normal mood.
+- Functioning is impaired in multiple domains.
+- Requires medication for both mood and psychotic symptoms.
+TEACHING_POINTS:
+- Uninterrupted period of illness containing a major mood episode concurrent with psychosis.
+- Delusions/hallucinations must be present for >2 weeks WITHOUT mood symptoms.
+==================================================
+
+CASE_ID: 019
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotic
+DIAGNOSIS:
+Schizophreniform Disorder
+ALIASES:
+acute schizophrenia
+VIGNETTE_LINES:
+- 20yo college student began hearing voices 3 months ago.
+- Believes the government is tracking him through his phone.
+- Withdrawn from friends and stopped showering.
+- Symptoms are identical to schizophrenia but duration is shorter.
+- He had no psychiatric history prior to this episode.
+TEACHING_POINTS:
+- Symptomatic presentation equivalent to Schizophrenia.
+- Duration of illness is between 1 month and 6 months.
+==================================================
+
+CASE_ID: 020
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotic
+DIAGNOSIS:
+Brief Psychotic Disorder
+ALIASES:
+brief psychosis
+VIGNETTE_LINES:
+- 35yo develops severe delusions days after the sudden death of her husband.
+- Believes she can see him in the room and talks to him wildly.
+- Agitated, disorganized speech, and grossly disorganized behavior.
+- Symptoms last for 10 days before fully resolving.
+- She returns to her baseline level of functioning.
+TEACHING_POINTS:
+- Presence of >1 psychotic symptom lasting between 1 day and 1 month.
+- Full return to premorbid level of functioning is required.
+==================================================
+
+CASE_ID: 021
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotic
+DIAGNOSIS:
+Delusional Disorder
+ALIASES:
+paranoia
+VIGNETTE_LINES:
+- 50yo is entirely convinced his neighbor is stealing his mail to sabotage his life.
+- Maintains a steady job and is otherwise perfectly normal and highly functional.
+- Has secretly installed cameras but found no evidence, yet remains convinced.
+- No hallucinations, disorganized speech, or negative symptoms.
+- Delusion has persisted for 8 months.
+TEACHING_POINTS:
+- Presence of >1 delusion with a duration of >1 month.
+- Functioning is NOT markedly impaired, and behavior is not obviously bizarre.
+==================================================
+
+CASE_ID: 022
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_trauma
+DIAGNOSIS:
+Acute Stress Disorder
+ALIASES:
+ASD
+VIGNETTE_LINES:
+- 25yo survived a severe car crash 2 weeks ago.
+- Experiencing intrusive memories of the crash and trouble sleeping.
+- Feels detached and avoids driving entirely.
+- Exhibits exaggerated startle response and irritability.
+- Symptoms began 3 days after the accident.
+TEACHING_POINTS:
+- Presence of PTSD-like symptoms (intrusion, negative mood, dissociation, avoidance, arousal).
+- Symptoms last between 3 days and 1 month after the trauma.
+==================================================
+
+CASE_ID: 023
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_trauma
+DIAGNOSIS:
+Adjustment Disorder
+ALIASES:
+situational depression
+VIGNETTE_LINES:
+- 40yo presents with depressed mood and anxiety.
+- Symptoms started 1 month after a difficult divorce.
+- Crying spells and feeling overwhelmed by the life change.
+- Does not meet criteria for Major Depressive Disorder.
+- Expected to resolve as she adapts to the new situation.
+TEACHING_POINTS:
+- Emotional/behavioral symptoms within 3 months of the onset of a stressor.
+- Symptoms must resolve within 6 months of the stressor (or its consequences) ending.
+==================================================
+
+CASE_ID: 024
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_trauma
+DIAGNOSIS:
+Reactive Attachment Disorder
+ALIASES:
+RAD
+VIGNETTE_LINES:
+- 4yo child recently placed in foster care after severe early neglect.
+- Rarely seeks comfort when distressed and rarely responds to comfort.
+- Minimal social and emotional responsiveness to others.
+- Episodes of unexplained irritability or sadness.
+- History of insufficient care is evident.
+TEACHING_POINTS:
+- Consistent pattern of inhibited, emotionally withdrawn behavior toward adult caregivers.
+- Child has experienced a pattern of extremes of insufficient care.
+==================================================
+
+CASE_ID: 025
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_trauma
+DIAGNOSIS:
+Disinhibited Social Engagement Disorder
+ALIASES:
+DSED
+VIGNETTE_LINES:
+- 5yo child with a history of severe neglect and multiple foster placements.
+- Approaches and interacts with unfamiliar adults without hesitation.
+- Willing to walk off with a stranger with minimal or no hesitation.
+- Fails to check back with adult caregivers in unfamiliar settings.
+- Overly familiar verbal and physical behavior.
+TEACHING_POINTS:
+- Pattern of behavior where a child actively approaches and interacts with unfamiliar adults.
+- Result of social neglect or deprivation.
+==================================================
+
+CASE_ID: 026
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_ocd
+DIAGNOSIS:
+Obsessive-Compulsive Disorder
+ALIASES:
+OCD
+VIGNETTE_LINES:
+- 30yo experiences intrusive, distressing thoughts about contamination.
+- Washes his hands exactly 15 times after touching any doorknob.
+- Handwashing takes up over 3 hours of his day.
+- Recognizes the behavior is excessive but cannot stop without severe anxiety.
+- Hands are raw and bleeding from the repeated washing.
+TEACHING_POINTS:
+- Presence of obsessions, compulsions, or both.
+- The compulsions are time-consuming (>1 hour/day) or cause significant distress.
+==================================================
+
+CASE_ID: 027
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_ocd
+DIAGNOSIS:
+Body Dysmorphic Disorder
+ALIASES:
+BDD
+VIGNETTE_LINES:
+- 22yo is entirely preoccupied with the belief that his nose is hideously deformed.
+- Others see nothing abnormal about his appearance.
+- Spends hours checking mirrors and researching plastic surgery.
+- Avoids social interactions due to immense shame about his 'deformity'.
+- Has seen multiple dermatologists seeking correction.
+TEACHING_POINTS:
+- Preoccupation with >1 perceived defects or flaws in physical appearance not observable to others.
+- Individual performs repetitive behaviors (e.g., mirror checking) in response to appearance concerns.
+==================================================
+
+CASE_ID: 028
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_ocd
+DIAGNOSIS:
+Hoarding Disorder
+ALIASES:
+compulsive hoarding
+VIGNETTE_LINES:
+- 60yo's home is filled with stacks of old newspapers, clothes, and junk.
+- Only narrow pathways remain to navigate the house.
+- Experiences immense distress at the thought of throwing anything away.
+- Believes she might 'need it someday'.
+- Living spaces are cluttered to the point of being unusable.
+TEACHING_POINTS:
+- Persistent difficulty discarding or parting with possessions, regardless of actual value.
+- Difficulty is due to a perceived need to save the items and distress associated with discarding them.
+==================================================
+
+CASE_ID: 029
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_ocd
+DIAGNOSIS:
+Trichotillomania
+ALIASES:
+hair-pulling disorder
+VIGNETTE_LINES:
+- 16yo female presents with noticeable bald patches on her scalp.
+- Admits to repeatedly pulling out her own hair when stressed or studying.
+- Tries to stop but feels a buildup of tension that is relieved only by pulling.
+- Eats the hair occasionally but mostly drops it.
+- Causes her immense social embarrassment.
+TEACHING_POINTS:
+- Recurrent pulling out of one's hair resulting in hair loss.
+- Repeated attempts to decrease or stop hair pulling.
+==================================================
+
+CASE_ID: 030
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_ocd
+DIAGNOSIS:
+Excoriation Disorder
+ALIASES:
+skin-picking disorder
+VIGNETTE_LINES:
+- 25yo presents with multiple scabs and scars on her arms and face.
+- Compulsively picks at minor skin irregularities or healthy skin.
+- Attempts to stop have been unsuccessful.
+- Spends hours picking, causing significant tissue damage and distress.
+- Often wears long sleeves to hide the lesions.
+TEACHING_POINTS:
+- Recurrent skin picking resulting in skin lesions.
+- Repeated attempts to decrease or stop skin picking.
+==================================================
+
+CASE_ID: 031
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_somatic
+DIAGNOSIS:
+Somatic Symptom Disorder
+ALIASES:
+somatization
+VIGNETTE_LINES:
+- 45yo presents with chronic, diffuse pain and gastrointestinal issues for 2 years.
+- Extensive medical workups have found no underlying pathology.
+- Patient is excessively anxious and spends hours researching her symptoms.
+- Her life revolves around her doctor appointments and symptoms.
+- Despite reassurance, she remains convinced she is severely ill.
+TEACHING_POINTS:
+- Presence of >1 somatic symptom that is distressing or disrupts daily life.
+- Excessive thoughts, feelings, or behaviors related to the somatic symptoms.
+==================================================
+
+CASE_ID: 032
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_somatic
+DIAGNOSIS:
+Illness Anxiety Disorder
+ALIASES:
+hypochondriasis
+VIGNETTE_LINES:
+- 50yo is terrified he has undetected pancreatic cancer.
+- He has minor, occasional gas pain but no major physical symptoms.
+- Constantly checks his body for signs of illness and requests frequent MRI scans.
+- Reassurance from specialists provides only temporary relief.
+- He has been preoccupied with having a serious disease for 8 months.
+TEACHING_POINTS:
+- Preoccupation with having or acquiring a serious illness.
+- Somatic symptoms are not present, or if present, are only mild in intensity.
+==================================================
+
+CASE_ID: 033
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_somatic
+DIAGNOSIS:
+Conversion Disorder
+ALIASES:
+Functional Neurological Symptom Disorder
+VIGNETTE_LINES:
+- 30yo suddenly develops paralysis of her right arm after a major fight with her spouse.
+- Neurological exams show intact reflexes and normal tone.
+- Hoover's sign is positive, indicating non-organic paralysis.
+- Patient appears surprisingly unconcerned about her sudden disability (la belle indifference).
+- Symptoms are completely incompatible with known neurological pathways.
+TEACHING_POINTS:
+- Altered voluntary motor or sensory function.
+- Clinical findings provide evidence of incompatibility between the symptom and recognized medical conditions.
+==================================================
+
+CASE_ID: 034
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_somatic
+DIAGNOSIS:
+Factitious Disorder
+ALIASES:
+Munchausen syndrome
+VIGNETTE_LINES:
+- 35yo nurse repeatedly presents to hospitals with severe hypoglycemia.
+- Found to be secretly injecting herself with insulin.
+- Denies doing so when confronted and signs out AMA.
+- No clear external reward (money, time off) is identified.
+- Primary motivation appears to be assuming the 'sick role'.
+TEACHING_POINTS:
+- Falsification of physical/psychological signs/symptoms, or induction of injury/disease.
+- Presents himself/herself to others as ill, impaired, or injured, in the absence of obvious external rewards.
+==================================================
+
+CASE_ID: 035
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_somatic
+DIAGNOSIS:
+Malingering
+ALIASES:
+faking illness
+VIGNETTE_LINES:
+- 40yo claims to have severe back pain and inability to walk after a minor fender-bender.
+- Requests high-dose opioids and permanent disability paperwork.
+- Surveillance video shows him playing golf and lifting heavy boxes on the weekend.
+- Symptoms instantly disappear when his disability claim is approved.
+- Behavior is fully conscious and goal-directed.
+TEACHING_POINTS:
+- Intentional production of false or grossly exaggerated physical or psychological symptoms.
+- Motivated by external incentives (e.g., avoiding work, obtaining financial compensation, getting drugs).
+==================================================
+
+CASE_ID: 036
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_eating
+DIAGNOSIS:
+Anorexia Nervosa
+ALIASES:
+anorexia
+VIGNETTE_LINES:
+- 17yo female presents with a BMI of 15.2.
+- Severely restricts her food intake, eating only lettuce and water.
+- Intensely fears gaining weight and sees herself as 'fat' despite severe emaciation.
+- Has not had a menstrual period in 6 months (amenorrhea).
+- Wears bulky clothes to hide her profound weight loss.
+TEACHING_POINTS:
+- Restriction of energy intake leading to significantly low body weight.
+- Intense fear of gaining weight or becoming fat, and disturbance in body image.
+==================================================
+
+CASE_ID: 037
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_eating
+DIAGNOSIS:
+Bulimia Nervosa
+ALIASES:
+bulimia
+VIGNETTE_LINES:
+- 20yo female of normal weight presents with tooth enamel erosion and enlarged parotid glands.
+- Admits to eating massive amounts of food in 2-hour windows (binging).
+- Follows these episodes by self-induced vomiting and extreme laxative use.
+- Feels completely out of control during the binges.
+- Self-evaluation is unduly influenced by body shape and weight.
+TEACHING_POINTS:
+- Recurrent episodes of binge eating AND recurrent inappropriate compensatory behaviors.
+- Binge eating and compensatory behaviors occur >1/week for 3 months.
+==================================================
+
+CASE_ID: 038
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_eating
+DIAGNOSIS:
+Binge-Eating Disorder
+ALIASES:
+BED
+VIGNETTE_LINES:
+- 35yo obese male reports eating abnormally large amounts of food rapidly until uncomfortably full.
+- Eats alone due to embarrassment about the quantity of food.
+- Feels deep disgust and guilt after these episodes.
+- Does not purge, exercise excessively, or fast to compensate.
+- Episodes occur twice a week for the last 6 months.
+TEACHING_POINTS:
+- Recurrent episodes of binge eating with significant distress.
+- Absence of regular compensatory behaviors (distinguishes it from Bulimia Nervosa).
+==================================================
+
+CASE_ID: 039
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_eating
+DIAGNOSIS:
+Pica
+ALIASES:
+eating non-food
+VIGNETTE_LINES:
+- 6yo child repeatedly eats dirt, clay, and chalk from the playground.
+- Behavior has been ongoing for 3 months.
+- Nutritional panel reveals iron deficiency anemia.
+- Behavior is not part of a culturally supported practice.
+- Not developmentally appropriate for the child's age.
+TEACHING_POINTS:
+- Persistent eating of nonnutritive, nonfood substances over a period of at least 1 month.
+- Eating behavior is inappropriate to the developmental level of the individual.
+==================================================
+
+CASE_ID: 040
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_eating
+DIAGNOSIS:
+Rumination Disorder
+ALIASES:
+rumination
+VIGNETTE_LINES:
+- 8yo child frequently regurgitates food after eating.
+- He then re-chews, re-swallows, or spits out the food.
+- Does not appear distressed or nauseous during these episodes; sometimes seems to enjoy it.
+- No gastrointestinal illness like GERD is found to explain it.
+- Resulting in poor weight gain and malnutrition.
+TEACHING_POINTS:
+- Repeated regurgitation of food over a period of at least 1 month.
+- Not attributable to an associated gastrointestinal or other medical condition.
+==================================================
+
+CASE_ID: 041
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_eating
+DIAGNOSIS:
+Avoidant/Restrictive Food Intake Disorder
+ALIASES:
+ARFID
+VIGNETTE_LINES:
+- 10yo boy avoids eating due to a severe aversion to the texture and smell of most foods.
+- Has lost significant weight and requires oral nutritional supplements.
+- Does not express any fear of gaining weight or body image distortion.
+- Interferes significantly with his psychosocial functioning.
+- Parents are extremely stressed finding 'safe' foods for him.
+TEACHING_POINTS:
+- Eating/feeding disturbance leading to persistent failure to meet appropriate nutritional needs.
+- Absence of body image distortion (distinguishes it from Anorexia).
+==================================================
+
+CASE_ID: 042
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_sleep
+DIAGNOSIS:
+Insomnia Disorder
+ALIASES:
+insomnia
+VIGNETTE_LINES:
+- 45yo complains of difficulty falling asleep and frequent awakenings.
+- Symptoms occur 4 nights a week for the past 4 months.
+- Feels exhausted, irritable, and has poor concentration during the day.
+- Sleeps in a quiet, dark room and has adequate opportunity for sleep.
+- Caffeine intake is minimal.
+TEACHING_POINTS:
+- Predominant complaint of dissatisfaction with sleep quantity or quality.
+- Occurs >3 nights/week, present for >3 months, despite adequate opportunity for sleep.
+==================================================
+
+CASE_ID: 043
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_sleep
+DIAGNOSIS:
+Hypersomnolence Disorder
+ALIASES:
+idiopathic hypersomnia
+VIGNETTE_LINES:
+- 25yo sleeps 10-12 hours every night but still feels profoundly tired.
+- Takes long, unrefreshing naps during the day.
+- Struggles to wake up in the morning (sleep inertia).
+- Sleep study shows normal architecture with no apneas.
+- No cataplexy or hallucinations noted.
+TEACHING_POINTS:
+- Self-reported excessive sleepiness despite a main sleep period lasting >7 hours.
+- Occurs >3 times/week for >3 months, not better explained by another sleep disorder.
+==================================================
+
+CASE_ID: 044
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_sleep
+DIAGNOSIS:
+Narcolepsy
+ALIASES:
+sleep attacks
+VIGNETTE_LINES:
+- 30yo falls asleep uncontrollably during conversations and at work.
+- Reports sudden bilateral loss of muscle tone when laughing (cataplexy).
+- Experiences vivid, terrifying hallucinations right before falling asleep (hypnagogic).
+- Often wakes up unable to move for a minute (sleep paralysis).
+- Spinal tap reveals low hypocretin-1 (orexin) levels.
+TEACHING_POINTS:
+- Recurrent periods of an irrepressible need to sleep, lapsing into sleep, or napping.
+- Cataplexy, hypocretin deficiency, or REM sleep latency <15 minutes on MSLT confirm diagnosis.
+==================================================
+
+CASE_ID: 045
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_sleep
+DIAGNOSIS:
+Obstructive Sleep Apnea
+ALIASES:
+OSA
+VIGNETTE_LINES:
+- 55yo obese male snores loudly and occasionally gasps for air at night.
+- Wife reports periods where he stops breathing entirely.
+- Complains of severe daytime fatigue and morning headaches.
+- Polysomnography shows 20 obstructive apneas per hour of sleep.
+- Treated effectively with a CPAP machine.
+TEACHING_POINTS:
+- Evidence of >5 obstructive apneas/hypopneas per hour of sleep with accompanying symptoms.
+- Caused by upper airway collapse during sleep.
+==================================================
+
+CASE_ID: 046
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_sleep
+DIAGNOSIS:
+Non-REM Sleep Arousal Disorder
+ALIASES:
+sleepwalking
+VIGNETTE_LINES:
+- 7yo boy is frequently found walking around the house blankly in the middle of the night.
+- Unresponsive to communication during the episodes.
+- Difficult to awaken, and when he does, he is highly confused.
+- Has complete amnesia for the event the next morning.
+- Occurs during the first third of the night (deep slow-wave sleep).
+TEACHING_POINTS:
+- Recurrent episodes of incomplete awakening from sleep (sleepwalking or sleep terrors).
+- Little or no dream imagery is recalled, and there is amnesia for the episodes.
+==================================================
+
+CASE_ID: 047
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_sleep
+DIAGNOSIS:
+Nightmare Disorder
+ALIASES:
+nightmares
+VIGNETTE_LINES:
+- 10yo girl wakes up frequently in the second half of the night terrified.
+- Can vividly recall frightening dreams about being chased by monsters.
+- Rapidly becomes alert and oriented upon waking.
+- Causes her significant distress and reluctance to go to sleep.
+- Occurs during REM sleep.
+TEACHING_POINTS:
+- Repeated occurrences of extended, extremely dysphoric, and well-remembered dreams.
+- Upon awakening, the individual rapidly becomes oriented and alert (unlike sleep terrors).
+==================================================
+
+CASE_ID: 048
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_sleep
+DIAGNOSIS:
+REM Sleep Behavior Disorder
+ALIASES:
+RBD
+VIGNETTE_LINES:
+- 65yo male repeatedly punches and kicks his wife while sleeping.
+- Episodes occur late in the night.
+- When awakened, he reports vivid action-packed dreams of fighting off attackers.
+- Polysomnography shows REM sleep without normal muscle atonia.
+- He acts out his dreams due to a failure of sleep paralysis.
+TEACHING_POINTS:
+- Repeated episodes of arousal during sleep associated with vocalization/complex motor behaviors.
+- Highly associated with the future development of alpha-synucleinopathies (e.g., Parkinson's, Lewy Body Dementia).
+==================================================
+
+CASE_ID: 049
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_sleep
+DIAGNOSIS:
+Restless Legs Syndrome
+ALIASES:
+RLS
+VIGNETTE_LINES:
+- 50yo female complains of an irresistible urge to move her legs.
+- Accompanied by an uncomfortable, 'crawling' sensation in her calves.
+- Symptoms worsen in the evening and when lying still in bed.
+- Getting up and walking around temporarily relieves the discomfort.
+- Causes significant sleep onset insomnia.
+TEACHING_POINTS:
+- Urge to move the legs, usually accompanied by uncomfortable sensations in the legs.
+- Worsens during rest/inactivity, relieved by movement, worse in the evening/night.
+==================================================
+
+CASE_ID: 050
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Paranoid Personality Disorder
+ALIASES:
+PPD
+VIGNETTE_LINES:
+- 40yo male is constantly suspicious of his coworkers, believing they are sabotaging him.
+- Reads hidden, threatening meanings into benign remarks.
+- Refuses to confide in others for fear the information will be used against him.
+- Bears grudges indefinitely and is quick to counterattack.
+- No true delusions or hallucinations are present.
+TEACHING_POINTS:
+- Pervasive distrust and suspiciousness of others such that their motives are interpreted as malevolent.
+- Cluster A (odd/eccentric) personality disorder.
+==================================================
+
+CASE_ID: 051
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Schizoid Personality Disorder
+ALIASES:
+schizoid
+VIGNETTE_LINES:
+- 35yo male works the night shift alone and prefers it that way.
+- Has no close friends and shows no desire for any.
+- Appears emotionally cold, detached, and indifferent to praise or criticism.
+- Spends all his free time playing single-player computer games.
+- Does not experience loneliness or distress regarding his isolation.
+TEACHING_POINTS:
+- Pervasive pattern of detachment from social relationships and restricted range of emotional expression.
+- Distinguished from Avoidant PD by a genuine lack of desire for relationships.
+==================================================
+
+CASE_ID: 052
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Schizotypal Personality Disorder
+ALIASES:
+schizotypal
+VIGNETTE_LINES:
+- 30yo female wears bizarre, unmatched clothing and believes in telepathy.
+- Speech is circumstantial and overly metaphoric, though not frankly derailed.
+- Reports 'sensing' the presence of spirits in her apartment.
+- Lacks close friends and feels highly uncomfortable in social settings.
+- No frank psychotic delusions or hallucinations.
+TEACHING_POINTS:
+- Pattern of social/interpersonal deficits, cognitive/perceptual distortions, and eccentricities of behavior.
+- Often considered on a spectrum with Schizophrenia, but lacks full psychosis.
+==================================================
+
+CASE_ID: 053
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Antisocial Personality Disorder
+ALIASES:
+sociopathy
+VIGNETTE_LINES:
+- 28yo male has a long history of arrests for assault and theft.
+- Routinely lies, uses aliases, and cons others for personal profit.
+- Shows absolutely no remorse for his victims.
+- Highly impulsive and aggressive, frequently getting into physical fights.
+- Records show a diagnosis of Conduct Disorder at age 13.
+TEACHING_POINTS:
+- Pervasive pattern of disregard for and violation of the rights of others occurring since age 15.
+- Individual must be at least 18 years old to receive this diagnosis.
+==================================================
+
+CASE_ID: 054
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Histrionic Personality Disorder
+ALIASES:
+HPD
+VIGNETTE_LINES:
+- 30yo female is the 'life of the party' and feels uncomfortable when not the center of attention.
+- Uses her physical appearance to draw attention to herself.
+- Interactions are often inappropriately sexually seductive or provocative.
+- Emotions rapidly shift and appear shallow.
+- Considers relationships to be much more intimate than they actually are.
+TEACHING_POINTS:
+- Pattern of excessive emotionality and attention-seeking behavior.
+- Cluster B (dramatic/erratic) personality disorder.
+==================================================
+
+CASE_ID: 055
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Narcissistic Personality Disorder
+ALIASES:
+NPD
+VIGNETTE_LINES:
+- 45yo male executive constantly boasts about his brilliance and success.
+- Believes he is 'special' and should only associate with other high-status people.
+- Requires excessive admiration and feels entitled to special treatment.
+- Exploits others to achieve his own ends and completely lacks empathy.
+- Extremely envious of others but believes others are envious of him.
+TEACHING_POINTS:
+- Pervasive pattern of grandiosity, need for admiration, and lack of empathy.
+- Underlying self-esteem is often fragile and easily threatened by criticism.
+==================================================
+
+CASE_ID: 056
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Avoidant Personality Disorder
+ALIASES:
+AvPD
+VIGNETTE_LINES:
+- 25yo female declines job promotions that require more social contact.
+- Intensely fears criticism, disapproval, or rejection.
+- Views herself as socially inept and personally unappealing.
+- Desperately wants friends but is too afraid to engage unless certain of being liked.
+- Avoids new activities for fear of embarrassment.
+TEACHING_POINTS:
+- Pervasive pattern of social inhibition, feelings of inadequacy, and hypersensitivity to negative evaluation.
+- Distinguished from Schizoid PD by a strong desire for relationships.
+==================================================
+
+CASE_ID: 057
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Dependent Personality Disorder
+ALIASES:
+DPD
+VIGNETTE_LINES:
+- 35yo female cannot make everyday decisions without excessive advice from her mother.
+- Terrified of being left to care for herself.
+- Agrees with others even when she knows they are wrong to avoid losing their support.
+- Quickly jumps into a new relationship as a source of care when an old one ends.
+- Volunteers for unpleasant tasks just to gain favor.
+TEACHING_POINTS:
+- Pattern of pervasive and excessive need to be taken care of leading to submissive/clinging behavior.
+- Fears of separation are central to the pathology.
+==================================================
+
+CASE_ID: 058
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Obsessive-Compulsive Personality Disorder
+ALIASES:
+OCPD
+VIGNETTE_LINES:
+- 50yo manager is obsessed with rules, lists, and order.
+- Cannot delegate tasks unless subordinates do exactly as he says.
+- So preoccupied with perfectionism that projects are never finished on time.
+- Is miserly with money and hoards worthless objects.
+- His condition is ego-syntonic; he thinks his way is the only right way.
+TEACHING_POINTS:
+- Pattern of preoccupation with orderliness, perfectionism, and mental/interpersonal control.
+- Does NOT involve true obsessions or compulsions (unlike OCD).
+==================================================
+
+CASE_ID: 059
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_dissociative
+DIAGNOSIS:
+Dissociative Identity Disorder
+ALIASES:
+multiple personality disorder
+VIGNETTE_LINES:
+- 30yo female reports 'losing time' and finding clothes in her closet she doesn't remember buying.
+- Coworkers report she sometimes introduces herself as 'Sarah', a completely different persona.
+- Has a history of severe childhood trauma and abuse.
+- Experiences frequent gaps in the recall of everyday events.
+- Not under the influence of substances.
+TEACHING_POINTS:
+- Disruption of identity characterized by >2 distinct personality states.
+- Accompanied by related alterations in affect, behavior, memory, and perception.
+==================================================
+
+CASE_ID: 060
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_dissociative
+DIAGNOSIS:
+Dissociative Amnesia
+ALIASES:
+psychogenic amnesia
+VIGNETTE_LINES:
+- 25yo male is found wandering in a new city.
+- Cannot remember his name, his past, or how he got there (dissociative fugue).
+- Neurological workup and toxicology screens are completely negative.
+- He recently witnessed a horrifying violent crime before disappearing.
+- Memory loss is strictly localized to autobiographical information.
+TEACHING_POINTS:
+- Inability to recall important autobiographical information, usually of a traumatic/stressful nature.
+- Inconsistent with ordinary forgetting and not due to neuro damage.
+==================================================
+
+CASE_ID: 061
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_dissociative
+DIAGNOSIS:
+Depersonalization/Derealization Disorder
+ALIASES:
+DPDR
+VIGNETTE_LINES:
+- 20yo college student feels like she is watching her life from outside her body.
+- Describes her surroundings as looking 'fake' or like a movie set.
+- She knows these feelings aren't real, retaining intact reality testing.
+- Causes significant distress and fear that she is 'going crazy'.
+- No hallucinations, delusions, or substance use involved.
+TEACHING_POINTS:
+- Persistent/recurrent experiences of depersonalization (unreality of self) or derealization (unreality of surroundings).
+- Intact reality testing differentiates it from psychosis.
+==================================================
+
+CASE_ID: 062
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurodevelopmental
+DIAGNOSIS:
+Autism Spectrum Disorder
+ALIASES:
+ASD
+autism
+VIGNETTE_LINES:
+- 4yo boy shows minimal eye contact and does not respond to his name.
+- Highly preoccupied with lining up his toy cars in perfect rows.
+- Becomes intensely distressed if his daily routine is altered even slightly.
+- Language development is delayed, with echolalia present.
+- Struggles with reciprocal social/emotional interactions.
+TEACHING_POINTS:
+- Persistent deficits in social communication and social interaction across multiple contexts.
+- Restricted, repetitive patterns of behavior, interests, or activities.
+==================================================
+
+CASE_ID: 063
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurodevelopmental
+DIAGNOSIS:
+Attention-Deficit/Hyperactivity Disorder
+ALIASES:
+ADHD
+VIGNETTE_LINES:
+- 8yo boy constantly interrupts others and blurts out answers in class.
+- Fails to pay close attention to details and makes careless mistakes on homework.
+- Constantly fidgets, leaves his seat, and acts as if 'driven by a motor'.
+- Symptoms are severe both at home and at school.
+- Started causing noticeable issues at age 6.
+TEACHING_POINTS:
+- Persistent pattern of inattention and/or hyperactivity-impulsivity interfering with functioning/development.
+- Several symptoms must be present before age 12 and in >2 settings.
+==================================================
+
+CASE_ID: 064
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurodevelopmental
+DIAGNOSIS:
+Tourette's Disorder
+ALIASES:
+Tourette syndrome
+VIGNETTE_LINES:
+- 10yo boy exhibits repetitive, rapid blinking and facial grimacing.
+- Frequently clears his throat and grunts involuntarily.
+- Occasionally blurts out obscure words (coprolalia is rare but possible).
+- Symptoms wax and wane but have been present for 14 months.
+- Urge to tic can be temporarily suppressed with intense effort.
+TEACHING_POINTS:
+- Both multiple motor AND one or more vocal tics have been present at some time.
+- Duration >1 year, onset before age 18.
+==================================================
+
+CASE_ID: 065
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurodevelopmental
+DIAGNOSIS:
+Specific Learning Disorder
+ALIASES:
+dyslexia
+dyscalculia
+VIGNETTE_LINES:
+- 9yo girl is highly intelligent but struggles immensely with reading fluency.
+- Reads slowly, inaccurately, and with poor comprehension.
+- Math and writing skills are above average.
+- Has received extra tutoring for a year with little improvement.
+- Vision and hearing tests are perfectly normal.
+TEACHING_POINTS:
+- Difficulties learning and using academic skills persisting for >6 months despite interventions.
+- Academic skills are substantially below those expected for chronological age.
+==================================================
+
+CASE_ID: 066
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurodevelopmental
+DIAGNOSIS:
+Intellectual Disability
+ALIASES:
+Intellectual Developmental Disorder
+VIGNETTE_LINES:
+- 12yo boy with an IQ of 65 struggles to learn basic concepts.
+- Cannot manage personal hygiene independently or understand money.
+- Functioning is significantly below peers in conceptual, social, and practical domains.
+- Symptoms have been present since early childhood.
+- Requires ongoing support for activities of daily living.
+TEACHING_POINTS:
+- Deficits in intellectual functions (reasoning, problem-solving, learning).
+- Concurrent deficits in adaptive functioning that result in failure to meet developmental standards.
+==================================================
+
+CASE_ID: 067
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_disruptive
+DIAGNOSIS:
+Oppositional Defiant Disorder
+ALIASES:
+ODD
+VIGNETTE_LINES:
+- 9yo boy frequently loses his temper and argues with adults.
+- Deliberately annoys his siblings and refuses to comply with rules.
+- Blames others for his own mistakes and misbehavior.
+- Does not engage in serious physical aggression, destruction of property, or theft.
+- Behavior occurs at home and school, causing significant friction.
+TEACHING_POINTS:
+- Pattern of angry/irritable mood, argumentative/defiant behavior, or vindictiveness lasting >6 months.
+- Behaviors are less severe than Conduct Disorder and do not violate rights of others.
+==================================================
+
+CASE_ID: 068
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_disruptive
+DIAGNOSIS:
+Conduct Disorder
+ALIASES:
+CD
+VIGNETTE_LINES:
+- 14yo boy is caught setting fires behind the school.
+- Has a history of torturing neighborhood pets and bullying younger children.
+- Frequently skips school, stays out all night, and has vandalized property.
+- Lacks remorse or empathy for his actions.
+- Parents are terrified of his escalating violence.
+TEACHING_POINTS:
+- Repetitive and persistent pattern of behavior violating basic rights of others or major age-appropriate norms.
+- Often a precursor to Antisocial Personality Disorder in adulthood.
+==================================================
+
+CASE_ID: 069
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_disruptive
+DIAGNOSIS:
+Intermittent Explosive Disorder
+ALIASES:
+IED
+VIGNETTE_LINES:
+- 25yo male frequently flies into sudden, extreme rages over minor inconveniences.
+- Recently smashed his computer monitor because a webpage loaded slowly.
+- Episodes last 15 minutes, after which he feels deep remorse and guilt.
+- Outbursts are completely out of proportion to the provocation.
+- No underlying mood disorder, substance use, or medical condition explains the behavior.
+TEACHING_POINTS:
+- Recurrent behavioral outbursts representing a failure to control aggressive impulses.
+- Aggressiveness is grossly disproportionate and not premeditated.
+==================================================
+
+CASE_ID: 070
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_disruptive
+DIAGNOSIS:
+Pyromania
+ALIASES:
+fire-setting
+VIGNETTE_LINES:
+- 19yo male frequently sets dumpsters and abandoned buildings on fire.
+- Experiences high tension and arousal before setting the fire.
+- Feels intense pleasure, gratification, and relief while watching the flames.
+- Fires are not set for financial gain, revenge, or political reasons.
+- Fascinated with fire trucks and fire equipment.
+TEACHING_POINTS:
+- Deliberate and purposeful fire setting on more than one occasion.
+- Tension/affective arousal beforehand and relief/pleasure afterward.
+==================================================
+
+CASE_ID: 071
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_disruptive
+DIAGNOSIS:
+Kleptomania
+ALIASES:
+compulsive stealing
+VIGNETTE_LINES:
+- 30yo wealthy female is arrested for stealing a cheap pen from a pharmacy.
+- She could easily afford it and has no use for the item.
+- Reports a mounting sense of tension before stealing it.
+- Felt profound relief and gratification immediately after the theft.
+- Often hoards or throws away the stolen items later due to guilt.
+TEACHING_POINTS:
+- Recurrent failure to resist impulses to steal objects that are not needed for personal use or monetary value.
+- Stealing is not committed to express anger or vengeance.
+==================================================
+
+CASE_ID: 072
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Delirium
+ALIASES:
+acute confusional state
+VIGNETTE_LINES:
+- 75yo male in the ICU for a UTI suddenly becomes highly agitated and confused.
+- Attention wanders during conversation; he is disoriented to place and time.
+- Symptoms fluctuate, worsening severely in the evening (sundowning).
+- He experiences visual hallucinations of bugs on the walls.
+- EEG shows generalized slowing.
+TEACHING_POINTS:
+- Disturbance in attention and awareness that develops acutely and fluctuates.
+- Always secondary to a general medical condition, substance, or infection.
+==================================================
+
+CASE_ID: 073
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Alzheimer's Disease
+ALIASES:
+dementia of Alzheimer's type
+VIGNETTE_LINES:
+- 70yo female exhibits gradual, progressive memory loss over 3 years.
+- Frequently gets lost in her own neighborhood and forgets her grandchildren's names.
+- No history of strokes, tremors, or fluctuating consciousness.
+- Recent memory is profoundly impaired, while distant memories remain largely intact.
+- MRI shows diffuse cortical atrophy and enlarged ventricles.
+TEACHING_POINTS:
+- Insidious onset and gradual progression of cognitive decline in >1 cognitive domain.
+- Most common form of major neurocognitive disorder.
+==================================================
+
+CASE_ID: 074
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Vascular Neurocognitive Disorder
+ALIASES:
+vascular dementia
+VIGNETTE_LINES:
+- 68yo male with a history of hypertension and diabetes shows cognitive decline.
+- Family notes his decline occurs in sudden 'steps' rather than a smooth progression.
+- Exhibits focal neurological signs (e.g., mild right-sided weakness, brisk reflexes).
+- Executive function is heavily impaired compared to memory.
+- MRI reveals multiple cerebral infarctions (white matter disease).
+TEACHING_POINTS:
+- Evidence of cerebrovascular disease from history, physical exam, or neuroimaging.
+- Onset of cognitive deficits is temporally related to cerebrovascular events.
+==================================================
+
+CASE_ID: 075
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Frontotemporal Neurocognitive Disorder
+ALIASES:
+Pick's disease
+VIGNETTE_LINES:
+- 55yo male begins acting highly inappropriately, making crude sexual remarks to strangers.
+- Has become apathetic towards his family and exhibits poor personal hygiene.
+- Hyperorality (compulsively putting objects in his mouth) is noted.
+- Memory and visuospatial skills are surprisingly well-preserved.
+- MRI shows severe atrophy of the frontal and temporal lobes.
+TEACHING_POINTS:
+- Insidious onset and gradual progression of behavioral or language variants.
+- Prominent decline in social cognition and executive abilities early in the disease.
+==================================================
+
+CASE_ID: 076
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Neurocognitive Disorder with Lewy Bodies
+ALIASES:
+Lewy Body Dementia
+LBD
+VIGNETTE_LINES:
+- 72yo male presents with progressive cognitive decline and prominent visual hallucinations of animals.
+- His level of alertness and cognition fluctuates wildly from day to day.
+- Has developed a resting tremor, bradykinesia, and a shuffling gait.
+- Highly sensitive to antipsychotic medications, which cause severe rigidity.
+- REM sleep behavior disorder is present.
+TEACHING_POINTS:
+- Fluctuating cognition, recurrent detailed visual hallucinations, and spontaneous parkinsonism.
+- Motor symptoms and cognitive decline begin within 1 year of each other.
+==================================================
+
+CASE_ID: 077
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Major Neurocognitive Disorder due to Parkinson's Disease
+ALIASES:
+Parkinson's dementia
+VIGNETTE_LINES:
+- 75yo male with a 10-year history of severe resting tremor and rigidity.
+- Over the past year, he has developed significant memory loss and executive dysfunction.
+- Cannot manage his finances or medications anymore.
+- Visual hallucinations are present but mild.
+- Depression and apathy are prominent features.
+TEACHING_POINTS:
+- Cognitive decline occurring in the setting of established Parkinson's disease.
+- Motor symptoms must precede cognitive decline by >1 year (differentiating from Lewy Body Dementia).
+==================================================
+
+CASE_ID: 078
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Major Neurocognitive Disorder due to Prion Disease
+ALIASES:
+Creutzfeldt-Jakob disease
+CJD
+VIGNETTE_LINES:
+- 60yo female develops rapidly progressive dementia over 3 months.
+- Exhibits startle myoclonus (sudden muscle jerks) and severe ataxia.
+- Speech has become incomprehensible.
+- EEG shows characteristic periodic sharp wave complexes.
+- Expected to be fatal within the year.
+TEACHING_POINTS:
+- Insidious onset and rapidly progressive cognitive impairment.
+- Motor features (myoclonus or ataxia) or biomarker evidence is required.
+==================================================
+
+CASE_ID: 079
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Major Neurocognitive Disorder due to Huntington's Disease
+ALIASES:
+Huntington's chorea
+VIGNETTE_LINES:
+- 45yo male presents with cognitive decline and severe, involuntary writhing movements (chorea).
+- Family history is positive for similar symptoms and early death in his father.
+- Personality changes, including depression and irritability, preceded the motor symptoms.
+- Genetic testing reveals >40 CAG trinucleotide repeats on chromosome 4.
+- MRI shows atrophy of the caudate nucleus.
+TEACHING_POINTS:
+- Progressive cognitive impairment with early changes in executive function and psychomotor speed.
+- Associated with chorea and a known genetic mutation.
+==================================================
+
+CASE_ID: 080
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Alcohol Intoxication
+ALIASES:
+drunk
+VIGNETTE_LINES:
+- 22yo male is brought to the ER after a frat party.
+- Smells strongly of ethanol, has slurred speech, and is highly uncoordinated (ataxia).
+- Exhibits nystagmus and profound stupor.
+- Vitals show mild respiratory depression and bradycardia.
+- Blood alcohol concentration (BAC) is 0.25%.
+TEACHING_POINTS:
+- Recent ingestion of alcohol leading to clinically significant problematic behavior/psychological changes.
+- Signs include slurred speech, incoordination, unsteady gait, nystagmus, impairment in attention/memory.
+==================================================
+
+CASE_ID: 081
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Alcohol Withdrawal
+ALIASES:
+delirium tremens
+DTs
+VIGNETTE_LINES:
+- 45yo male with heavy daily alcohol use is admitted for surgery and misses his drinks for 48 hours.
+- Develops severe hand tremors, sweating, tachycardia, and agitation.
+- Begins hallucinating spiders crawling on the walls.
+- Progresses to a generalized tonic-clonic seizure.
+- Treated immediately with IV benzodiazepines.
+TEACHING_POINTS:
+- Cessation of heavy/prolonged alcohol use followed by autonomic hyperactivity and tremors.
+- Delirium Tremens (DTs) is a medical emergency usually occurring 48-96 hours after the last drink.
+==================================================
+
+CASE_ID: 082
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Opioid Intoxication
+ALIASES:
+heroin overdose
+VIGNETTE_LINES:
+- 30yo found unresponsive in a public bathroom with a syringe nearby.
+- Respirations are 4 breaths per minute, heart rate is 50 bpm.
+- Pupils are pinpoint (miosis).
+- Patient is cyanotic and completely unarousable.
+- Administering IV naloxone rapidly reverses the coma and respiratory depression.
+TEACHING_POINTS:
+- Recent use of an opioid leading to problematic behavioral changes.
+- Pupillary constriction + respiratory depression + coma is the classic triad.
+==================================================
+
+CASE_ID: 083
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Opioid Withdrawal
+ALIASES:
+dope sickness
+VIGNETTE_LINES:
+- 25yo heroin user presents with severe muscle aches, nausea, vomiting, and diarrhea.
+- Pupils are widely dilated (mydriasis).
+- Exhibits extreme restlessness, yawning, and piloerection (goosebumps).
+- Complains of feeling 'like I have the worst flu of my life'.
+- Vitals show mild tachycardia and hypertension, but it is not life-threatening.
+TEACHING_POINTS:
+- Cessation/reduction in heavy opioid use followed by dysphoria and physical symptoms.
+- While intensely uncomfortable, opioid withdrawal is generally not fatal (unlike alcohol withdrawal).
+==================================================
+
+CASE_ID: 084
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Stimulant Intoxication
+ALIASES:
+cocaine intoxication
+meth
+VIGNETTE_LINES:
+- 28yo male presents highly agitated, pacing the ER, and acting extremely paranoid.
+- Heart rate is 130 bpm, BP is 180/110, and he is sweating profusely.
+- Pupils are widely dilated (mydriasis).
+- Complains of severe chest pain (possible vasospasm).
+- Reports feeling grandiose and 'invincible' before the paranoia set in.
+TEACHING_POINTS:
+- Recent use of amphetamines or cocaine leading to significant psychological changes.
+- Tachycardia, pupillary dilation, elevated BP, perspiration, and psychomotor agitation are classic.
+==================================================
+
+CASE_ID: 085
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Stimulant Withdrawal
+ALIASES:
+cocaine crash
+VIGNETTE_LINES:
+- 30yo female who used high amounts of cocaine over the weekend presents on Monday profoundly fatigued.
+- Complains of severe dysphoria, depression, and inability to feel pleasure (anhedonia).
+- Sleeping for 14 hours a day and has a massive increase in appetite.
+- Reports intensely vivid, unpleasant dreams.
+- Currently lacks energy to get out of bed.
+TEACHING_POINTS:
+- Cessation of heavy stimulant use followed by dysphoric mood and physiological signs.
+- Symptoms are largely the opposite of intoxication (fatigue, increased appetite, psychomotor retardation).
+==================================================
+
+CASE_ID: 086
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Cannabis Intoxication
+ALIASES:
+marijuana high
+VIGNETTE_LINES:
+- 20yo college student presents to student health acting inappropriately silly and euphoric.
+- Eyes are heavily bloodshot (conjunctival injection).
+- Complains of extreme dry mouth and a massive increase in appetite ('the munchies').
+- Reports that time feels like it is moving very slowly.
+- Heart rate is mildly elevated.
+TEACHING_POINTS:
+- Recent use of cannabis leading to problematic behavioral or psychological changes.
+- Conjunctival injection, increased appetite, dry mouth, and tachycardia confirm the diagnosis.
+==================================================
+
+CASE_ID: 087
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Cannabis Withdrawal
+ALIASES:
+marijuana withdrawal
+VIGNETTE_LINES:
+- 25yo daily smoker stops 'cold turkey' to pass a drug test.
+- Within 48 hours, he becomes highly irritable, angry, and anxious.
+- Complains he cannot sleep and has no appetite.
+- Experiences intense cravings, restlessness, and mild stomach pain.
+- Symptoms peak at day 3 and gradually resolve over two weeks.
+TEACHING_POINTS:
+- Cessation of heavy, prolonged cannabis use followed by irritability, anxiety, sleep difficulty.
+- Physical symptoms like abdominal pain, shakiness/tremors, sweating, or chills may be present.
+==================================================
+
+CASE_ID: 088
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Phencyclidine Intoxication
+ALIASES:
+PCP intoxication
+VIGNETTE_LINES:
+- 35yo male is brought in by police after fighting 4 officers simultaneously.
+- Exhibits extreme aggression, agitation, and immense physical strength.
+- Does not respond to painful stimuli (analgesia).
+- Exam reveals prominent horizontal AND vertical nystagmus.
+- Vitals show severe hypertension and tachycardia.
+TEACHING_POINTS:
+- Recent use of PCP leading to significant behavioral changes (belligerence, impulsivity).
+- Vertical nystagmus and decreased responsiveness to pain are highly indicative.
+==================================================
+
+CASE_ID: 089
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Inhalant Intoxication
+ALIASES:
+huffing
+VIGNETTE_LINES:
+- 14yo boy is found confused in the garage with a can of paint thinner.
+- Smells strongly of chemicals and has a perioral rash (glue sniffer's rash).
+- Exhibits slurred speech, lethargy, ataxia, and dizziness.
+- Briefly experienced visual hallucinations and euphoria before becoming stuporous.
+- Effects resolve within an hour.
+TEACHING_POINTS:
+- Recent intentional exposure to volatile hydrocarbons leading to behavioral changes.
+- Rapid onset and brief duration are characteristic.
+==================================================
+
+CASE_ID: 090
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Sedative, Hypnotic, or Anxiolytic Withdrawal
+ALIASES:
+benzo withdrawal
+VIGNETTE_LINES:
+- 40yo female runs out of her high-dose alprazolam (Xanax) prescription.
+- Develops severe anxiety, hand tremors, and autonomic hyperactivity (sweating, racing heart).
+- Progresses to a generalized grand mal seizure on day 3.
+- Visual and tactile hallucinations are present.
+- Requires immediate medical stabilization and a slow taper.
+TEACHING_POINTS:
+- Cessation of prolonged sedative use leading to withdrawal symptoms.
+- Can be life-threatening (seizures, delirium), similar to alcohol withdrawal.
+==================================================
+
+CASE_ID: 091
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Tobacco Withdrawal
+ALIASES:
+nicotine withdrawal
+VIGNETTE_LINES:
+- 50yo male attempts to quit smoking after 30 years of a pack-a-day habit.
+- Within 24 hours, he is highly irritable, frustrated, and angry.
+- Reports severe difficulty concentrating and intense cravings.
+- Has an increased appetite and gains 5 pounds in two weeks.
+- Heart rate is notably decreased compared to his baseline.
+TEACHING_POINTS:
+- Abrupt cessation/reduction of tobacco use followed by irritability, anxiety, poor concentration.
+- Nicotine replacement or medications (bupropion, varenicline) can mitigate symptoms.
+==================================================
+
+CASE_ID: 092
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_childhood
+DIAGNOSIS:
+Enuresis
+ALIASES:
+bedwetting
+VIGNETTE_LINES:
+- 6yo boy frequently wets the bed at night while sleeping.
+- Behavior occurs at least twice a week for the last 4 months.
+- Urinalysis is completely normal, ruling out UTI or diabetes.
+- Parents have tried fluid restriction at night with no success.
+- Developmentally, he should have achieved continence.
+TEACHING_POINTS:
+- Repeated voiding of urine into bed or clothes, whether involuntary or intentional.
+- Child must be at least 5 years old (chronological or developmental equivalent).
+==================================================
+
+CASE_ID: 093
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_childhood
+DIAGNOSIS:
+Encopresis
+ALIASES:
+fecal soiling
+VIGNETTE_LINES:
+- 7yo girl repeatedly passes feces into her underwear at school.
+- Often associated with severe chronic constipation and fecal impaction.
+- Liquid stool leaks around the hard impacted mass (overflow incontinence).
+- Child feels immense shame and hides the soiled underwear.
+- Has been occurring once a month for the last 6 months.
+TEACHING_POINTS:
+- Repeated passage of feces into inappropriate places (e.g., clothing, floor).
+- Child must be at least 4 years old; usually treated with laxatives and behavioral training.
+==================================================
+
+CASE_ID: 094
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_other
+DIAGNOSIS:
+Gender Dysphoria
+ALIASES:
+gender identity disorder
+VIGNETTE_LINES:
+- 16yo assigned female at birth profoundly identifies as male.
+- Experiences extreme distress regarding female secondary sex characteristics (breasts).
+- Binds chest tightly and requests hormone therapy (testosterone).
+- Strong desire to be treated as and live as the alternative gender.
+- The incongruence has persisted for over 3 years.
+TEACHING_POINTS:
+- Marked incongruence between one's experienced/expressed gender and assigned gender >6 months.
+- The condition must cause clinically significant distress or impairment (the 'dysphoria').
+==================================================
+
+CASE_ID: 095
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotic
+DIAGNOSIS:
+Postpartum Psychosis
+ALIASES:
+brief psychotic disorder with peripartum onset
+VIGNETTE_LINES:
+- 28yo female, 1 week after delivering her first child, becomes severely agitated and confused.
+- Develops delusions that her baby is possessed by a demon.
+- Commands hallucinations tell her to harm the child.
+- Mood is wildly labile, oscillating between intense mania and deep depression.
+- Requires immediate psychiatric hospitalization and separation from the infant.
+TEACHING_POINTS:
+- Psychotic episode occurring during pregnancy or within 4 weeks of delivery.
+- High risk of infanticide/suicide; often a manifestation of Bipolar Disorder.
+==================================================
+
+CASE_ID: 096
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_med_effect
+DIAGNOSIS:
+Serotonin Syndrome
+ALIASES:
+serotonin toxicity
+VIGNETTE_LINES:
+- 30yo taking an SSRI and an MAOI presents with altered mental status and high fever.
+- Extremely agitated, sweating profusely, and tachycardic.
+- Neurological exam reveals severe hyperreflexia and spontaneous myoclonus (clonus).
+- Bowel sounds are hyperactive (diarrhea).
+- Treated with cyproheptadine and cooling measures.
+TEACHING_POINTS:
+- Caused by overactivation of central and peripheral serotonin receptors.
+- Key triad: mental status changes, autonomic hyperactivity, and neuromuscular abnormalities (clonus).
+==================================================
+
+CASE_ID: 097
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_med_effect
+DIAGNOSIS:
+Neuroleptic Malignant Syndrome
+ALIASES:
+NMS
+VIGNETTE_LINES:
+- 45yo schizophrenic patient started on haloperidol 3 days ago presents critically ill.
+- Core temperature is 104F (40C), with extreme tachycardia and sweating.
+- Muscles are locked in severe 'lead-pipe' rigidity.
+- Patient is delirious and largely unresponsive.
+- Labs show massively elevated creatine kinase (CK) and leukocytosis.
+TEACHING_POINTS:
+- A life-threatening idiosyncratic reaction to dopamine antagonists (antipsychotics).
+- Distinguished from Serotonin Syndrome by 'lead-pipe' rigidity and lack of hyperreflexia/clonus.
+==================================================
+
+CASE_ID: 098
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_med_effect
+DIAGNOSIS:
+Lithium Toxicity
+ALIASES:
+lithium overdose
+VIGNETTE_LINES:
+- 35yo bipolar patient presents with severe nausea, vomiting, and diarrhea.
+- Exhibits a coarse resting tremor, ataxia, and dysarthria (slurred speech).
+- Mental status is deteriorating into confusion and lethargy.
+- Patient recently started taking NSAIDs for back pain, reducing renal clearance.
+- Serum lithium level is 2.5 mEq/L.
+TEACHING_POINTS:
+- Lithium has a very narrow therapeutic index and is entirely renally cleared.
+- Dehydration, thiazide diuretics, NSAIDs, and ACE inhibitors can precipitate toxicity.
+==================================================
+
+CASE_ID: 099
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_med_effect
+DIAGNOSIS:
+Tardive Dyskinesia
+ALIASES:
+TD
+VIGNETTE_LINES:
+- 55yo female treated with risperidone for 10 years presents with abnormal facial movements.
+- Exhibits continuous lip smacking, chewing motions, and tongue darting (fly-catching).
+- Also shows mild choreoathetoid movements of her fingers.
+- Symptoms persist even while sleeping and worsen with stress.
+- Switching to clozapine or using a VMAT2 inhibitor (valbenazine) is considered.
+TEACHING_POINTS:
+- Involuntary hyperkinetic movements caused by long-term use of dopamine receptor antagonists.
+- Believed to be due to dopamine receptor supersensitivity; often irreversible.
+==================================================
+
+CASE_ID: 100
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_med_effect
+DIAGNOSIS:
+Acute Dystonia
+ALIASES:
+dystonic reaction
+VIGNETTE_LINES:
+- 22yo male given IV metoclopramide (or haloperidol) suddenly develops a painfully twisted neck (torticollis).
+- Eyes are involuntarily rolled upwards and locked (oculogyric crisis).
+- Patient is terrified and in immense pain.
+- Onset is 2 hours after the medication was administered.
+- Rapidly reversed with IV diphenhydramine or benztropine.
+TEACHING_POINTS:
+- Sudden, sustained contraction of muscles (usually head/neck) shortly after starting an antipsychotic.
+- A type of Extrapyramidal Symptom (EPS) treated with anticholinergics.
+==================================================
+
