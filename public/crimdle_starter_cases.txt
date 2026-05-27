@@ -1,0 +1,133 @@
+CASE_ID: 001
+DIFFICULTY: crimdle
+SYSTEM: homicide
+
+DIAGNOSIS:
+First-Degree Murder
+
+ALIASES:
+murder one
+premeditated murder
+felony murder first degree
+
+VIGNETTE_LINES:
+1. A 34-year-old man tells his coworker on Monday that he plans to kill his wife before the week is over.
+2. On Thursday evening he purchases a firearm and drives to his wife's workplace after her shift ends.
+3. He waits in the parking garage for two hours until she exits the building alone.
+4. He shoots her four times and flees the scene; surveillance footage captures the entire sequence.
+5. A search of his home reveals a handwritten note detailing the plan, date, and method.
+6. The jury convicts him of first-degree murder as the prosecution proves beyond a reasonable doubt that the killing was willful, deliberate, and premeditated with evidence of planning spanning multiple days.
+
+TEACHING_POINTS:
+- First-degree murder requires willfulness, deliberation, and premeditation — the defendant must have reflected on and planned the killing.
+- Premeditation does not require a long time period but must be more than a spontaneous decision.
+- Evidence of lying in wait, procurement of a weapon, and a prior expressed plan are classic indicators of premeditation.
+
+==================================================
+
+CASE_ID: 002
+DIFFICULTY: crimdle
+SYSTEM: homicide
+
+DIAGNOSIS:
+Involuntary Manslaughter
+
+ALIASES:
+criminally negligent homicide
+unintentional killing
+manslaughter
+
+VIGNETTE_LINES:
+1. A 22-year-old woman texts while driving on a residential street at 40 mph in a 25 mph zone.
+2. She has no intent to harm anyone and is described by witnesses as distracted but not aggressive.
+3. She runs a red light and strikes a pedestrian in a crosswalk, who dies at the scene.
+4. Her phone records confirm she sent a text message three seconds before impact.
+5. She has no prior criminal history and immediately calls 911 after the collision.
+6. She is convicted of involuntary manslaughter as the prosecution proves her death resulted from criminally negligent conduct that created a substantial and unjustifiable risk, which she consciously disregarded.
+
+TEACHING_POINTS:
+- Involuntary manslaughter involves an unintentional killing caused by criminal negligence or a lawful act performed recklessly.
+- Under the Model Penal Code, the relevant mental state is recklessness or criminal negligence, not intent to kill.
+- It is distinguished from voluntary manslaughter by the absence of intent and from murder by the absence of malice.
+
+==================================================
+
+CASE_ID: 003
+DIFFICULTY: crimdle
+SYSTEM: property_crimes
+
+DIAGNOSIS:
+Burglary
+
+ALIASES:
+breaking and entering
+residential burglary
+common law burglary
+
+VIGNETTE_LINES:
+1. A 29-year-old man cases a suburban neighborhood for a week and identifies a home whose owners leave every Saturday morning.
+2. On a Saturday at 9 AM he breaks a rear window and climbs inside the empty house.
+3. He intends to steal electronics and jewelry and has a duffel bag with him.
+4. A neighbor notices the broken window and calls police, who arrive before he can exit.
+5. He is found inside the home with the owners' jewelry in his bag and burglary tools in his pocket.
+6. He is convicted of burglary as the prosecution proves he unlawfully entered a dwelling of another at nighttime — or under modern statutes, any time — with the intent to commit a felony therein at the moment of entry.
+
+TEACHING_POINTS:
+- Common law burglary required breaking and entering a dwelling of another at nighttime with intent to commit a felony inside.
+- Modern statutes have expanded burglary to include any structure and any time of day.
+- The intent to commit a felony must exist at the moment of entry; forming the intent after entry may reduce the charge to criminal trespass.
+
+==================================================
+
+CASE_ID: 004
+DIFFICULTY: crimdle
+SYSTEM: crimes_against_persons
+
+DIAGNOSIS:
+Robbery
+
+ALIASES:
+armed robbery
+strong-arm robbery
+theft by force
+
+VIGNETTE_LINES:
+1. A 31-year-old man approaches a woman at an ATM at midnight and demands she hand over her cash.
+2. He grabs her arm with one hand and displays a knife with the other.
+3. She surrenders $300 in cash out of fear and he flees on foot.
+4. Security footage from the ATM captures his face clearly.
+5. He is apprehended two blocks away with the cash and knife still on his person.
+6. He is convicted of robbery as the prosecution proves he took property directly from another person by force and intimidation with the intent to permanently deprive her of it, distinguishing it from larceny by the use of force or threat against the victim's person.
+
+TEACHING_POINTS:
+- Robbery is larceny plus force or intimidation directed at a person at the time of the taking.
+- The force must be used to accomplish the taking, not merely during flight afterward.
+- Armed robbery (aggravated robbery) involves use of a deadly weapon and carries enhanced penalties.
+
+==================================================
+
+CASE_ID: 005
+DIFFICULTY: crimdle
+SYSTEM: inchoate_crimes
+
+DIAGNOSIS:
+Conspiracy
+
+ALIASES:
+criminal conspiracy
+conspiracy to commit a crime
+
+VIGNETTE_LINES:
+1. A 40-year-old man meets with two associates and agrees to help them rob a bank, offering to disable the alarm system using his security expertise.
+2. He never enters the bank and is out of state on the day of the robbery.
+3. One associate purchases zip ties and ski masks the following day in furtherance of the plan.
+4. Text messages between all three parties detail the agreement, the roles, and the planned date.
+5. The robbery is ultimately stopped by law enforcement who had the group under surveillance.
+6. He is convicted of conspiracy as the prosecution proves a voluntary agreement between two or more persons to commit an unlawful act, plus an overt act in furtherance of that agreement, even though the target crime was never completed.
+
+TEACHING_POINTS:
+- Conspiracy requires an agreement between two or more persons to commit a crime plus, in most jurisdictions, an overt act in furtherance.
+- The target crime does not need to be completed for conspiracy liability to attach.
+- Each conspirator is liable for the foreseeable crimes of co-conspirators committed in furtherance of the conspiracy under Pinkerton liability.
+
+==================================================
