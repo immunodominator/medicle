@@ -1,0 +1,120 @@
+==================================================
+CASE_ID: 994
+DIFFICULTY: step1
+SYSTEM: infectious_disease
+DIAGNOSIS:
+Infective endocarditis (acute; Staphylococcus aureus)
+ALIASES:
+acute infective endocarditis
+S. aureus endocarditis
+VIGNETTE_LINES:
+- A 31-year-old man with a history of IV drug use presents with fever and malaise for 4 days.
+- He reports pleuritic chest pain and shortness of breath.
+- Exam shows a new holosystolic murmur best heard at the left lower sternal border.
+- Multiple tender nodules are noted on the pads of the fingers.
+- Blood cultures are positive within 12 hours.
+- Echocardiogram shows mobile vegetations on a cardiac valve.
+TEACHING_POINTS:
+- Acute endocarditis is most commonly caused by Staphylococcus aureus.
+- IVDU classically involves right-sided valves (tricuspid) with septic pulmonary emboli.
+- Tender fingertip nodules suggest Osler nodes (immune complex phenomenon).
+==================================================
+CASE_ID: 995
+DIFFICULTY: step1
+SYSTEM: gastroenterology
+DIAGNOSIS:
+Amebic liver abscess (Entamoeba histolytica)
+ALIASES:
+Entamoeba histolytica liver abscess
+amebiasis
+VIGNETTE_LINES:
+- A 27-year-old man presents with fever and right upper quadrant pain.
+- He recently traveled to rural Mexico and had several weeks of intermittent bloody diarrhea that resolved.
+- Exam reveals hepatomegaly and marked tenderness over the liver.
+- Labs show elevated alkaline phosphatase and mild leukocytosis.
+- Ultrasound shows a solitary hypoechoic liver lesion.
+- Aspiration yields thick brown fluid with no bacteria on Gram stain.
+TEACHING_POINTS:
+- Entamoeba histolytica can cause liver abscess after intestinal infection.
+- “Anchovy paste” (brown) aspirate is classic and often sterile on Gram stain.
+- Treat with metronidazole followed by a luminal agent (e.g., paromomycin).
+==================================================
+CASE_ID: 996
+DIFFICULTY: step1
+SYSTEM: neurology
+DIAGNOSIS:
+Myasthenia gravis
+ALIASES:
+MG
+anti-acetylcholine receptor antibodies
+VIGNETTE_LINES:
+- A 29-year-old woman presents with intermittent double vision and droopy eyelids worse at night.
+- She reports that symptoms improve after resting.
+- Neuro exam shows fatigable weakness with sustained upward gaze.
+- Reflexes and sensation are normal.
+- Ice pack test over the eyelid improves ptosis.
+- CT chest reveals an anterior mediastinal mass.
+TEACHING_POINTS:
+- Myasthenia gravis causes fatigable weakness due to antibodies against postsynaptic ACh receptors.
+- Ocular symptoms (ptosis/diplopia) are common early findings.
+- Associated with thymoma; treat with pyridostigmine and immunosuppression when needed.
+==================================================
+CASE_ID: 997
+DIFFICULTY: step1
+SYSTEM: endocrinology
+DIAGNOSIS:
+Pheochromocytoma
+ALIASES:
+catecholamine-secreting tumor
+VIGNETTE_LINES:
+- A 44-year-old man has episodic headaches, palpitations, and sweating.
+- Episodes last 10–20 minutes and occur several times per week.
+- BP in clinic is 190/110 mmHg, but normal between episodes.
+- He has unintentional weight loss and tremor.
+- Urinary metanephrines are elevated.
+- CT abdomen shows an adrenal mass.
+TEACHING_POINTS:
+- Pheochromocytoma causes episodic catecholamine surges: headache, sweating, tachycardia.
+- Diagnosis: plasma or urine metanephrines.
+- Pre-op management: alpha-blockade first (phenoxybenzamine) before beta-blockade.
+==================================================
+CASE_ID: 998
+DIFFICULTY: step1
+SYSTEM: heme_onc
+DIAGNOSIS:
+Acute promyelocytic leukemia (APL)
+ALIASES:
+APL
+t(15;17)
+VIGNETTE_LINES:
+- A 36-year-old woman presents with fatigue, gingival bleeding, and easy bruising.
+- Labs show anemia and thrombocytopenia.
+- Peripheral smear shows abnormal promyelocytes with multiple Auer rods.
+- PT and aPTT are prolonged and fibrinogen is low.
+- She develops diffuse oozing from venipuncture sites.
+- Cytogenetics reveal a translocation involving chromosomes 15 and 17.
+TEACHING_POINTS:
+- APL is associated with t(15;17) and can trigger DIC.
+- Auer rods in promyelocytes are a classic clue.
+- Treat with all-trans retinoic acid (ATRA) ± arsenic trioxide to promote differentiation.
+==================================================
+CASE_ID: 999
+DIFFICULTY: step1
+SYSTEM: biochemistry
+DIAGNOSIS:
+Ornithine transcarbamylase (OTC) deficiency
+ALIASES:
+OTC deficiency
+urea cycle disorder
+VIGNETTE_LINES:
+- A 2-day-old male develops poor feeding, vomiting, and lethargy.
+- He becomes tachypneic without signs of lung disease.
+- Labs show markedly elevated ammonia with normal anion gap and no metabolic acidosis.
+- BUN is low.
+- Urine orotic acid is elevated.
+- Symptoms worsen after protein-containing feeds.
+TEACHING_POINTS:
+- OTC deficiency is X-linked and causes hyperammonemia without metabolic acidosis.
+- Elevated orotic acid distinguishes OTC deficiency from CPS I deficiency.
+- Management includes protein restriction and ammonia-scavenging therapies.
+==================================================
