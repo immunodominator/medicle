@@ -604,6 +604,7 @@ export default function Home() {
             if (e.target.value === "medicle") window.location.href = "/";
             if (e.target.value === "vettle") window.location.href = "/vettle";
             if (e.target.value === "psychodle") window.location.href = "/psychodle";
+            if (e.target.value === "dentdle") window.location.href = "/dentdle";
           }}
           defaultValue="psychodle"
           style={{
@@ -618,6 +619,7 @@ export default function Home() {
           <option value="psychodle">🧩 Psychodle — Psychiatry cases</option>
           <option value="medicle">🧠 Medicle</option>
           <option value="vettle">🐾 Vettle — Veterinary cases</option>
+          <option value="dentdle">🦷 Dentdle — Dental cases</option>
         </select>
       </div>
 
