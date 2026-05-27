@@ -9,21 +9,18 @@ ALIASES:
 ANUG
 trench mouth
 necrotizing gingivitis
-Vincent's disease
 
 VIGNETTE_LINES:
-1. A 22-year-old male college student presents with severe gum pain and bleeding that started two days ago.
-2. He has been under significant academic stress, sleeping poorly, and smoking heavily.
-3. Examination reveals punched-out ulceration of the interdental papillae with a gray pseudomembrane and fetid halitosis.
-4. There is no lymphadenopathy and the patient is afebrile, though he reports general malaise.
-5. Periapical radiographs show no bony involvement or alveolar bone loss.
-6. The clinical triad of interdental necrosis, spontaneous bleeding, and characteristic foul odor confirms the diagnosis, and the patient is started on debridement and metronidazole.
+1. 22M college student presents with severe gum pain and bleeding.
+2. Under significant academic stress, sleeping poorly, and smoking heavily.
+3. Punched-out ulceration of interdental papillae with gray pseudomembrane.
+4. Afebrile, no lymphadenopathy, but reports general malaise.
+5. Radiographs show no alveolar bone loss.
+6. Triad of necrosis, bleeding, and foul odor confirms ANUG; start metronidazole.
 
 TEACHING_POINTS:
-- ANUG is characterized by the triad of pain, bleeding, and necrosis of the interdental papillae.
-- Predisposing factors include stress, smoking, poor sleep, and immunosuppression.
-- Treatment involves gentle debridement, oral hygiene instruction, and metronidazole for severe cases.
-
+- Triad: pain, bleeding, interdental necrosis.
+- Triggered by stress, smoking, and poor oral hygiene.
 ==================================================
 
 CASE_ID: 002
@@ -38,18 +35,16 @@ pulpitis
 acute pulpitis
 
 VIGNETTE_LINES:
-1. A 35-year-old woman presents with spontaneous throbbing tooth pain that woke her from sleep last night.
-2. She has a history of a large filling placed in the same tooth two years ago.
-3. The affected lower molar is exquisitely tender to percussion and the pain lingers for over 30 seconds after a cold stimulus is removed.
-4. There is no swelling, trismus, or fever suggesting spread beyond the pulp.
-5. Periapical radiograph shows a deep restoration in close proximity to the pulp chamber without periapical radiolucency.
-6. Electric pulp testing confirms a hyperresponsive vital pulp with prolonged painful response, and root canal therapy is initiated given the irreversible nature of the inflammation.
+1. 35F presents with spontaneous throbbing tooth pain that woke her up.
+2. History of a large filling placed two years ago.
+3. Exquisitely tender lower molar; pain lingers 30+ seconds after cold stimulus.
+4. No swelling, trismus, or fever suggesting extra-pulpal spread.
+5. Radiograph shows deep restoration near pulp without periapical radiolucency.
+6. Hyperresponsive vital pulp with prolonged pain confirms irreversible pulpitis; start root canal.
 
 TEACHING_POINTS:
-- Irreversible pulpitis is distinguished from reversible pulpitis by pain that lingers after the stimulus is removed.
+- Pain that lingers after stimulus removal distinguishes irreversible from reversible.
 - Spontaneous or nocturnal pain strongly suggests irreversible pulpal inflammation.
-- Treatment is root canal therapy or extraction; the pulp cannot heal.
-
 ==================================================
 
 CASE_ID: 003
@@ -64,18 +59,16 @@ wisdom tooth infection
 third molar pericoronitis
 
 VIGNETTE_LINES:
-1. An 19-year-old man presents with pain and swelling in the back of his lower jaw for three days.
-2. He reports difficulty opening his mouth fully and pain when swallowing.
-3. Examination reveals erythema and swelling of the soft tissue flap overlying a partially erupted lower third molar with purulent exudate on probing.
-4. He is afebrile with mild trismus but no fascial space swelling.
-5. Panoramic radiograph shows a partially erupted lower left third molar with inadequate space for full eruption.
-6. Irrigation under the operculum yields purulent debris, and the patient is started on amoxicillin with a referral for third molar extraction once the acute infection resolves.
+1. 19M presents with pain and swelling in the back of his lower jaw.
+2. Difficulty opening mouth fully and pain when swallowing.
+3. Erythema and swelling of soft tissue flap over partially erupted lower 3rd molar.
+4. Afebrile with mild trismus but no fascial space swelling.
+5. Panorex shows partially erupted lower left third molar with inadequate space.
+6. Purulent debris yielded from operculum irrigation; prescribe amoxicillin and refer for extraction.
 
 TEACHING_POINTS:
-- Pericoronitis is inflammation of the soft tissue around a partially erupted tooth, most commonly the lower third molar.
-- The operculum traps food and bacteria, predisposing to infection.
-- Acute management includes irrigation and antibiotics; definitive treatment is extraction of the offending tooth.
-
+- Inflammation of soft tissue around a partially erupted tooth.
+- Operculum traps food/bacteria; definitive treatment is extraction.
 ==================================================
 
 CASE_ID: 004
@@ -91,18 +84,16 @@ pseudomembranous candidiasis
 denture stomatitis
 
 VIGNETTE_LINES:
-1. A 67-year-old woman presents with a sore mouth and a white coating on her tongue and inner cheeks for two weeks.
-2. She recently completed a course of broad-spectrum antibiotics for a urinary tract infection and wears a full upper denture.
-3. Examination reveals creamy white plaques on the buccal mucosa and dorsal tongue that wipe off easily leaving a red erythematous base.
-4. There is no cervical lymphadenopathy and the patient is otherwise well.
-5. No imaging is indicated and clinical findings are sufficient for diagnosis.
-6. A potassium hydroxide preparation of scraped material reveals pseudohyphae and budding yeast forms consistent with Candida albicans, and the patient responds to topical nystatin rinse.
+1. 67F presents with sore mouth and white coating on tongue.
+2. Recently completed broad-spectrum antibiotics and wears a full upper denture.
+3. Creamy white plaques on buccal mucosa that wipe off easily.
+4. Reveals a red erythematous base underneath; no lymphadenopathy.
+5. Clinical findings are sufficient; no imaging needed.
+6. KOH prep shows pseudohyphae; responds to topical nystatin rinse.
 
 TEACHING_POINTS:
-- Oral candidiasis is the most common oral fungal infection and is often precipitated by antibiotics, dentures, or immunosuppression.
-- Pseudomembranous candidiasis features white plaques that wipe off, distinguishing it from leukoplakia.
-- KOH preparation revealing pseudohyphae confirms the diagnosis.
-
+- Most common oral fungal infection; precipitated by antibiotics or dentures.
+- Pseudomembranous type features white plaques that wipe off, unlike leukoplakia.
 ==================================================
 
 CASE_ID: 005
@@ -116,14 +107,2215 @@ ALIASES:
 mandibular ameloblastoma
 
 VIGNETTE_LINES:
-1. A 34-year-old man presents with a slowly expanding painless swelling of his lower jaw noticed over the past year.
-2. He denies pain, trismus, or numbness, and has no history of trauma or prior dental pathology.
-3. Examination reveals a firm buccal cortical expansion in the posterior mandible with facial asymmetry.
-4. There is no cervical lymphadenopathy and overlying mucosa appears normal.
-5. Panoramic radiograph shows a multilocular radiolucency with a soap bubble appearance in the posterior mandible causing root resorption of adjacent teeth.
-6. Incisional biopsy reveals islands of odontogenic epithelium with peripheral palisading and reverse polarity of nuclei, confirming ameloblastoma requiring wide surgical resection.
+1. 34M presents with slowly expanding painless lower jaw swelling.
+2. No pain, numbness, or history of trauma/dental pathology.
+3. Firm buccal cortical expansion in posterior mandible with facial asymmetry.
+4. No cervical lymphadenopathy; overlying mucosa appears normal.
+5. Panorex shows multilocular soap bubble radiolucency causing root resorption.
+6. Biopsy shows odontogenic epithelium with reverse polarity; requires wide resection.
 
 TEACHING_POINTS:
-- Ameloblastoma is the most common odontogenic tumor and is locally aggressive with high recurrence if not widely excised.
-- It classically presents as a multilocular soap bubble or honeycomb radiolucency in the posterior mandible.
-- Histology shows ameloblast-like cells with peripheral palisading and nuclear reverse polarity.
+- Most common odontogenic tumor; locally aggressive with high recurrence.
+- Histology shows peripheral palisading and nuclear reverse polarity.
+==================================================
+
+CASE_ID: 006
+DIFFICULTY: dental
+SYSTEM: endodontics
+
+DIAGNOSIS:
+Reversible Pulpitis
+
+ALIASES:
+pulp hyperemia
+
+VIGNETTE_LINES:
+1. 24M presents with brief, sharp pain to cold drinks.
+2. Pain started after a recent composite filling was placed.
+3. No spontaneous pain and no lingering pain after cold is removed.
+4. Tooth is not sensitive to percussion or palpation.
+5. Radiographs show a restoration but normal periapical tissues.
+6. Cold test positive but does not linger; occlusion is adjusted.
+
+TEACHING_POINTS:
+- Pain subsides immediately upon removal of stimulus.
+- Usually caused by recent dental work or shallow caries.
+==================================================
+
+CASE_ID: 007
+DIFFICULTY: dental
+SYSTEM: endodontics
+
+DIAGNOSIS:
+Pulpal Necrosis
+
+ALIASES:
+necrotic pulp
+dead tooth
+
+VIGNETTE_LINES:
+1. 40M presents for routine exam with a discolored maxillary central incisor.
+2. History of trauma to the face 10 years ago.
+3. Tooth is dark grey and asymptomatic.
+4. No sensitivity to percussion or palpation.
+5. Radiographs show an intact lamina dura and normal periapex.
+6. No response to cold or electric pulp testing; requires root canal.
+
+TEACHING_POINTS:
+- Lack of response to thermal/electric tests indicates pulpal death.
+- Tooth discoloration often follows trauma due to pulpal hemorrhage.
+==================================================
+
+CASE_ID: 008
+DIFFICULTY: dental
+SYSTEM: endodontics
+
+DIAGNOSIS:
+Symptomatic Apical Periodontitis
+
+ALIASES:
+acute apical periodontitis
+
+VIGNETTE_LINES:
+1. 29F complains of severe pain when chewing on her lower right molar.
+2. Tooth had a deep cavity filled recently.
+3. Exquisitely tender to percussion and biting pressure.
+4. Tooth does not respond to cold testing.
+5. Radiograph shows widening of the apical periodontal ligament space.
+6. Diagnosis confirmed by percussion sensitivity; root canal therapy initiated.
+
+TEACHING_POINTS:
+- Indicates inflammation has spread to the periapical tissues.
+- Extreme percussion sensitivity is the hallmark symptom.
+==================================================
+
+CASE_ID: 009
+DIFFICULTY: dental
+SYSTEM: endodontics
+
+DIAGNOSIS:
+Asymptomatic Apical Periodontitis
+
+ALIASES:
+chronic apical periodontitis
+apical granuloma
+
+VIGNETTE_LINES:
+1. 55M presents for a routine check-up with no complaints.
+2. Has a heavily restored maxillary first molar.
+3. Tooth is completely asymptomatic and negative to percussion.
+4. No response to cold or electric pulp testing.
+5. Radiograph reveals a well-defined periapical radiolucency.
+6. Necrotic pulp confirmed; root canal treatment scheduled.
+
+TEACHING_POINTS:
+- Asymptomatic presentation despite periapical bone destruction.
+- Must differentiate from cysts via histology, but radiographically similar.
+==================================================
+
+CASE_ID: 010
+DIFFICULTY: dental
+SYSTEM: endodontics
+
+DIAGNOSIS:
+Acute Apical Abscess
+
+ALIASES:
+dental abscess
+
+VIGNETTE_LINES:
+1. 33M presents with rapid onset of severe pain and facial swelling.
+2. Reports extreme pain on biting and a low-grade fever.
+3. Fluctuant vestibular swelling adjacent to a badly decayed premolar.
+4. Tooth is highly mobile and exquisitely tender to percussion.
+5. Radiograph may show a widened PDL or a distinct periapical radiolucency.
+6. Incision and drainage performed alongside root canal therapy.
+
+TEACHING_POINTS:
+- Characterized by rapid onset, spontaneous pain, and purulent exudate.
+- Systemic signs like fever or lymphadenopathy indicate need for antibiotics.
+==================================================
+
+CASE_ID: 011
+DIFFICULTY: dental
+SYSTEM: endodontics
+
+DIAGNOSIS:
+Chronic Apical Abscess
+
+ALIASES:
+suppurative apical periodontitis
+
+VIGNETTE_LINES:
+1. 45F notices a small bump on her gums that occasionally drains a bad-tasting fluid.
+2. Tooth is largely asymptomatic.
+3. A draining sinus tract (parulis) is present on the buccal mucosa.
+4. Tooth is non-vital to thermal testing.
+5. Radiograph shows a periapical radiolucency.
+6. Gutta-percha traced through the sinus tract points to the offending root.
+
+TEACHING_POINTS:
+- Draining sinus tract provides a pressure release, preventing acute pain.
+- Tracing the tract with gutta-percha identifies the source of infection.
+==================================================
+
+CASE_ID: 012
+DIFFICULTY: dental
+SYSTEM: periodontics
+
+DIAGNOSIS:
+Plaque-Induced Gingivitis
+
+ALIASES:
+gingivitis
+
+VIGNETTE_LINES:
+1. 18F complains that her gums bleed when she brushes.
+2. Admits to irregular flossing and brushing.
+3. Gums are red, swollen, and bleed easily upon probing.
+4. No pain or tooth mobility.
+5. Radiographs show intact alveolar bone crests with no bone loss.
+6. Oral hygiene instruction and professional prophylaxis resolve symptoms.
+
+TEACHING_POINTS:
+- Reversible inflammation confined to the gingiva.
+- No clinical attachment loss or radiographic bone loss occurs.
+==================================================
+
+CASE_ID: 013
+DIFFICULTY: dental
+SYSTEM: periodontics
+
+DIAGNOSIS:
+Drug-Induced Gingival Overgrowth
+
+ALIASES:
+gingival hyperplasia
+
+VIGNETTE_LINES:
+1. 60M presents with massive, firm overgrowth of his gums.
+2. Taking amlodipine for hypertension and phenytoin for seizures.
+3. Fibrotic, pale pink gingival tissue covering the crowns of several teeth.
+4. No significant bleeding on probing unless secondary inflammation is present.
+5. Radiographs show normal bone levels.
+6. Physician consulted to switch medications; gingivectomy planned.
+
+TEACHING_POINTS:
+- Commonly caused by Phenytoin, Calcium Channel Blockers, and Cyclosporine.
+- Plaque control is essential to minimize the inflammatory component.
+==================================================
+
+CASE_ID: 014
+DIFFICULTY: dental
+SYSTEM: periodontics
+
+DIAGNOSIS:
+Localized Aggressive Periodontitis
+
+ALIASES:
+Stage III Grade C Periodontitis
+juvenile periodontitis
+
+VIGNETTE_LINES:
+1. 15M presents with loose front teeth but no pain.
+2. Otherwise healthy with excellent oral hygiene.
+3. Deep periodontal pockets limited to first molars and incisors.
+4. Minimal plaque and calculus deposits observed.
+5. Radiographs show vertical bone loss around incisors and first molars.
+6. Aggressive mechanical debridement and systemic antibiotics (amoxicillin + metronidazole) initiated.
+
+TEACHING_POINTS:
+- Classically affects adolescents with minimal plaque present.
+- Often associated with Aggregatibacter actinomycetemcomitans (Aa).
+==================================================
+
+CASE_ID: 015
+DIFFICULTY: dental
+SYSTEM: periodontics
+
+DIAGNOSIS:
+Chronic Periodontitis
+
+ALIASES:
+Stage III Grade B Periodontitis
+
+VIGNETTE_LINES:
+1. 55M complains of loose teeth and bad breath.
+2. Smokes 1 pack of cigarettes a day.
+3. Heavy subgingival calculus, deep pockets, and bleeding on probing.
+4. Multiple teeth exhibit class II mobility.
+5. Radiographs reveal generalized horizontal bone loss of 30-50%.
+6. Scaling and root planing performed with long-term maintenance scheduled.
+
+TEACHING_POINTS:
+- Characterized by irreversible clinical attachment loss and bone destruction.
+- Smoking is a major risk factor and masks bleeding on probing.
+==================================================
+
+CASE_ID: 016
+DIFFICULTY: dental
+SYSTEM: periodontics
+
+DIAGNOSIS:
+Periodontal Abscess
+
+ALIASES:
+lateral periodontal abscess
+
+VIGNETTE_LINES:
+1. 48M presents with sudden, deep, throbbing pain in his gums.
+2. History of untreated chronic periodontitis.
+3. Localized, red, fluctuant, ovoid swelling on the lateral aspect of a root.
+4. Tooth is vital but tender to lateral percussion.
+5. Radiograph shows bone loss on the lateral aspect of the root.
+6. Incision, drainage, and deep scaling resolve the acute phase.
+
+TEACHING_POINTS:
+- Often occurs when a deep periodontal pocket becomes occluded.
+- Tooth is usually vital, distinguishing it from an endodontic abscess.
+==================================================
+
+CASE_ID: 017
+DIFFICULTY: dental
+SYSTEM: periodontics
+
+DIAGNOSIS:
+Primary Herpetic Gingivostomatitis
+
+ALIASES:
+HSV-1 primary infection
+
+VIGNETTE_LINES:
+1. 4-year-old boy presents with refusal to eat, drooling, and fever.
+2. Mother reports he has been irritable for three days.
+3. Multiple painful vesicles and ulcers on the gingiva, tongue, and lips.
+4. Gingiva is intensely red and swollen (fiery red gingiva).
+5. No radiographs needed; clinical diagnosis.
+6. Supportive care, hydration, and analgesics recommended; resolves in 10-14 days.
+
+TEACHING_POINTS:
+- Initial infection with HSV-1, usually in children.
+- Presents with systemic signs (fever, malaise) unlike recurrent herpes.
+==================================================
+
+CASE_ID: 018
+DIFFICULTY: dental
+SYSTEM: periodontics
+
+DIAGNOSIS:
+Peri-implantitis
+
+ALIASES:
+implant disease
+
+VIGNETTE_LINES:
+1. 60F complains of bleeding around her dental implant.
+2. Implant was placed 5 years ago.
+3. Deep probing depths with bleeding and suppuration around the fixture.
+4. Implant itself is not mobile.
+5. Radiographs demonstrate crater-like crestal bone loss around the implant threads.
+6. Surgical debridement and surface decontamination performed.
+
+TEACHING_POINTS:
+- Analogous to periodontitis but affects dental implants.
+- Progression is often faster than periodontitis due to lack of PDL.
+==================================================
+
+CASE_ID: 019
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Alveolar Osteitis
+
+ALIASES:
+dry socket
+
+VIGNETTE_LINES:
+1. 25F presents with severe, radiating pain 3 days after a tooth extraction.
+2. Pain is not relieved by over-the-counter analgesics.
+3. Extraction site lacks a blood clot, exposing bare alveolar bone.
+4. Foul odor and taste are present, but no swelling or pus.
+5. Radiograph confirms complete removal of the tooth with no retained roots.
+6. Site irrigated gently and packed with an eugenol-based dressing.
+
+TEACHING_POINTS:
+- Caused by premature lysis of the blood clot.
+- Smoking and oral contraceptives increase the risk significantly.
+==================================================
+
+CASE_ID: 020
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Mandibular Angle Fracture
+
+ALIASES:
+jaw fracture
+
+VIGNETTE_LINES:
+1. 22M presents with malocclusion and jaw pain after a bar fight.
+2. Reports his bite feels off.
+3. Intraoral exam shows a step defect in the occlusion behind the last molar.
+4. Numbness of the lower lip on the affected side.
+5. Panorex reveals a radiolucent line traversing the mandibular angle.
+6. Treated with open reduction and internal fixation (ORIF).
+
+TEACHING_POINTS:
+- Angle is a weak point, especially if a third molar is present.
+- Inferior alveolar nerve injury is common, causing lip paresthesia.
+==================================================
+
+CASE_ID: 021
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Le Fort I Fracture
+
+ALIASES:
+floating palate
+Guerin fracture
+
+VIGNETTE_LINES:
+1. 30M presents with midface trauma following a car accident.
+2. Complains his upper teeth don't fit together right.
+3. Grasping the anterior maxillary teeth demonstrates mobility of the entire maxilla.
+4. Nasal bridge and zygomas remain stable during manipulation.
+5. CT shows a horizontal fracture above the apices of the maxillary teeth.
+6. Maxillomandibular fixation and plate osteosynthesis performed.
+
+TEACHING_POINTS:
+- Separates the palate from the rest of the facial skeleton.
+- Often results in an anterior open bite.
+==================================================
+
+CASE_ID: 022
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Zygomaticomaxillary Complex Fracture
+
+ALIASES:
+ZMC fracture
+tripod fracture
+
+VIGNETTE_LINES:
+1. 40M struck in the cheek with a baseball.
+2. Presents with flattening of the cheek prominence.
+3. Exam shows subconjunctival hemorrhage, epistaxis, and limited jaw opening.
+4. Paresthesia of the ipsilateral cheek and upper lip.
+5. CT shows fractures at the frontozygomatic, zygomaticomaxillary, and zygomaticotemporal sutures.
+6. Surgical exploration and rigid fixation indicated.
+
+TEACHING_POINTS:
+- Formerly known as a tripod fracture (actually involves 4 articulations).
+- Infraorbital nerve damage causes characteristic midface numbness.
+==================================================
+
+CASE_ID: 023
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Medication-Related Osteonecrosis of the Jaw
+
+ALIASES:
+MRONJ
+BRONJ
+
+VIGNETTE_LINES:
+1. 68F presents with exposed, necrotic bone in the mandible.
+2. Patient takes IV zoledronic acid for breast cancer bone metastases.
+3. Exposed bone has been present for 10 weeks following a tooth extraction.
+4. No history of radiation therapy to the head and neck.
+5. Radiograph shows mottled bone with poor healing.
+6. Managed conservatively with chlorhexidine rinses and systemic antibiotics.
+
+TEACHING_POINTS:
+- Associated with bisphosphonates and anti-angiogenic medications.
+- Invasive dental procedures (extractions) are the primary trigger.
+==================================================
+
+CASE_ID: 024
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Ludwig's Angina
+
+ALIASES:
+submandibular space infection
+
+VIGNETTE_LINES:
+1. 45M presents with massive swelling of the floor of the mouth and neck.
+2. History of an untreated infected lower second molar.
+3. Bilateral board-like swelling, elevated tongue, and drooling.
+4. Patient is febrile and shows signs of airway distress.
+5. CT confirms bilateral involvement of submandibular, sublingual, and submental spaces.
+6. Immediate airway management and IV antibiotics required.
+
+TEACHING_POINTS:
+- A life-threatening, rapidly spreading bilateral cellulitis.
+- Always involves all three submandibular fascial spaces bilaterally.
+==================================================
+
+CASE_ID: 025
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+TMJ Anterior Disc Displacement with Reduction
+
+ALIASES:
+clicking jaw
+
+VIGNETTE_LINES:
+1. 25F complains of a clicking sound when chewing.
+2. No significant pain, but the noise is bothersome.
+3. A distinct click is felt and heard over the TMJ upon opening.
+4. A softer reciprocal click is heard upon closing.
+5. MRI would show the articular disc anteriorly displaced at rest.
+6. Reassurance and a soft diet recommended as it is largely asymptomatic.
+
+TEACHING_POINTS:
+- The click upon opening occurs when the condyle recaptures the disc.
+- Very common and often requires no surgical intervention.
+==================================================
+
+CASE_ID: 026
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+TMJ Anterior Disc Displacement without Reduction
+
+ALIASES:
+closed lock
+
+VIGNETTE_LINES:
+1. 30F presents with sudden inability to open her mouth fully.
+2. Reports a history of jaw clicking that suddenly stopped yesterday.
+3. Maximum interincisal opening is limited to 25 mm.
+4. Mandible deflects to the affected side upon opening.
+5. MRI confirms the articular disc is displaced anteriorly and does not reduce.
+6. Treated with NSAIDs, physical therapy, and possible arthrocentesis.
+
+TEACHING_POINTS:
+- The disc physically blocks condylar translation.
+- Characterized by an abrupt loss of the clicking sound and restricted opening.
+==================================================
+
+CASE_ID: 027
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Trigeminal Neuralgia
+
+ALIASES:
+tic douloureux
+
+VIGNETTE_LINES:
+1. 60M presents with severe, sharp, electric shock-like facial pain.
+2. Episodes last seconds to minutes and are triggered by light touch.
+3. Washing his face or shaving triggers the spasms.
+4. Intraoral and extraoral exams show no anatomical abnormalities.
+5. Radiographs are completely clear of dental pathology.
+6. Prescribed carbamazepine with excellent initial response.
+
+TEACHING_POINTS:
+- Classic unilateral, lancinating pain following a trigeminal nerve branch.
+- Often confused with dental pain, leading to unnecessary root canals.
+==================================================
+
+CASE_ID: 028
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Odontogenic Keratocyst
+
+ALIASES:
+OKC
+
+VIGNETTE_LINES:
+1. 25M presents with mild posterior mandibular swelling.
+2. He has no pain or paresthesia, and the swelling grew slowly.
+3. Exam reveals expansion of the ascending ramus with normal mucosa.
+4. Teeth in the area test vital.
+5. Panorex shows a multilocular radiolucency extending anteroposteriorly without huge expansion.
+6. Biopsy reveals a corrugated parakeratinized epithelial lining with palisaded basal layer.
+
+TEACHING_POINTS:
+- High recurrence rate due to friable linings and satellite cysts.
+- Multiple OKCs are classically associated with Gorlin syndrome.
+==================================================
+
+CASE_ID: 029
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Dentigerous Cyst
+
+ALIASES:
+follicular cyst
+
+VIGNETTE_LINES:
+1. 16M presents for a routine check-up.
+2. Missing his lower right second premolar clinically.
+3. No pain or swelling in the area.
+4. Adjacent teeth are vital.
+5. Panorex reveals a well-circumscribed unilocular radiolucency surrounding the crown of an impacted premolar.
+6. Cyst enucleated along with extraction of the impacted tooth.
+
+TEACHING_POINTS:
+- Always surrounds the crown of an unerupted tooth.
+- Attaches precisely at the cementoenamel junction (CEJ).
+==================================================
+
+CASE_ID: 030
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Odontoma
+
+ALIASES:
+compound odontoma
+complex odontoma
+
+VIGNETTE_LINES:
+1. 14F is evaluated for a retained deciduous incisor.
+2. The permanent central incisor has failed to erupt.
+3. A hard, painless swelling is palpated labially.
+4. Overlying gingiva is healthy.
+5. Radiograph shows a radiopaque mass of miniature tooth-like structures.
+6. Surgical excision allows for the eruption of the permanent tooth.
+
+TEACHING_POINTS:
+- Considered a hamartoma rather than a true neoplasm.
+- Compound type looks like multiple tiny teeth; complex is an irregular mass.
+==================================================
+
+CASE_ID: 031
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Central Giant Cell Granuloma
+
+ALIASES:
+CGCG
+
+VIGNETTE_LINES:
+1. 20F presents with a painless expansion of her anterior mandible.
+2. Noticed the swelling slowly increasing over 6 months.
+3. Firm, non-tender expansion crossing the midline.
+4. Teeth in the area remain vital.
+5. Panorex shows a multilocular radiolucency crossing the midline.
+6. Histology shows multinucleated giant cells; treated with curettage.
+
+TEACHING_POINTS:
+- Predominantly affects young females in the anterior jaws.
+- Must rule out hyperparathyroidism (Brown tumor) with serum calcium tests.
+==================================================
+
+CASE_ID: 032
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Odontogenic Myxoma
+
+ALIASES:
+myxoma
+
+VIGNETTE_LINES:
+1. 30F presents with a slow-growing painless jaw expansion.
+2. No history of facial trauma or infection.
+3. Bony hard swelling in the posterior mandible.
+4. Aspiration yields no fluid.
+5. Radiograph shows a multilocular, honeycombed radiolucency with straight, wispy septa (tennis racket pattern).
+6. Surgical resection performed due to loose, gelatinous consistency.
+
+TEACHING_POINTS:
+- Arises from odontogenic ectomesenchyme.
+- Gross specimen resembles a slimy, gelatinous mass, making complete removal difficult.
+==================================================
+
+CASE_ID: 033
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Lateral Periodontal Cyst
+
+ALIASES:
+LPC
+
+VIGNETTE_LINES:
+1. 50M presents for a routine exam.
+2. No clinical symptoms or swellings.
+3. Gingiva appears perfectly healthy.
+4. The adjacent premolars are fully vital.
+5. Radiograph shows a teardrop-shaped radiolucency between the roots of the mandibular premolars.
+6. Enucleation is curative; histology shows thin epithelial lining with focal thickenings.
+
+TEACHING_POINTS:
+- Must confirm adjacent teeth are vital to rule out a lateral radicular cyst.
+- A developmental cyst, most common in the mandibular premolar region.
+==================================================
+
+CASE_ID: 034
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Adenomatoid Odontogenic Tumor
+
+ALIASES:
+AOT
+
+VIGNETTE_LINES:
+1. 15F presents with an unerupted maxillary canine.
+2. Notices a slight painless swelling in the front of her upper jaw.
+3. Firm, non-tender expansion over the canine eminence.
+4. No lymphadenopathy.
+5. Radiograph shows a unilocular radiolucency containing fine snowflake calcifications surrounding an impacted canine.
+6. Enucleation is curative and recurrence is extremely rare.
+
+TEACHING_POINTS:
+- Often called the 'two-thirds tumor' (2/3 females, 2/3 maxilla, 2/3 anterior).
+- Extends past the CEJ, differentiating it from a dentigerous cyst radiographically.
+==================================================
+
+CASE_ID: 035
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Calcifying Odontogenic Cyst
+
+ALIASES:
+Gorlin Cyst
+
+VIGNETTE_LINES:
+1. 35M presents with a localized swelling in the anterior maxilla.
+2. Patient reports the area feels solid and is painless.
+3. Slight cortical expansion palpable.
+4. Adjacent teeth are vital.
+5. Radiograph shows a well-defined radiolucency with scattered radiopaque flecks.
+6. Biopsy reveals 'ghost cells' (epithelial cells lacking nuclei); enucleated.
+
+TEACHING_POINTS:
+- Characterized histologically by the presence of ghost cells.
+- Can be associated with odontomas.
+==================================================
+
+CASE_ID: 036
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Cementoblastoma
+
+ALIASES:
+true cementoma
+
+VIGNETTE_LINES:
+1. 22M presents with pain and swelling in the posterior mandible.
+2. Pain is relieved by NSAIDs.
+3. Expansion of the buccal and lingual cortex around the first molar.
+4. Tooth remains perfectly vital.
+5. Radiograph shows a radiopaque mass fused to the roots, surrounded by a thin radiolucent halo.
+6. Extraction of the tooth and attached tumor is required.
+
+TEACHING_POINTS:
+- A benign neoplasm of cementoblasts.
+- Pathognomonic feature is fusion to the root of a vital tooth.
+==================================================
+
+CASE_ID: 037
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Pleomorphic Adenoma
+
+ALIASES:
+benign mixed tumor
+
+VIGNETTE_LINES:
+1. 45F presents with a firm, painless swelling on her palate.
+2. Swelling has been slowly growing for years.
+3. A dome-shaped mass on the posterior lateral hard palate.
+4. Mucosa is intact and normal in color.
+5. CT shows a well-circumscribed soft tissue mass without bone invasion.
+6. Excisional biopsy shows a mixture of glandular epithelium and myxochondroid tissue.
+
+TEACHING_POINTS:
+- The most common salivary gland tumor.
+- Palate is the most common intraoral site; parotid is the most common extraoral site.
+==================================================
+
+CASE_ID: 038
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Mucoepidermoid Carcinoma
+
+ALIASES:
+MEC
+
+VIGNETTE_LINES:
+1. 50F presents with an asymptomatic bluish swelling on her palate.
+2. Initially thought it was a mucocele, but it hasn't popped.
+3. Firm, fixed mass on the posterior hard palate.
+4. No ulceration or bleeding.
+5. Incisional biopsy is required due to suspicion of malignancy.
+6. Histology shows mucous cells and epidermoid cells; wide resection performed.
+
+TEACHING_POINTS:
+- Most common malignant salivary gland tumor.
+- Can mimic a benign mucocele clinically but occurs in an unusual location (palate).
+==================================================
+
+CASE_ID: 039
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Warthin Tumor
+
+ALIASES:
+Papillary cystadenoma lymphomatosum
+
+VIGNETTE_LINES:
+1. 60M presents with a doughy mass at the angle of the mandible.
+2. Patient is a heavy smoker.
+3. Mass is painless, fluctuant, and located in the tail of the parotid gland.
+4. Bilateral involvement is noted upon further exam.
+5. Ultrasound reveals a cystic mass.
+6. Excision confirms papillary folds of epithelium with a lymphoid stroma.
+
+TEACHING_POINTS:
+- Second most common benign parotid tumor.
+- Strongly associated with smoking and often occurs bilaterally.
+==================================================
+
+CASE_ID: 040
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Squamous Cell Carcinoma
+
+ALIASES:
+SCC
+oral cancer
+
+VIGNETTE_LINES:
+1. 65M presents with a non-healing ulcer on the lateral border of his tongue.
+2. Patient has a 40-pack-year smoking history and drinks heavily.
+3. Firm, indurated ulcer with rolled margins that has been present for 2 months.
+4. Fixed, hard cervical lymph nodes palpated.
+5. Radiographs may show 'moth-eaten' bone destruction if advanced.
+6. Biopsy confirms invasive epithelial islands with keratin pearls.
+
+TEACHING_POINTS:
+- Accounts for 90% of oral malignancies.
+- Lateral tongue and floor of mouth are the highest risk sites.
+==================================================
+
+CASE_ID: 041
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Melanoma
+
+ALIASES:
+malignant melanoma
+
+VIGNETTE_LINES:
+1. 55M presents with a rapidly growing dark spot on his palate.
+2. Reports the spot was flat but is now raised and bleeding.
+3. Asymmetrical, darkly pigmented macule with irregular borders.
+4. Lesion exhibits color variation (brown, black, blue).
+5. No systemic symptoms yet.
+6. Incisional biopsy shows atypical melanocytes invading the connective tissue.
+
+TEACHING_POINTS:
+- Oral melanomas have a much worse prognosis than cutaneous ones.
+- Hard palate and maxillary gingiva are the most common intraoral sites.
+==================================================
+
+CASE_ID: 042
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Lichen Planus
+
+ALIASES:
+reticular lichen planus
+
+VIGNETTE_LINES:
+1. 50F presents with a burning sensation in her cheeks when eating spicy food.
+2. Otherwise healthy, no new medications.
+3. Bilateral buccal mucosa exhibits interlacing white lines.
+4. No ulcers or vesicles present.
+5. Clinical appearance is classic, but biopsy can confirm.
+6. Biopsy shows hyperkeratosis with a dense, band-like lymphocytic infiltrate; managed with topical steroids.
+
+TEACHING_POINTS:
+- White lines are called Wickham striae.
+- A T-cell mediated autoimmune disease; reticular form is most common.
+==================================================
+
+CASE_ID: 043
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Pemphigus Vulgaris
+
+ALIASES:
+PV
+
+VIGNETTE_LINES:
+1. 45F presents with severe mouth sores and painful swallowing.
+2. Noticed large blisters that pop immediately.
+3. Extensive, ragged, irregular ulcers on the buccal mucosa and palate.
+4. Positive Nikolsky sign (rubbing mucosa induces a blister).
+5. Direct immunofluorescence shows intercellular IgG deposits.
+6. Requires systemic corticosteroids or immunosuppressants.
+
+TEACHING_POINTS:
+- Autoantibodies attack desmoglein 3, destroying desmosomes.
+- Potentially fatal if untreated; intraoral lesions often precede skin lesions.
+==================================================
+
+CASE_ID: 044
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Mucous Membrane Pemphigoid
+
+ALIASES:
+MMP
+cicatricial pemphigoid
+
+VIGNETTE_LINES:
+1. 60F complains of red, peeling, painful gums.
+2. Eye doctor recently noted conjunctival scarring.
+3. Generalized fiery red, desquamative gingivitis.
+4. Intact vesicles are visible because they are subepithelial.
+5. Direct immunofluorescence shows a linear band of IgG at the basement membrane.
+6. Ophthalmology referral is critical to prevent blindness.
+
+TEACHING_POINTS:
+- Autoantibodies attack hemidesmosomes, causing subepithelial split.
+- Heals with scarring (cicatricial), which can cause blindness if in the eye.
+==================================================
+
+CASE_ID: 045
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Aphthous Stomatitis
+
+ALIASES:
+canker sores
+minor aphthae
+
+VIGNETTE_LINES:
+1. 20F presents with a painful ulcer on her inner lip.
+2. States she gets these a few times a year, especially during exams.
+3. A 5mm round ulcer with a yellow-gray pseudomembrane and red halo.
+4. Located exclusively on movable, non-keratinized mucosa.
+5. No fever or lymphadenopathy.
+6. Heals spontaneously in 7-10 days; topical anesthetics provided.
+
+TEACHING_POINTS:
+- Never occurs on attached gingiva or hard palate (unlike herpes).
+- Pathogenesis involves a localized T-cell mediated immune dysfunction.
+==================================================
+
+CASE_ID: 046
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Erythema Multiforme
+
+ALIASES:
+EM
+
+VIGNETTE_LINES:
+1. 25M presents with sudden onset of explosive mouth sores and skin rash.
+2. Recently started antibiotics for a respiratory infection.
+3. Hemorrhagic crusting of the lips and large, irregular oral ulcers.
+4. Target (bullseye) lesions observed on the palms of his hands.
+5. Patient has a mild fever.
+6. Self-limiting condition; treated with palliative care and systemic steroids.
+
+TEACHING_POINTS:
+- Classic 'target' skin lesions and bloody, crusted lips.
+- Often triggered by an HSV infection or medication (antibiotics).
+==================================================
+
+CASE_ID: 047
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Leukoplakia
+
+ALIASES:
+idiopathic leukoplakia
+
+VIGNETTE_LINES:
+1. 60M presents for a routine exam.
+2. Patient uses smokeless tobacco daily.
+3. A thick, white, corrugated plaque on the mandibular vestibule.
+4. Lesion cannot be wiped off.
+5. Incisional biopsy is required to rule out dysplasia.
+6. Biopsy shows hyperkeratosis with mild dysplasia; patient advised to quit tobacco.
+
+TEACHING_POINTS:
+- A clinical term strictly meaning a white patch that cannot be wiped off.
+- Considered a premalignant lesion; must be biopsied to assess for dysplasia.
+==================================================
+
+CASE_ID: 048
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Erythroplakia
+
+ALIASES:
+erythroplasia
+
+VIGNETTE_LINES:
+1. 65M with a history of alcohol abuse presents for an exam.
+2. Has a velvety red patch on the floor of his mouth.
+3. Lesion is well-demarcated, painless, and flat.
+4. Cannot be attributed to trauma or inflammation.
+5. Biopsy urgently indicated.
+6. Biopsy reveals severe dysplasia/carcinoma in situ.
+
+TEACHING_POINTS:
+- A red patch that cannot be clinically diagnosed as anything else.
+- Much higher risk of malignant transformation than leukoplakia (often already severe dysplasia).
+==================================================
+
+CASE_ID: 049
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Herpes Zoster
+
+ALIASES:
+shingles
+
+VIGNETTE_LINES:
+1. 70M presents with unilateral severe burning facial pain.
+2. Reports the pain started before the rash appeared.
+3. Unilateral vesicular eruption following the V3 nerve distribution, stopping strictly at the midline.
+4. Oral vesicles rapidly ulcerate.
+5. Clinical presentation is diagnostic.
+6. Acyclovir prescribed within 72 hours of onset.
+
+TEACHING_POINTS:
+- Caused by reactivation of the Varicella-Zoster Virus.
+- Pain can persist for months (post-herpetic neuralgia).
+==================================================
+
+CASE_ID: 050
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Hand-Foot-Mouth Disease
+
+ALIASES:
+Coxsackievirus A16
+
+VIGNETTE_LINES:
+1. 5-year-old girl presents with sore mouth and mild fever.
+2. Daycare reports an outbreak of similar symptoms.
+3. Multiple small vesicles and ulcers on the soft palate, tongue, and buccal mucosa.
+4. Maculopapular rash on the palms of hands and soles of feet.
+5. No imaging indicated.
+6. Self-limiting; supportive care and hydration advised.
+
+TEACHING_POINTS:
+- Caused by Coxsackievirus A16.
+- Presents with characteristic lesions on hands, feet, and mouth.
+==================================================
+
+CASE_ID: 051
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Measles
+
+ALIASES:
+Rubeola
+
+VIGNETTE_LINES:
+1. 6-year-old unvaccinated boy presents with cough, coryza, and conjunctivitis.
+2. Mother noted high fever.
+3. Multiple tiny bluish-white spots on an erythematous base on the buccal mucosa.
+4. Spots resemble 'grains of salt'.
+5. Skin rash begins days later on the face and spreads down.
+6. Public health notified; supportive care.
+
+TEACHING_POINTS:
+- Intraoral lesions are called Koplik spots.
+- Koplik spots are pathognomonic and precede the skin rash.
+==================================================
+
+CASE_ID: 052
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Syphilis
+
+ALIASES:
+primary chancre
+
+VIGNETTE_LINES:
+1. 30M presents with a painless ulcer on his lip.
+2. Reports unprotected sexual encounters.
+3. A firm, indurated, raised, painless ulceration.
+4. Regional lymphadenopathy is present.
+5. Dark-field microscopy shows Treponema pallidum.
+6. Treated with IM Penicillin G.
+
+TEACHING_POINTS:
+- The primary lesion of syphilis is a painless chancre.
+- Highly contagious at this stage.
+==================================================
+
+CASE_ID: 053
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Mucocele
+
+ALIASES:
+mucus extravasation phenomenon
+
+VIGNETTE_LINES:
+1. 15M presents with a fluctuating bluish swelling on his lower lip.
+2. States he has a habit of biting his lip.
+3. A smooth, dome-shaped, translucent bluish nodule.
+4. Mass changes in size and occasionally ruptures.
+5. Radiographs are negative.
+6. Excised along with the adjacent minor salivary glands to prevent recurrence.
+
+TEACHING_POINTS:
+- Caused by the traumatic severance of a salivary gland duct.
+- Lower lip is the most common site; upper lip is rare.
+==================================================
+
+CASE_ID: 054
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Ranula
+
+ALIASES:
+floor of mouth mucocele
+
+VIGNETTE_LINES:
+1. 22F presents with a large bluish swelling under her tongue.
+2. Interferes with speech and swallowing.
+3. A fluctuant, dome-shaped swelling on the floor of the mouth.
+4. Resembles the belly of a frog.
+5. No calcifications seen on occlusal radiographs.
+6. Treated with marsupialization or excision of the sublingual gland.
+
+TEACHING_POINTS:
+- A large mucocele specifically located on the floor of the mouth.
+- Usually involves the sublingual salivary gland.
+==================================================
+
+CASE_ID: 055
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Sialolithiasis
+
+ALIASES:
+salivary stone
+
+VIGNETTE_LINES:
+1. 40M presents with severe pain and swelling under his jaw.
+2. Symptoms rapidly worsen exactly at meal times.
+3. Palpable hard mass in the floor of the mouth along Wharton's duct.
+4. Reduced salivary flow from the submandibular duct.
+5. Occlusal radiograph shows a radiopaque mass in the floor of the mouth.
+6. Stone milked out manually or removed surgically.
+
+TEACHING_POINTS:
+- Calcified structure within a salivary duct.
+- Most common in the submandibular gland due to the long, tortuous, upward duct path.
+==================================================
+
+CASE_ID: 056
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Early Childhood Caries
+
+ALIASES:
+baby bottle tooth decay
+
+VIGNETTE_LINES:
+1. 3-year-old boy presents with severe decay of his front teeth.
+2. Mother admits he falls asleep with a bottle of apple juice.
+3. Rampant caries affecting the maxillary incisors and primary molars.
+4. The mandibular incisors are completely unaffected.
+5. Radiographs show deep decay nearing the pulps.
+6. Requires multiple extractions and stainless steel crowns under sedation.
+
+TEACHING_POINTS:
+- Caused by prolonged exposure to fermentable carbohydrates.
+- Mandibular incisors are protected by the tongue during suckling.
+==================================================
+
+CASE_ID: 057
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Dentinogenesis Imperfecta
+
+ALIASES:
+DI
+hereditary opalescent dentin
+
+VIGNETTE_LINES:
+1. 8-year-old girl presents with discolored teeth.
+2. Father has the same condition.
+3. Teeth have a blue-brown, opalescent hue.
+4. Enamel chips away easily from the underlying dentin.
+5. Radiographs show bulbous crowns, cervical constriction, and completely obliterated pulp chambers.
+6. Protected with full coverage crowns to prevent severe attrition.
+
+TEACHING_POINTS:
+- An autosomal dominant disorder affecting dentin formation.
+- Classic radiographic triad: bulbous crowns, obliterated pulps, cervical constriction.
+==================================================
+
+CASE_ID: 058
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Amelogenesis Imperfecta
+
+ALIASES:
+AI
+
+VIGNETTE_LINES:
+1. 12-year-old boy presents with extremely sensitive, yellow teeth.
+2. Family history of similar dental issues.
+3. Teeth are yellow-brown because the underlying dentin is showing through.
+4. The enamel layer is extremely thin and pitted.
+5. Radiographs show teeth with thin, radiolucent, or essentially absent enamel.
+6. Treated with full-mouth rehabilitation for aesthetics and function.
+
+TEACHING_POINTS:
+- A group of hereditary conditions affecting enamel formation.
+- Dentin and pulps appear radiographically normal, distinguishing it from DI.
+==================================================
+
+CASE_ID: 059
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Cleidocranial Dysplasia
+
+ALIASES:
+CCD
+
+VIGNETTE_LINES:
+1. 15-year-old boy presents with multiple retained baby teeth.
+2. He can remarkably bring his shoulders together in front of his chest.
+3. Narrow palate and multiple retained deciduous teeth.
+4. Frontal bossing and a depressed nasal bridge.
+5. Panorex reveals dozens of unerupted supernumerary teeth and absent clavicles.
+6. Requires complex multidisciplinary ortho/surgical treatment.
+
+TEACHING_POINTS:
+- Autosomal dominant condition affecting bone and tooth development.
+- Characterized by hypoplastic clavicles and supernumerary teeth.
+==================================================
+
+CASE_ID: 060
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Ectodermal Dysplasia
+
+ALIASES:
+ED
+
+VIGNETTE_LINES:
+1. 6-year-old boy presents missing most of his teeth.
+2. Mother reports he does not sweat and overheats easily.
+3. Sparse hair, missing eyebrows, and a saddle nose deformity.
+4. Only a few conical, peg-shaped teeth are present in the mouth.
+5. Radiographs confirm true anodontia/oligodontia.
+6. Fitted with pediatric dentures to improve function and self-esteem.
+
+TEACHING_POINTS:
+- A genetic disorder affecting ectodermally derived structures (hair, skin, nails, teeth).
+- Heat intolerance is a major medical concern due to absent sweat glands.
+==================================================
+
+CASE_ID: 061
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Peutz-Jeghers Syndrome
+
+ALIASES:
+PJS
+
+VIGNETTE_LINES:
+1. 14F presents for an orthodontic evaluation.
+2. Mother mentions the child gets severe stomach cramps.
+3. Multiple dark freckle-like macules on the lips and perioral skin.
+4. Intraoral macules observed on the buccal mucosa.
+5. GI referral is imperative.
+6. Diagnosed with intestinal polyposis; monitored for malignancy.
+
+TEACHING_POINTS:
+- Characterized by perioral melanotic macules and intestinal polyps.
+- Patients have a high risk of gastrointestinal adenocarcinomas.
+==================================================
+
+CASE_ID: 062
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Gardner Syndrome
+
+ALIASES:
+familial colorectal polyposis
+
+VIGNETTE_LINES:
+1. 20M presents for wisdom tooth evaluation.
+2. Father recently passed away from colon cancer.
+3. Panorex shows multiple supernumerary teeth and osteomas of the jaws.
+4. Multiple epidermoid cysts noted on his skin.
+5. Radiograph shows dense radiopaque masses (osteomas) in the mandible.
+6. Referred immediately to GI; prophylactic colectomy often required.
+
+TEACHING_POINTS:
+- A variant of familial adenomatous polyposis (FAP).
+- 100% risk of malignant transformation of colon polyps by age 30.
+==================================================
+
+CASE_ID: 063
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Gorlin Syndrome
+
+ALIASES:
+Nevoid Basal Cell Carcinoma Syndrome
+
+VIGNETTE_LINES:
+1. 18M presents with multiple jaw cysts.
+2. Has a prominent forehead and widespread freckles.
+3. Palmar and plantar pits are noted.
+4. Slight hypertelorism (widely spaced eyes).
+5. Panorex reveals multiple radiolucent cysts in all four quadrants.
+6. Biopsies confirm multiple Odontogenic Keratocysts (OKCs).
+
+TEACHING_POINTS:
+- Characterized by multiple OKCs and multiple basal cell carcinomas.
+- Calcified falx cerebri is a classic radiographic finding on skull films.
+==================================================
+
+CASE_ID: 064
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Multiple Endocrine Neoplasia Type 2B
+
+ALIASES:
+MEN 2B
+
+VIGNETTE_LINES:
+1. 25M presents with bumpy lips and a tall, lanky body habitus.
+2. Patient has Marfanoid body proportions.
+3. Multiple painless neuromas on the lips, tongue, and buccal mucosa.
+4. Bilateral mucosal nodules present.
+5. Endocrine referral is immediately made.
+6. Neuromas are a sign of impending medullary thyroid carcinoma.
+
+TEACHING_POINTS:
+- High risk of fatal medullary thyroid carcinoma and pheochromocytoma.
+- Oral mucosal neuromas are often the earliest sign of the disease.
+==================================================
+
+CASE_ID: 065
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Neurofibromatosis Type 1
+
+ALIASES:
+Von Recklinghausen disease
+
+VIGNETTE_LINES:
+1. 30M presents with multiple soft lumps on his face and body.
+2. Reports having these since childhood.
+3. Café-au-lait spots on his skin.
+4. Axillary freckling (Crowe's sign) is present.
+5. Intraoral exam shows flabby, movable nodules on the tongue.
+6. Plexiform neurofibromas can cause facial asymmetry.
+
+TEACHING_POINTS:
+- A genetic disorder characterized by multiple neurofibromas.
+- Lisch nodules (iris hamartomas) are a classic ophthalmologic finding.
+==================================================
+
+CASE_ID: 066
+DIFFICULTY: dental
+SYSTEM: operative dentistry
+
+DIAGNOSIS:
+Dental Caries
+
+ALIASES:
+enamel decay
+
+VIGNETTE_LINES:
+1. 22F presents for a routine checkup.
+2. No pain or sensitivity.
+3. A dark, sticky pit is probed on the occlusal surface of a molar.
+4. The explorer catches in the fissure.
+5. Bitewing radiograph shows a small radiolucency in the enamel only.
+6. Restored with a conservative composite resin.
+
+TEACHING_POINTS:
+- Incipient caries in enamel are painless.
+- Cavitation requires restorative intervention; intact enamel can be remineralized.
+==================================================
+
+CASE_ID: 067
+DIFFICULTY: dental
+SYSTEM: operative dentistry
+
+DIAGNOSIS:
+Cracked Tooth Syndrome
+
+ALIASES:
+CTS
+
+VIGNETTE_LINES:
+1. 45M complains of sharp pain specifically when he releases a bite.
+2. Has a large amalgam filling in the lower first molar.
+3. Pain is perfectly reproduced by biting on a Tooth Slooth (fracture detector).
+4. No spontaneous pain and no radiographic abnormalities.
+5. Periapical radiograph is typically normal, as cracks run mesiodistally.
+6. A full coverage crown is indicated to splint the tooth.
+
+TEACHING_POINTS:
+- Pain on release of biting pressure is the hallmark symptom.
+- Cracks are notoriously difficult to see on standard radiographs.
+==================================================
+
+CASE_ID: 068
+DIFFICULTY: dental
+SYSTEM: operative dentistry
+
+DIAGNOSIS:
+Galvanic Shock
+
+ALIASES:
+galvanism
+
+VIGNETTE_LINES:
+1. 30F complains of a metallic taste and sharp pain when her teeth touch.
+2. Just had a new silver amalgam filling placed opposing a gold crown.
+3. Pain occurs the instant the two restorations make contact.
+4. Tooth is otherwise completely normal.
+5. Radiographs are normal.
+6. Symptoms resolve over time as the amalgam oxidizes, or filling is replaced.
+
+TEACHING_POINTS:
+- Caused by an electrical current generated between two dissimilar metals in saliva.
+- Functions essentially like a small battery in the mouth.
+==================================================
+
+CASE_ID: 069
+DIFFICULTY: dental
+SYSTEM: prosthodontics
+
+DIAGNOSIS:
+Epulis Fissuratum
+
+ALIASES:
+denture-induced fibrous hyperplasia
+
+VIGNETTE_LINES:
+1. 70M presents with a flap of tissue rubbing against his denture.
+2. Has worn the same ill-fitting complete upper denture for 15 years.
+3. Two folds of hyperplastic connective tissue in the maxillary vestibule.
+4. The denture flange sits neatly into the fissure between the folds.
+5. Tissue is firm and fibrous.
+6. Surgical excision of the tissue and a new denture is required.
+
+TEACHING_POINTS:
+- Caused by chronic trauma from an overextended or loose denture flange.
+- Tissues overgrow to adapt to the poorly fitting appliance.
+==================================================
+
+CASE_ID: 070
+DIFFICULTY: dental
+SYSTEM: prosthodontics
+
+DIAGNOSIS:
+Inflammatory Papillary Hyperplasia
+
+ALIASES:
+IPH
+
+VIGNETTE_LINES:
+1. 65F presents for a new denture due to poor fit.
+2. Admits she never takes her upper denture out, even at night.
+3. The hard palate is covered in erythematous, pebbly, cobblestone-like nodules.
+4. Asymptomatic but very red.
+5. Candidiasis is often superimposed.
+6. Instructed to leave dentures out at night; may require antifungal or excision.
+
+TEACHING_POINTS:
+- Caused by 24-hour denture wear and poor hygiene.
+- The palate looks like a cluster of small red berries or cobblestones.
+==================================================
+
+CASE_ID: 071
+DIFFICULTY: dental
+SYSTEM: prosthodontics
+
+DIAGNOSIS:
+Angular Cheilitis
+
+ALIASES:
+perleche
+
+VIGNETTE_LINES:
+1. 80F complains of painful, cracked corners of her mouth.
+2. Lost her dentures and hasn't worn them in months.
+3. Deep erythematous fissures at the labial commissures.
+4. Patient has a reduced vertical dimension of occlusion (overclosure).
+5. Saliva pools in the corners of the mouth.
+6. Treated with an antifungal/steroid cream and new dentures to restore vertical height.
+
+TEACHING_POINTS:
+- Often a mixed infection of Candida albicans and Staph aureus.
+- Loss of vertical dimension causes saliva pooling, promoting the infection.
+==================================================
+
+CASE_ID: 072
+DIFFICULTY: dental
+SYSTEM: operative dentistry
+
+DIAGNOSIS:
+Amalgam Tattoo
+
+ALIASES:
+focal argyrosis
+
+VIGNETTE_LINES:
+1. 40F is concerned about a flat, dark blue spot on her gums.
+2. Had a root canal and large silver filling on the adjacent tooth 5 years ago.
+3. A 3mm blue-black macule on the mandibular gingiva.
+4. Does not blanch under pressure.
+5. Radiograph shows tiny radiopaque specks scattered in the tissue.
+6. No treatment necessary; diagnosis confirmed radiographically.
+
+TEACHING_POINTS:
+- Caused by traumatic implantation of amalgam dust into the soft tissues.
+- Can be distinguished from melanoma if metal particles are seen on X-ray.
+==================================================
+
+CASE_ID: 073
+DIFFICULTY: dental
+SYSTEM: prosthodontics
+
+DIAGNOSIS:
+Denture Stomatitis
+
+ALIASES:
+chronic atrophic candidiasis
+
+VIGNETTE_LINES:
+1. 75F complains her mouth feels hot and dry.
+2. Wears an upper denture 24 hours a day.
+3. Bright red, edematous erythema matching the exact outline of the denture base.
+4. Tissue feels burning, but often asymptomatic.
+5. Swab test confirms Candida overgrowth.
+6. Treated by scrubbing denture with bleach/chlorhexidine and prescribing nystatin.
+
+TEACHING_POINTS:
+- The most common form of oral candidiasis.
+- Rarely caused by an actual allergy to the acrylic resin.
+==================================================
+
+CASE_ID: 074
+DIFFICULTY: dental
+SYSTEM: operative dentistry
+
+DIAGNOSIS:
+Abfraction
+
+ALIASES:
+NCCL
+
+VIGNETTE_LINES:
+1. 50M presents with notches at the gumline of multiple teeth.
+2. Patient clenches and grinds his teeth severely at night.
+3. Deep, V-shaped, wedge-like defects at the cervical margins of premolars.
+4. Gums are healthy and not receded.
+5. Teeth may be sensitive to cold.
+6. Restored with composite and a nightguard is fabricated.
+
+TEACHING_POINTS:
+- Caused by biomechanical loading forces (bruxism) causing enamel micro-fractures.
+- Differentiated from toothbrush abrasion, which is usually a smooth, U-shaped defect.
+==================================================
+
+CASE_ID: 075
+DIFFICULTY: dental
+SYSTEM: operative dentistry
+
+DIAGNOSIS:
+Erosion
+
+ALIASES:
+dental erosion
+bulimia
+
+VIGNETTE_LINES:
+1. 20F presents with extremely smooth, sensitive, yellow upper front teeth.
+2. Patient is thin and appears anxious.
+3. Severe loss of enamel strictly on the lingual (palatal) surfaces of the maxillary incisors.
+4. Amalgam restorations on molars appear to be 'floating' above the tooth surface.
+5. Radiographs show thin enamel.
+6. Referral for eating disorder; instructed to rinse with baking soda after purging.
+
+TEACHING_POINTS:
+- Chemical loss of tooth structure without bacterial action.
+- Lingual erosion is classic for chronic gastric acid exposure (bulimia or GERD).
+==================================================
+
+CASE_ID: 076
+DIFFICULTY: dental
+SYSTEM: medical emergencies
+
+DIAGNOSIS:
+Vasodepressor Syncope
+
+ALIASES:
+fainting
+vasovagal syncope
+
+VIGNETTE_LINES:
+1. 18M suddenly becomes pale and unresponsive while waiting for a local anesthetic injection.
+2. Patient stated he was terrified of needles.
+3. Skin is cold, clammy, and pale; pulse is weak and slow.
+4. Loss of consciousness lasts for 30 seconds.
+5. Patient is placed in the Trendelenburg position (supine with feet elevated).
+6. Regains consciousness quickly; airway maintained.
+
+TEACHING_POINTS:
+- The most common medical emergency in the dental office.
+- Caused by a sudden drop in blood pressure and heart rate due to stress/fear.
+==================================================
+
+CASE_ID: 077
+DIFFICULTY: dental
+SYSTEM: medical emergencies
+
+DIAGNOSIS:
+Hyperventilation
+
+ALIASES:
+panic attack
+
+VIGNETTE_LINES:
+1. 25F begins breathing very rapidly and shallowly during a root canal.
+2. Patient complains her fingers and lips are tingling and going numb.
+3. Respirations are >30 breaths per minute.
+4. Patient feels lightheaded but does NOT lose consciousness.
+5. No oxygen administered (would make it worse).
+6. Instructed to cup her hands over her mouth and breathe slowly.
+
+TEACHING_POINTS:
+- Blowing off too much CO2 causes respiratory alkalosis.
+- Tingling in extremities (carpopedal spasms) is a classic sign.
+==================================================
+
+CASE_ID: 078
+DIFFICULTY: dental
+SYSTEM: medical emergencies
+
+DIAGNOSIS:
+Asthma Attack
+
+ALIASES:
+bronchospasm
+
+VIGNETTE_LINES:
+1. 12M begins wheezing and coughing during a prophy.
+2. History of childhood asthma; forgot his inhaler.
+3. Audible expiratory wheeze, tight chest, and difficulty breathing.
+4. Patient is sitting up and leaning forward.
+5. Albuterol inhaler from the emergency kit is administered immediately.
+6. Oxygen is provided; EMS called if no improvement.
+
+TEACHING_POINTS:
+- Characterized by reversible airway obstruction and smooth muscle spasm.
+- Do not use NSAIDs or aspirin, as they can trigger an attack in sensitive individuals.
+==================================================
+
+CASE_ID: 079
+DIFFICULTY: dental
+SYSTEM: medical emergencies
+
+DIAGNOSIS:
+Anaphylaxis
+
+ALIASES:
+severe allergic reaction
+
+VIGNETTE_LINES:
+1. 30F experiences sudden swelling of her lips and throat 5 minutes after a penicillin dose.
+2. Complains of an itchy rash and difficulty breathing.
+3. Urticaria, facial angioedema, and a precipitous drop in blood pressure.
+4. Wheezing and stridor present.
+5. Epinephrine (0.3mg IM) given immediately via auto-injector into the thigh.
+6. EMS activated; supplemental oxygen provided.
+
+TEACHING_POINTS:
+- A life-threatening, IgE-mediated Type I hypersensitivity reaction.
+- Epinephrine is the only definitive drug; antihistamines are too slow.
+==================================================
+
+CASE_ID: 080
+DIFFICULTY: dental
+SYSTEM: medical emergencies
+
+DIAGNOSIS:
+Angina Pectoris
+
+ALIASES:
+stable angina
+
+VIGNETTE_LINES:
+1. 60M experiences crushing chest pain while getting a tooth extracted.
+2. Has a known history of ischemic heart disease.
+3. Pain radiates to his left arm and lower jaw.
+4. Patient remains conscious but is visibly distressed.
+5. Administered sublingual nitroglycerin (0.4mg); pain resolves in 3 minutes.
+6. Dental treatment suspended for the day.
+
+TEACHING_POINTS:
+- Transient ischemia to the myocardium; relieved by rest or nitro.
+- Jaw pain from angina can often mimic an acute toothache.
+==================================================
+
+CASE_ID: 081
+DIFFICULTY: dental
+SYSTEM: medical emergencies
+
+DIAGNOSIS:
+Myocardial Infarction
+
+ALIASES:
+heart attack
+
+VIGNETTE_LINES:
+1. 65M experiences crushing, elephant-on-the-chest pain during an implant placement.
+2. Takes multiple blood pressure meds; pain does not resolve after 3 doses of nitroglycerin.
+3. Patient is sweating profusely (diaphoretic) and nauseous.
+4. Pain radiates to the left arm and jaw.
+5. EMS activated; MONA protocol (Morphine, Oxygen, Nitroglycerin, Aspirin 325mg chewed) initiated.
+6. CPR/AED ready if cardiac arrest occurs.
+
+TEACHING_POINTS:
+- Irreversible necrosis of the myocardium due to prolonged ischemia.
+- Failure to respond to 3 doses of nitroglycerin over 15 minutes implies an MI.
+==================================================
+
+CASE_ID: 082
+DIFFICULTY: dental
+SYSTEM: medical emergencies
+
+DIAGNOSIS:
+Hypoglycemia
+
+ALIASES:
+insulin shock
+
+VIGNETTE_LINES:
+1. 40M diabetic patient begins acting confused and irritable during a long crown prep.
+2. Took his morning insulin but skipped breakfast because he was nervous.
+3. Profuse sweating, shaking, tachycardia, and mental confusion.
+4. Patient is still conscious.
+5. Administered oral glucose paste/orange juice immediately.
+6. Symptoms resolve quickly within 10 minutes.
+
+TEACHING_POINTS:
+- Most common diabetic emergency in the dental chair.
+- If patient goes unconscious, IM glucagon or IV dextrose is required.
+==================================================
+
+CASE_ID: 083
+DIFFICULTY: dental
+SYSTEM: medical emergencies
+
+DIAGNOSIS:
+Local Anesthetic Systemic Toxicity
+
+ALIASES:
+LAST
+
+VIGNETTE_LINES:
+1. 25F experiences muscle twitching and visual disturbances after an IAN block.
+2. Dentist inadvertently injected 4 carpules of lidocaine quickly.
+3. Patient becomes talkative, restless, and complains of a metallic taste.
+4. Followed by a generalized tonic-clonic seizure.
+5. Airway protected, EMS called, oxygen administered.
+6. Avoided by aspirating before injection to ensure it is not intravascular.
+
+TEACHING_POINTS:
+- Caused by high blood levels of local anesthetic affecting the CNS.
+- CNS excitation (twitching) occurs first, followed by CNS depression.
+==================================================
+
+CASE_ID: 084
+DIFFICULTY: dental
+SYSTEM: medical emergencies
+
+DIAGNOSIS:
+Epinephrine Overdose
+
+ALIASES:
+sympathomimetic response
+
+VIGNETTE_LINES:
+1. 35F feels a pounding heart and severe headache immediately after an injection.
+2. Dentist injected local anesthetic with 1:50,000 epinephrine.
+3. Tachycardia, palpitations, and extreme anxiety.
+4. No hives or swelling (ruling out allergy).
+5. Signs resolve spontaneously in 5-10 minutes as the drug is metabolized.
+6. Patient is reassured and monitored.
+
+TEACHING_POINTS:
+- Often mistaken for an allergic reaction to the anesthetic.
+- Resolves quickly, unlike local anesthetic toxicity which lasts longer.
+==================================================
+
+CASE_ID: 085
+DIFFICULTY: dental
+SYSTEM: medical emergencies
+
+DIAGNOSIS:
+Seizure
+
+ALIASES:
+epilepsy
+tonic-clonic seizure
+
+VIGNETTE_LINES:
+1. 20M suddenly loses consciousness and begins violently convulsing in the chair.
+2. Has a known history of epilepsy.
+3. Rigid extension of limbs (tonic) followed by rhythmic jerking (clonic).
+4. Patient foams at the mouth and loses bladder control.
+5. Chair is lowered to the floor, nearby instruments cleared to prevent injury.
+6. Post-ictal state of confusion follows; do not place anything in the mouth during the event.
+
+TEACHING_POINTS:
+- Most seizures are self-limiting within 2-3 minutes.
+- Status epilepticus (>5 mins) requires IV midazolam or diazepam.
+==================================================
+
+CASE_ID: 086
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Sjogren's Syndrome
+
+ALIASES:
+autoimmune exocrinopathy
+
+VIGNETTE_LINES:
+1. 55F complains of extremely dry mouth and dry eyes.
+2. Reports she cannot eat a cracker without drinking water.
+3. Mucosa is sticky, tongue is deeply fissured, and there is rampant cervical caries.
+4. Bilateral firm swelling of the parotid glands.
+5. Serology is positive for SS-A (Ro) and SS-B (La) antibodies.
+6. Treated with sialogogues (pilocarpine) and fluoride to prevent decay.
+
+TEACHING_POINTS:
+- Autoimmune destruction of exocrine glands.
+- Vastly increases the risk for dental caries and oral candidiasis.
+==================================================
+
+CASE_ID: 087
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Crohn's Disease
+
+ALIASES:
+regional enteritis
+
+VIGNETTE_LINES:
+1. 25M presents with deep, linear ulcers in the buccal vestibules.
+2. Patient has a history of severe abdominal pain and diarrhea.
+3. Cobblestone appearance of the buccal mucosa.
+4. Multiple firm, painless, mucosal tags on the lips.
+5. Biopsy shows non-caseating granulomas.
+6. Oral lesions often parallel the intestinal disease activity.
+
+TEACHING_POINTS:
+- Inflammatory bowel disease that can affect any part of the GI tract from mouth to anus.
+- Linear ulcerations in the vestibules are classic.
+==================================================
+
+CASE_ID: 088
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Leukemia
+
+ALIASES:
+acute myelogenous leukemia
+
+VIGNETTE_LINES:
+1. 30M presents with spontaneous bleeding from his gums and severe fatigue.
+2. Gums are massively enlarged, red, and boggy.
+3. Petechiae and ecchymoses are present on the hard palate.
+4. No significant calculus or plaque to explain the massive inflammation.
+5. CBC shows extreme leukocytosis and thrombocytopenia.
+6. Immediate referral to an oncologist; dental treatment deferred.
+
+TEACHING_POINTS:
+- Gingival enlargement is due to infiltration of leukemic cells.
+- Spontaneous bleeding occurs due to extreme thrombocytopenia.
+==================================================
+
+CASE_ID: 089
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Paget's Disease of Bone
+
+ALIASES:
+osteitis deformans
+
+VIGNETTE_LINES:
+1. 60M complains his dentures no longer fit and his hats are too tight.
+2. Reports deep bone pain.
+3. Maxilla is massively enlarged with spacing between teeth.
+4. Alkaline phosphatase levels are highly elevated, but calcium is normal.
+5. Radiograph shows a 'cotton-wool' appearance of the skull and jaws.
+6. Hypercementosis is often seen on the roots of teeth.
+
+TEACHING_POINTS:
+- Abnormal bone remodeling leading to enlarged, weak bones.
+- High risk of developing osteosarcoma later in life.
+==================================================
+
+CASE_ID: 090
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Acromegaly
+
+ALIASES:
+growth hormone excess
+
+VIGNETTE_LINES:
+1. 45M presents complaining his lower jaw is jutting out.
+2. Notices his hands, feet, and facial features have become enlarged.
+3. Prognathic mandible, macroglossia, and widely spaced teeth (diastemas).
+4. Anterior open bite has developed.
+5. MRI of the brain shows a pituitary adenoma.
+6. Endocrinology referral for surgical resection of the tumor.
+
+TEACHING_POINTS:
+- Caused by a growth hormone-secreting pituitary tumor after growth plates fuse.
+- Macroglossia and mandibular prognathism are the key dental signs.
+==================================================
+
+CASE_ID: 091
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Hyperparathyroidism
+
+ALIASES:
+Brown Tumor
+
+VIGNETTE_LINES:
+1. 50F presents with a multi-focal painless radiolucency in her mandible.
+2. Patient has a history of kidney stones.
+3. Teeth in the area are vital.
+4. Lesion is clinically and radiographically identical to a Central Giant Cell Granuloma.
+5. Serum calcium and PTH are elevated.
+6. Treated by managing the underlying parathyroid adenoma.
+
+TEACHING_POINTS:
+- Excess PTH pulls calcium from bones, creating cystic lesions (osteitis fibrosa cystica).
+- The classic phrase is 'stones, bones, groans, and moans'.
+==================================================
+
+CASE_ID: 092
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Addison's Disease
+
+ALIASES:
+primary adrenal insufficiency
+
+VIGNETTE_LINES:
+1. 35F presents with unexplained, diffuse dark pigmentation of her oral mucosa.
+2. Patient complains of chronic fatigue, weight loss, and low blood pressure.
+3. Irregular, patchy brown melanin pigmentation on the buccal mucosa and gingiva.
+4. Looks similar to physiologic pigmentation, but patient is fair-skinned.
+5. Cortisol levels are dangerously low.
+6. Requires steroid replacement therapy; stressful dental visits need supplemental steroids.
+
+TEACHING_POINTS:
+- Lack of cortisol leads to high ACTH, which stimulates melanocytes.
+- Must manage stress to prevent an adrenal crisis in the chair.
+==================================================
+
+CASE_ID: 093
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Vitamin C Deficiency
+
+ALIASES:
+Scurvy
+
+VIGNETTE_LINES:
+1. 45M alcoholic presents with intensely swollen, spongy, bleeding gums.
+2. Diet consists entirely of fast food and alcohol.
+3. Gums bleed spontaneously; teeth are mobile.
+4. Petechiae and bruising seen on his arms.
+5. Vitamin C levels are undetectable.
+6. Rapidly resolves with Vitamin C supplementation and diet change.
+
+TEACHING_POINTS:
+- Vitamin C is essential for collagen synthesis.
+- Vessel walls become fragile, leading to spontaneous bleeding and poor healing.
+==================================================
+
+CASE_ID: 094
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Vitamin B12 Deficiency
+
+ALIASES:
+Pernicious Anemia
+
+VIGNETTE_LINES:
+1. 60F complains of a burning, bright red tongue.
+2. Reports numbness and tingling in her fingers.
+3. Tongue is completely devoid of papillae (bald, beefy red tongue).
+4. Angular cheilitis is also present.
+5. Blood test shows macrocytic anemia and low B12.
+6. Treated with B12 injections.
+
+TEACHING_POINTS:
+- Lack of intrinsic factor causes malabsorption of B12.
+- Atrophic glossitis (bald tongue) is the classic oral finding.
+==================================================
+
+CASE_ID: 095
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Iron Deficiency Anemia
+
+ALIASES:
+Plummer-Vinson Syndrome
+
+VIGNETTE_LINES:
+1. 40F presents with difficulty swallowing and a sore tongue.
+2. Patient is pale and fatigued.
+3. Atrophic glossitis (bald tongue) and angular cheilitis.
+4. Patient has spoon-shaped nails (koilonychia).
+5. Esophageal webs seen on barium swallow.
+6. Treated with iron supplements.
+
+TEACHING_POINTS:
+- Syndrome includes iron deficiency, dysphagia, and atrophic glossitis.
+- High risk of developing squamous cell carcinoma of the esophagus/pharynx.
+==================================================
+
+CASE_ID: 096
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Hairy Leukoplakia
+
+ALIASES:
+EBV infection in HIV
+
+VIGNETTE_LINES:
+1. 35M presents with a white patch on the side of his tongue.
+2. Patient is HIV positive with a low CD4 count.
+3. White, corrugated, vertical shaggy lesions on the lateral border of the tongue.
+4. Lesion cannot be wiped off.
+5. Biopsy confirms Epstein-Barr virus; no malignant potential.
+6. Antiretroviral therapy (HAART) reduces the lesion.
+
+TEACHING_POINTS:
+- Caused by Epstein-Barr Virus (EBV) in severely immunocompromised patients.
+- Often the first clinical sign of progression from HIV to AIDS.
+==================================================
+
+CASE_ID: 097
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Kaposi Sarcoma
+
+ALIASES:
+KS
+HHV-8
+
+VIGNETTE_LINES:
+1. 40M presents with a painless purple mass on his hard palate.
+2. Patient is known to have AIDS.
+3. Multiple flat or raised bluish-purple vascular lesions on the palate and gingiva.
+4. Lesions do not blanch under pressure.
+5. Biopsy confirms a malignant spindle-cell vascular tumor.
+6. Treated with local excision, radiation, or systemic chemotherapy.
+
+TEACHING_POINTS:
+- Caused by Human Herpesvirus 8 (HHV-8).
+- Hard palate is the most common intraoral location.
+==================================================
+
+CASE_ID: 098
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Cleft Lip and Palate
+
+ALIASES:
+orofacial cleft
+
+VIGNETTE_LINES:
+1. A newborn male is evaluated in the nursery.
+2. Family history of clefting.
+3. A unilateral fissure extends through the upper lip, alveolus, and hard palate.
+4. Nasal regurgitation of milk occurs during feeding.
+5. Feeding obturator fabricated to assist in suckling until surgery.
+6. Surgical lip repair at 3 months (rule of 10s), palate repair at 1 year.
+
+TEACHING_POINTS:
+- Most common craniofacial anomaly; failure of palatal shelves to fuse.
+- Patients often require extensive orthodontics and bone grafting for the alveolar defect.
+==================================================
+
+CASE_ID: 099
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Pierre Robin Sequence
+
+ALIASES:
+PRS
+
+VIGNETTE_LINES:
+1. A newborn female exhibits severe difficulty breathing when placed on her back.
+2. The mandible is remarkably small (micrognathia).
+3. The tongue falls back into the throat (glossoptosis), causing airway obstruction.
+4. A U-shaped cleft palate is present.
+5. Placed in a prone position to open the airway.
+6. Sequence: micrognathia forces the tongue up, preventing palatal shelf fusion.
+
+TEACHING_POINTS:
+- Not a true syndrome, but a sequence of developmental events.
+- Airway management is the critical first priority.
+==================================================
+
+CASE_ID: 100
+DIFFICULTY: dental
+SYSTEM: pediatric dentistry
+
+DIAGNOSIS:
+Treacher Collins Syndrome
+
+ALIASES:
+mandibulofacial dysostosis
+
+VIGNETTE_LINES:
+1. 7-year-old boy presents for orthodontic evaluation.
+2. Has a characteristic bird-like face with downward-slanting eyes.
+3. Hypoplastic zygomas and a severely retrognathic mandible.
+4. Ear deformities and conductive hearing loss.
+5. Panorex shows a steep mandibular plane angle and open bite.
+6. Requires long-term craniofacial reconstructive surgeries and orthodontics.
+
+TEACHING_POINTS:
+- An autosomal dominant disorder affecting the 1st and 2nd branchial arches.
+- Intelligence is completely normal despite severe facial deformities.
+==================================================
+
