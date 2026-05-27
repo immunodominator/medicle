@@ -1,0 +1,129 @@
+CASE_ID: 001
+DIFFICULTY: dental
+SYSTEM: periodontics
+
+DIAGNOSIS:
+Acute Necrotizing Ulcerative Gingivitis
+
+ALIASES:
+ANUG
+trench mouth
+necrotizing gingivitis
+Vincent's disease
+
+VIGNETTE_LINES:
+1. A 22-year-old male college student presents with severe gum pain and bleeding that started two days ago.
+2. He has been under significant academic stress, sleeping poorly, and smoking heavily.
+3. Examination reveals punched-out ulceration of the interdental papillae with a gray pseudomembrane and fetid halitosis.
+4. There is no lymphadenopathy and the patient is afebrile, though he reports general malaise.
+5. Periapical radiographs show no bony involvement or alveolar bone loss.
+6. The clinical triad of interdental necrosis, spontaneous bleeding, and characteristic foul odor confirms the diagnosis, and the patient is started on debridement and metronidazole.
+
+TEACHING_POINTS:
+- ANUG is characterized by the triad of pain, bleeding, and necrosis of the interdental papillae.
+- Predisposing factors include stress, smoking, poor sleep, and immunosuppression.
+- Treatment involves gentle debridement, oral hygiene instruction, and metronidazole for severe cases.
+
+==================================================
+
+CASE_ID: 002
+DIFFICULTY: dental
+SYSTEM: endodontics
+
+DIAGNOSIS:
+Irreversible Pulpitis
+
+ALIASES:
+pulpitis
+acute pulpitis
+
+VIGNETTE_LINES:
+1. A 35-year-old woman presents with spontaneous throbbing tooth pain that woke her from sleep last night.
+2. She has a history of a large filling placed in the same tooth two years ago.
+3. The affected lower molar is exquisitely tender to percussion and the pain lingers for over 30 seconds after a cold stimulus is removed.
+4. There is no swelling, trismus, or fever suggesting spread beyond the pulp.
+5. Periapical radiograph shows a deep restoration in close proximity to the pulp chamber without periapical radiolucency.
+6. Electric pulp testing confirms a hyperresponsive vital pulp with prolonged painful response, and root canal therapy is initiated given the irreversible nature of the inflammation.
+
+TEACHING_POINTS:
+- Irreversible pulpitis is distinguished from reversible pulpitis by pain that lingers after the stimulus is removed.
+- Spontaneous or nocturnal pain strongly suggests irreversible pulpal inflammation.
+- Treatment is root canal therapy or extraction; the pulp cannot heal.
+
+==================================================
+
+CASE_ID: 003
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Pericoronitis
+
+ALIASES:
+wisdom tooth infection
+third molar pericoronitis
+
+VIGNETTE_LINES:
+1. An 19-year-old man presents with pain and swelling in the back of his lower jaw for three days.
+2. He reports difficulty opening his mouth fully and pain when swallowing.
+3. Examination reveals erythema and swelling of the soft tissue flap overlying a partially erupted lower third molar with purulent exudate on probing.
+4. He is afebrile with mild trismus but no fascial space swelling.
+5. Panoramic radiograph shows a partially erupted lower left third molar with inadequate space for full eruption.
+6. Irrigation under the operculum yields purulent debris, and the patient is started on amoxicillin with a referral for third molar extraction once the acute infection resolves.
+
+TEACHING_POINTS:
+- Pericoronitis is inflammation of the soft tissue around a partially erupted tooth, most commonly the lower third molar.
+- The operculum traps food and bacteria, predisposing to infection.
+- Acute management includes irrigation and antibiotics; definitive treatment is extraction of the offending tooth.
+
+==================================================
+
+CASE_ID: 004
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Oral Candidiasis
+
+ALIASES:
+oral thrush
+pseudomembranous candidiasis
+denture stomatitis
+
+VIGNETTE_LINES:
+1. A 67-year-old woman presents with a sore mouth and a white coating on her tongue and inner cheeks for two weeks.
+2. She recently completed a course of broad-spectrum antibiotics for a urinary tract infection and wears a full upper denture.
+3. Examination reveals creamy white plaques on the buccal mucosa and dorsal tongue that wipe off easily leaving a red erythematous base.
+4. There is no cervical lymphadenopathy and the patient is otherwise well.
+5. No imaging is indicated and clinical findings are sufficient for diagnosis.
+6. A potassium hydroxide preparation of scraped material reveals pseudohyphae and budding yeast forms consistent with Candida albicans, and the patient responds to topical nystatin rinse.
+
+TEACHING_POINTS:
+- Oral candidiasis is the most common oral fungal infection and is often precipitated by antibiotics, dentures, or immunosuppression.
+- Pseudomembranous candidiasis features white plaques that wipe off, distinguishing it from leukoplakia.
+- KOH preparation revealing pseudohyphae confirms the diagnosis.
+
+==================================================
+
+CASE_ID: 005
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Ameloblastoma
+
+ALIASES:
+mandibular ameloblastoma
+
+VIGNETTE_LINES:
+1. A 34-year-old man presents with a slowly expanding painless swelling of his lower jaw noticed over the past year.
+2. He denies pain, trismus, or numbness, and has no history of trauma or prior dental pathology.
+3. Examination reveals a firm buccal cortical expansion in the posterior mandible with facial asymmetry.
+4. There is no cervical lymphadenopathy and overlying mucosa appears normal.
+5. Panoramic radiograph shows a multilocular radiolucency with a soap bubble appearance in the posterior mandible causing root resorption of adjacent teeth.
+6. Incisional biopsy reveals islands of odontogenic epithelium with peripheral palisading and reverse polarity of nuclei, confirming ameloblastoma requiring wide surgical resection.
+
+TEACHING_POINTS:
+- Ameloblastoma is the most common odontogenic tumor and is locally aggressive with high recurrence if not widely excised.
+- It classically presents as a multilocular soap bubble or honeycomb radiolucency in the posterior mandible.
+- Histology shows ameloblast-like cells with peripheral palisading and nuclear reverse polarity.
