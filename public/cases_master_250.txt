@@ -7042,3 +7042,43 @@ TEACHING_POINTS:
 - Treatment: nusinersen (intrathecal), risdiplam (oral), onasemnogene abeparvovec (gene therapy — most effective when given early, ideally before symptoms); newborn screening is now universal in most US states.
 
 ==================================================
+==================================================
+CASE_ID: 346
+DIFFICULTY: step1
+SYSTEM: cardiology
+DIAGNOSIS:
+Atrial Flutter
+ALIASES:
+flutter
+VIGNETTE_LINES:
+- A 68-year-old man presents with palpitations and mild dyspnea.
+- ECG shows a regular sawtooth pattern of atrial activity.
+- Ventricular rate is approximately 150 bpm.
+- He has a history of hypertension.
+- No chest pain is reported.
+- Rate control is initiated.
+TEACHING_POINTS:
+- Sawtooth flutter waves are classic.
+- Usually due to atrial reentry circuit.
+- Often treated similarly to atrial fibrillation.
+==================================================
+...
+CASE_ID: 440
+DIFFICULTY: step1
+SYSTEM: endocrinology
+DIAGNOSIS:
+Thyroid Hormone Mechanism
+ALIASES:
+T3 action
+VIGNETTE_LINES:
+- A hormone enters nucleus and binds receptor.
+- Alters gene transcription.
+- Increases metabolic rate.
+- Derived from tyrosine.
+- Regulated by TSH.
+- Diagnosis relates to thyroid hormone function.
+TEACHING_POINTS:
+- Acts via nuclear receptor.
+- Similar to steroid hormones.
+- Increases oxygen consumption.
+==================================================
