@@ -605,6 +605,7 @@ export default function Home() {
             if (e.target.value === "vettle") window.location.href = "/vettle";
             if (e.target.value === "psychodle") window.location.href = "/psychodle";
             if (e.target.value === "dentdle") window.location.href = "/dentdle";
+            if (e.target.value === "crimindle") window.location.href = "/crimindle";
           }}
           defaultValue="medicle"
           style={{
@@ -620,6 +621,7 @@ export default function Home() {
           <option value="vettle">🐾 Vettle — Veterinary cases</option>
           <option value="psychodle">🧩 Psychodle — Psychiatry cases</option>
           <option value="dentdle">🦷 Dentdle — Dental cases</option>
+          <option value="crimindle">⚖️ Crimindle — Criminal Law</option>
         </select>
       </div>
 
