@@ -1214,20 +1214,49 @@ export default function Home() {
 
     async function loadCases() {
       try {
-        const response = await fetch(CASES_PATH);
-        if (!response.ok) throw new Error(`Failed to load cases from ${CASES_PATH}`);
-        const text = await response.text();
-        const parsed = parseCases(text);
-
+        // Try to load the manifest first (list of case files)
+        const manifestRes = await fetch("/medicle_cases_manifest.json");
+    
+        let combinedText = "";
+    
+        if (manifestRes.ok) {
+          const manifest = await manifestRes.json();
+    
+          // Expecting: { files: ["/medicle_cases_vol_1.txt", "/medicle_cases_vol_2.txt", ...] }
+          const files: string[] = Array.isArray(manifest.files) ? manifest.files : [];
+    
+          if (files.length === 0) {
+            throw new Error("Manifest loaded, but no files were listed in medicle_cases_manifest.json");
+          }
+    
+          // Fetch all case files listed in the manifest
+          const texts = await Promise.all(
+            files.map(async (path) => {
+              const r = await fetch(path);
+              if (!r.ok) throw new Error(`Failed to load cases file: ${path}`);
+              return await r.text();
+            })
+          );
+    
+          combinedText = texts.join("\n\n");
+        } else {
+          // Fallback: if manifest doesn't exist, load the original single file
+          const response = await fetch(CASES_PATH);
+          if (!response.ok) throw new Error(`Failed to load cases from ${CASES_PATH}`);
+          combinedText = await response.text();
+        }
+    
+        const parsed = parseCases(combinedText);
+    
         if (!active) return;
-
+    
         setCases(parsed);
-
+    
         if (parsed.length === 0) {
           setLoadError("No cases were parsed from the file.");
           return;
         }
-
+    
         const first = parsed[Math.floor(Math.random() * parsed.length)];
         setCurrent(first);
         setSelectedCaseId(first.id);
@@ -1236,7 +1265,7 @@ export default function Home() {
         if (!active) return;
         setLoadError(error instanceof Error ? error.message : "Failed to load cases.");
       }
-    }
+    
 
     loadCases();
 

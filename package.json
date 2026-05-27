@@ -2,12 +2,12 @@
   "name": "diagnosio",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
+ "scripts": {
+  "gen:cases": "node scripts/generateMedicleManifest.mjs",
+  "dev": "npm run gen:cases && next dev",
+  "build": "npm run gen:cases && next build",
+  "start": "next start"
+}
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
     "next": "16.2.6",
