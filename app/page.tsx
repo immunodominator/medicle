@@ -603,7 +603,10 @@ export default function Home() {
           onChange={(e) => {
             if (e.target.value === "medicle") window.location.href = "/";
             if (e.target.value === "vettle") window.location.href = "/vettle";
+            if (e.target.value === "psychodle") window.location.href = "/psychodle";
+            if (e.target.value === "dentdle") window.location.href = "/dentdle";
           }}
+          defaultValue="medicle"
           style={{
             background: "#0a2f38",
             border: "1px solid #0e3d4a",
@@ -615,6 +618,8 @@ export default function Home() {
         >
           <option value="medicle">🧠 Medicle</option>
           <option value="vettle">🐾 Vettle — Veterinary cases</option>
+          <option value="psychodle">🧩 Psychodle — Psychiatry cases</option>
+          <option value="dentdle">🦷 Dentdle — Dental cases</option>
         </select>
       </div>
 
