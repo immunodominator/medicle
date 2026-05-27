@@ -334,7 +334,7 @@ function ShareCard({ shareText }: { shareText: string }) {
         <button
           onClick={copyShareText}
           className="text-xs font-bold px-3 py-1.5 rounded-lg"
-          style={{ background: "#d4af37", color: "#0d0800" }}
+          style={{ background: "#d4af37", color: "#050505" }}
         >
           {copied ? "Copied" : "Copy"}
         </button>
@@ -602,7 +602,7 @@ export default function Home() {
     return (
       <main
         className="min-h-screen flex items-center justify-center px-4"
-        style={{ background: "#0d0800" }}
+        style={{ background: "#050505" }}
       >
         <div
           className="max-w-xl rounded-2xl p-6 border"
@@ -627,7 +627,7 @@ export default function Home() {
     return (
       <main
         className="min-h-screen flex items-center justify-center"
-        style={{ background: "#0d0800" }}
+        style={{ background: "#050505" }}
       >
         <p className="text-white text-xl">Loading...</p>
       </main>
@@ -637,7 +637,7 @@ export default function Home() {
   return (
     <main
       className="min-h-screen flex flex-col items-center px-4 pb-16"
-      style={{ background: "#0d0800" }}
+      style={{ background: "#050505" }}
     >
       {showConfetti && <Confetti />}
       <Analytics />
@@ -860,7 +860,7 @@ export default function Home() {
             <button
               onClick={() => submitGuess(guess)}
               className="py-2 rounded-xl font-bold text-sm shrink-0"
-              style={{ background: "#d4af37", color: "#0d0800", minWidth: "64px" }}
+              style={{ background: "#d4af37", color: "#050505", minWidth: "64px" }}
             >
               Charge
             </button>
