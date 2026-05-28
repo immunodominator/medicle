@@ -3,6 +3,10 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Analytics } from "@vercel/analytics/next";
 
+// =============================================================
+// TYPES
+// =============================================================
+
 type Case = {
   id: string;
   diagnosis: string;
@@ -19,8 +23,75 @@ type Guess = {
   skipped: boolean;
 };
 
+// =============================================================
+// CONFIG
+// =============================================================
+
 const MAX_GUESSES = 6;
-const CASES_PATH = "/cases_vettle_navle.txt";
+
+// ✅ To add more cases: drop a new .txt file in /public/vettle cases/
+// and add its filename to this list, then push to deploy.
+const CASES_FILES = [
+  "/vettle cases/cases_vettle_navle.txt",
+];
+
+// =============================================================
+// THEME TOKENS
+// =============================================================
+
+const DARK_THEME = {
+  bg:             "#2a1c0c",
+  bgCard:         "#3b2c1e",
+  bgInput:        "#3b2c1e",
+  bgMonitor:      "#1a0f05",
+  border:         "#5a4430",
+  borderAccent:   "#d97706",
+  text:           "#f5e6d3",
+  textMuted:      "#c2a98d",
+  textFaint:      "#8a6a4a",
+  accent:         "#d97706",
+  clueNum:        "#c2a98d",
+  logoPanel:      "#3b2c1e",
+  logoBorder:     "#5a4430",
+  selectBg:       "#3b2c1e",
+  modalWin:       "#0a3320",
+  modalLose:      "#2d0a0a",
+  modalBorderWin: "#22c55e",
+  modalBorderLose:"#dc2626",
+  shareCard:      "#1a0f05",
+  teachPanel:     "#1a0f05",
+  filterPanel:    "#3b2c1e",
+};
+
+const LIGHT_THEME = {
+  bg:             "#fdf8f0",
+  bgCard:         "#ffffff",
+  bgInput:        "#ffffff",
+  bgMonitor:      "#fef3c7",
+  border:         "#fcd34d",
+  borderAccent:   "#d97706",
+  text:           "#1c1009",
+  textMuted:      "#78502a",
+  textFaint:      "#a87a50",
+  accent:         "#d97706",
+  clueNum:        "#d97706",
+  logoPanel:      "#2a1c0c",
+  logoBorder:     "#5a4430",
+  selectBg:       "#ffffff",
+  modalWin:       "#f0fdf4",
+  modalLose:      "#fff1f2",
+  modalBorderWin: "#22c55e",
+  modalBorderLose:"#f43f5e",
+  shareCard:      "#fffbeb",
+  teachPanel:     "#fef9ee",
+  filterPanel:    "#ffffff",
+};
+
+type Theme = typeof DARK_THEME;
+
+// =============================================================
+// ECG DISPLAY
+// =============================================================
 
 const ECG_POINTS: [number, number][][] = [
   [[0,50],[20,50],[22,46],[24,54],[26,10],[28,90],[30,44],[32,50],[60,50],[62,46],[64,54],[66,10],[68,90],[70,44],[72,50],[100,50],[102,46],[104,54],[106,10],[108,90],[110,44],[112,50],[140,50],[142,46],[144,54],[146,10],[148,90],[150,44],[152,50],[180,50],[182,46],[184,54],[186,10],[188,90],[190,44],[192,50],[220,50],[222,46],[224,54],[226,10],[228,90],[230,44],[232,50],[260,50],[262,46],[264,54],[266,10],[268,90],[270,44],[272,50],[300,50]],
@@ -35,9 +106,231 @@ const ECG_COLORS = ["#22c55e", "#84cc16", "#facc15", "#f97316", "#ef4444", "#dc2
 const ECG_X_SPEEDS = [0.8, 1.1, 1.4, 1.0, 2.0, 2.8];
 const ECG_LABELS = ["Stable", "Ill-Appearing", "Distressed", "Obtunded", "Critical", "Peri-Arrest"];
 
+// =============================================================
+// NORMALIZATION HELPERS
+// =============================================================
+
 function normalizeAnswer(text: string) {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, "");
 }
+
+const CANONICAL_DIAGNOSIS_MAP: Record<string, string> = {
+  // Common NAVLE duplicates
+  gi: "Gastrointestinal disease",
+  colic: "Colic (equine)",
+  equinecolic: "Colic (equine)",
+  bloat: "Bloat (GDV)",
+  gdv: "Bloat (GDV)",
+  gastricdilatationvolvulus: "Bloat (GDV)",
+  parvo: "Parvovirus infection",
+  parvovirusinfection: "Parvovirus infection",
+  canineepilepsyidiopathic: "Idiopathic epilepsy",
+  idiopathicepilepsy: "Idiopathic epilepsy",
+  fip: "Feline infectious peritonitis (FIP)",
+  felineinfectiousperitonitis: "Feline infectious peritonitis (FIP)",
+  felv: "Feline leukemia virus (FeLV)",
+  felineleukemiavirus: "Feline leukemia virus (FeLV)",
+  fiv: "Feline immunodeficiency virus (FIV)",
+  felineimmunodeficiencyvirus: "Feline immunodeficiency virus (FIV)",
+  hypothyroid: "Hypothyroidism",
+  hypothyroidism: "Hypothyroidism",
+  hyperthyroid: "Hyperthyroidism",
+  hyperthyroidism: "Hyperthyroidism",
+  cushings: "Hyperadrenocorticism (Cushing's)",
+  hyperadrenocorticism: "Hyperadrenocorticism (Cushing's)",
+  addisons: "Hypoadrenocorticism (Addison's)",
+  hypoadrenocorticism: "Hypoadrenocorticism (Addison's)",
+  dmtype1: "Diabetes mellitus",
+  dmtype2: "Diabetes mellitus",
+  diabetesmellitus: "Diabetes mellitus",
+  osteoarthritis: "Osteoarthritis",
+  oa: "Osteoarthritis",
+  degenerativejointdisease: "Osteoarthritis",
+  djd: "Osteoarthritis",
+  hip: "Hip dysplasia",
+  hipdysplasia: "Hip dysplasia",
+  lymphoma: "Lymphoma",
+  lymphosarcoma: "Lymphoma",
+  mct: "Mast cell tumor",
+  mastcelltumor: "Mast cell tumor",
+};
+
+function normalizeKeyForDedup(input: string) {
+  const lower = input.toLowerCase().trim();
+  const compact = lower.replace(/&/g, "and").replace(/\s+/g, " ");
+  const stripped = compact.replace(/[^a-z0-9]+/g, "");
+  if (stripped === "cushingsdisease" || stripped === "cushingssyndrome") return "hyperadrenocorticism";
+  if (stripped === "addisonsdisease") return "hypoadrenocorticism";
+  if (stripped === "gdv") return "bloat";
+  return stripped;
+}
+
+function canonicalizeDiagnosisDisplay(raw: string) {
+  const key = normalizeKeyForDedup(raw);
+  return CANONICAL_DIAGNOSIS_MAP[key] || raw;
+}
+
+function normalizeSystem(system?: string) {
+  if (!system) return "";
+  return system
+    .toLowerCase()
+    .trim()
+    .replace(/\//g, "_")
+    .replace(/\s+/g, "_")
+    .replace(/-+/g, "_");
+}
+
+function displaySystemLabel(system?: string) {
+  const s = normalizeSystem(system);
+  if (!s) return "";
+  return s
+    .split("_")
+    .map((w) => (w.length ? w[0].toUpperCase() + w.slice(1) : w))
+    .join(" ");
+}
+
+// =============================================================
+// NAVLE DIAGNOSIS BANK (makes dropdown harder)
+// =============================================================
+
+const NAVLE_DIAGNOSIS_BANK: string[] = [
+  // Canine
+  "Parvovirus infection",
+  "Canine distemper",
+  "Infectious canine hepatitis",
+  "Canine influenza",
+  "Kennel cough (CIRD)",
+  "Leptospirosis",
+  "Heartworm disease",
+  "Bloat (GDV)",
+  "Idiopathic epilepsy",
+  "Intervertebral disc disease (IVDD)",
+  "Hip dysplasia",
+  "Cruciate ligament rupture",
+  "Osteosarcoma",
+  "Lymphoma",
+  "Mast cell tumor",
+  "Hemangiosarcoma",
+  "Hyperadrenocorticism (Cushing's)",
+  "Hypoadrenocorticism (Addison's)",
+  "Hypothyroidism",
+  "Diabetes mellitus",
+  "Dilated cardiomyopathy",
+  "Mitral valve disease",
+  "Degenerative myelopathy",
+  "Immune-mediated hemolytic anemia (IMHA)",
+  "Immune-mediated thrombocytopenia (ITP)",
+  "Pancreatitis",
+  "Exocrine pancreatic insufficiency (EPI)",
+  "Portosystemic shunt",
+  "Urolithiasis",
+  "Pyometra",
+  "Prostatic hyperplasia",
+  "Atopic dermatitis",
+  "Demodicosis",
+  "Sarcoptic mange",
+  "Otitis externa",
+  "Conjunctivitis",
+  "Corneal ulcer",
+  "Glaucoma",
+  // Feline
+  "Feline infectious peritonitis (FIP)",
+  "Feline leukemia virus (FeLV)",
+  "Feline immunodeficiency virus (FIV)",
+  "Feline herpesvirus (FHV-1)",
+  "Feline calicivirus (FCV)",
+  "Feline panleukopenia",
+  "Hyperthyroidism",
+  "Chronic kidney disease",
+  "Lower urinary tract disease (FLUTD)",
+  "Feline asthma",
+  "Hypertrophic cardiomyopathy (HCM)",
+  "Hepatic lipidosis",
+  "Cholangiohepatitis",
+  "Feline injection site sarcoma",
+  "Diabetes mellitus",
+  "Hyperthyroidism",
+  "Toxoplasmosis",
+  "Ringworm (dermatophytosis)",
+  // Equine
+  "Colic (equine)",
+  "Strangles",
+  "Equine influenza",
+  "Equine herpesvirus (EHV)",
+  "West Nile virus encephalitis",
+  "Equine encephalomyelitis",
+  "Tetanus",
+  "Rabies",
+  "Navicular disease",
+  "Laminitis",
+  "Heaves (equine asthma)",
+  "Choke (esophageal obstruction)",
+  "Equine gastric ulcer syndrome (EGUS)",
+  "Pigeon fever",
+  "Rain rot (dermatophilosis)",
+  "Ringworm (equine)",
+  "Equine metabolic syndrome (EMS)",
+  "Pituitary pars intermedia dysfunction (PPID)",
+  // Bovine
+  "Bovine respiratory disease (BRD)",
+  "Bovine viral diarrhea (BVD)",
+  "Infectious bovine rhinotracheitis (IBR)",
+  "Bovine coronavirus",
+  "Foot-and-mouth disease",
+  "Brucellosis",
+  "Tuberculosis (bovine)",
+  "Mastitis",
+  "Milk fever (hypocalcemia)",
+  "Hardware disease (traumatic reticuloperitonitis)",
+  "Left displaced abomasum (LDA)",
+  "Right displaced abomasum (RDA)",
+  "Bloat (ruminant)",
+  "Pinkeye (infectious bovine keratoconjunctivitis)",
+  "Ringworm (bovine)",
+  "Foot rot",
+  "Salmonellosis",
+  "Coccidiosis",
+  // Small ruminant
+  "Caseous lymphadenitis (CLA)",
+  "Caprine arthritis encephalitis (CAE)",
+  "Maedi-visna",
+  "Enterotoxemia (overeating disease)",
+  "Urinary calculi (small ruminant)",
+  "White muscle disease (selenium deficiency)",
+  "Haemonchus contortus infection",
+  // Swine
+  "Porcine reproductive and respiratory syndrome (PRRS)",
+  "Swine influenza",
+  "Porcine circovirus disease (PCVD)",
+  "Transmissible gastroenteritis (TGE)",
+  "Erysipelas",
+  "Mycoplasmal pneumonia",
+  "Atrophic rhinitis",
+  "Actinobacillus pleuropneumonia",
+  "Streptococcal meningitis",
+  // Avian
+  "Newcastle disease",
+  "Infectious bronchitis",
+  "Marek's disease",
+  "Avian influenza",
+  "Coccidiosis (avian)",
+  "Fowl cholera",
+  "Aspergillosis (avian)",
+  "Egg binding",
+  "Psittacosis (Chlamydiosis)",
+  // Exotics and general
+  "Myxomatosis",
+  "Rabbit hemorrhagic disease (RHD)",
+  "Ferret adrenal disease",
+  "Ferret insulinoma",
+  "Reptile metabolic bone disease",
+  "Proventricular dilatation disease",
+  "Heavy metal toxicosis",
+];
+
+// =============================================================
+// CASE PARSING
+// =============================================================
 
 function parseCases(text: string): Case[] {
   const blocks = text
@@ -51,8 +344,10 @@ function parseCases(text: string): Case[] {
     const idMatch = block.match(/CASE_ID:\s*(\d+)/);
     const diagMatch = block.match(/DIAGNOSIS:\s*\n([^\n]+)/);
     const aliasMatch = block.match(/ALIASES:\s*\n([\s\S]*?)(?=\nVIGNETTE_LINES:)/);
-    const clueMatch = block.match(/VIGNETTE_LINES:\s*\n([\s\S]*?)(?=\nTEACHING_POINTS:|\nCASE_ID:|$)/);
-    const teachMatch = block.match(/TEACHING_POINTS:\s*\n([\s\S]*?)(?=\n={10,}|\nCASE_ID:|$)/);
+    const clueMatch = block.match(
+      /VIGNETTE_LINES:\s*\n([\s\S]*?)(?=\nTEACHING_POINTS:|\nCASE_ID:|$)/
+    );
+    const teachMatch = block.match(/TEACHING_POINTS:\s*\n([\s\S]*?)(?=\n={10,}|$)/);
     const difficultyMatch = block.match(/DIFFICULTY:\s*\n?([^\n]+)/);
     const systemMatch = block.match(/SYSTEM:\s*\n?([^\n]+)/);
 
@@ -67,7 +362,7 @@ function parseCases(text: string): Case[] {
       : [];
     const clues = clueMatch[1]
       .split("\n")
-      .map((line) => line.replace(/^\d+\.\s*/, "").trim())
+      .map((line) => line.replace(/^\d+\.\s*/, "").replace(/^[-\s]+/, "").trim())
       .filter(Boolean);
     const teachingPoints = teachMatch
       ? teachMatch[1]
@@ -83,12 +378,28 @@ function parseCases(text: string): Case[] {
       clues,
       teachingPoints,
       difficulty: difficultyMatch?.[1].trim(),
-      system: systemMatch?.[1].trim(),
+      system: normalizeSystem(systemMatch?.[1].trim()),
     });
   }
 
   return cases.sort((a, b) => Number(a.id) - Number(b.id));
 }
+
+function dedupeCasesById(list: Case[]): Case[] {
+  const map = new Map<string, Case>();
+  for (const c of list) {
+    const prev = map.get(c.id);
+    if (!prev) { map.set(c.id, c); continue; }
+    const prevScore = (prev.clues?.length || 0) * 1000 + (prev.teachingPoints?.length || 0) * 10 + (prev.diagnosis?.length || 0);
+    const curScore = (c.clues?.length || 0) * 1000 + (c.teachingPoints?.length || 0) * 10 + (c.diagnosis?.length || 0);
+    if (curScore > prevScore) map.set(c.id, c);
+  }
+  return Array.from(map.values()).sort((a, b) => Number(a.id) - Number(b.id));
+}
+
+// =============================================================
+// ECG RENDERING
+// =============================================================
 
 function getYatX(points: [number, number][], x: number): number {
   for (let i = 0; i < points.length - 1; i++) {
@@ -102,17 +413,7 @@ function getYatX(points: [number, number][], x: number): number {
   return 50;
 }
 
-function ECGCanvas({
-  points,
-  color,
-  xSpeed,
-  flatlined,
-}: {
-  points: [number, number][];
-  color: string;
-  xSpeed: number;
-  flatlined: boolean;
-}) {
+function ECGCanvas({ points, color, xSpeed, flatlined }: { points: [number, number][]; color: string; xSpeed: number; flatlined: boolean; }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const dotXRef = useRef(0);
   const animRef = useRef<number>(0);
@@ -120,73 +421,31 @@ function ECGCanvas({
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
-
     const W = canvas.width;
     const H = canvas.height;
     const scaleX = W / 300;
     const scaleY = H / 100;
 
     const drawPath = () => {
-      if (flatlined) {
-        ctx.moveTo(0, 50 * scaleY);
-        ctx.lineTo(W, 50 * scaleY);
-        return;
-      }
-
-      points.forEach(([x, y], i) => {
-        if (i === 0) ctx.moveTo(x * scaleX, y * scaleY);
-        else ctx.lineTo(x * scaleX, y * scaleY);
-      });
+      if (flatlined) { ctx.moveTo(0, 50 * scaleY); ctx.lineTo(W, 50 * scaleY); return; }
+      points.forEach(([x, y], i) => { if (i === 0) ctx.moveTo(x * scaleX, y * scaleY); else ctx.lineTo(x * scaleX, y * scaleY); });
     };
 
     const drawFrame = () => {
       ctx.clearRect(0, 0, W, H);
-
       ctx.strokeStyle = "#2a2118";
       ctx.lineWidth = 0.5;
-      [25, 50, 75].forEach((y) => {
-        ctx.beginPath();
-        ctx.moveTo(0, y * scaleY);
-        ctx.lineTo(W, y * scaleY);
-        ctx.stroke();
-      });
-      [60, 120, 180, 240].forEach((x) => {
-        ctx.beginPath();
-        ctx.moveTo(x * scaleX, 0);
-        ctx.lineTo(x * scaleX, H);
-        ctx.stroke();
-      });
-
-      ctx.beginPath();
-      ctx.strokeStyle = color;
-      ctx.lineWidth = 2.2;
-      ctx.lineJoin = "round";
-      ctx.lineCap = "round";
-      drawPath();
-      ctx.stroke();
-
-      ctx.beginPath();
-      ctx.strokeStyle = color;
-      ctx.lineWidth = 6;
-      ctx.globalAlpha = 0.12;
-      drawPath();
-      ctx.stroke();
-      ctx.globalAlpha = 1;
-
+      [25, 50, 75].forEach((y) => { ctx.beginPath(); ctx.moveTo(0, y * scaleY); ctx.lineTo(W, y * scaleY); ctx.stroke(); });
+      [60, 120, 180, 240].forEach((x) => { ctx.beginPath(); ctx.moveTo(x * scaleX, 0); ctx.lineTo(x * scaleX, H); ctx.stroke(); });
+      ctx.beginPath(); ctx.strokeStyle = color; ctx.lineWidth = 2.2; ctx.lineJoin = "round"; ctx.lineCap = "round"; drawPath(); ctx.stroke();
+      ctx.beginPath(); ctx.strokeStyle = color; ctx.lineWidth = 6; ctx.globalAlpha = 0.12; drawPath(); ctx.stroke(); ctx.globalAlpha = 1;
       if (!flatlined) {
         dotXRef.current = (dotXRef.current + xSpeed) % 300;
         const dotY = getYatX(points, dotXRef.current);
-        ctx.beginPath();
-        ctx.arc(dotXRef.current * scaleX, dotY * scaleY, 4, 0, Math.PI * 2);
-        ctx.fillStyle = color;
-        ctx.globalAlpha = 0.95;
-        ctx.fill();
-        ctx.globalAlpha = 1;
+        ctx.beginPath(); ctx.arc(dotXRef.current * scaleX, dotY * scaleY, 4, 0, Math.PI * 2); ctx.fillStyle = color; ctx.globalAlpha = 0.95; ctx.fill(); ctx.globalAlpha = 1;
       }
-
       animRef.current = requestAnimationFrame(drawFrame);
     };
 
@@ -194,229 +453,125 @@ function ECGCanvas({
     return () => cancelAnimationFrame(animRef.current);
   }, [points, color, xSpeed, flatlined]);
 
-  return (
-    <canvas
-      ref={canvasRef}
-      width={600}
-      height={80}
-      className="w-full rounded-xl"
-      style={{ background: "#050a0e", display: "block" }}
-    />
-  );
+  return <canvas ref={canvasRef} width={600} height={80} className="w-full rounded-xl" style={{ background: "#050a0e", display: "block" }} />;
 }
 
-function ECGMonitor({
-  badGuesses,
-  gameOver,
-  won,
-  guessesLeft,
-}: {
-  badGuesses: number;
-  gameOver: boolean;
-  won: boolean;
-  guessesLeft: number;
-}) {
+function ECGMonitor({ badGuesses, gameOver, won, guessesLeft }: { badGuesses: number; gameOver: boolean; won: boolean; guessesLeft: number; }) {
   const idx = won ? 0 : Math.min(badGuesses, ECG_POINTS.length - 1);
   const flatlined = gameOver && !won;
   const color = won ? "#22c55e" : flatlined ? "#dc2626" : ECG_COLORS[idx];
   const label = won ? "Patient Saved ✓" : flatlined ? "FLATLINE" : ECG_LABELS[idx];
-
   return (
-    <div className="w-full rounded-2xl p-3 border" style={{ background: "#011a1f", borderColor: "#5a4430" }}>
+    <div className="w-full rounded-2xl p-3 border" style={{ background: "#1a0f05", borderColor: "#5a4430" }}>
       <div className="flex items-center justify-between mb-2 px-1">
-        <span className="text-xs font-mono tracking-widest" style={{ color }}>
-          ● {label}
-        </span>
-        {!gameOver && (
-          <span className="text-xs font-mono" style={{ color: "#c2a98d" }}>
-            {guessesLeft} guess{guessesLeft !== 1 ? "es" : ""} left
-          </span>
-        )}
+        <span className="text-xs font-mono tracking-widest" style={{ color }}>● {label}</span>
+        {!gameOver && <span className="text-xs font-mono" style={{ color: "#c2a98d" }}>{guessesLeft} guess{guessesLeft !== 1 ? "es" : ""} left</span>}
       </div>
       <ECGCanvas points={ECG_POINTS[idx]} color={color} xSpeed={ECG_X_SPEEDS[idx]} flatlined={flatlined} />
     </div>
   );
 }
 
+// =============================================================
+// CONFETTI
+// =============================================================
+
 function Confetti() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
-
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-
     const colors = ["#d97706", "#22c55e", "#86efac", "#facc15", "#f97316", "#ffffff", "#a78bfa"];
-    const pieces = Array.from({ length: 200 }, () => ({
-      x: Math.random() * canvas.width,
-      y: Math.random() * canvas.height - canvas.height,
-      r: Math.random() * 7 + 3,
-      color: colors[Math.floor(Math.random() * colors.length)],
-      tiltAngle: Math.random() * Math.PI * 2,
-      tiltSpeed: Math.random() * 0.07 + 0.03,
-      speed: Math.random() * 2.5 + 1.5,
-    }));
-
+    const pieces = Array.from({ length: 200 }, () => ({ x: Math.random() * canvas.width, y: Math.random() * canvas.height - canvas.height, r: Math.random() * 7 + 3, color: colors[Math.floor(Math.random() * colors.length)], tiltAngle: Math.random() * Math.PI * 2, tiltSpeed: Math.random() * 0.07 + 0.03, speed: Math.random() * 2.5 + 1.5 }));
     let animId: number;
-
     const draw = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      pieces.forEach((p) => {
-        p.tiltAngle += p.tiltSpeed;
-        p.y += p.speed;
-        const tilt = Math.sin(p.tiltAngle) * 14;
-        ctx.beginPath();
-        ctx.lineWidth = p.r;
-        ctx.strokeStyle = p.color;
-        ctx.moveTo(p.x + tilt + p.r / 2, p.y);
-        ctx.lineTo(p.x + tilt, p.y + tilt + p.r / 2);
-        ctx.stroke();
-        if (p.y > canvas.height) p.y = -10;
-      });
+      pieces.forEach((p) => { p.tiltAngle += p.tiltSpeed; p.y += p.speed; const tilt = Math.sin(p.tiltAngle) * 14; ctx.beginPath(); ctx.lineWidth = p.r; ctx.strokeStyle = p.color; ctx.moveTo(p.x + tilt + p.r / 2, p.y); ctx.lineTo(p.x + tilt, p.y + tilt + p.r / 2); ctx.stroke(); if (p.y > canvas.height) p.y = -10; });
       animId = requestAnimationFrame(draw);
     };
-
     draw();
     const stop = setTimeout(() => cancelAnimationFrame(animId), 5000);
-
-    return () => {
-      cancelAnimationFrame(animId);
-      clearTimeout(stop);
-    };
+    return () => { cancelAnimationFrame(animId); clearTimeout(stop); };
   }, []);
-
   return <canvas ref={canvasRef} className="fixed inset-0 pointer-events-none z-50" />;
 }
 
-function ShareCard({
-  shareText,
-}: {
-  shareText: string;
-}) {
+// =============================================================
+// SHARE + RESULT MODAL
+// =============================================================
+
+function ShareCard({ shareText, theme }: { shareText: string; theme: Theme }) {
   const [copied, setCopied] = useState(false);
-
   const copyShareText = async () => {
-    try {
-      await navigator.clipboard.writeText(shareText);
-      setCopied(true);
-      window.setTimeout(() => setCopied(false), 1500);
-    } catch {
-      // no-op
-    }
+    try { await navigator.clipboard.writeText(shareText); setCopied(true); window.setTimeout(() => setCopied(false), 1500); } catch { /* no-op */ }
   };
-
   return (
-    <div className="mt-4 rounded-2xl p-4 text-left" style={{ background: "#071f26", border: "1px solid #5a4430" }}>
+    <div className="mt-4 rounded-2xl p-4 text-left" style={{ background: theme.shareCard, border: `1px solid ${theme.border}` }}>
       <div className="flex items-center justify-between gap-3 mb-3">
-        <p className="text-xs font-mono uppercase tracking-[0.2em]" style={{ color: "#94a3b8" }}>
-          Share result
-        </p>
-        <button
-          onClick={copyShareText}
-          className="text-xs font-bold px-3 py-1.5 rounded-lg"
-          style={{ background: "#d97706", color: "#042b33" }}
-        >
-          {copied ? "Copied" : "Copy"}
-        </button>
+        <p className="text-xs font-mono uppercase tracking-[0.2em]" style={{ color: theme.textMuted }}>Share result</p>
+        <button onClick={copyShareText} className="text-xs font-bold px-3 py-1.5 rounded-lg text-white" style={{ background: theme.accent }}>{copied ? "Copied" : "Copy"}</button>
       </div>
-      <pre className="whitespace-pre-wrap text-sm leading-6 font-mono" style={{ color: "#f5e6d3" }}>
-        {shareText}
-      </pre>
+      <pre className="whitespace-pre-wrap text-sm leading-6 font-mono" style={{ color: theme.text }}>{shareText}</pre>
     </div>
   );
 }
 
-function ResultModal({
-  won,
-  current,
-  guesses,
-  solvedAtClueCount,
-  onNext,
-}: {
-  won: boolean;
-  current: Case;
-  guesses: Guess[];
-  solvedAtClueCount: number;
-  onNext: () => void;
-}) {
+function ResultModal({ won, current, guesses, solvedAtClueCount, onNext, theme }: { won: boolean; current: Case; guesses: Guess[]; solvedAtClueCount: number; onNext: () => void; theme: Theme; }) {
   const [showTeaching, setShowTeaching] = useState(false);
-
   const shareText = useMemo(() => {
     if (!won) return "";
     const green = Math.max(1, Math.min(solvedAtClueCount, MAX_GUESSES));
     const white = Math.max(0, MAX_GUESSES - green);
-    return `VETTLE\nSolved in ${green} clue${green === 1 ? "" : "s"}\n${"🟩".repeat(green)}${"⬜".repeat(white)}`;
+    return `VETTLE\nSolved in ${green} clue${green === 1 ? "" : "s"}\n${"🟧".repeat(green)}${"⬜".repeat(white)}`;
   }, [won, solvedAtClueCount]);
 
   return (
     <div className="fixed inset-0 z-40 flex items-center justify-center p-4" style={{ background: "rgba(0,0,0,0.75)" }}>
-      <div
-        className="w-full max-w-lg rounded-2xl p-7 text-center shadow-2xl max-h-[90vh] overflow-y-auto"
-        style={{ background: won ? "#0a3320" : "#2d0a0a", border: `1px solid ${won ? "#22c55e" : "#dc2626"}` }}
-      >
+      <div className="w-full max-w-lg rounded-2xl p-7 text-center shadow-2xl max-h-[90vh] overflow-y-auto" style={{ background: won ? theme.modalWin : theme.modalLose, border: `1px solid ${won ? theme.modalBorderWin : theme.modalBorderLose}` }}>
         {won ? (
           <>
             <p className="text-5xl mb-3">🎉</p>
-            <p className="text-3xl font-bold mb-1" style={{ color: "#86efac" }}>
-              Patient Saved!
-            </p>
-            <p className="text-white text-xl font-semibold mb-1">{current.diagnosis}</p>
-            <p className="text-sm mb-1" style={{ color: "#bbf7d0" }}>
-              Diagnosed in {guesses.length} guess{guesses.length !== 1 ? "es" : ""}.
-            </p>
-            <p className="text-sm mb-4" style={{ color: "#bbf7d0" }}>
-              Solved at clue {solvedAtClueCount}.
-            </p>
-            <ShareCard shareText={shareText} />
+            <p className="text-3xl font-bold mb-1" style={{ color: "#22c55e" }}>Patient Saved!</p>
+            <p className="font-semibold text-xl mb-1" style={{ color: theme.text }}>{current.diagnosis}</p>
+            <p className="text-sm mb-1" style={{ color: theme.textMuted }}>Diagnosed in {guesses.length} guess{guesses.length !== 1 ? "es" : ""}.</p>
+            <p className="text-sm mb-4" style={{ color: theme.textMuted }}>Solved at clue {solvedAtClueCount}.</p>
+            <ShareCard shareText={shareText} theme={theme} />
           </>
         ) : (
           <>
             <p className="text-5xl mb-3">💀</p>
-            <p className="text-3xl font-bold mb-1" style={{ color: "#fca5a5" }}>
-              Patient Lost
-            </p>
-            <p className="text-white text-sm mb-1">The diagnosis was:</p>
-            <p className="text-white text-2xl font-bold mb-4">{current.diagnosis}</p>
+            <p className="text-3xl font-bold mb-1" style={{ color: "#f43f5e" }}>Patient Lost</p>
+            <p className="text-sm mb-1" style={{ color: theme.textMuted }}>The diagnosis was:</p>
+            <p className="text-2xl font-bold mb-4" style={{ color: theme.text }}>{current.diagnosis}</p>
           </>
         )}
-
         {current.teachingPoints.length > 0 && (
           <div className="mb-4">
-            <button
-              onClick={() => setShowTeaching((s) => !s)}
-              className="text-sm font-semibold px-4 py-2 rounded-xl"
-              style={{ background: "#5a4430", color: "#d97706", border: "1px solid #d97706" }}
-            >
+            <button onClick={() => setShowTeaching((s) => !s)} className="text-sm font-semibold px-4 py-2 rounded-xl" style={{ background: theme.bgCard, color: theme.accent, border: `1px solid ${theme.accent}` }}>
               {showTeaching ? "Hide" : "📚 Show"} Teaching Points
             </button>
             {showTeaching && (
-              <div className="mt-3 rounded-xl p-4 text-left space-y-2" style={{ background: "#011a1f" }}>
+              <div className="mt-3 rounded-xl p-4 text-left space-y-2" style={{ background: theme.teachPanel }}>
                 {current.teachingPoints.map((pt, i) => (
-                  <p key={i} className="text-sm" style={{ color: "#94a3b8" }}>
-                    <span style={{ color: "#d97706" }}>•</span> {pt}
-                  </p>
+                  <p key={i} className="text-sm" style={{ color: theme.textMuted }}><span style={{ color: theme.accent }}>•</span> {pt}</p>
                 ))}
               </div>
             )}
           </div>
         )}
-
-        <button
-          onClick={onNext}
-          className="text-white px-10 py-3 rounded-xl font-bold text-lg w-full"
-          style={{ background: "#d97706" }}
-        >
-          Next Case →
-        </button>
+        <button onClick={onNext} className="px-10 py-3 rounded-xl font-bold text-lg w-full text-white" style={{ background: theme.accent }}>Next Case →</button>
       </div>
     </div>
   );
 }
+
+// =============================================================
+// MAIN COMPONENT
+// =============================================================
 
 export default function Home() {
   const [cases, setCases] = useState<Case[]>([]);
@@ -432,6 +587,10 @@ export default function Home() {
   const [showConfetti, setShowConfetti] = useState(false);
   const [showECG, setShowECG] = useState(true);
   const [showSystem, setShowSystem] = useState(false);
+  const [lightMode, setLightMode] = useState(false);
+  const theme: Theme = lightMode ? LIGHT_THEME : DARK_THEME;
+  const [showSystemFilter, setShowSystemFilter] = useState(false);
+  const [selectedSystems, setSelectedSystems] = useState<Set<string>>(new Set());
   const [solvedAtClueCount, setSolvedAtClueCount] = useState(1);
   const [loadError, setLoadError] = useState("");
 
@@ -457,23 +616,21 @@ export default function Home() {
 
   useEffect(() => {
     let active = true;
-
     async function loadCases() {
       try {
-        const response = await fetch(CASES_PATH);
-        if (!response.ok) throw new Error(`Failed to load cases from ${CASES_PATH}`);
-        const text = await response.text();
-        const parsed = parseCases(text);
-
+        const responses = await Promise.all(
+          CASES_FILES.map(async (path) => {
+            const r = await fetch(path);
+            if (!r.ok) throw new Error(`Failed to load cases from ${path}`);
+            return r.text();
+          })
+        );
+        const combinedText = responses.join("\n\n");
+        const parsedRaw = parseCases(combinedText);
+        const parsed = dedupeCasesById(parsedRaw);
         if (!active) return;
-
         setCases(parsed);
-
-        if (parsed.length === 0) {
-          setLoadError("No cases were parsed from the file.");
-          return;
-        }
-
+        if (parsed.length === 0) { setLoadError("No cases were parsed from any file."); return; }
         const first = parsed[Math.floor(Math.random() * parsed.length)];
         setCurrent(first);
         setSelectedCaseId(first.id);
@@ -483,102 +640,118 @@ export default function Home() {
         setLoadError(error instanceof Error ? error.message : "Failed to load cases.");
       }
     }
-
     loadCases();
-
-    return () => {
-      active = false;
-    };
+    return () => { active = false; };
   }, []);
 
-  const loadCaseById = useCallback(
-    (caseId: string) => {
-      if (!cases.length) return;
-      const nextCase = cases.find((c) => c.id === caseId);
-      if (!nextCase) return;
+  const allSystems = useMemo(() => {
+    const set = new Set<string>();
+    cases.forEach((c) => { if (c.system) set.add(normalizeSystem(c.system)); });
+    return Array.from(set).sort((a, b) => a.localeCompare(b));
+  }, [cases]);
 
-      setSeenIds(new Set([nextCase.id]));
-      resetRound(nextCase);
-    },
-    [cases, resetRound]
-  );
+  const eligibleCases = useMemo(() => {
+    const base = selectedSystems.size === 0 ? cases : cases.filter((c) => c.system && selectedSystems.has(normalizeSystem(c.system)));
+    return dedupeCasesById(base);
+  }, [cases, selectedSystems]);
+
+  const toggleSystem = useCallback((system: string) => {
+    setSelectedSystems((prev) => {
+      const next = new Set(prev);
+      const key = normalizeSystem(system);
+      if (next.has(key)) next.delete(key); else next.add(key);
+      return next;
+    });
+  }, []);
+
+  useEffect(() => {
+    if (!current || selectedSystems.size === 0) return;
+    const curSys = normalizeSystem(current.system);
+    if (curSys && selectedSystems.has(curSys)) return;
+    if (eligibleCases.length === 0) return;
+    const next = eligibleCases[Math.floor(Math.random() * eligibleCases.length)];
+    setSeenIds(new Set([next.id]));
+    resetRound(next);
+  }, [current, eligibleCases, selectedSystems, resetRound]);
+
+  const loadCaseById = useCallback((caseId: string) => {
+    if (!eligibleCases.length) return;
+    const nextCase = eligibleCases.find((c) => c.id === caseId);
+    if (!nextCase) return;
+    setSeenIds(new Set([nextCase.id]));
+    resetRound(nextCase);
+  }, [eligibleCases, resetRound]);
 
   const startNextCase = useCallback(() => {
-    if (!cases.length || !current) return;
-
+    if (!eligibleCases.length || !current) return;
     const newSeen = new Set(seenIds);
     newSeen.add(current.id);
-
-    const next = pickNewCase(cases, newSeen);
+    const next = pickNewCase(eligibleCases, newSeen);
     setSeenIds(new Set([...newSeen, next.id]));
     resetRound(next);
-  }, [cases, current, pickNewCase, resetRound, seenIds]);
+  }, [eligibleCases, current, pickNewCase, resetRound, seenIds]);
 
-  const allDiagnoses = useMemo(
-    () => cases.flatMap((c) => [c.diagnosis, ...c.aliases]),
-    [cases]
-  );
+  const allDiagnoses = useMemo(() => {
+    const fromCases = eligibleCases.flatMap((c) => [c.diagnosis, ...c.aliases]);
+    const combined = [...NAVLE_DIAGNOSIS_BANK, ...fromCases];
+    const map = new Map<string, string>();
+    for (const item of combined) {
+      const canonical = canonicalizeDiagnosisDisplay(item);
+      const key = normalizeKeyForDedup(canonical);
+      const prev = map.get(key);
+      if (!prev || canonical.length > prev.length) map.set(key, canonical);
+    }
+    return Array.from(map.values()).sort((a, b) => a.localeCompare(b));
+  }, [eligibleCases]);
 
-  const caseOptions = useMemo(
-    () =>
-      cases.map((c) => ({
-        id: c.id,
-        label: showSystem
-          ? `Case ${c.id}${c.system ? ` • ${c.system}` : ""}`
-          : `Case ${c.id}`,
-      })),
-    [cases, showSystem]
+  const caseOptions = useMemo(() =>
+    eligibleCases.map((c) => ({
+      id: c.id,
+      label: showSystem ? `Case ${c.id}${c.system ? ` • ${displaySystemLabel(c.system)}` : ""}` : `Case ${c.id}`,
+    })),
+    [eligibleCases, showSystem]
   );
 
   const filtered = useMemo(() => {
     const q = guess.trim().toLowerCase();
     if (!q) return [];
-    return allDiagnoses.filter((d) => d.toLowerCase().includes(q)).slice(0, 6);
+    const qKey = normalizeKeyForDedup(q);
+    return allDiagnoses.filter((d) => {
+      if (d.toLowerCase().includes(q)) return true;
+      return normalizeKeyForDedup(d).includes(qKey);
+    }).slice(0, 10);
   }, [allDiagnoses, guess]);
 
   const badGuesses = guesses.filter((g) => !g.correct).length;
   const guessesLeft = MAX_GUESSES - guesses.length;
 
-  const submitGuess = useCallback(
-    (text: string, skipped = false) => {
-      if (!current || gameOver) return;
-
-      const g = text.trim();
-      if (!g && !skipped) return;
-
-      const correct =
-        !skipped &&
-        [current.diagnosis, ...current.aliases].some((answer) => normalizeAnswer(answer) === normalizeAnswer(g));
-
-      const newGuesses = [...guesses, { text: skipped ? "Skipped" : g, correct, skipped }];
-      setGuesses(newGuesses);
-      setGuess("");
-      setShowDropdown(false);
-
-      if (correct) {
-        setWon(true);
-        setGameOver(true);
-        setShowConfetti(true);
-        setSolvedAtClueCount(revealed);
-        return;
-      }
-
-      setRevealed((prev) => Math.min(prev + 1, current.clues.length));
-      if (newGuesses.length >= MAX_GUESSES) setGameOver(true);
-    },
-    [current, gameOver, guesses, revealed]
-  );
+  const submitGuess = useCallback((text: string, skipped = false) => {
+    if (!current || gameOver) return;
+    const g = text.trim();
+    if (!g && !skipped) return;
+    const correct = !skipped && [current.diagnosis, ...current.aliases].some((answer) => {
+      const aCanon = canonicalizeDiagnosisDisplay(answer);
+      const gCanon = canonicalizeDiagnosisDisplay(g);
+      return normalizeKeyForDedup(aCanon) === normalizeKeyForDedup(gCanon) || normalizeAnswer(answer) === normalizeAnswer(g);
+    });
+    const newGuesses = [...guesses, { text: skipped ? "Skipped" : g, correct, skipped }];
+    setGuesses(newGuesses);
+    setGuess("");
+    setShowDropdown(false);
+    if (correct) { setWon(true); setGameOver(true); setShowConfetti(true); setSolvedAtClueCount(revealed); return; }
+    setRevealed((prev) => Math.min(prev + 1, current.clues.length));
+    if (newGuesses.length >= MAX_GUESSES) setGameOver(true);
+  }, [current, gameOver, guesses, revealed]);
 
   if (loadError) {
     return (
-      <main className="min-h-screen flex items-center justify-center px-4" style={{ background: "#2a1c0c" }}>
-        <div className="max-w-xl rounded-2xl p-6 border" style={{ background: "#3b2c1e", borderColor: "#5a4430" }}>
+      <main className="min-h-screen flex items-center justify-center px-4" style={{ background: DARK_THEME.bg, fontFamily: "'Poppins', sans-serif" }}>
+        <style>{`@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');`}</style>
+        <div className="max-w-xl rounded-2xl p-6 border" style={{ background: DARK_THEME.bgCard, borderColor: DARK_THEME.border }}>
           <p className="text-white text-lg font-semibold mb-2">Could not load the cases file.</p>
-          <p className="text-sm" style={{ color: "#94a3b8" }}>
-            {loadError}
-          </p>
-          <p className="text-sm mt-3" style={{ color: "#94a3b8" }}>
-            Put <span className="font-mono">cases_master_250.txt</span> in your <span className="font-mono">public</span> folder.
+          <p className="text-sm" style={{ color: DARK_THEME.textMuted }}>{loadError}</p>
+          <p className="text-sm mt-3" style={{ color: DARK_THEME.textMuted }}>
+            Put your cases file in <span className="font-mono">public/vettle cases/</span> and add it to <span className="font-mono">CASES_FILES</span>.
           </p>
         </div>
       </main>
@@ -587,16 +760,22 @@ export default function Home() {
 
   if (!current) {
     return (
-      <main className="min-h-screen flex items-center justify-center" style={{ background: "#2a1c0c" }}>
+      <main className="min-h-screen flex items-center justify-center" style={{ background: DARK_THEME.bg, fontFamily: "'Poppins', sans-serif" }}>
+        <style>{`@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');`}</style>
         <p className="text-white text-xl">Loading...</p>
       </main>
     );
   }
 
   return (
-    <main className="min-h-screen flex flex-col items-center px-4 pb-16" style={{ background: "#2a1c0c" }}>
+    <main className="min-h-screen flex flex-col items-center px-4 pb-16 transition-colors duration-300" style={{ background: theme.bg, fontFamily: "'Poppins', sans-serif", color: theme.text }}>
+      <style>{`@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');`}</style>
       {showConfetti && <Confetti />}
       <Analytics />
+
+      {gameOver && current && (
+        <ResultModal won={won} current={current} guesses={guesses} solvedAtClueCount={solvedAtClueCount} onNext={startNextCase} theme={theme} />
+      )}
 
       {/* OTHER GAMES DROPDOWN */}
       <div style={{ position: "absolute", top: "16px", left: "16px" }}>
@@ -606,253 +785,185 @@ export default function Home() {
             if (e.target.value === "vettle") window.location.href = "/vettle";
             if (e.target.value === "psychodle") window.location.href = "/psychodle";
             if (e.target.value === "dentdle") window.location.href = "/dentdle";
+            if (e.target.value === "crimindle") window.location.href = "/crimindle";
           }}
           defaultValue="vettle"
-          style={{
-            background: "#3b2c1e",
-            border: "1px solid #5a4430",
-            color: "#ffffff",
-            borderRadius: "8px",
-            padding: "6px 10px",
-            fontSize: "12px"
-          }}
+          style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, color: theme.text, borderRadius: "8px", padding: "6px 10px", fontSize: "12px", fontFamily: "'Poppins', sans-serif" }}
         >
           <option value="vettle">🐾 Vettle — Veterinary cases</option>
           <option value="medicle">🧠 Medicle</option>
           <option value="psychodle">🧩 Psychodle — Psychiatry cases</option>
           <option value="dentdle">🦷 Dentdle — Dental cases</option>
+          <option value="crimindle">⚖️ Crimindle — Criminal Law</option>
         </select>
       </div>
 
-      {gameOver && current && (
-        <ResultModal
-          won={won}
-          current={current}
-          guesses={guesses}
-          solvedAtClueCount={solvedAtClueCount}
-          onNext={startNextCase}
-        />
-      )}
+      {/* LIGHT/DARK TOGGLE */}
+      <div style={{ position: "absolute", top: "16px", right: "16px" }}>
+        <button
+          onClick={() => setLightMode((v) => !v)}
+          style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, color: theme.text, borderRadius: "20px", padding: "6px 14px", fontSize: "12px", fontFamily: "'Poppins', sans-serif", cursor: "pointer", display: "flex", alignItems: "center", gap: "6px", fontWeight: 500 }}
+        >
+          {lightMode ? "🌙 Dark" : "☀️ Light"}
+        </button>
+      </div>
 
-      <div
-        style={{
-          marginTop: "32px",
-          marginBottom: "18px",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          textAlign: "center",
-          gap: "10px",
-        }}
-      >
-        <img src="/vettle-logo.png" alt="Vettle" style={{ height: "80px" }} />
-        <div style={{ background: "#3b2c1e", border: "1px solid #5a4430", borderRadius: "16px", padding: "16px 20px", maxWidth: "720px", width: "100%" }}>
-          <p style={{ fontSize: "15px", color: "#ffffff", fontWeight: "600", marginBottom: "6px" }}>
+      {/* HEADER */}
+      <div style={{ marginTop: "32px", marginBottom: "18px", display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "10px", width: "100%", maxWidth: "720px" }}>
+
+        {/* LOGO — panel only in light mode */}
+        {lightMode ? (
+          <div style={{ background: theme.logoPanel, border: `1px solid ${theme.logoBorder}`, borderRadius: "20px", padding: "20px 32px", display: "flex", alignItems: "center", justifyContent: "center", width: "100%" }}>
+            <img src="/vettle-logo.png" alt="Vettle" style={{ height: "72px" }} />
+          </div>
+        ) : (
+          <img src="/vettle-logo.png" alt="Vettle" style={{ height: "72px" }} />
+        )}
+
+        {/* INFO PANEL */}
+        <div style={{ background: theme.bgCard, border: `1px solid ${theme.border}`, borderRadius: "16px", padding: "16px 20px", width: "100%" }}>
+          <p style={{ fontSize: "15px", color: theme.text, fontWeight: "600", marginBottom: "6px" }}>
             Can you diagnose the animal before it&apos;s too late?
           </p>
-          <p style={{ fontSize: "12px", color: "#c2a98d", marginBottom: "8px" }}>
+          <p style={{ fontSize: "12px", color: theme.textMuted, marginBottom: "8px" }}>
             Endless progressive clue-based vignettes. A new case every round.
           </p>
-          <a
-            href="https://www.medicle.net/vettle"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ fontSize: "13px", fontWeight: "bold", color: "#d97706", textDecoration: "none" }}
-          >
+          <a href="https://www.medicle.net/vettle" target="_blank" rel="noopener noreferrer" style={{ fontSize: "13px", fontWeight: "bold", color: theme.accent, textDecoration: "none" }}>
             🔗 www.medicle.net/vettle
           </a>
         </div>
 
-        <div className="w-full max-w-3xl grid gap-3 sm:grid-cols-[1fr_auto] items-center">
+        {/* CASE SELECTOR */}
+        <div className="w-full grid gap-3 sm:grid-cols-[1fr_auto] items-center">
           <div className="text-left">
-            <label className="block text-xs font-mono tracking-widest mb-1" style={{ color: "#c2a98d" }}>
-              Jump to case
-            </label>
-            <select
-              value={selectedCaseId}
-              onChange={(e) => loadCaseById(e.target.value)}
-              className="w-full rounded-xl px-3 py-2 text-sm outline-none"
-              style={{ background: "#3b2c1e", border: "1px solid #5a4430", color: "white" }}
-              disabled={!cases.length}
-            >
-              {caseOptions.map((opt) => (
-                <option key={opt.id} value={opt.id}>
-                  {opt.label}
-                </option>
-              ))}
+            <label className="block text-xs font-mono tracking-widest mb-1" style={{ color: theme.textMuted }}>Jump to case</label>
+            <select value={selectedCaseId} onChange={(e) => loadCaseById(e.target.value)} className="w-full rounded-xl px-3 py-2 text-sm outline-none" style={{ background: theme.selectBg, border: `1px solid ${theme.border}`, color: theme.text, fontFamily: "'Poppins', sans-serif" }} disabled={!eligibleCases.length}>
+              {caseOptions.map((opt) => <option key={opt.id} value={opt.id}>{opt.label}</option>)}
             </select>
           </div>
-
           {current && (
             <div className="sm:text-right text-left">
-              <p className="text-xs font-mono tracking-widest" style={{ color: "#c2a98d" }}>
-                CURRENT CASE
-              </p>
-              <p className="text-lg font-bold" style={{ color: "#f5e6d3" }}>
-                #{current.id}
-              </p>
-              {showSystem && current.system && (
-                <p className="text-xs" style={{ color: "#c2a98d" }}>
-                  {current.system}
-                </p>
-              )}
+              <p className="text-xs font-mono tracking-widest" style={{ color: theme.textMuted }}>CURRENT CASE</p>
+              <p className="text-lg font-bold" style={{ color: theme.text }}>#{current.id}</p>
+              {showSystem && current.system && <p className="text-xs" style={{ color: theme.accent }}>{displaySystemLabel(current.system)}</p>}
             </div>
           )}
         </div>
       </div>
 
-      <div className="flex items-center gap-2 mb-3 text-sm w-full max-w-3xl" style={{ color: "#c2a98d" }}>
-        <span className="whitespace-nowrap">
-          Clue {revealed}/{current.clues.length}
-        </span>
-        <div className="flex-1 h-1.5 rounded-full overflow-hidden" style={{ background: "#5a4430" }}>
-          <div
-            className="h-full rounded-full transition-all duration-500"
-            style={{ width: `${(revealed / current.clues.length) * 100}%`, background: "#d97706" }}
-          />
+      {/* PROGRESS BAR */}
+      <div className="flex items-center gap-2 mb-3 text-sm w-full max-w-3xl" style={{ color: theme.textMuted }}>
+        <span className="whitespace-nowrap">Clue {revealed}/{current.clues.length}</span>
+        <div className="flex-1 h-1.5 rounded-full overflow-hidden" style={{ background: theme.border }}>
+          <div className="h-full rounded-full transition-all duration-500" style={{ width: `${(revealed / current.clues.length) * 100}%`, background: theme.accent }} />
         </div>
-        <span className="text-xs font-mono whitespace-nowrap" style={{ color: "#c2a98d" }}>
-          {guessesLeft} guess{guessesLeft !== 1 ? "es" : ""} left
-        </span>
+        <span className="text-xs font-mono whitespace-nowrap" style={{ color: theme.textMuted }}>{guessesLeft} guess{guessesLeft !== 1 ? "es" : ""} left</span>
       </div>
 
+      {/* CLUES */}
       <div className="w-full max-w-3xl space-y-2 mb-4">
         {current.clues.slice(0, revealed).map((clue, i) => (
-          <div
-            key={i}
-            className="rounded-xl px-4 py-3 text-sm border-l-4 transition-all duration-300"
-            style={{
-              background: "#3b2c1e",
-              borderColor: i === revealed - 1 ? "#d97706" : "#5a4430",
-              color: "#f5e6d3",
-            }}
-          >
-            <span className="text-xs font-mono mr-2" style={{ color: "#c2a98d" }}>
-              #{i + 1}
-            </span>
+          <div key={i} className="rounded-xl px-4 py-3 text-sm border-l-4 transition-all duration-300" style={{ background: theme.bgCard, borderColor: i === revealed - 1 ? theme.accent : theme.border, color: theme.text }}>
+            <span className="text-xs font-mono mr-2" style={{ color: theme.clueNum }}>#{i + 1}</span>
             {clue}
           </div>
         ))}
       </div>
 
+      {/* INPUT + DROPDOWN */}
       {!gameOver && (
         <div className="relative w-full max-w-3xl mb-2">
           <div className="flex gap-2">
-            <input
-              className="min-w-0 flex-1 rounded-xl text-white px-3 py-2 outline-none text-sm"
-              style={{ background: "#3b2c1e", border: "1px solid #5a4430", color: "white" }}
-              placeholder="Enter diagnosis..."
-              value={guess}
-              onChange={(e) => {
-                setGuess(e.target.value);
-                setShowDropdown(true);
-              }}
+            <input className="min-w-0 flex-1 rounded-xl px-3 py-2 outline-none text-sm" style={{ background: theme.bgInput, border: `1px solid ${theme.border}`, color: theme.text, fontFamily: "'Poppins', sans-serif" }} placeholder="Enter diagnosis..." value={guess}
+              onChange={(e) => { setGuess(e.target.value); setShowDropdown(true); }}
               onKeyDown={(e) => e.key === "Enter" && submitGuess(guess)}
               onFocus={() => setShowDropdown(true)}
             />
-            <button
-              onClick={() => submitGuess(guess)}
-              className="text-white py-2 rounded-xl font-bold text-sm shrink-0"
-              style={{ background: "#d97706", minWidth: "64px" }}
-            >
-              Guess
-            </button>
-            <button
-              onClick={() => submitGuess("", true)}
-              className="text-white py-2 rounded-xl font-bold text-sm shrink-0"
-              style={{ background: "#5a4430", minWidth: "52px" }}
-            >
-              Skip
-            </button>
+            <button onClick={() => submitGuess(guess)} className="py-2 rounded-xl font-bold text-sm shrink-0 text-white" style={{ background: theme.accent, minWidth: "64px", fontFamily: "'Poppins', sans-serif" }}>Guess</button>
+            <button onClick={() => submitGuess("", true)} className="py-2 rounded-xl font-bold text-sm shrink-0" style={{ background: theme.border, color: theme.text, minWidth: "52px", fontFamily: "'Poppins', sans-serif" }}>Skip</button>
           </div>
-
           {showDropdown && filtered.length > 0 && (
-            <div
-              className="absolute z-10 w-full rounded-xl mt-1 overflow-hidden shadow-lg"
-              style={{ background: "#3b2c1e", border: "1px solid #5a4430" }}
-            >
+            <div className="absolute z-10 w-full rounded-xl mt-1 overflow-hidden shadow-lg" style={{ background: theme.bgCard, border: `1px solid ${theme.border}` }}>
               {filtered.map((d, i) => (
-                <div
-                  key={i}
-                  className="px-4 py-2 text-white cursor-pointer text-sm"
-                  style={{ borderBottom: "1px solid #5a4430" }}
+                <div key={i} className="px-4 py-2 cursor-pointer text-sm" style={{ borderBottom: `1px solid ${theme.border}`, color: theme.text }}
                   onMouseDown={() => submitGuess(d)}
-                  onMouseOver={(e) => (e.currentTarget.style.background = "#d97706")}
-                  onMouseOut={(e) => (e.currentTarget.style.background = "transparent")}
-                >
-                  {d}
-                </div>
+                  onMouseOver={(e) => { e.currentTarget.style.background = theme.accent; e.currentTarget.style.color = "#ffffff"; }}
+                  onMouseOut={(e) => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = theme.text; }}
+                >{d}</div>
               ))}
             </div>
           )}
         </div>
       )}
 
+      {/* GUESS HISTORY */}
       <div className="mt-2 space-y-1 w-full max-w-3xl">
         {guesses.map((g, i) => (
           <div key={i} className="flex items-center gap-2 text-sm">
-            <span style={{ color: g.skipped ? "#c2a98d" : g.correct ? "#4ade80" : "#f87171" }}>
-              {g.skipped ? "—" : g.correct ? "✓" : "✗"}
-            </span>
-            <span style={{ color: g.skipped ? "#c2a98d" : g.correct ? "#4ade80" : "#f87171" }}>
-              {g.text}
-            </span>
+            <span style={{ color: g.skipped ? theme.textMuted : g.correct ? "#22c55e" : "#f87171" }}>{g.skipped ? "—" : g.correct ? "✓" : "✗"}</span>
+            <span style={{ color: g.skipped ? theme.textMuted : g.correct ? "#22c55e" : "#f87171" }}>{g.text}</span>
           </div>
         ))}
       </div>
 
+      {/* MONITOR + FILTER BUTTONS */}
       <div className="mt-8 w-full max-w-3xl">
-        <div className="flex items-center gap-2 mb-2">
-        <button
-          onClick={() => setShowECG((s) => !s)}
-          className="flex items-center gap-2 text-xs font-mono mb-2 px-3 py-1 rounded-lg transition-all"
-          style={{
-            background: showECG ? "#3b2c1e" : "transparent",
-            border: "1px solid #5a4430",
-            color: showECG ? "#d97706" : "#c2a98d",
-          }}
-        >
-          <span style={{ color: showECG ? "#22c55e" : "#c2a98d" }}>●</span>
-          {showECG ? "Hide" : "Show"} Patient Monitor
-        </button>
-        <button
-          onClick={() => setShowSystem((s) => !s)}
-          className="flex items-center gap-2 text-xs font-mono mb-2 px-3 py-1 rounded-lg transition-all"
-          style={{
-            background: showSystem ? "#3b2c1e" : "transparent",
-            border: "1px solid #5a4430",
-            color: showSystem ? "#d97706" : "#c2a98d",
-          }}
-        >
-          <span style={{ color: showSystem ? "#d97706" : "#c2a98d" }}>●</span>
-          {showSystem ? "Hide" : "Show"} Body System
-        </button>
-        
+        <div className="flex flex-wrap items-center gap-2 mb-2">
+          <button onClick={() => setShowECG((s) => !s)} className="flex items-center gap-2 text-xs font-mono mb-2 px-3 py-1 rounded-lg transition-all" style={{ background: showECG ? theme.bgCard : "transparent", border: `1px solid ${theme.border}`, color: showECG ? theme.accent : theme.textFaint, fontFamily: "'Poppins', sans-serif" }}>
+            <span style={{ color: showECG ? "#22c55e" : theme.textFaint }}>●</span>{showECG ? "Hide" : "Show"} Patient Monitor
+          </button>
+          <button onClick={() => setShowSystem((s) => !s)} className="flex items-center gap-2 text-xs font-mono mb-2 px-3 py-1 rounded-lg transition-all" style={{ background: showSystem ? theme.bgCard : "transparent", border: `1px solid ${theme.border}`, color: showSystem ? theme.accent : theme.textFaint, fontFamily: "'Poppins', sans-serif" }}>
+            <span style={{ color: showSystem ? theme.accent : theme.textFaint }}>●</span>{showSystem ? "Hide" : "Show"} Body System
+          </button>
+          <button onClick={() => setShowSystemFilter((s) => !s)} className="flex items-center gap-2 text-xs font-mono mb-2 px-3 py-1 rounded-lg transition-all" style={{ background: showSystemFilter ? theme.bgCard : "transparent", border: `1px solid ${theme.border}`, color: showSystemFilter ? theme.accent : theme.textFaint, fontFamily: "'Poppins', sans-serif" }}>
+            <span style={{ color: selectedSystems.size > 0 ? theme.accent : theme.textFaint }}>●</span>Filter Species{selectedSystems.size > 0 ? ` (${selectedSystems.size})` : ""}
+          </button>
         </div>
+
+        {showSystemFilter && (
+          <div className="w-full rounded-xl p-3 border mb-2" style={{ background: theme.filterPanel, borderColor: theme.border }}>
+            <div className="flex items-center justify-between gap-3">
+              <p className="text-xs font-mono tracking-widest" style={{ color: theme.textMuted }}>FILTER BY SPECIES / SYSTEM (OPTIONAL)</p>
+              <div className="flex items-center gap-2">
+                <button onClick={() => setSelectedSystems(new Set())} className="text-xs font-bold px-3 py-1.5 rounded-lg" style={{ background: theme.border, color: theme.text }}>Clear</button>
+                <button onClick={() => setSelectedSystems(new Set(allSystems))} className="text-xs font-bold px-3 py-1.5 rounded-lg text-white" style={{ background: theme.accent }}>Select all</button>
+              </div>
+            </div>
+            {allSystems.length === 0 ? (
+              <p className="text-sm mt-2" style={{ color: theme.textMuted }}>No system tags were found in your cases file.</p>
+            ) : (
+              <div className="mt-3 flex flex-wrap gap-2">
+                {allSystems.map((sys) => (
+                  <label key={sys} className="flex items-center gap-2 px-3 py-1.5 rounded-lg border text-xs cursor-pointer select-none" style={{ background: selectedSystems.has(sys) ? `${theme.accent}22` : "transparent", borderColor: selectedSystems.has(sys) ? theme.accent : theme.border, color: selectedSystems.has(sys) ? theme.text : theme.textMuted }}>
+                    <input type="checkbox" checked={selectedSystems.has(sys)} onChange={() => toggleSystem(sys)} style={{ accentColor: theme.accent }} />
+                    <span>{displaySystemLabel(sys)}</span>
+                  </label>
+                ))}
+              </div>
+            )}
+            {selectedSystems.size > 0 && <p className="text-xs mt-3" style={{ color: theme.textFaint }}>Active filter: {Array.from(selectedSystems).map(displaySystemLabel).join(", ")}</p>}
+            <p className="text-xs mt-2" style={{ color: theme.textFaint }}>Tip: Picking systems here limits new cases to those systems for this session.</p>
+          </div>
+        )}
 
         {showECG && <ECGMonitor badGuesses={badGuesses} gameOver={gameOver} won={won} guessesLeft={guessesLeft} />}
       </div>
 
+      {/* FOOTER */}
       <div className="mt-8 w-full max-w-3xl text-center space-y-3">
-        <p className="text-xs" style={{ color: "#c2a98d" }}>
-          ⚠️ Cases are AI-generated for educational purposes only and may contain inaccuracies. Not for clinical use.
-        </p>
-        <p className="text-xs" style={{ color: "#c2a98d" }}>
+        <p className="text-xs" style={{ color: theme.textFaint }}>⚠️ Cases are AI-generated for educational purposes only and may contain inaccuracies. Not for clinical use.</p>
+        <p className="text-xs" style={{ color: theme.textFaint }}>
           Vettle is an independent, fan-made endless diagnosis game inspired by{" "}
-          <a href="https://doctordle.org" target="_blank" rel="noopener noreferrer" style={{ color: "#d97706" }}>
-            Doctordle
-          </a>
-          . We built this as a complement, not a competitor, so veterinary students can practice endlessly. All credit to the
-          Doctordle team for the original concept.
+          <a href="https://doctordle.org" target="_blank" rel="noopener noreferrer" style={{ color: theme.accent }}>Doctordle</a>
+          . We built this as a complement, not a competitor, so veterinary students can practice endlessly.
         </p>
-        <p className="text-xs" style={{ color: "#c2a98d" }}>
+        <p className="text-xs" style={{ color: theme.textFaint }}>
           Questions or feedback?{" "}
-          <a href="mailto:medicle.game@gmail.com" style={{ color: "#d97706" }}>
-            medicle.game@gmail.com
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6EvwFZl8bNjuiICiyTB-lekERWn_L32p_fR6Wu8qIETYBmw/viewform" target="_blank" rel="noopener noreferrer" style={{ color: theme.accent, fontWeight: 600 }}>
+            Leave us feedback →
           </a>
         </p>
       </div>
     </main>
   );
 }
-

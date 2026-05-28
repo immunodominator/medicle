@@ -1774,11 +1774,11 @@ export default function Home() {
 
       {/* PROGRESS BAR */}
       <div className="flex items-center gap-2 mb-3 text-sm w-full max-w-3xl" style={{ color: theme.textMuted }}>
-        <span className="whitespace-nowrap">Clue {revealed}/{current.clues.length}</span>
+        <span className="whitespace-nowrap">Clue {revealed}/{Math.min(current.clues.length, MAX_GUESSES)}</span>
         <div className="flex-1 h-1.5 rounded-full overflow-hidden" style={{ background: theme.border }}>
           <div
             className="h-full rounded-full transition-all duration-500"
-            style={{ width: `${(revealed / current.clues.length) * 100}%`, background: theme.accent }}
+            style={{ width: `${(revealed / Math.min(current.clues.length, MAX_GUESSES)) * 100}%`, background: theme.accent }}
           />
         </div>
         <span className="text-xs font-mono whitespace-nowrap" style={{ color: theme.textMuted }}>
@@ -2014,33 +2014,6 @@ export default function Home() {
         </p>
       </div>
 
-      {/* FEEDBACK FORM */}
-      <div className="mt-6 w-full max-w-3xl mb-8">
-        <div
-          className="rounded-2xl overflow-hidden border"
-          style={{ borderColor: theme.border, background: theme.bgCard }}
-        >
-          <div
-            className="px-4 py-3 border-b"
-            style={{ borderColor: theme.border, background: theme.bgCard }}
-          >
-            <p className="text-xs font-mono tracking-widest" style={{ color: theme.textMuted }}>
-              💬 SHARE YOUR FEEDBACK
-            </p>
-          </div>
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSe6EvwFZl8bNjuiICiyTB-lekERWn_L32p_fR6Wu8qIETYBmw/viewform?embedded=true"
-            width="100%"
-            height="520"
-            frameBorder="0"
-            marginHeight={0}
-            marginWidth={0}
-            style={{ display: "block", background: "transparent" }}
-          >
-            Loading…
-          </iframe>
-        </div>
-      </div>
     </main>
   );
 }
