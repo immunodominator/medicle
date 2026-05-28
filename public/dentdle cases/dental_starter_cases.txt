@@ -2319,3 +2319,2100 @@ TEACHING_POINTS:
 - Intelligence is completely normal despite severe facial deformities.
 ==================================================
 
+CASE_ID: 101
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Oroantral Communication
+
+ALIASES:
+oroantral fistula
+OAC
+oroantral perforation
+
+VIGNETTE_LINES:
+1. 44M returns three days after an upper back tooth was removed, complaining of a strange sensation when drinking.
+2. He reports fluid coming out of his nose when he sips water and a nasal quality to his voice.
+3. The extraction was of a maxillary first molar with widely divergent roots close to the sinus floor.
+4. A pinching-the-nose-and-blowing maneuver produces air bubbling through the socket.
+5. Periapical and Waters views show loss of the corticated sinus floor over the socket.
+6. Communication between the oral cavity and maxillary sinus is confirmed; small defects may close spontaneously, larger ones need a flap.
+
+TEACHING_POINTS:
+- Suspect an oroantral communication after maxillary molar/premolar extraction, especially with divergent roots near the antrum.
+- A positive nose-blow (Valsalva) test with air or fluid through the socket is highly suggestive.
+- Defects under 2 mm often heal spontaneously; 2 to 6 mm may need figure-eight suture; larger defects require buccal or palatal flap closure.
+- Untreated, it can epithelialize into a chronic oroantral fistula and cause chronic sinusitis.
+- Avoid nose-blowing, straws, and smoking postoperatively to protect the clot and closure.
+==================================================
+
+CASE_ID: 102
+DIFFICULTY: dental
+SYSTEM: endodontics
+
+DIAGNOSIS:
+External Cervical Resorption
+
+ALIASES:
+ECR
+invasive cervical resorption
+cervical resorption
+
+VIGNETTE_LINES:
+1. 31F has an asymptomatic front tooth that a hygienist noticed looked faintly pink near the gumline.
+2. She had orthodontic treatment and a traumatic dental injury to that tooth in her teens.
+3. The tooth responds normally to cold and electric pulp testing, suggesting a vital pulp.
+4. Probing at the cervical area reveals a defect with bleeding and a hard, irregular base.
+5. CBCT shows an irregular radiolucency starting at the cervical region external to the canal, with an intact pulp space outline.
+6. The destructive process originating from the external root surface below the epithelial attachment confirms the diagnosis.
+
+TEACHING_POINTS:
+- External cervical resorption arises from the external root surface at the cervical area, often after trauma, orthodontics, or intracoronal bleaching.
+- The classic "pink spot" is granulation tissue showing through thinned enamel/dentin, but the pulp is usually vital early on.
+- CBCT distinguishes external resorption (defect outside an intact canal) from internal resorption (ballooning within the canal).
+- Heithersay classification guides prognosis; advanced lesions may be untreatable.
+- Management ranges from defect repair and surgery to extraction, depending on extent.
+==================================================
+
+CASE_ID: 103
+DIFFICULTY: dental
+SYSTEM: endodontics
+
+DIAGNOSIS:
+Internal Root Resorption
+
+ALIASES:
+internal resorption
+intraradicular resorption
+pink tooth of Mummery
+
+VIGNETTE_LINES:
+1. 28M is referred after a routine radiograph showed an unexpected change in a previously root-filled-looking tooth.
+2. He recalls a sports injury to his front teeth several years ago but has had no pain since.
+3. The crown shows a subtle pinkish hue near the middle third on close inspection.
+4. Pulp testing is equivocal, and the tooth is non-tender to percussion.
+5. A periapical film shows a symmetric, balloon-shaped radiolucency centered on and continuous with the canal, with smooth borders.
+6. Parallax/CBCT confirms the defect is within the canal walls, establishing a resorptive process arising from inside the pulp.
+
+TEACHING_POINTS:
+- Internal resorption originates from the pulp and expands symmetrically within the canal, which appears to balloon out.
+- It requires vital pulp tissue (often partially inflamed) to drive the resorbing cells; trauma and chronic pulpitis are risk factors.
+- On radiographs the defect is continuous with the canal and the canal outline is lost through the lesion (vs external resorption where the canal is superimposed and intact).
+- Parallax shifting or CBCT differentiates internal from external resorption.
+- Treatment is prompt root canal therapy to remove the stimulus before perforation occurs.
+==================================================
+
+CASE_ID: 104
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Pyogenic Granuloma
+
+ALIASES:
+pregnancy tumor
+lobular capillary hemangioma
+pregnancy epulis
+
+VIGNETTE_LINES:
+1. 26F who is several months pregnant complains of a lump on her gums that bleeds easily when she brushes.
+2. The lesion has grown rapidly over a few weeks and is sometimes alarming because of the bleeding.
+3. Intraoral exam shows a soft, red, pedunculated mass on the interdental papilla near a plaque-laden area.
+4. There is local plaque and calculus, and the gingiva around it is inflamed.
+5. The mass blanches minimally, is non-tender, and shows no underlying bone destruction on radiograph.
+6. Excisional biopsy reveals a lobular proliferation of capillaries with edematous stroma, confirming a reactive vascular lesion.
+
+TEACHING_POINTS:
+- Pyogenic granuloma is a reactive (not infectious or neoplastic) vascular overgrowth, despite its misleading name.
+- It is common on the gingiva, especially during pregnancy ("pregnancy tumor") due to hormonal modulation of the plaque response.
+- It bleeds easily and grows rapidly; local irritants (plaque, calculus) are typical triggers.
+- Histology shows lobular capillary proliferation (lobular capillary hemangioma).
+- Treatment is excision with removal of local irritants; pregnancy-associated lesions may regress postpartum but often recur if irritants remain.
+==================================================
+
+CASE_ID: 105
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Irritation Fibroma
+
+ALIASES:
+traumatic fibroma
+focal fibrous hyperplasia
+fibrous nodule
+
+VIGNETTE_LINES:
+1. 50F reports a painless bump on the inside of her cheek that she has had for over a year.
+2. She admits she often bites her cheek in that exact spot, especially when stressed.
+3. Exam shows a firm, smooth, dome-shaped nodule along the bite line of the buccal mucosa.
+4. The lesion is the same color as surrounding mucosa and does not bleed or ulcerate.
+5. It has remained stable in size and is non-tender, with no induration of the surrounding tissue.
+6. Excisional biopsy shows dense fibrous connective tissue with overlying normal epithelium, confirming a reactive hyperplastic nodule.
+
+TEACHING_POINTS:
+- An irritation fibroma is the most common benign "tumor" of the oral cavity and is actually reactive fibrous hyperplasia from chronic trauma.
+- It classically occurs along the bite line (buccal mucosa, lateral tongue, lips) from repeated trauma.
+- It is firm, smooth, sessile or pedunculated, and the same color as adjacent mucosa.
+- Histology shows dense collagen with sparse cellularity and normal overlying epithelium.
+- Treatment is conservative excision and elimination of the chronic irritation; recurrence is uncommon if the habit stops.
+==================================================
+
+CASE_ID: 106
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Geographic Tongue
+
+ALIASES:
+benign migratory glossitis
+erythema migrans
+migratory glossitis
+
+VIGNETTE_LINES:
+1. 30F is worried about constantly changing patches on her tongue that seem to move from week to week.
+2. She reports mild sensitivity to spicy or acidic foods but is otherwise healthy.
+3. Exam shows well-demarcated red patches with slightly raised white-yellow serpiginous borders on the dorsal tongue.
+4. The pattern of lesions has visibly changed since photos she took a few days earlier.
+5. There is no induration, ulceration, or fixed lesion, and the rest of the exam is normal.
+6. The migrating areas of filiform papillae loss with healing and recurrence confirm a benign inflammatory condition needing only reassurance.
+
+TEACHING_POINTS:
+- Geographic tongue is a benign inflammatory condition with migrating areas of depapillation surrounded by raised keratotic borders.
+- The hallmark is the changing, "map-like" pattern that resolves and recurs in different locations.
+- It is often associated with fissured tongue and sometimes psoriasis; most patients are asymptomatic or have mild burning.
+- No biopsy is usually needed; diagnosis is clinical based on the characteristic migratory appearance.
+- Management is reassurance and avoidance of irritants; topical agents are used only for symptomatic relief.
+==================================================
+
+CASE_ID: 107
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Burning Mouth Syndrome
+
+ALIASES:
+BMS
+glossodynia
+stomatodynia
+
+VIGNETTE_LINES:
+1. 58F describes a persistent burning sensation of the tongue and lips that has lasted months.
+2. The burning worsens through the day but she can still eat, and distraction sometimes relieves it.
+3. Intraoral exam is completely normal with no ulcers, erythema, candidal plaques, or mucosal lesions.
+4. Salivary flow, blood glucose, B12, folate, iron, and a fungal smear are all within normal limits.
+5. There is no clinically apparent cause despite thorough evaluation, and she is postmenopausal.
+6. A diagnosis of exclusion is reached after ruling out organic causes, defining a chronic orofacial pain disorder.
+
+TEACHING_POINTS:
+- Burning mouth syndrome is a chronic burning pain with a clinically normal oral mucosa and no identifiable organic cause.
+- It is a diagnosis of exclusion; rule out candidiasis, xerostomia, nutritional deficiencies (B12, folate, iron), diabetes, and contact reactions first.
+- It most often affects peri- and postmenopausal women and frequently spares sleep (burning improves at night/with eating).
+- It is considered a neuropathic/idiopathic orofacial pain condition.
+- Management includes reassurance, topical/systemic clonazepam, alpha-lipoic acid, and neuropathic agents; address any contributing factors.
+==================================================
+
+CASE_ID: 108
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Nicotinic Stomatitis
+
+ALIASES:
+smoker's palate
+nicotine stomatitis
+stomatitis nicotina
+
+VIGNETTE_LINES:
+1. 60M is a long-time pipe smoker who is told his palate "looks unusual" at a routine visit.
+2. He has no pain and is unaware of any problem in his mouth.
+3. Exam shows a diffusely grayish-white, thickened hard palate.
+4. Scattered across the palate are numerous small papules each with a red central dot.
+5. The changes spare areas covered by his denture and concentrate where heat exposure is greatest.
+6. The keratotic palate with inflamed, dilated minor salivary duct openings confirms a benign heat-related reaction that reverses with cessation.
+
+TEACHING_POINTS:
+- Nicotinic stomatitis is a benign keratotic reaction of the hard palate caused by heat (classically pipe/cigar smoking), not the chemicals alone.
+- The hallmark is a white palate studded with red-centered papules (inflamed minor salivary gland duct orifices).
+- It is generally not premalignant on the palate, but reverse smoking causes a higher-risk variant.
+- Areas under a denture are protected and remain pink, highlighting the heat etiology.
+- It typically resolves with smoking cessation; persistent palatal white lesions warrant biopsy.
+==================================================
+
+CASE_ID: 109
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Torus Palatinus
+
+ALIASES:
+palatal torus
+maxillary torus
+palatal exostosis
+
+VIGNETTE_LINES:
+1. 40F is concerned about a hard lump in the roof of her mouth that she "just noticed" but may have had for years.
+2. She has no pain and the overlying tissue occasionally gets sore only when she eats sharp foods.
+3. Exam shows a bony-hard, immobile midline swelling of the hard palate covered by normal mucosa.
+4. The mass is lobulated and does not change with palpation or time.
+5. An occlusal radiograph shows a dense, well-defined radiopacity in the midline without aggressive features.
+6. The slow-growing midline bony outgrowth covered by intact mucosa confirms a developmental exostosis requiring no treatment unless prosthetically problematic.
+
+TEACHING_POINTS:
+- A torus palatinus is a benign bony exostosis in the midline of the hard palate, developmental and slow-growing.
+- The mucosa over it is normal but thin, so it is easily traumatized by hard/sharp foods.
+- It requires no treatment unless it interferes with denture fabrication, function, or repeated trauma.
+- Mandibular tori are the lingual counterpart, usually bilateral near the premolars.
+- Recognition prevents misdiagnosis as a neoplasm; biopsy is unnecessary for classic presentations.
+==================================================
+
+CASE_ID: 110
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Median Rhomboid Glossitis
+
+ALIASES:
+central papillary atrophy
+MRG
+median rhomboid glossitis
+
+VIGNETTE_LINES:
+1. 55M is referred for a "bald patch" on his tongue noted during a routine exam.
+2. He is a smoker with poorly controlled diabetes and uses an inhaled corticosteroid.
+3. Exam shows a well-demarcated, smooth, erythematous rhomboid area in the midline dorsal tongue, just anterior to the circumvallate papillae.
+4. The lesion is flat, non-indurated, and has no rolled borders.
+5. A corresponding erythematous "kissing lesion" is present on the palate where the tongue contacts it.
+6. The chronic midline depapillated patch, associated with Candida and his risk factors, confirms a localized candidal process.
+
+TEACHING_POINTS:
+- Median rhomboid glossitis is a chronic, well-demarcated depapillated patch in the midline posterior dorsal tongue.
+- It is strongly associated with Candida and risk factors such as smoking, diabetes, and inhaled corticosteroids.
+- A "kissing lesion" on the adjacent palate supports the candidal etiology.
+- Its fixed midline location and lack of induration distinguish it from malignancy, but persistent or indurated lesions warrant biopsy.
+- Management addresses Candida and risk factors; antifungals may help but the depapillation often persists.
+==================================================
+
+CASE_ID: 111
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Osteoradionecrosis
+
+ALIASES:
+ORN
+radiation osteonecrosis
+osteoradionecrosis of the jaw
+
+VIGNETTE_LINES:
+1. 64M reports exposed, painful bone in the back of his lower jaw that will not heal.
+2. He was treated several years ago for a head and neck cancer with high-dose radiation.
+3. He had a molar extracted in the irradiated field a few months before the bone exposure appeared.
+4. Exam shows an area of exposed, non-healing bone with surrounding inflamed mucosa and foul odor.
+5. There is no current evidence of recurrent tumor on imaging, but the mandible shows a moth-eaten lytic pattern.
+6. Exposed irradiated bone failing to heal over months, without tumor recurrence, confirms a hypovascular-hypocellular-hypoxic bone necrosis.
+
+TEACHING_POINTS:
+- Osteoradionecrosis is non-healing exposed bone in a previously irradiated field, classically the mandible (denser, less vascular).
+- The pathophysiology is the radiation-induced hypovascular, hypocellular, hypoxic ("3H") tissue that cannot heal trauma.
+- Extractions in the radiated field are a major trigger; prevention involves dental clearance before radiotherapy.
+- It must be distinguished from recurrent/metastatic tumor and from MRONJ (medication-related), which has a similar appearance but different history.
+- Management ranges from conservative care and antibiotics to hyperbaric oxygen and resection; prevention is paramount.
+==================================================
+
+CASE_ID: 112
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Osteomyelitis of the Jaw
+
+ALIASES:
+suppurative osteomyelitis
+jaw osteomyelitis
+mandibular osteomyelitis
+
+VIGNETTE_LINES:
+1. 47M presents with deep, throbbing jaw pain, swelling, and a low-grade fever for the past week.
+2. He has poorly controlled diabetes and recently had an untreated abscessed molar.
+3. Exam reveals firm facial swelling, tenderness, and numbness of the lower lip on the affected side.
+4. Several teeth in the area are mobile and tender, and pus drains from the gingival sulcus.
+5. A radiograph shows a poorly defined "moth-eaten" radiolucency with a central sequestrum of dead bone.
+6. Bone biopsy and culture confirm infection of the medullary bone, and the paresthesia reflects inferior alveolar nerve involvement.
+
+TEACHING_POINTS:
+- Osteomyelitis is infection of the medullary bone, most often the mandible, frequently from an odontogenic source.
+- Risk factors include immunocompromise, diabetes, and conditions reducing vascularity.
+- Paresthesia of the lower lip (Vincent's sign) signals inferior alveolar nerve involvement and is an important clue.
+- Radiographs show a moth-eaten radiolucency, often with a sequestrum (necrotic bone) and possible involucrum.
+- Treatment is prolonged culture-guided antibiotics, removal of the source, and surgical debridement/sequestrectomy.
+==================================================
+
+CASE_ID: 113
+DIFFICULTY: dental
+SYSTEM: radiology
+
+DIAGNOSIS:
+Periapical Granuloma
+
+ALIASES:
+apical granuloma
+periapical granuloma
+chronic apical periodontitis with granuloma
+
+VIGNETTE_LINES:
+1. 39F is asymptomatic but a radiolucency was found at the apex of a discolored front tooth during routine imaging.
+2. The tooth had a traumatic injury and a deep restoration years ago and never bothered her.
+3. The tooth does not respond to cold or electric pulp testing, indicating a non-vital pulp.
+4. It is only mildly tender to percussion, with no swelling or sinus tract.
+5. A periapical film shows a small, well-circumscribed radiolucency (under 1 cm) continuous with the apex.
+6. Histology after apical surgery shows chronic inflammatory (granulation) tissue without an epithelial-lined cavity, confirming the lesion.
+
+TEACHING_POINTS:
+- A periapical granuloma is chronic inflammatory granulation tissue at the apex of a non-vital tooth, the most common periapical radiolucency.
+- It is usually asymptomatic and discovered on routine radiographs; the pulp tests non-vital.
+- It cannot be reliably distinguished from a periapical (radicular) cyst on radiographs alone; histology is definitive.
+- Treatment is nonsurgical root canal therapy; many lesions resolve once the canal infection is eliminated.
+- Persistent lesions after adequate endodontics may require apical surgery and biopsy.
+==================================================
+
+CASE_ID: 114
+DIFFICULTY: dental
+SYSTEM: radiology
+
+DIAGNOSIS:
+Condensing Osteitis
+
+ALIASES:
+focal sclerosing osteomyelitis
+condensing osteitis
+focal sclerosing osteitis
+
+VIGNETTE_LINES:
+1. 33M has mild, long-standing discomfort in a heavily restored lower molar but no acute symptoms.
+2. The tooth has a history of a large filling and intermittent dull ache over years.
+3. The tooth responds within normal limits to pulp testing or shows low-grade chronic pulpitis.
+4. There is slight tenderness to percussion but no swelling or mobility.
+5. A radiograph shows a well-defined, uniform radiopacity at the apex of the affected root, blending with surrounding bone.
+6. The localized increase in bone density around the apex of a chronically inflamed tooth confirms a reactive sclerotic response.
+
+TEACHING_POINTS:
+- Condensing osteitis is a localized area of increased bone density (radiopacity) at the apex of a tooth with chronic low-grade pulpal inflammation.
+- It is a reactive process, not a true infection or neoplasm; the associated tooth usually has a history of caries or large restoration.
+- It is the most common periapical radiopacity, typically at mandibular posterior teeth.
+- It may regress after endodontic treatment or extraction, but residual sclerotic bone ("osteosclerosis") can persist.
+- Differentiate from cementoblastoma (fused to root, radiolucent rim) and idiopathic osteosclerosis (no associated pulpal disease).
+==================================================
+
+CASE_ID: 115
+DIFFICULTY: dental
+SYSTEM: radiology
+
+DIAGNOSIS:
+Florid Cemento-Osseous Dysplasia
+
+ALIASES:
+florid COD
+florid osseous dysplasia
+cemento-osseous dysplasia
+
+VIGNETTE_LINES:
+1. 52F of African descent is asymptomatic, with incidental jaw findings on a panoramic film taken for denture planning.
+2. She has no relevant symptoms, and the involved teeth are vital.
+3. Exam shows no swelling or expansion, and the overlying mucosa is normal.
+4. Pulp testing of the teeth in the affected areas is within normal limits.
+5. Panoramic imaging reveals multiple mixed radiolucent-radiopaque masses in several quadrants, concentrated around tooth apices.
+6. The multifocal, bilaterally symmetric lesions associated with vital teeth, in this demographic, confirm a benign dysplastic process best left alone.
+
+TEACHING_POINTS:
+- Cemento-osseous dysplasia is a benign fibro-osseous lesion where normal bone is replaced by fibrous tissue and cementum-like material.
+- The florid type is multifocal/multiquadrant, classically in middle-aged Black women, and is usually asymptomatic.
+- The associated teeth are VITAL, which distinguishes it from periapical pathology of pulpal origin.
+- Lesions evolve from radiolucent to mixed to radiopaque over time; biopsy is generally avoided because the hypovascular bone heals poorly and can become infected.
+- Management is observation; avoid unnecessary surgery and extractions in affected areas.
+==================================================
+
+CASE_ID: 116
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Osteoma
+
+ALIASES:
+osteoma
+benign bone tumor
+peripheral osteoma
+
+VIGNETTE_LINES:
+1. 35M reports a slowly enlarging, hard lump on his jaw that has been present for a couple of years.
+2. He has no pain, numbness, or systemic symptoms and is otherwise healthy.
+3. Exam reveals a solitary, bony-hard, non-tender mass fixed to the mandible with normal overlying mucosa.
+4. There is no associated tooth pathology, and adjacent teeth test vital.
+5. A radiograph shows a well-circumscribed, dense, uniformly radiopaque mass arising from cortical bone.
+6. Excision and histology show dense compact/cancellous bone without atypia, confirming a benign bone-forming tumor.
+
+TEACHING_POINTS:
+- An osteoma is a benign tumor of mature bone, occurring as peripheral (surface), central (endosteal), or extraskeletal forms.
+- It is slow-growing, asymptomatic, and well-circumscribed, with uniform radiopacity.
+- Multiple osteomas should raise suspicion for Gardner syndrome (with intestinal polyps, supernumerary teeth, epidermoid cysts).
+- It must be distinguished from exostoses/tori (developmental) and osteoblastoma/osteosarcoma (the latter is aggressive).
+- Treatment is conservative excision when symptomatic or functionally/cosmetically significant.
+==================================================
+
+CASE_ID: 117
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Fibrous Dysplasia
+
+ALIASES:
+fibrous dysplasia
+monostotic fibrous dysplasia
+craniofacial fibrous dysplasia
+
+VIGNETTE_LINES:
+1. 16F is brought in for a painless, gradually enlarging swelling of one side of the upper jaw causing facial asymmetry.
+2. The swelling began a few years ago and has slowly progressed without pain.
+3. Exam shows a smooth, fusiform expansion of the maxilla with intact overlying mucosa and no lymphadenopathy.
+4. The involved teeth are vital and only mildly displaced.
+5. A radiograph shows a diffuse, poorly demarcated "ground-glass" radiopacity blending imperceptibly into normal bone.
+6. Biopsy reveals irregular "Chinese character" trabeculae of woven bone in a fibrous stroma, confirming a developmental fibro-osseous lesion.
+
+TEACHING_POINTS:
+- Fibrous dysplasia is a developmental lesion (GNAS mutation) where normal bone is replaced by fibro-osseous tissue, typically in adolescents/young adults.
+- The maxilla is more often affected than the mandible; growth tends to slow after skeletal maturity.
+- The classic radiographic appearance is a "ground-glass" pattern with poorly defined margins blending into normal bone.
+- Histology shows irregular woven-bone trabeculae ("Chinese characters") without osteoblastic rimming.
+- McCune-Albright syndrome features polyostotic fibrous dysplasia, cafe-au-lait macules, and endocrinopathies; treatment is conservative recontouring after growth stabilizes.
+==================================================
+
+CASE_ID: 118
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Osteosarcoma of the Jaw
+
+ALIASES:
+osteogenic sarcoma
+jaw osteosarcoma
+osteosarcoma
+
+VIGNETTE_LINES:
+1. 28M reports a rapidly enlarging jaw swelling with new numbness of the lower lip over a few weeks.
+2. He has had recent loosening of teeth and a vague deep ache in the area.
+3. Exam shows a firm expansile mass with paresthesia and slightly mobile teeth in the involved segment.
+4. The overlying mucosa is intact early, but the rapid growth is concerning.
+5. A radiograph shows a symmetric "widening of the periodontal ligament space" around involved teeth and a "sunburst" periosteal pattern.
+6. Biopsy reveals malignant mesenchymal cells producing osteoid, confirming an aggressive bone malignancy.
+
+TEACHING_POINTS:
+- Osteosarcoma is a malignant bone tumor producing osteoid; jaw lesions tend to occur a decade later than long-bone osteosarcomas.
+- Warning signs include rapid swelling, paresthesia, tooth mobility, and pain.
+- Symmetric widening of the periodontal ligament space around a tooth is an early, classic radiographic clue.
+- A "sunburst" or "sun-ray" periosteal reaction and irregular bone destruction support the diagnosis.
+- Diagnosis is by biopsy; treatment is wide surgical resection with adjuvant chemotherapy, and prognosis depends on margins.
+==================================================
+
+CASE_ID: 119
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Salivary Gland Adenoid Cystic Carcinoma
+
+ALIASES:
+adenoid cystic carcinoma
+ACC
+cylindroma
+
+VIGNETTE_LINES:
+1. 55F reports a slowly growing lump on her palate with a recent onset of dull pain and tingling.
+2. The swelling has been present for months but the neuropathic pain is new.
+3. Exam shows a firm submucosal palatal mass, occasionally ulcerated, near the junction of hard and soft palate.
+4. There is no cervical lymphadenopathy, but she notes numbness in the area.
+5. A radiograph shows possible bone invasion, and the lesion is fixed to deeper tissues.
+6. Biopsy reveals a cribriform "Swiss cheese" pattern of basaloid cells with perineural invasion, confirming a malignant salivary gland tumor.
+
+TEACHING_POINTS:
+- Adenoid cystic carcinoma is a malignant salivary gland tumor with a high propensity for perineural invasion.
+- It commonly arises in minor salivary glands (palate is the most common intraoral site) and major glands.
+- Perineural spread explains pain/paresthesia that is out of proportion to the visible lesion.
+- Histology shows a classic cribriform ("Swiss cheese") pattern; the tubular, cribriform, and solid subtypes carry different prognoses.
+- It has a relentless, slow course with late distant metastasis (lung); long-term follow-up is essential.
+==================================================
+
+CASE_ID: 120
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Necrotizing Sialometaplasia
+
+ALIASES:
+necrotizing sialometaplasia
+NS
+salivary gland infarction
+
+VIGNETTE_LINES:
+1. 45M presents with a deep, painful ulcer on the hard palate that appeared suddenly about two weeks ago.
+2. He recently had a dental injection in that area and is a heavy smoker.
+3. Exam shows a crater-like ulcer with a yellowish base on the posterior lateral hard palate.
+4. The lesion looks alarming and clinically mimics a malignancy.
+5. There is no induration of the deep tissues out of proportion to the ulcer, and it has been slowly improving.
+6. Biopsy shows lobular necrosis of salivary glands with squamous metaplasia of ducts, confirming a benign self-limiting condition.
+
+TEACHING_POINTS:
+- Necrotizing sialometaplasia is a benign, self-limiting ischemic necrosis of salivary gland tissue, classically on the hard palate.
+- Triggers include local anesthetic injection, trauma, smoking, and other causes of vascular compromise.
+- Clinically and histologically it mimics malignancy (squamous cell carcinoma, mucoepidermoid carcinoma), which is the key pitfall.
+- The preserved lobular architecture and bland squamous metaplasia distinguish it from carcinoma on biopsy.
+- It heals spontaneously over weeks; recognition prevents unnecessary radical surgery.
+==================================================
+
+CASE_ID: 121
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Behcet Disease
+
+ALIASES:
+Behcet's disease
+Behcet syndrome
+Behcet's syndrome
+
+VIGNETTE_LINES:
+1. 27M reports recurring painful mouth ulcers that have plagued him for over a year.
+2. He also describes painful genital sores and recurrent red, painful eyes.
+3. Intraoral exam shows multiple aphthous-like ulcers with erythematous halos on non-keratinized mucosa.
+4. He mentions skin pustules that form after minor scratches or needle sticks.
+5. Ophthalmology has documented recurrent uveitis, and he has had episodes of joint pain.
+6. The combination of recurrent oral and genital ulcers with ocular inflammation and pathergy confirms a systemic vasculitic disorder.
+
+TEACHING_POINTS:
+- Behcet disease is a multisystem vasculitis defined by recurrent oral ulcers plus genital ulcers, ocular lesions, and skin findings.
+- Recurrent aphthous-like oral ulcers are the most common and often earliest feature.
+- A positive pathergy test (pustule forming after a needle prick) is characteristic.
+- Uveitis can threaten vision; systemic involvement may include joints, GI tract, and CNS.
+- Diagnosis is clinical (international criteria); management uses topical and systemic immunomodulators, often co-managed with rheumatology.
+==================================================
+
+CASE_ID: 122
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Tuberculosis
+
+ALIASES:
+oral tuberculosis
+TB
+mycobacterial infection
+
+VIGNETTE_LINES:
+1. 50M presents with a chronic, non-healing ulcer on the dorsum of the tongue and persistent malaise.
+2. He has a chronic productive cough, night sweats, and unexplained weight loss over months.
+3. Exam shows an irregular, painful ulcer with undermined edges on the tongue.
+4. He has palpable, matted cervical lymph nodes.
+5. A chest radiograph shows upper-lobe cavitary disease, and sputum is positive for acid-fast bacilli.
+6. Biopsy of the oral ulcer reveals caseating granulomas with acid-fast organisms, confirming a mycobacterial infection.
+
+TEACHING_POINTS:
+- Oral tuberculosis is uncommon and usually secondary to pulmonary disease, presenting as a chronic, painful, non-healing ulcer (often on the tongue).
+- Systemic clues (cough, night sweats, weight loss, fever) and cervical lymphadenopathy (scrofula) point to TB.
+- Biopsy shows caseating granulomas; acid-fast staining and culture confirm Mycobacterium tuberculosis.
+- A chronic oral ulcer that fails to heal must be biopsied to exclude malignancy and granulomatous disease.
+- Management is multidrug antitubercular therapy with appropriate infection control and public health reporting.
+==================================================
+
+CASE_ID: 123
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Oral Crohn Disease
+
+ALIASES:
+orofacial granulomatosis
+oral Crohn's disease
+Crohn's of the mouth
+
+VIGNETTE_LINES:
+1. 24F reports persistent lip and cheek swelling along with mouth ulcers that come and go.
+2. She has intermittent abdominal pain, diarrhea, and unintentional weight loss.
+3. Intraoral exam shows a "cobblestone" appearance of the buccal mucosa and linear ulcers in the vestibule.
+4. The lips are diffusely swollen, and there are mucosal tags resembling small folds.
+5. Laboratory studies show anemia and elevated inflammatory markers.
+6. Biopsy of the oral lesions reveals non-caseating granulomas, and GI workup confirms the underlying inflammatory bowel disease.
+
+TEACHING_POINTS:
+- Oral Crohn disease can precede or accompany intestinal disease and presents with cobblestone mucosa, linear vestibular ulcers, and diffuse lip/facial swelling.
+- Mucosal tags and a "full" lip swelling (orofacial granulomatosis) are characteristic.
+- Biopsy shows non-caseating granulomas, similar to other granulomatous conditions, so correlation with GI findings is needed.
+- Systemic clues (abdominal pain, diarrhea, weight loss, anemia) should prompt gastroenterology referral.
+- Management is multidisciplinary; oral lesions often respond to control of the systemic disease plus topical therapy.
+==================================================
+
+CASE_ID: 124
+DIFFICULTY: dental
+SYSTEM: systemic
+
+DIAGNOSIS:
+Sarcoidosis
+
+ALIASES:
+sarcoidosis
+oral sarcoidosis
+Heerfordt syndrome
+
+VIGNETTE_LINES:
+1. 38F reports bilateral salivary gland swelling and a persistent dry mouth.
+2. She also has a chronic cough, fatigue, and mild shortness of breath.
+3. Exam shows firm, non-tender enlargement of the parotid glands and a few submucosal nodules.
+4. She mentions a recent bout of facial weakness and red, painful eyes.
+5. A chest radiograph shows bilateral hilar lymphadenopathy, and serum ACE is elevated.
+6. Biopsy of an oral nodule reveals non-caseating granulomas, confirming a multisystem granulomatous disease.
+
+TEACHING_POINTS:
+- Sarcoidosis is a multisystem granulomatous disease; oral and salivary involvement can be a presenting sign.
+- Heerfordt syndrome (uveoparotid fever) features parotid enlargement, uveitis, facial nerve palsy, and fever.
+- Bilateral hilar lymphadenopathy on chest imaging and elevated serum ACE support the diagnosis.
+- Biopsy shows non-caseating granulomas; exclude TB and fungal infection (which caseate or contain organisms).
+- Management is often corticosteroids for symptomatic disease, coordinated with the broader medical team.
+==================================================
+
+CASE_ID: 125
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Xerostomia
+
+ALIASES:
+dry mouth
+hyposalivation
+xerostomia
+
+VIGNETTE_LINES:
+1. 70F complains of a persistently dry, sticky mouth and difficulty swallowing dry foods.
+2. She takes several medications including an antihistamine, a diuretic, and an antidepressant.
+3. Exam shows dry, sticky mucosa, a lobulated dry tongue, and minimal pooled saliva in the floor of the mouth.
+4. She has a sharp rise in cervical and smooth-surface caries over the past year.
+5. Stimulated and unstimulated salivary flow rates are markedly reduced, but autoimmune serologies are negative.
+6. The reduced salivary output linked to her polypharmacy, with negative autoimmune workup, confirms a medication-related dry mouth.
+
+TEACHING_POINTS:
+- Xerostomia (subjective dryness) often reflects true hyposalivation; medications are the most common cause in older adults.
+- Classic culprits include anticholinergics, antihistamines, antidepressants, antihypertensives, and diuretics.
+- Consequences include rampant cervical caries, candidiasis, mucosal soreness, and difficulty with speech/swallowing.
+- Always exclude Sjogren syndrome (positive anti-SSA/SSB, dry eyes) and prior head/neck radiation.
+- Management includes sialogogues, saliva substitutes, meticulous caries prevention (fluoride), and reviewing/adjusting medications.
+==================================================
+CASE_ID: 126
+DIFFICULTY: dental
+SYSTEM: prosthodontics
+
+DIAGNOSIS:
+Open Crown Margin
+
+ALIASES:
+defective crown margin
+open margin
+marginal gap
+
+VIGNETTE_LINES:
+1. 48M reports sensitivity and a "catching" sensation with floss around a crowned molar placed two years ago.
+2. He has good hygiene elsewhere but consistently frays floss at this one tooth.
+3. Exam shows the gingival margin around the crown is inflamed and bleeds on probing locally.
+4. An explorer detects a distinct ledge and a gap where the crown meets the tooth at the margin.
+5. A bitewing shows a discernible space between the crown margin and the prepared tooth structure with early radiolucency beneath.
+6. The marginal discrepancy allowing plaque and caries at the crown-tooth interface confirms a defective restoration needing replacement.
+
+TEACHING_POINTS:
+- An open or defective crown margin creates a plaque trap and a pathway for recurrent caries and periodontal inflammation.
+- Floss shredding, localized bleeding, and a catch on the explorer at the margin are classic clinical clues.
+- Radiographs may show a marginal gap, overhang, or recurrent caries beneath the restoration.
+- Marginal integrity (ideally under ~120 microns) is critical to crown longevity.
+- Management is usually replacement of the restoration; margin repair is a temporary compromise.
+==================================================
+
+CASE_ID: 127
+DIFFICULTY: dental
+SYSTEM: operative dentistry
+
+DIAGNOSIS:
+Recurrent Caries
+
+ALIASES:
+secondary caries
+recurrent decay
+caries around restoration
+
+VIGNETTE_LINES:
+1. 39F has intermittent sensitivity at a tooth restored with a large composite several years ago.
+2. She drinks sugary sodas throughout the day and admits inconsistent flossing.
+3. Exam shows marginal staining and a softened area at the edge of the existing restoration.
+4. The explorer catches in a soft, discolored zone at the restoration margin, and the tooth is vital.
+5. A bitewing reveals a radiolucency beneath the margin of the existing restoration extending into dentin.
+6. New decay at the interface of an existing restoration confirms the diagnosis, requiring removal and replacement.
+
+TEACHING_POINTS:
+- Recurrent (secondary) caries develops at the margins of an existing restoration, the most common reason restorations fail.
+- Marginal gaps, overhangs, and biofilm retention promote it; high sugar intake and poor hygiene increase risk.
+- Marginal staining alone is not diagnostic; softness and radiolucency beneath the margin confirm active caries.
+- It must be distinguished from arrested caries and from radiolucent base materials on radiographs.
+- Management is excavation and restoration; address the patient's caries risk factors to prevent recurrence.
+==================================================
+
+CASE_ID: 128
+DIFFICULTY: dental
+SYSTEM: operative dentistry
+
+DIAGNOSIS:
+Mechanical Pulp Exposure
+
+ALIASES:
+pulp exposure
+carious pulp exposure
+direct pulp exposure
+
+VIGNETTE_LINES:
+1. 33M is having a deep cavity removed when the procedure is paused for an unexpected finding.
+2. He had a large carious lesion and reported only cold sensitivity beforehand, with no spontaneous pain.
+3. During caries excavation, a pinpoint bleeding spot appears at the deepest part of the preparation.
+4. The pulp tested vital preoperatively, and there is no periapical radiolucency on the preoperative film.
+5. A small bead of bright red blood at the exposure site confirms communication with the pulp chamber.
+6. Direct communication between the cavity preparation and vital pulp tissue confirms the situation, guiding pulp-capping versus root canal decisions.
+
+TEACHING_POINTS:
+- A pulp exposure is a direct communication between the oral environment/preparation and the pulp, from caries, trauma, or iatrogenic causes.
+- A small exposure in an asymptomatic vital tooth with a clean field may be managed with direct pulp capping (e.g., calcium hydroxide or MTA).
+- Larger exposures, contaminated fields, or teeth with signs of irreversible pulpitis usually need pulpotomy or root canal therapy.
+- Preoperative pulpal status and the size/cleanliness of the exposure guide the decision.
+- Hemorrhage control and a good seal are critical to pulp-capping success.
+==================================================
+
+CASE_ID: 129
+DIFFICULTY: dental
+SYSTEM: pediatric_dentistry
+
+DIAGNOSIS:
+Dental Fluorosis
+
+ALIASES:
+fluorosis
+mottled enamel
+enamel fluorosis
+
+VIGNETTE_LINES:
+1. 9F is brought in because her parents are concerned about white and brown marks on her permanent front teeth.
+2. The family lives in an area with naturally high fluoride well water, and she swallowed toothpaste as a toddler.
+3. Exam shows bilateral, symmetric chalky white opacities with some brown staining on the enamel.
+4. The affected enamel is hard and intact, and the changes involve multiple teeth that developed at the same time.
+5. The defects are diffuse rather than well-demarcated and do not correspond to single-tooth trauma or infection.
+6. The symmetric, developmental enamel changes linked to excess fluoride during tooth formation confirm the diagnosis.
+
+TEACHING_POINTS:
+- Dental fluorosis is a developmental enamel defect from excess systemic fluoride during enamel formation (hypomineralization).
+- It is typically bilateral and symmetric, affecting teeth that were forming during the exposure period.
+- Mild forms show diffuse white opacities; severe forms show brown staining and pitting.
+- Distinguish it from localized opacities (trauma/infection of a primary predecessor) and molar-incisor hypomineralization, which are usually asymmetric/demarcated.
+- Management ranges from microabrasion and bleaching to veneers; prevention focuses on appropriate fluoride dosing in young children.
+==================================================
+
+CASE_ID: 130
+DIFFICULTY: dental
+SYSTEM: pediatric_dentistry
+
+DIAGNOSIS:
+Natal Teeth
+
+ALIASES:
+natal teeth
+neonatal teeth
+congenital teeth
+
+VIGNETTE_LINES:
+1. A newborn is brought in because the parents noticed something white in the baby's mouth at birth.
+2. The mother reports discomfort during breastfeeding and worries the baby might be choking.
+3. Exam reveals a tooth-like structure erupted in the lower anterior region of the gums.
+4. The structure is mobile, small, and poorly formed, with minimal root support.
+5. A radiograph shows little to no root development and confirms it is part of the normal primary dentition rather than supernumerary.
+6. The presence of an erupted tooth at birth in the primary incisor region confirms the diagnosis, with management based on mobility and feeding issues.
+
+TEACHING_POINTS:
+- Natal teeth are present at birth; neonatal teeth erupt within the first 30 days of life.
+- They are most often prematurely erupted primary incisors (not supernumerary), so radiographs help confirm before any extraction.
+- Indications for removal include excessive mobility (aspiration risk), feeding difficulty, or ulceration of the infant's tongue (Riga-Fede disease).
+- Associations include certain syndromes (e.g., Ellis-van Creveld, Pierre Robin), but most are isolated.
+- If asymptomatic and not mobile, they may be retained and monitored.
+==================================================
+
+CASE_ID: 131
+DIFFICULTY: dental
+SYSTEM: pediatric_dentistry
+
+DIAGNOSIS:
+Ectopic Eruption
+
+ALIASES:
+ectopic eruption
+abnormal eruption path
+ectopic first molar
+
+VIGNETTE_LINES:
+1. 7M is referred because a permanent molar seems to be coming in at an odd angle.
+2. He has no pain but his parent noticed the primary tooth ahead of it looks like it is being pushed.
+3. Exam shows the erupting permanent first molar tipped mesially against the second primary molar.
+4. There is localized resorption visible at the distal of the primary second molar.
+5. A bitewing shows the permanent first molar "locked" under the distal contour of the primary molar with atypical resorption.
+6. The abnormal eruption pathway causing atypical resorption of the adjacent primary tooth confirms the diagnosis.
+
+TEACHING_POINTS:
+- Ectopic eruption is eruption along an abnormal path, classically the maxillary permanent first molar erupting mesially into the second primary molar.
+- It causes atypical (often premature) resorption of the adjacent primary tooth and can lead to its early loss and space problems.
+- Some cases "self-correct" (jump) as eruption continues; others need intervention.
+- Management includes separators, distalizing appliances, or guidance to redirect the molar.
+- Maxillary canines are another common ectopic/impacted tooth requiring early monitoring.
+==================================================
+
+CASE_ID: 132
+DIFFICULTY: dental
+SYSTEM: orthodontics
+
+DIAGNOSIS:
+Class II Malocclusion
+
+ALIASES:
+Angle Class II
+distocclusion
+Class II division 1
+
+VIGNETTE_LINES:
+1. 12F is referred because her upper front teeth "stick out" and she is self-conscious about her smile.
+2. She had a prolonged thumb-sucking habit and mouth-breathing history in childhood.
+3. Exam shows a convex profile with a retrusive-appearing chin and lips that do not meet at rest.
+4. The maxillary incisors are proclined with a large horizontal overjet.
+5. On occlusal analysis, the mandibular first molar's mesiobuccal groove is distal to the maxillary first molar's mesiobuccal cusp.
+6. The molar relationship and skeletal pattern confirm the malocclusion classification, guiding growth-modification or camouflage treatment.
+
+TEACHING_POINTS:
+- Angle Class II malocclusion: the mandibular first molar is positioned distally relative to the maxillary first molar (mesiobuccal cusp of the maxillary molar occludes mesial to the buccal groove of the mandibular molar).
+- Division 1 features proclined maxillary incisors and increased overjet; Division 2 features retroclined central incisors.
+- It may be dental or skeletal (maxillary excess or mandibular deficiency); cephalometric analysis differentiates them.
+- Habits (thumb-sucking) and growth patterns contribute; increased overjet raises trauma risk to incisors.
+- Treatment depends on growth status: growth modification (functional appliances) in growing patients, camouflage or orthognathic surgery later.
+==================================================
+
+CASE_ID: 133
+DIFFICULTY: dental
+SYSTEM: orthodontics
+
+DIAGNOSIS:
+Anterior Open Bite
+
+ALIASES:
+open bite
+anterior open bite
+apertognathia
+
+VIGNETTE_LINES:
+1. 10F is evaluated because she "cannot bite through" food with her front teeth.
+2. She has an ongoing tongue-thrust swallowing pattern and a history of thumb sucking.
+3. Exam shows the posterior teeth occlude but there is a visible vertical gap between the upper and lower incisors.
+4. When she bites down, the anterior teeth do not contact while the molars are in contact.
+5. Cephalometric analysis shows increased lower facial height and a steep mandibular plane angle.
+6. The lack of vertical anterior overlap with posterior contact confirms the diagnosis, with etiology guiding habit control versus skeletal treatment.
+
+TEACHING_POINTS:
+- An anterior open bite is a lack of vertical overlap of the incisors when the posterior teeth are in occlusion.
+- Causes include digit-sucking and tongue-thrust habits (dental) and unfavorable vertical growth patterns (skeletal).
+- Habit cessation and appliances (e.g., habit reminders, crib) can correct dental open bites in growing children.
+- Skeletal open bites with increased lower facial height often require complex orthodontic or surgical management.
+- Always evaluate airway, tongue posture, and habits as contributing factors.
+==================================================
+
+CASE_ID: 134
+DIFFICULTY: dental
+SYSTEM: orthodontics
+
+DIAGNOSIS:
+Posterior Crossbite
+
+ALIASES:
+crossbite
+posterior crossbite
+buccal crossbite
+
+VIGNETTE_LINES:
+1. 8M is noted to shift his jaw to one side when closing during a routine exam.
+2. He had a prolonged pacifier habit and is a mouth breather with a narrow palate.
+3. Exam shows the maxillary posterior teeth biting inside the mandibular posterior teeth on one side.
+4. There is a functional shift of the mandible on closure toward the affected side.
+5. Measurement confirms a constricted maxillary arch relative to the mandibular arch.
+6. The transverse discrepancy with the maxillary buccal cusps occluding lingual to the mandibular cusps confirms the diagnosis.
+
+TEACHING_POINTS:
+- A posterior crossbite is a transverse discrepancy where maxillary posterior teeth occlude lingual to their mandibular counterparts.
+- It is often due to a constricted (narrow) maxilla, frequently with a functional mandibular shift on closure.
+- A functional shift should be intercepted early to prevent asymmetric growth.
+- Treatment commonly uses maxillary expansion (e.g., rapid palatal expander) in growing patients.
+- Differentiate dental from skeletal crossbite and identify any functional component.
+==================================================
+
+CASE_ID: 135
+DIFFICULTY: dental
+SYSTEM: orthodontics
+
+DIAGNOSIS:
+Impacted Maxillary Canine
+
+ALIASES:
+impacted canine
+palatally impacted canine
+canine impaction
+
+VIGNETTE_LINES:
+1. 13F is referred because a baby tooth is still present while the rest of her adult teeth have erupted.
+2. She has no pain, and her parents note the canine "never came in."
+3. Exam shows a retained primary canine and a palpable bulge on the palate but no canine in the arch.
+4. The adjacent lateral incisor is slightly mobile, raising concern about root resorption.
+5. CBCT localizes the unerupted canine palatally, overlapping the lateral incisor root.
+6. The failure of the permanent canine to erupt with its palatal position confirms the diagnosis, guiding exposure and traction or extraction.
+
+TEACHING_POINTS:
+- The maxillary canine is the second most commonly impacted tooth (after third molars) and is more often palatal than buccal.
+- A retained primary canine, a palpable palatal bulge, and absence of the normal canine bulge are clinical clues; early palpation by age 10 to 11 is recommended.
+- Impacted canines can resorb adjacent incisor roots, making timely detection important (CBCT for localization).
+- Interceptive extraction of the primary canine can sometimes redirect eruption if caught early.
+- Management often involves surgical exposure with orthodontic traction, or extraction if ankylosed or severely malpositioned.
+==================================================
+
+CASE_ID: 136
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Impacted Third Molar
+
+ALIASES:
+impacted wisdom tooth
+third molar impaction
+impacted third molar
+
+VIGNETTE_LINES:
+1. 24M reports occasional dull pressure at the back of his lower jaw but no acute infection currently.
+2. He has had food trapping and difficulty cleaning the area behind his last visible molar.
+3. Exam shows the second molar fully erupted with no clinical crown of a third molar visible behind it.
+4. There is no operculum inflammation today, distinguishing this from an active soft-tissue infection.
+5. A panoramic radiograph shows a fully formed mandibular third molar tilted mesially against the second molar, below the bone and gum.
+6. The tooth fully or partially encased and unable to erupt into normal position confirms the impaction, prompting a decision on removal.
+
+TEACHING_POINTS:
+- An impacted tooth fails to erupt into a normal functional position; mandibular third molars are the most commonly impacted teeth.
+- Impactions are classified by angulation (mesioangular, distoangular, vertical, horizontal) and depth.
+- Complications include pericoronitis, caries/resorption of the adjacent second molar, cyst formation, and crowding concerns.
+- This is distinct from pericoronitis, which is the active inflammation of the soft tissue over a partially erupted tooth.
+- Management is monitoring versus surgical removal based on pathology, symptoms, and risk to adjacent structures (including the inferior alveolar nerve).
+==================================================
+
+CASE_ID: 137
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Mandibular Body Fracture
+
+ALIASES:
+mandible fracture
+mandibular body fracture
+jaw fracture
+
+VIGNETTE_LINES:
+1. 27M presents after a fall with jaw pain and difficulty bringing his teeth together properly.
+2. He was struck on the side of the face and now has numbness of the lower lip on that side.
+3. Exam shows a step deformity in the occlusion, gingival tearing, and a sublingual hematoma.
+4. There is pain and abnormal mobility when the mandible is gently manipulated across the suspected site.
+5. A panoramic radiograph shows a fracture line through the body of the mandible in the molar region.
+6. The displaced fracture with malocclusion and inferior alveolar nerve paresthesia confirms the diagnosis, requiring reduction and fixation.
+
+TEACHING_POINTS:
+- Mandibular fractures commonly present with malocclusion, pain on movement, and a "step" in the occlusal plane.
+- A sublingual (floor-of-mouth) hematoma is highly suggestive of a mandibular body/symphysis fracture.
+- Inferior alveolar nerve injury causes lower-lip paresthesia when the fracture crosses its canal.
+- Fractures are often multiple; always look for a second fracture (the mandible is a ring), classically a contralateral condyle.
+- Management is reduction and fixation (closed with MMF or open with plates), with antibiotics for fractures through tooth-bearing segments.
+==================================================
+
+CASE_ID: 138
+DIFFICULTY: dental
+SYSTEM: periodontics
+
+DIAGNOSIS:
+Generalized Aggressive Periodontitis
+
+ALIASES:
+aggressive periodontitis
+early-onset periodontitis
+grade C periodontitis
+
+VIGNETTE_LINES:
+1. 26F reports that several teeth have become loose over a relatively short period.
+2. She is a non-smoker with reasonably good oral hygiene and a family history of early tooth loss.
+3. Exam shows only modest plaque and calculus that seems disproportionate to the severe tissue destruction.
+4. Probing reveals deep pockets and bleeding around multiple teeth, including incisors and first molars.
+5. Radiographs show rapid, generalized vertical bone loss far exceeding what the local factors would explain.
+6. The rapid attachment loss inconsistent with the amount of plaque, with a familial pattern, confirms an aggressive disease form.
+
+TEACHING_POINTS:
+- Aggressive periodontitis (now graded as rapidly progressing, grade C) features rapid attachment and bone loss in otherwise healthy, often young patients.
+- A hallmark is destruction disproportionate to the amount of local irritants (plaque/calculus).
+- Familial aggregation and associations with Aggregatibacter actinomycetemcomitans and neutrophil dysfunction are recognized.
+- The localized form classically affects first molars and incisors; the generalized form is more widespread.
+- Management combines mechanical therapy with systemic antibiotics (e.g., amoxicillin plus metronidazole) and close maintenance.
+==================================================
+
+CASE_ID: 139
+DIFFICULTY: dental
+SYSTEM: periodontics
+
+DIAGNOSIS:
+Gingival Recession
+
+ALIASES:
+gingival recession
+receding gums
+marginal tissue recession
+
+VIGNETTE_LINES:
+1. 45M complains of sensitivity to cold and that his teeth "look longer" than before.
+2. He brushes vigorously with a hard-bristled brush and has a history of orthodontics.
+3. Exam shows the gingival margin has migrated apically, exposing root surface on several facial surfaces.
+4. There is no deep pocketing, but the exposed root is notched and sensitive at the cementoenamel junction.
+5. The width of attached keratinized tissue is thin, and the recession defects have intact interproximal bone.
+6. The apical migration of the gingival margin exposing the root, with intact interdental bone, confirms the diagnosis.
+
+TEACHING_POINTS:
+- Gingival recession is apical migration of the gingival margin exposing the root surface, leading to sensitivity, root caries risk, and esthetic concerns.
+- Contributing factors include aggressive/traumatic brushing, thin biotype, frenal pulls, tooth malposition, and orthodontic movement.
+- The Miller (or Cairo RT) classification predicts root-coverage outcomes based on interdental tissue/bone levels.
+- Defects with intact interproximal bone (Miller I/II, Cairo RT1) have the best potential for complete root coverage.
+- Management ranges from desensitization and habit correction to mucogingival surgery (e.g., connective tissue graft).
+==================================================
+
+CASE_ID: 140
+DIFFICULTY: dental
+SYSTEM: endodontics
+
+DIAGNOSIS:
+Vertical Root Fracture
+
+ALIASES:
+VRF
+vertical root fracture
+root split
+
+VIGNETTE_LINES:
+1. 56F has a dull ache and occasional sharp pain in a back tooth that was root canal treated years ago.
+2. The tooth has a post and crown and a long history of heavy clenching.
+3. Exam reveals a deep, narrow, isolated periodontal pocket on one aspect of the tooth.
+4. There is a sinus tract opening near the gingival margin rather than at the apex.
+5. A radiograph shows a "halo" or J-shaped radiolucency along the root, and a fracture line is later visualized.
+6. The longitudinal fracture extending along the root in an endodontically treated, post-restored tooth confirms the diagnosis, usually requiring extraction.
+
+TEACHING_POINTS:
+- A vertical root fracture is a longitudinal fracture extending along the root, most common in endodontically treated, post-restored teeth.
+- Classic clues are an isolated deep narrow pocket and a sinus tract located near the gingival margin (not the apex).
+- A "J-shaped" or "halo" periradicular radiolucency is suggestive; CBCT and surgical exposure aid confirmation.
+- Risk factors include excessive canal/post preparation, large posts, and parafunction (clenching).
+- Prognosis is poor; treatment is usually extraction (or root resection in multirooted teeth).
+==================================================
+
+CASE_ID: 141
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Geographic Tongue Variant Fissured Tongue
+
+ALIASES:
+fissured tongue
+scrotal tongue
+lingua plicata
+
+VIGNETTE_LINES:
+1. 50M is concerned about deep grooves on his tongue that he fears might be "cracks" or infection.
+2. He is otherwise healthy and reports only occasional mild soreness when eating spicy food.
+3. Exam shows multiple deep grooves and furrows radiating across the dorsal surface of the tongue.
+4. The fissures trap debris but the surrounding tissue is not ulcerated or indurated.
+5. There is no white wipeable plaque and no fixed lesion, and the condition has been stable for years.
+6. The benign developmental furrowing of the tongue dorsum confirms the diagnosis, needing only reassurance and hygiene.
+
+TEACHING_POINTS:
+- Fissured tongue is a benign developmental condition with grooves/furrows on the dorsal tongue, increasing in prevalence with age.
+- It is frequently associated with geographic tongue and with Down syndrome and Melkersson-Rosenthal syndrome.
+- Debris and Candida can accumulate in deep fissures, causing mild soreness or halitosis.
+- No treatment is needed beyond reassurance and gentle tongue cleaning of the fissures.
+- Recognize it as benign to avoid mistaking the furrows for pathology.
+==================================================
+
+CASE_ID: 142
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Oral Lichenoid Reaction
+
+ALIASES:
+lichenoid drug reaction
+oral lichenoid lesion
+contact lichenoid reaction
+
+VIGNETTE_LINES:
+1. 60F reports a sore, rough area inside her cheek that started months after beginning a new blood pressure medication.
+2. She also has an old amalgam restoration directly contacting the affected mucosa.
+3. Exam shows white striae with surrounding erythema on the buccal mucosa, closely adjacent to the restoration.
+4. The lesion is unilateral and topographically related to the amalgam, unlike typical bilateral disease.
+5. Biopsy shows a lichenoid interface mucositis with a deeper, mixed inflammatory infiltrate.
+6. Improvement after removing the restoration or changing the drug confirms a reaction rather than idiopathic lichen planus.
+
+TEACHING_POINTS:
+- Oral lichenoid reactions clinically and histologically resemble lichen planus but have an identifiable trigger (drugs or contact with restorations).
+- Drug-induced reactions are linked to NSAIDs, antihypertensives (ACE inhibitors, beta-blockers, thiazides), and others.
+- Contact reactions are typically unilateral and topographically related to a restoration (often amalgam).
+- A deeper, more diffuse and mixed infiltrate and lesion location/asymmetry help distinguish it from idiopathic lichen planus.
+- Management is removing the offending agent; lesions resolving after removal confirm the lichenoid nature.
+==================================================
+
+CASE_ID: 143
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Frictional Keratosis
+
+ALIASES:
+frictional keratosis
+chronic bite keratosis
+linea alba variant
+
+VIGNETTE_LINES:
+1. 41M is found to have a white patch along his cheek that he was unaware of.
+2. He reports a habit of chewing his cheek and has a sharp edge on a nearby broken tooth.
+3. Exam shows a white, slightly rough plaque along the occlusal line of the buccal mucosa corresponding to the bite plane.
+4. The lesion does not wipe off and has no red component or induration.
+5. After smoothing the sharp tooth and stopping the habit, the lesion resolves over a few weeks.
+6. The reversible hyperkeratosis from chronic mechanical trauma confirms a benign reactive process rather than a premalignant lesion.
+
+TEACHING_POINTS:
+- Frictional keratosis is a benign, reactive hyperkeratosis caused by chronic mechanical trauma (cheek chewing, sharp teeth, ill-fitting dentures).
+- It typically follows the line of trauma (e.g., the occlusal/bite line) and does not rub off.
+- The key feature is resolution after the source of trauma is removed, distinguishing it from idiopathic leukoplakia.
+- A white lesion that persists after eliminating trauma should be biopsied to exclude dysplasia/leukoplakia.
+- It has no malignant potential when the traumatic cause is confirmed and removed.
+==================================================
+
+CASE_ID: 144
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+White Sponge Nevus
+
+ALIASES:
+white sponge nevus
+Cannon disease
+familial white folded dysplasia
+
+VIGNETTE_LINES:
+1. 18M is referred for diffuse white, thickened areas in his mouth present since childhood.
+2. He is asymptomatic, and several family members reportedly have similar mouth findings.
+3. Exam shows bilateral, thick, white, spongy, folded plaques on the buccal mucosa.
+4. The lesions are soft, do not wipe off, and are not associated with smoking or trauma.
+5. Similar lesions are noted in other mucosal sites, and a fungal smear is negative.
+6. The lifelong, bilateral, familial spongy keratosis confirms a benign inherited disorder of keratin.
+
+TEACHING_POINTS:
+- White sponge nevus is a benign autosomal dominant disorder caused by mutations in keratin 4 and 13.
+- It presents as bilateral, thick, white, spongy/folded plaques, typically on the buccal mucosa, often from birth or childhood.
+- A positive family history and involvement of other mucosae (nasal, genital, anal) support the diagnosis.
+- It does not rub off and has no malignant potential; biopsy shows characteristic epithelial vacuolization.
+- No treatment is required; recognition prevents unnecessary intervention for a harmless condition.
+==================================================
+
+CASE_ID: 145
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Fordyce Granules
+
+ALIASES:
+Fordyce granules
+Fordyce spots
+ectopic sebaceous glands
+
+VIGNETTE_LINES:
+1. 29M notices small yellowish bumps on the inside of his cheeks and lips and worries they are abnormal.
+2. He is healthy with no pain and reports the bumps have been there as long as he can remember.
+3. Exam shows multiple tiny, yellow-white papules clustered symmetrically on the buccal mucosa and vermilion.
+4. The papules are non-tender, do not wipe off, and are slightly more visible when the mucosa is stretched.
+5. There is no surrounding erythema, ulceration, or induration.
+6. The benign ectopic sebaceous glands within the oral mucosa confirm the diagnosis, requiring only reassurance.
+
+TEACHING_POINTS:
+- Fordyce granules are ectopic sebaceous glands in the oral mucosa, a normal anatomic variant present in most adults.
+- They appear as small, symmetric, yellow-white papules, commonly on the buccal mucosa and vermilion of the lips.
+- They are asymptomatic, increase around puberty, and require no treatment.
+- Recognition prevents misdiagnosis as candidiasis or pathology.
+- Reassurance is the only management needed.
+==================================================
+
+CASE_ID: 146
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Leukoedema
+
+ALIASES:
+leukoedema
+mucosal edema variant
+benign mucosal whitening
+
+VIGNETTE_LINES:
+1. 35M of African descent is noted to have a grayish-white film on his cheeks during a routine exam.
+2. He is asymptomatic and unaware of any problem.
+3. Exam shows a diffuse, grayish-white, filmy, slightly wrinkled appearance of the bilateral buccal mucosa.
+4. When the cheek is stretched, the whitish appearance largely disappears.
+5. There is no induration, ulceration, or fixed plaque, and the change is symmetric.
+6. The disappearance of the whitening on stretching confirms a benign variation rather than a true keratotic lesion.
+
+TEACHING_POINTS:
+- Leukoedema is a benign, common variation of the oral mucosa, more prominent in darker-skinned individuals.
+- It appears as a diffuse, grayish-white, filmy change of the bilateral buccal mucosa.
+- The hallmark diagnostic feature is that it diminishes or disappears when the mucosa is stretched.
+- It requires no treatment and has no malignant potential.
+- Distinguish it from leukoplakia and white sponge nevus, which do not dissipate on stretching.
+==================================================
+
+CASE_ID: 147
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Black Hairy Tongue
+
+ALIASES:
+black hairy tongue
+lingua villosa nigra
+hairy tongue
+
+VIGNETTE_LINES:
+1. 52M is alarmed by a dark, "furry" discoloration on the back of his tongue.
+2. He is a heavy smoker, drinks a lot of coffee, recently finished antibiotics, and has poor oral hygiene.
+3. Exam shows elongated, matted filiform papillae with brown-black staining on the posterior dorsal tongue.
+4. The discoloration brushes/scrapes partially and is not a fixed mucosal lesion.
+5. There is no induration or ulceration, and taste is occasionally altered with mild gagging.
+6. The hypertrophic, pigment-retaining filiform papillae from impaired desquamation confirm a benign, reversible condition.
+
+TEACHING_POINTS:
+- Black hairy tongue is elongation/hypertrophy of the filiform papillae with retention of pigment and debris, a benign condition.
+- Risk factors include smoking, poor hygiene, antibiotics, coffee/tea, and xerostomia.
+- The "hairy" appearance reflects defective desquamation; color comes from chromogenic bacteria and dietary staining.
+- Management is improved hygiene, tongue brushing/scraping, and removing contributing factors.
+- It is reversible and harmless; reassurance plus mechanical debridement usually resolves it.
+==================================================
+
+CASE_ID: 148
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Chronic Hyperplastic Candidiasis
+
+ALIASES:
+candidal leukoplakia
+chronic hyperplastic candidiasis
+hyperplastic candidiasis
+
+VIGNETTE_LINES:
+1. 58M has a white patch at the corner of his mouth on the inner cheek that does not wipe away.
+2. He is a smoker with a denture and a history of angular cheilitis.
+3. Exam shows a firm, adherent white plaque on the buccal mucosa near the commissure that cannot be rubbed off.
+4. Unlike typical thrush, scraping does not remove the lesion, raising concern for a keratotic process.
+5. Biopsy shows hyphae invading a hyperplastic, parakeratotic epithelium with a chronic inflammatory response.
+6. The persistent white plaque harboring invasive Candida that partially resolves with antifungals confirms the diagnosis.
+
+TEACHING_POINTS:
+- Chronic hyperplastic candidiasis ("candidal leukoplakia") is an adherent white plaque, often at the commissural buccal mucosa, that does NOT wipe off.
+- Unlike pseudomembranous candidiasis (thrush), it cannot be scraped away and clinically mimics leukoplakia.
+- Biopsy shows Candida hyphae invading hyperplastic epithelium; it may harbor epithelial dysplasia.
+- It warrants antifungal therapy and re-evaluation; persistent lesions need biopsy to exclude dysplasia/carcinoma.
+- Risk factors include smoking, dentures, and xerostomia.
+==================================================
+
+CASE_ID: 149
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Verrucous Carcinoma
+
+ALIASES:
+verrucous carcinoma
+Ackerman tumor
+oral verrucous carcinoma
+
+VIGNETTE_LINES:
+1. 68M has a slowly enlarging, rough white growth in the buccal vestibule where he holds tobacco.
+2. He has used smokeless tobacco in that exact spot for decades.
+3. Exam shows a broad, warty, pebbly white plaque with a cauliflower-like surface and no obvious ulceration.
+4. The lesion is exophytic and well-demarcated, growing laterally rather than deeply infiltrating.
+5. Biopsy shows a well-differentiated squamous proliferation with broad, pushing rete ridges and minimal atypia.
+6. The exophytic, locally invasive but non-metastasizing low-grade carcinoma confirms the diagnosis.
+
+TEACHING_POINTS:
+- Verrucous carcinoma is a low-grade, well-differentiated variant of squamous cell carcinoma with a warty, exophytic surface.
+- It is strongly associated with smokeless tobacco use, often arising in the buccal vestibule/gingiva where tobacco is held.
+- It grows by local invasion with broad pushing margins and rarely metastasizes.
+- Biopsy must be deep and broad; superficial samples can be misread as benign hyperkeratosis.
+- Treatment is complete surgical excision; prognosis is favorable due to its non-metastasizing behavior.
+==================================================
+
+CASE_ID: 150
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Squamous Papilloma
+
+ALIASES:
+oral papilloma
+squamous papilloma
+HPV papilloma
+
+VIGNETTE_LINES:
+1. 34F notices a small, painless "wart-like" growth on her soft palate.
+2. She is otherwise healthy and reports the lesion has slowly appeared over a few months.
+3. Exam shows a solitary, soft, pedunculated lesion with finger-like surface projections.
+4. The lesion is white-to-pink, well-circumscribed, and non-indurated.
+5. It is attached by a narrow stalk and shows numerous papillary fronds.
+6. Excisional biopsy reveals finger-like projections of stratified squamous epithelium over fibrovascular cores, confirming a benign HPV-associated proliferation.
+
+TEACHING_POINTS:
+- A squamous papilloma is a benign, HPV-associated (commonly types 6 and 11) epithelial proliferation.
+- It is typically a solitary, soft, pedunculated lesion with a cauliflower/finger-like surface, often on the soft palate, tongue, or lips.
+- Histology shows papillary fronds of stratified squamous epithelium over fibrovascular cores.
+- It is distinguished from condyloma, verruca vulgaris, and verrucous carcinoma by its solitary nature and benign features.
+- Treatment is conservative excision; recurrence is uncommon.
+==================================================
+CASE_ID: 151
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Nasopalatine Duct Cyst
+
+ALIASES:
+nasopalatine duct cyst
+incisive canal cyst
+median anterior maxillary cyst
+
+VIGNETTE_LINES:
+1. 45M reports a small swelling behind his upper front teeth and an occasional salty discharge.
+2. He has no history of trauma and the area is only mildly uncomfortable.
+3. Exam shows a fluctuant swelling in the anterior midline of the palate just behind the central incisors.
+4. The adjacent maxillary central incisors test vital, arguing against a tooth-related lesion.
+5. A radiograph shows a well-defined "heart-shaped" radiolucency in the midline between and above the central incisor roots.
+6. The location in the incisive canal region with vital adjacent teeth confirms the most common non-odontogenic cyst of the jaws.
+
+TEACHING_POINTS:
+- The nasopalatine duct (incisive canal) cyst is the most common non-odontogenic developmental cyst of the oral cavity.
+- It arises from remnants of the nasopalatine duct in the midline anterior maxilla.
+- The classic radiographic appearance is a well-defined heart-shaped midline radiolucency between the central incisor roots.
+- Adjacent teeth are vital, which distinguishes it from a periapical (radicular) cyst.
+- Treatment is surgical enucleation; recurrence is rare.
+==================================================
+
+CASE_ID: 152
+DIFFICULTY: dental
+SYSTEM: radiology
+
+DIAGNOSIS:
+Traumatic Bone Cyst
+
+ALIASES:
+simple bone cyst
+traumatic bone cyst
+solitary bone cyst
+
+VIGNETTE_LINES:
+1. 17M has an incidental finding on a panoramic film taken for orthodontic evaluation.
+2. He is asymptomatic and recalls a sports injury to the jaw a couple of years ago.
+3. Exam shows no swelling, and the teeth in the region are vital and non-tender.
+4. There is no expansion or paresthesia, and the overlying mucosa is normal.
+5. A radiograph shows a radiolucency that "scallops" upward between the roots of the mandibular posterior teeth without displacing them.
+6. Surgical exploration reveals an empty or fluid-filled cavity with no epithelial lining, confirming a pseudocyst.
+
+TEACHING_POINTS:
+- A traumatic (simple) bone cyst is a pseudocyst with no epithelial lining, often discovered incidentally in young patients.
+- The classic feature is a radiolucency that scallops up between the roots of teeth, which remain vital.
+- Trauma is a proposed (but unproven) etiology; many patients recall prior injury.
+- Surgical exploration reveals an empty or blood-filled cavity; the act of curettage/bleeding promotes healing.
+- It must be distinguished from odontogenic cysts and tumors, which have epithelial linings.
+==================================================
+
+CASE_ID: 153
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Aneurysmal Bone Cyst
+
+ALIASES:
+aneurysmal bone cyst
+ABC
+hemorrhagic bone cyst
+
+VIGNETTE_LINES:
+1. 16F presents with a firm, fairly rapidly enlarging swelling of the lower jaw.
+2. She reports mild discomfort but no clear history of infection.
+3. Exam shows bony expansion of the mandible with a slight eggshell-crackling on firm palpation.
+4. The adjacent teeth are vital but mildly displaced by the expanding lesion.
+5. A radiograph shows a multilocular, "soap-bubble" or "blow-out" expansile radiolucency.
+6. Histology shows blood-filled spaces without an endothelial lining separated by fibrous septa, confirming the diagnosis.
+
+TEACHING_POINTS:
+- An aneurysmal bone cyst is a benign, expansile, blood-filled pseudocystic lesion, often in young patients.
+- It can grow rapidly and cause a "blow-out"/"soap-bubble" multilocular expansion of bone.
+- Histology shows blood-filled sinusoidal spaces lacking an endothelial lining, with fibrous septa and giant cells.
+- It may arise de novo or secondary to other bone lesions (e.g., fibrous dysplasia, giant cell lesions).
+- Treatment is curettage or resection; recurrence is possible.
+==================================================
+
+CASE_ID: 154
+DIFFICULTY: dental
+SYSTEM: radiology
+
+DIAGNOSIS:
+Residual Cyst
+
+ALIASES:
+residual cyst
+residual radicular cyst
+retained periapical cyst
+
+VIGNETTE_LINES:
+1. 60M wearing a partial denture has a radiolucency found on a panoramic film in an edentulous area.
+2. He had a tooth extracted in that region years ago but does not recall any follow-up.
+3. Exam shows no swelling and the edentulous ridge appears normal.
+4. There are no adjacent teeth to test in the immediate area of the lesion.
+5. A radiograph shows a well-defined, corticated round radiolucency in the edentulous site where a tooth once stood.
+6. The persistence of an inflammatory cyst after extraction of the offending tooth confirms the diagnosis.
+
+TEACHING_POINTS:
+- A residual cyst is a radicular (periapical inflammatory) cyst that remains after extraction of the associated non-vital tooth.
+- It is found in edentulous areas as a well-defined corticated radiolucency at a former tooth site.
+- It results from incomplete removal of cystic/granulomatous tissue at the time of extraction.
+- Differentiate from other well-defined radiolucencies by history (a tooth was previously removed there).
+- Treatment is enucleation; histology confirms an epithelial-lined inflammatory cyst.
+==================================================
+
+CASE_ID: 155
+DIFFICULTY: dental
+SYSTEM: radiology
+
+DIAGNOSIS:
+Globulomaxillary Radiolucency
+
+ALIASES:
+globulomaxillary lesion
+globulomaxillary radiolucency
+pear-shaped radiolucency
+
+VIGNETTE_LINES:
+1. 30F is found to have an incidental radiolucency between two upper teeth on a routine film.
+2. She is asymptomatic with no swelling or history of trauma to the area.
+3. Exam shows the maxillary lateral incisor and canine appear normal, and both test vital.
+4. The roots of these two teeth appear slightly diverged on the radiograph.
+5. A periapical film shows an "inverted pear-shaped" radiolucency between the lateral incisor and canine, diverging their roots.
+6. The location between these teeth with vital pulps points to a lesion defined by its position rather than a single origin.
+
+TEACHING_POINTS:
+- A globulomaxillary radiolucency is described by location: an inverted pear-shaped lucency between the maxillary lateral incisor and canine.
+- It is a descriptive/anatomic term, not a single diagnosis; differentials include odontogenic and non-odontogenic cysts and tumors.
+- The adjacent teeth are typically vital, helping exclude a periapical inflammatory origin.
+- Diverging roots of the lateral incisor and canine are characteristic.
+- Definitive diagnosis requires biopsy/histology because several distinct entities can present this way.
+==================================================
+
+CASE_ID: 156
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Central Ossifying Fibroma
+
+ALIASES:
+ossifying fibroma
+central ossifying fibroma
+cemento-ossifying fibroma
+
+VIGNETTE_LINES:
+1. 35F reports a slowly growing, painless swelling of the lower jaw causing mild facial fullness.
+2. The growth has progressed gradually over a couple of years.
+3. Exam shows a firm expansion of the mandible with intact overlying mucosa.
+4. The involved teeth are vital but slightly displaced by the lesion.
+5. A radiograph shows a well-demarcated, encapsulated mixed radiolucent-radiopaque mass that appears to "downbow" the inferior border.
+6. Biopsy shows a well-circumscribed fibrous lesion with bone and cementum-like material, confirming a benign neoplasm.
+
+TEACHING_POINTS:
+- Central ossifying fibroma is a benign fibro-osseous neoplasm, in contrast to the non-neoplastic fibrous dysplasia and cemento-osseous dysplasia.
+- It is well-demarcated and encapsulated (unlike the blending margins of fibrous dysplasia), often in the mandibular premolar/molar region.
+- It can cause significant expansion and characteristically downbows the inferior border of the mandible.
+- It evolves from radiolucent to mixed to radiopaque as it matures.
+- Treatment is enucleation because it shells out well; complete removal generally prevents recurrence.
+==================================================
+
+CASE_ID: 157
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Cherubism
+
+ALIASES:
+cherubism
+familial fibrous dysplasia of the jaws
+bilateral giant cell lesion
+
+VIGNETTE_LINES:
+1. 5M is brought in for progressive, painless, symmetric fullness of both cheeks and lower face.
+2. There is a family history of similar childhood facial changes that improved with age.
+3. Exam shows bilateral, symmetric expansion of the mandible (and sometimes maxilla) with an upward gaze appearance.
+4. Multiple primary teeth are displaced or missing, and several permanent teeth are unerupted.
+5. Radiographs show bilateral, multilocular radiolucencies of the posterior jaws.
+6. The bilateral, symmetric, familial giant-cell-rich jaw lesions in a child confirm this inherited condition.
+
+TEACHING_POINTS:
+- Cherubism is a rare autosomal dominant (SH3BP2) disorder causing bilateral, symmetric giant-cell-rich jaw lesions in children.
+- It produces painless symmetric jaw expansion and the classic "cherubic" face, sometimes with sclera showing ("eyes to heaven").
+- Radiographs show bilateral multilocular radiolucencies with displaced and unerupted teeth.
+- It tends to stabilize and regress after puberty, so management is often conservative.
+- Distinguish from other giant cell lesions by its bilateral symmetry, familial pattern, and childhood onset.
+==================================================
+
+CASE_ID: 158
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Hypercementosis
+
+ALIASES:
+hypercementosis
+cemental hyperplasia
+excessive cementum
+
+VIGNETTE_LINES:
+1. 55M is asymptomatic, with an incidental finding on a radiograph taken for an unrelated tooth.
+2. He has a history of a tooth without an opposing partner and possibly Paget disease of bone.
+3. Exam shows no swelling, and the tooth in question is vital and non-tender.
+4. The tooth is firm with no mobility, and the periodontium appears healthy.
+5. A radiograph shows bulbous thickening of the root with excess cementum, surrounded by an intact periodontal ligament space and lamina dura.
+6. The excessive cementum deposition around the root, with preserved PDL space, confirms the benign condition.
+
+TEACHING_POINTS:
+- Hypercementosis is excessive deposition of cementum on the root surface, usually asymptomatic and incidental.
+- The radiographic hallmark is a bulbous root with a surrounding intact PDL space and lamina dura (distinguishing it from condensing osteitis and cementoblastoma).
+- Associations include occlusal trauma, teeth without antagonists, periapical inflammation, and Paget disease of bone.
+- It can complicate extractions because the enlarged root may not pass through the socket.
+- No treatment is needed unless extraction is required, when surgical removal may be necessary.
+==================================================
+
+CASE_ID: 159
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Taurodontism
+
+ALIASES:
+taurodontism
+bull-like teeth
+taurodont molar
+
+VIGNETTE_LINES:
+1. 16F has an incidental molar finding on a panoramic radiograph during orthodontic records.
+2. She is asymptomatic, and the tooth functions normally.
+3. Exam shows a normal-appearing crown with nothing unusual clinically.
+4. The tooth is vital and non-tender, and the periodontium is healthy.
+5. A radiograph shows an enlarged, rectangular pulp chamber with apical displacement of the furcation and short roots.
+6. The vertically elongated pulp chamber and apically positioned furcation confirm the developmental morphology.
+
+TEACHING_POINTS:
+- Taurodontism is a developmental variation where the pulp chamber is enlarged vertically and the furcation is displaced apically ("bull-like" tooth).
+- It is usually an incidental radiographic finding in molars and is typically asymptomatic.
+- It can be isolated or associated with syndromes (e.g., Down syndrome, amelogenesis imperfecta, Klinefelter syndrome).
+- It complicates endodontic treatment because of the apically located canal orifices and altered chamber anatomy.
+- No treatment is required unless the tooth needs restorative or endodontic intervention.
+==================================================
+
+CASE_ID: 160
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Dens Invaginatus
+
+ALIASES:
+dens in dente
+dens invaginatus
+tooth within a tooth
+
+VIGNETTE_LINES:
+1. 12M is found to have an unusual finding on a routine radiograph of an upper lateral incisor.
+2. He is asymptomatic, but the tooth has a deep pit on the lingual surface.
+3. Exam shows an accentuated lingual pit on a peg-shaped lateral incisor.
+4. The tooth may already show early pulpal involvement because the invagination provides a route for bacteria.
+5. A radiograph shows an infolding of enamel and dentin appearing as a "tooth within a tooth."
+6. The developmental invagination of the crown into the pulp space confirms the anomaly, which predisposes to early pulp necrosis.
+
+TEACHING_POINTS:
+- Dens invaginatus ("dens in dente") is an infolding of enamel and dentin into the tooth before mineralization, most common in maxillary lateral incisors.
+- The deep invagination communicates with the oral environment and predisposes to early caries and pulp necrosis.
+- The radiographic "tooth within a tooth" appearance is characteristic.
+- Early detection allows prophylactic sealing of the pit to prevent pulpal infection.
+- Endodontic treatment can be complex due to the aberrant internal anatomy.
+==================================================
+
+CASE_ID: 161
+DIFFICULTY: dental
+SYSTEM: pediatric_dentistry
+
+DIAGNOSIS:
+Dens Evaginatus
+
+ALIASES:
+dens evaginatus
+talon cusp
+Leong premolar
+
+VIGNETTE_LINES:
+1. 11F has a small extra bump on the chewing surface of a lower premolar noted at a checkup.
+2. She is asymptomatic, but the cusp shows early wear.
+3. Exam shows an accessory tubercle projecting from the occlusal surface of the premolar.
+4. The cusp contains an extension of pulp tissue, so wear or fracture risks pulp exposure.
+5. A radiograph shows a tubercle with a fine pulp horn extending into it.
+6. The developmental accessory cusp with a pulpal extension confirms the anomaly, which risks pulp exposure when worn or fractured.
+
+TEACHING_POINTS:
+- Dens evaginatus is an accessory cusp/tubercle projecting from the occlusal or lingual surface, often containing a pulp horn.
+- On premolars it is common in patients of East Asian and Native American descent; on anterior teeth it is called a talon cusp.
+- Occlusal wear or fracture of the tubercle can expose the pulp, causing early necrosis in a young tooth.
+- Early recognition allows protective measures (gradual reduction with monitoring or prophylactic management).
+- It is the morphologic "opposite" of dens invaginatus (an outward projection rather than an infolding).
+==================================================
+
+CASE_ID: 162
+DIFFICULTY: dental
+SYSTEM: pediatric_dentistry
+
+DIAGNOSIS:
+Fusion
+
+ALIASES:
+tooth fusion
+fused teeth
+dental fusion
+
+VIGNETTE_LINES:
+1. 8M is brought in because one of his lower front teeth looks abnormally wide.
+2. There is no pain, and the parents report it erupted that way.
+3. Exam shows a single large tooth with a groove suggesting two joined crowns in the anterior region.
+4. Counting teeth, the patient appears to be missing one tooth in the arch compared to normal.
+5. A radiograph shows the union of two adjacent teeth with confluent dentin and a notch between the crowns.
+6. The joining of two separate tooth germs with a reduced total tooth count confirms the diagnosis.
+
+TEACHING_POINTS:
+- Fusion is the union of two separate tooth germs, joined at least at the dentin, producing one large tooth.
+- Counting teeth helps: fusion usually results in one fewer tooth than normal (two germs become one), whereas gemination shows a normal count.
+- It is more common in the primary dentition and anterior region.
+- It can complicate esthetics, spacing, and endodontic/periodontal care (shared or separate canals).
+- Differentiate from gemination (one germ attempting to split) using the tooth count rule.
+==================================================
+
+CASE_ID: 163
+DIFFICULTY: dental
+SYSTEM: pediatric_dentistry
+
+DIAGNOSIS:
+Gemination
+
+ALIASES:
+gemination
+geminated tooth
+twinning
+
+VIGNETTE_LINES:
+1. 7F has a wide, notched front tooth noticed by her parents.
+2. There is no pain and no relevant trauma history.
+3. Exam shows a single tooth with a bifid crown and an incisal notch in the anterior region.
+4. Counting the teeth in the arch reveals a normal total tooth count.
+5. A radiograph shows a single root and shared pulp canal with an attempt at crown duplication.
+6. The single tooth germ attempting to divide, with a normal tooth count, confirms the diagnosis.
+
+TEACHING_POINTS:
+- Gemination is a single tooth germ attempting to divide, producing a bifid crown usually on a single root with one canal.
+- The tooth count is normal (the geminated tooth is counted as one), in contrast to fusion (usually one fewer tooth).
+- It most often affects the primary and anterior permanent dentition.
+- It can cause esthetic and spacing concerns and crowding.
+- The "two-tooth rule": if counting the anomalous tooth as one gives a normal count, it is gemination; if it gives a reduced count, it is fusion.
+==================================================
+
+CASE_ID: 164
+DIFFICULTY: dental
+SYSTEM: pediatric_dentistry
+
+DIAGNOSIS:
+Turner Hypoplasia
+
+ALIASES:
+Turner tooth
+Turner's hypoplasia
+localized enamel hypoplasia
+
+VIGNETTE_LINES:
+1. 9M has a single discolored, pitted permanent premolar that erupted abnormally.
+2. He had a badly decayed or traumatized primary tooth in that same position as a young child.
+3. Exam shows localized enamel defects and yellow-brown discoloration confined to that one premolar.
+4. The adjacent teeth are normal, indicating a localized rather than systemic cause.
+5. The defect corresponds exactly to the position of the previously infected primary predecessor.
+6. The localized enamel hypoplasia from disturbance of a single developing tooth confirms the diagnosis.
+
+TEACHING_POINTS:
+- Turner hypoplasia is a localized enamel defect on a single permanent tooth (a "Turner tooth").
+- It results from infection or trauma of the overlying primary predecessor disturbing ameloblasts of the developing permanent tooth.
+- Premolars are commonly affected (from infected primary molars); anterior teeth can be affected by trauma.
+- The localized, single-tooth pattern distinguishes it from systemic causes (fluorosis, enamel hypoplasia from systemic illness), which are diffuse/symmetric.
+- Management is restorative/esthetic depending on severity.
+==================================================
+
+CASE_ID: 165
+DIFFICULTY: dental
+SYSTEM: operative dentistry
+
+DIAGNOSIS:
+Dentin Hypersensitivity
+
+ALIASES:
+dentin hypersensitivity
+sensitive teeth
+tooth hypersensitivity
+
+VIGNETTE_LINES:
+1. 38F complains of short, sharp pain when she eats cold or sweet foods or breathes in cold air.
+2. She brushes aggressively and consumes a lot of acidic citrus and wine.
+3. Exam shows generalized gingival recession with exposed root surfaces and wedge-shaped cervical lesions.
+4. The pain is brief and stops as soon as the stimulus is removed, unlike pulpitis.
+5. There is no caries, no cracked tooth, and pulp testing is within normal limits.
+6. The brief, sharp pain from exposed dentinal tubules in response to stimuli, after excluding other causes, confirms the diagnosis.
+
+TEACHING_POINTS:
+- Dentin hypersensitivity is short, sharp pain from exposed dentinal tubules in response to thermal, evaporative, osmotic, or tactile stimuli.
+- It is a diagnosis of exclusion; rule out caries, cracked tooth, defective restorations, and pulpitis first.
+- The hydrodynamic theory explains pain via fluid movement in open tubules stimulating pulpal nerves.
+- Causes include recession and abrasion/erosion exposing root dentin; acidic diet and aggressive brushing contribute.
+- Management ranges from desensitizing toothpaste (potassium nitrate, stannous fluoride) to in-office tubule-occluding agents, plus correcting habits.
+==================================================
+
+CASE_ID: 166
+DIFFICULTY: dental
+SYSTEM: operative dentistry
+
+DIAGNOSIS:
+Attrition
+
+ALIASES:
+attrition
+occlusal wear
+tooth-to-tooth wear
+
+VIGNETTE_LINES:
+1. 50M notices his teeth are getting shorter and his bite feels different over the years.
+2. He reports clenching and grinding, especially at night, and his partner hears grinding sounds.
+3. Exam shows flat, shiny wear facets on the occlusal and incisal surfaces that match between opposing teeth.
+4. The wear is on functional contacting surfaces and corresponds when the patient closes.
+5. There is no cupping suggestive of erosion and no cervical notching suggestive of abrasion.
+6. The matching wear facets from tooth-to-tooth contact confirm the diagnosis, with parafunction as the driver.
+
+TEACHING_POINTS:
+- Attrition is tooth surface loss from tooth-to-tooth contact, producing matching flat wear facets on opposing teeth.
+- Bruxism (clenching/grinding) is a major cause; wear occurs on functional/occluding surfaces.
+- Distinguish from erosion (chemical, often cupped lesions and lingual wear) and abrasion (mechanical, often cervical notches from brushing).
+- Multiple wear mechanisms frequently coexist.
+- Management includes occlusal guards, addressing parafunction, and restoring lost structure/vertical dimension when indicated.
+==================================================
+
+CASE_ID: 167
+DIFFICULTY: dental
+SYSTEM: operative dentistry
+
+DIAGNOSIS:
+Abrasion
+
+ALIASES:
+abrasion
+toothbrush abrasion
+cervical abrasion
+
+VIGNETTE_LINES:
+1. 44M reports notches at the gumline of several teeth and some sensitivity there.
+2. He brushes hard horizontally with a stiff brush and abrasive toothpaste.
+3. Exam shows V-shaped or wedge-shaped notches at the cervical region on the facial surfaces.
+4. The lesions are on the buccal cervical areas, most pronounced where he brushes most vigorously.
+5. The defects are smooth, hard, and located coronal to areas of recession, without decay.
+6. The mechanical wear pattern from an external object (toothbrush) confirms the diagnosis.
+
+TEACHING_POINTS:
+- Abrasion is tooth surface loss from mechanical wear by a foreign object, classically horizontal toothbrushing with abrasive paste.
+- It produces sharp, V- or wedge-shaped cervical notches, often on the facial surfaces of canines/premolars.
+- Distinguish from abfraction (theoretical occlusal-stress cervical lesions), erosion (chemical), and attrition (tooth-to-tooth).
+- Contributing habits include aggressive brushing, pipe stems, and habitual object holding.
+- Management includes correcting brushing technique, desensitization, and restoring notches when sensitive or deep.
+==================================================
+
+CASE_ID: 168
+DIFFICULTY: dental
+SYSTEM: prosthodontics
+
+DIAGNOSIS:
+Combination Syndrome
+
+ALIASES:
+combination syndrome
+Kelly syndrome
+anterior hyperfunction syndrome
+
+VIGNETTE_LINES:
+1. 68F with a long-standing complete upper denture and lower partial denture reports a loose, poorly fitting upper denture.
+2. She has only her lower anterior natural teeth remaining and has worn this setup for many years.
+3. Exam shows resorption of the anterior maxillary ridge and a flabby, mobile anterior ridge tissue.
+4. The lower anterior teeth have supererupted, and the posterior mandibular ridges look resorbed.
+5. There is papillary hyperplasia of the hard palate and downgrowth of the maxillary tuberosities.
+6. The constellation of changes from a complete maxillary denture opposing natural mandibular anterior teeth confirms the diagnosis.
+
+TEACHING_POINTS:
+- Combination (Kelly) syndrome occurs in patients with a complete maxillary denture opposing natural mandibular anterior teeth.
+- Classic features: anterior maxillary ridge resorption, flabby anterior ridge, tuberosity overgrowth, palatal papillary hyperplasia, supereruption of lower anterior teeth, and posterior mandibular ridge resorption.
+- The destructive cycle stems from anterior occlusal hyperfunction against the maxillary denture.
+- Prevention includes posterior occlusal support and careful treatment planning before extractions.
+- Management addresses each component and re-establishes balanced occlusion/support.
+==================================================
+
+CASE_ID: 169
+DIFFICULTY: dental
+SYSTEM: prosthodontics
+
+DIAGNOSIS:
+Epulis Fissuratum Denture Trauma
+
+ALIASES:
+denture-induced fibrous hyperplasia
+inflammatory fibrous hyperplasia
+denture epulis
+
+VIGNETTE_LINES:
+1. 70M reports a sore, folded lump in the vestibule where his lower denture flange sits.
+2. He has worn the same ill-fitting denture for many years without relining.
+3. Exam shows elongated folds of firm tissue in the mucobuccal fold paralleling the denture border.
+4. A groove in the tissue corresponds exactly to where the overextended flange seats.
+5. The lesion is firm and fibrous rather than soft, and removing the denture relieves the trauma.
+6. The reactive fibrous tissue folds caused by a chronic ill-fitting denture flange confirm the diagnosis.
+
+TEACHING_POINTS:
+- This denture-induced fibrous hyperplasia is reactive tissue caused by chronic irritation from an overextended/ill-fitting denture flange.
+- It presents as folds of firm tissue in the vestibule, classically with the denture flange fitting into a groove between the folds.
+- It results from continued resorption of the ridge while the flange stays the same length, traumatizing the sulcus.
+- Management is surgical excision of the excess tissue plus remaking or relining the denture to prevent recurrence.
+- Any persistent or atypical lesion should be biopsied to exclude malignancy.
+==================================================
+
+CASE_ID: 170
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Median Palatal Cyst
+
+ALIASES:
+median palatal cyst
+median palatine cyst
+midline palatal cyst
+
+VIGNETTE_LINES:
+1. 40M reports a firm midline swelling of the hard palate further back than the area behind his front teeth.
+2. He is otherwise asymptomatic and has no history of trauma.
+3. Exam shows a firm, well-defined swelling in the midline of the posterior hard palate.
+4. The adjacent teeth are vital, and the swelling is not near the incisive papilla.
+5. A radiograph shows a well-circumscribed midline radiolucency posterior to the incisive canal region.
+6. The developmental cyst arising from epithelium trapped along the palatal fusion line confirms the diagnosis.
+
+TEACHING_POINTS:
+- A median palatal cyst is a developmental cyst from epithelium entrapped along the embryonic fusion of the palatal shelves.
+- It presents as a firm midline swelling of the posterior hard palate (more posterior than a nasopalatine duct cyst).
+- It must be distinguished from the more common and more anterior nasopalatine duct cyst.
+- Adjacent teeth are vital, ruling out an odontogenic inflammatory origin.
+- Treatment is surgical enucleation with histologic confirmation.
+==================================================
+
+CASE_ID: 171
+DIFFICULTY: dental
+SYSTEM: oral medicine
+
+DIAGNOSIS:
+Cheilitis Granulomatosa
+
+ALIASES:
+cheilitis granulomatosa
+Miescher cheilitis
+orofacial granulomatosis of the lip
+
+VIGNETTE_LINES:
+1. 32F reports persistent, painless swelling of her upper lip that has recurred and now seems permanent.
+2. She has no known allergy trigger and is otherwise systemically well.
+3. Exam shows diffuse, non-tender, firm enlargement of the lip without ulceration.
+4. The swelling does not pit on pressure and does not resolve like typical angioedema.
+5. Biopsy of the lip shows non-caseating granulomatous inflammation.
+6. The chronic granulomatous lip swelling, after excluding Crohn disease and sarcoidosis, confirms the diagnosis.
+
+TEACHING_POINTS:
+- Cheilitis granulomatosa (Miescher) is a chronic granulomatous swelling of the lip, considered a localized form of orofacial granulomatosis.
+- Unlike angioedema, it is persistent, non-pitting, and does not resolve quickly.
+- Biopsy shows non-caseating granulomas, so systemic granulomatous diseases (Crohn disease, sarcoidosis, TB) must be excluded.
+- Melkersson-Rosenthal syndrome is the triad of granulomatous cheilitis, facial palsy, and fissured tongue.
+- Management includes intralesional corticosteroids and addressing any underlying systemic disease.
+==================================================
+
+CASE_ID: 172
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Stafne Defect
+
+ALIASES:
+Stafne bone cyst
+static bone cyst
+lingual mandibular bone depression
+
+VIGNETTE_LINES:
+1. 55M has an incidental radiolucency found near the angle of the lower jaw on a panoramic film.
+2. He is completely asymptomatic with no swelling or functional complaints.
+3. Exam shows no expansion, and the teeth in the region are vital.
+4. The radiolucency sits below the inferior alveolar canal, posterior to the molars.
+5. A radiograph shows a well-defined, corticated round radiolucency beneath the mandibular canal near the angle.
+6. CBCT reveals a lingual cortical depression containing salivary gland tissue, confirming a pseudocyst rather than a true lesion.
+
+TEACHING_POINTS:
+- A Stafne defect is a lingual cortical depression of the mandible, usually containing normal submandibular salivary gland tissue.
+- It appears as a well-defined corticated radiolucency below the inferior alveolar canal, posterior to the molars near the angle.
+- It is asymptomatic and a developmental pseudocyst, not a true cyst or tumor.
+- CBCT showing a lingual concavity confirms the diagnosis, avoiding unnecessary surgery.
+- Its characteristic location below the canal is the key recognition feature.
+==================================================
+
+CASE_ID: 173
+DIFFICULTY: dental
+SYSTEM: oral pathology
+
+DIAGNOSIS:
+Lymphoepithelial Cyst
+
+ALIASES:
+oral lymphoepithelial cyst
+benign lymphoepithelial cyst
+lymphoepithelial cyst
+
+VIGNETTE_LINES:
+1. 30F notices a small, painless, yellowish nodule under her tongue.
+2. She is healthy and the lesion has been stable and asymptomatic.
+3. Exam shows a soft, well-circumscribed, yellow-white submucosal nodule on the floor of the mouth.
+4. It is small (under 1 cm), movable, and non-tender.
+5. There is no associated bone involvement or duct obstruction.
+6. Excisional biopsy shows a cyst lined by epithelium surrounded by lymphoid tissue, confirming the diagnosis.
+
+TEACHING_POINTS:
+- An oral lymphoepithelial cyst is a small, benign cyst associated with oral lymphoid tissue.
+- Common sites include the floor of the mouth, ventral/posterolateral tongue, and soft palate (areas of lymphoid aggregates).
+- It appears as a small, soft, yellow-white nodule and is usually asymptomatic.
+- Histology shows an epithelial-lined cyst surrounded by a lymphoid component (often with germinal centers).
+- Treatment is conservative excision; it must be differentiated from mucoceles and dermoid cysts in the floor of the mouth.
+==================================================
+
+CASE_ID: 174
+DIFFICULTY: dental
+SYSTEM: oral surgery
+
+DIAGNOSIS:
+Eruption Cyst
+
+ALIASES:
+eruption cyst
+eruption hematoma
+eruption cyst hematoma
+
+VIGNETTE_LINES:
+1. A toddler is brought in for a bluish swelling over the gums where a tooth is about to come in.
+2. The parents are worried it looks bruised, but the child is feeding and acting normally.
+3. Exam shows a soft, dome-shaped, translucent bluish swelling over an erupting primary molar site.
+4. The swelling fluctuates and overlies the crown of an unerupted but erupting tooth.
+5. No radiograph is usually needed, but the tooth crown is just beneath the soft tissue swelling.
+6. The fluid/blood-filled sac overlying an erupting tooth confirms the diagnosis, which usually resolves spontaneously.
+
+TEACHING_POINTS:
+- An eruption cyst is a soft tissue cyst overlying the crown of an erupting tooth (the soft-tissue analog of a dentigerous cyst).
+- A bluish/purple color indicates blood within the cyst (eruption hematoma).
+- It is most common over erupting primary teeth and permanent first molars.
+- Most resolve spontaneously as the tooth erupts through the cyst; no treatment is usually needed.
+- Marsupialization/unroofing is reserved for cysts that fail to resolve or cause symptoms.
+==================================================
+
+CASE_ID: 175
+DIFFICULTY: dental
+SYSTEM: prosthodontics
+
+DIAGNOSIS:
+Cement-Retained Implant Peri-Mucositis
+
+ALIASES:
+peri-implant mucositis
+implant mucositis
+residual cement mucositis
+
+VIGNETTE_LINES:
+1. 57M reports tenderness and bleeding around a single implant crown placed several months ago.
+2. He has good hygiene elsewhere and no looseness of the implant.
+3. Exam shows red, swollen, bleeding mucosa around the implant with no purulence.
+4. Probing reveals bleeding but no increase in probing depth and no loss of supporting bone.
+5. A radiograph shows the crestal bone level is stable, with a faint radiopaque fleck in the sulcus suggesting retained cement.
+6. The reversible inflammation confined to the soft tissue, without bone loss, confirms the diagnosis, often triggered by residual cement.
+
+TEACHING_POINTS:
+- Peri-implant mucositis is reversible inflammation of the soft tissue around an implant WITHOUT loss of supporting bone.
+- It is the precursor to peri-implantitis, which involves progressive crestal bone loss; the distinction is the presence or absence of bone loss.
+- Bleeding on probing with stable radiographic bone levels is the key diagnostic combination.
+- Residual subgingival cement is a common, often overlooked trigger of inflammation around cement-retained crowns.
+- Management is removal of the cement/biofilm and improved hygiene; untreated mucositis can progress to peri-implantitis.
+==================================================

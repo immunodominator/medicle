@@ -1807,3 +1807,1500 @@ TEACHING_POINTS:
 - A type of Extrapyramidal Symptom (EPS) treated with anticholinergics.
 ==================================================
 
+CASE_ID: 101
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotic
+DIAGNOSIS:
+Shared Psychotic Disorder
+ALIASES:
+folie a deux
+shared delusional disorder
+induced delusional disorder
+VIGNETTE_LINES:
+- 50yo woman believes the neighbors are poisoning the water supply, mirroring her husband's long-held belief.
+- She lives in relative isolation with her dominant, chronically psychotic spouse.
+- Her conviction softens noticeably when she is interviewed apart from him.
+- She has no prior psychiatric history and no perceptual disturbances of her own.
+- Delusion resolves over weeks once she is separated from the primary case and supported.
+TEACHING_POINTS:
+- A delusion is transmitted from a dominant individual with established psychosis to a closely associated, often isolated partner.
+- Separation from the inducer is frequently therapeutic, distinguishing it from a primary psychotic disorder.
+==================================================
+
+CASE_ID: 102
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Pseudobulbar Affect
+ALIASES:
+PBA
+emotional incontinence
+pathological laughing and crying
+VIGNETTE_LINES:
+- A 66yo who had a stroke bursts into uncontrollable crying over trivial or unrelated triggers.
+- The outbursts feel disconnected from his actual inner emotional state.
+- At times he laughs uncontrollably in situations he does not find funny.
+- The episodes are sudden, exaggerated, and impossible for him to suppress.
+- He also has a known neurological condition affecting corticobulbar pathways.
+TEACHING_POINTS:
+- Pseudobulbar affect is involuntary, exaggerated laughing or crying that is incongruent with or out of proportion to the underlying mood.
+- It arises from neurological disease disrupting corticobulbar control (stroke, ALS, MS, TBI) and is distinguished from a primary mood disorder by the mismatch between affect and felt emotion.
+==================================================
+
+CASE_ID: 103
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_anxiety
+DIAGNOSIS:
+Specific Phobia, Blood-Injection-Injury Type
+ALIASES:
+BII phobia
+needle phobia
+blood phobia
+VIGNETTE_LINES:
+- 24yo avoids medical appointments and feels faint at the sight of a blood draw.
+- Unlike other fears, exposure makes her lightheaded rather than purely panicked.
+- She recalls fainting during a school vaccination as a child.
+- Exposure produces an initial sympathetic surge followed by a sharp drop in heart rate and blood pressure.
+- She remains highly functional except when confronting the specific feared stimulus.
+TEACHING_POINTS:
+- The blood-injection-injury phobia subtype is unique in producing a diphasic vasovagal response that can cause syncope.
+- Applied muscle tension (tensing the body to raise blood pressure) is a targeted treatment alongside graded exposure.
+==================================================
+
+CASE_ID: 104
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Passive-Aggressive Personality Pattern
+ALIASES:
+negativistic personality
+passive-aggressive personality
+negativistic pattern
+VIGNETTE_LINES:
+- 33yo employee complains his manager is unfair while routinely missing deadlines.
+- He agrees to tasks in meetings but then quietly delays, forgets, or does them poorly.
+- He sulks and makes sarcastic remarks rather than voicing disagreement directly.
+- He feels chronically underappreciated and blames others for his stalled career.
+- A pervasive pattern of covert resistance to demands replaces open assertion across settings.
+TEACHING_POINTS:
+- This pattern involves indirect resistance to expectations expressed through procrastination, sullenness, and inefficiency rather than direct refusal.
+- It appears in the DSM appendix as a pattern for further study rather than an official disorder, but is high-yield for recognizing covert hostility.
+==================================================
+
+CASE_ID: 105
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotic
+DIAGNOSIS:
+Capgras Delusion
+ALIASES:
+Capgras syndrome
+imposter delusion
+delusional misidentification
+VIGNETTE_LINES:
+- 60yo insists his wife has been replaced by an identical-looking stranger.
+- He recognizes her face perfectly but is certain she is an imposter.
+- He recently sustained a head injury and has subtle right-hemisphere findings.
+- He remains warm toward old photographs yet cold and suspicious toward the woman herself.
+- Neuropsychological testing suggests a disconnect between face recognition and the emotional familiarity response.
+TEACHING_POINTS:
+- Capgras is a delusional misidentification in which a familiar person is believed to be replaced by an imposter.
+- It is linked to a dissociation between intact facial recognition and impaired affective familiarity, often with right-hemisphere or neurodegenerative pathology.
+==================================================
+
+CASE_ID: 106
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Korsakoff Syndrome
+ALIASES:
+Korsakoff psychosis
+alcohol amnestic disorder
+Wernicke-Korsakoff syndrome
+VIGNETTE_LINES:
+- 58yo with long-standing alcohol use is unable to form new memories after a hospital admission.
+- He fills gaps in his memory with detailed but fabricated accounts delivered without distress.
+- He had a preceding episode of confusion, unsteady gait, and abnormal eye movements.
+- His immediate attention is relatively preserved while recent recall is severely impaired.
+- Thiamine deficiency with mammillary body involvement is identified on workup.
+TEACHING_POINTS:
+- Korsakoff syndrome is a chronic amnestic state from thiamine deficiency, classically following Wernicke encephalopathy (confusion, ataxia, ophthalmoplegia).
+- Confabulation and prominent anterograde amnesia with relative preservation of other cognition are characteristic; treat with thiamine, ideally before glucose.
+==================================================
+
+CASE_ID: 107
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Anton Syndrome
+ALIASES:
+visual anosognosia
+Anton-Babinski syndrome
+denial of blindness
+VIGNETTE_LINES:
+- 70yo bumps into furniture yet insists nothing is wrong with her vision.
+- She recently had a stroke affecting the back of the brain bilaterally.
+- When asked to describe the room, she confidently invents inaccurate visual details.
+- She is genuinely unaware of and denies her profound visual loss.
+- Imaging confirms bilateral occipital cortex damage with cortically based blindness.
+TEACHING_POINTS:
+- Anton syndrome is cortical blindness with denial of the deficit (visual anosognosia), typically from bilateral occipital lesions.
+- Patients confabulate visual experiences, reflecting lack of insight rather than deliberate deception.
+==================================================
+
+CASE_ID: 108
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_dissociative
+DIAGNOSIS:
+Dissociative Fugue
+ALIASES:
+psychogenic fugue
+fugue state
+dissociative amnesia with fugue
+VIGNETTE_LINES:
+- 42yo is found hundreds of miles from home with no memory of how he arrived.
+- He had recently experienced severe financial and marital stress.
+- He had adopted a new name and started a job, seemingly without distress about his lost past.
+- There is no evidence of substance use, head trauma, or a neurological seizure disorder.
+- His autobiographical memory gradually returns once he is in a safe setting.
+TEACHING_POINTS:
+- Dissociative fugue is sudden, unexpected travel with inability to recall one's past and confusion about identity, now classified as a specifier of dissociative amnesia.
+- It is typically precipitated by severe stress or trauma and must be distinguished from malingering and neurological amnesias.
+==================================================
+
+CASE_ID: 109
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_mood
+DIAGNOSIS:
+Major Depressive Disorder with Seasonal Pattern
+ALIASES:
+seasonal affective disorder
+SAD
+winter depression
+VIGNETTE_LINES:
+- 31yo reports low mood and heaviness that returns every late autumn for several years.
+- She craves carbohydrates, oversleeps, and gains weight during the affected months.
+- Each year her energy and mood fully recover by spring without ongoing treatment.
+- The pattern has recurred predictably across at least two consecutive years.
+- She lives at a high latitude with limited winter daylight.
+TEACHING_POINTS:
+- The seasonal pattern specifier requires a regular temporal relationship between major depressive episodes and a particular time of year.
+- Atypical features (hypersomnia, hyperphagia, weight gain) are common; bright light therapy is a first-line intervention.
+==================================================
+
+CASE_ID: 110
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_mood
+DIAGNOSIS:
+Major Depressive Disorder with Peripartum Onset
+ALIASES:
+postpartum depression
+peripartum depression
+PPD
+VIGNETTE_LINES:
+- 29yo new mother reports persistent sadness and tearfulness three weeks after delivery.
+- She feels detached from her infant and guilty about not bonding.
+- Symptoms exceed the brief, self-limited mood lability expected in the first days postpartum.
+- She has anhedonia, insomnia beyond infant care needs, and poor appetite for over two weeks.
+- There are no delusions, hallucinations, or thoughts of harming the baby.
+TEACHING_POINTS:
+- Peripartum-onset depression begins during pregnancy or within four weeks of delivery and is distinguished from transient baby blues by duration and impairment.
+- It must be differentiated from postpartum psychosis, which involves delusions or hallucinations and is a psychiatric emergency.
+==================================================
+
+CASE_ID: 111
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_anxiety
+DIAGNOSIS:
+Panic Disorder with Agoraphobia
+ALIASES:
+panic with agoraphobia
+agoraphobic panic
+PDA
+VIGNETTE_LINES:
+- 27yo describes sudden surges of terror with pounding heart, chest tightness, and a sense of impending doom.
+- The attacks peak within minutes and have struck unexpectedly in stores and on public transit.
+- She now avoids crowds, buses, and being far from home for fear of having an attack where escape is hard.
+- She worries persistently between episodes about when the next will come.
+- Cardiac and thyroid workups are unremarkable, and symptoms are not substance-induced.
+TEACHING_POINTS:
+- Panic disorder features recurrent unexpected panic attacks plus a month of worry about attacks or maladaptive behavior change.
+- Agoraphobia commonly co-occurs, with avoidance of situations where escape or help might be difficult; in DSM-5 they are coded as separate diagnoses.
+==================================================
+
+CASE_ID: 112
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_trauma
+DIAGNOSIS:
+Complex Post-Traumatic Stress Disorder
+ALIASES:
+complex PTSD
+C-PTSD
+complex trauma
+VIGNETTE_LINES:
+- 34yo survivor of prolonged childhood abuse reports flashbacks and hypervigilance.
+- Beyond classic trauma symptoms, she describes pervasive shame and a sense of being permanently damaged.
+- She struggles with severe emotional dysregulation and difficulty maintaining relationships.
+- The trauma was chronic and inescapable rather than a single discrete event.
+- She has persistent negative self-concept and difficulty feeling close to others.
+TEACHING_POINTS:
+- Complex PTSD adds disturbances in self-organization (affect dysregulation, negative self-concept, relational difficulties) to core PTSD symptoms.
+- It is recognized in the ICD-11 and is typically associated with prolonged, repeated, interpersonal trauma.
+==================================================
+
+CASE_ID: 113
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_ocd
+DIAGNOSIS:
+Olfactory Reference Syndrome
+ALIASES:
+olfactory reference disorder
+ORS
+delusional halitosis
+VIGNETTE_LINES:
+- 23yo is convinced he emits a foul body odor that disgusts everyone around him.
+- He showers excessively, changes clothes repeatedly, and chews gum constantly to mask the imagined smell.
+- Others, including clinicians, cannot detect any abnormal odor.
+- He misinterprets coughs or window-opening by others as reactions to his smell.
+- He avoids social and work situations out of intense shame about the perceived odor.
+TEACHING_POINTS:
+- Olfactory reference syndrome is a preoccupation with a false belief that one emits an offensive odor, with repetitive checking and masking behaviors.
+- It sits within the obsessive-compulsive and related spectrum and must be distinguished from primary delusional disorder and social anxiety.
+==================================================
+
+CASE_ID: 114
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_eating
+DIAGNOSIS:
+Orthorexia Nervosa
+ALIASES:
+orthorexia
+fixation on healthy eating
+righteous eating pattern
+VIGNETTE_LINES:
+- 26yo fitness enthusiast spends hours daily researching the purity of foods.
+- He has progressively eliminated entire food groups he deems impure or contaminated.
+- His self-worth is tied to dietary perfection, and dietary lapses cause intense guilt.
+- Social life has collapsed because he refuses to eat anything he has not personally vetted.
+- The focus is on the perceived healthfulness and quality of food rather than on body weight or shape.
+TEACHING_POINTS:
+- Orthorexia is an obsessive preoccupation with eating only foods perceived as pure or healthy, with the focus on quality rather than quantity or weight.
+- It is not yet a formal DSM diagnosis but overlaps with OCD and eating disorders and can cause malnutrition and social impairment.
+==================================================
+
+CASE_ID: 115
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_somatic
+DIAGNOSIS:
+Functional Neurological Symptom Disorder, Seizure Type
+ALIASES:
+psychogenic nonepileptic seizures
+PNES
+dissociative seizures
+VIGNETTE_LINES:
+- 29yo has frequent episodes of shaking and unresponsiveness despite normal neurology workups.
+- Events often occur in emotionally charged situations and rarely when she is alone.
+- The movements are non-rhythmic, with side-to-side head shaking and preserved awareness at times.
+- Video EEG during a typical episode shows no epileptiform activity.
+- She has a history of trauma and tends not to injure herself or become incontinent during events.
+TEACHING_POINTS:
+- Functional (psychogenic nonepileptic) seizures resemble epilepsy but lack EEG correlates and often feature atypical, fluctuating, emotionally triggered movements.
+- Video EEG is the gold standard for diagnosis; management is psychological rather than antiepileptic medication.
+==================================================
+
+CASE_ID: 116
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Hallucinogen Persisting Perception Disorder
+ALIASES:
+HPPD
+flashbacks
+persistent perceptual disorder
+VIGNETTE_LINES:
+- 21yo reports seeing trailing images and halos around objects months after stopping psychedelics.
+- He used hallucinogens repeatedly in the past but has been abstinent for some time.
+- The visual disturbances are distressing and occur while he is fully sober.
+- He sees geometric patterns, intensified colors, and movement in his peripheral vision.
+- Neurological and ophthalmologic evaluations are unremarkable.
+TEACHING_POINTS:
+- HPPD is the persistent or recurrent re-experiencing of perceptual disturbances after hallucinogen use, occurring in the absence of current intoxication.
+- The disturbances are typically visual; reality testing is intact, distinguishing it from psychosis.
+==================================================
+
+CASE_ID: 117
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Caffeine Intoxication
+ALIASES:
+caffeinism
+caffeine overuse
+caffeine toxicity
+VIGNETTE_LINES:
+- 19yo college student presents with palpitations, jitteriness, and an inability to sit still during finals.
+- He admits to consuming large quantities of energy drinks and coffee over the past day.
+- He is restless, with rambling speech, flushed face, and frequent trips to the bathroom.
+- His mind is racing and he has been unable to sleep, with twitching muscles.
+- Symptoms emerged shortly after a sharp escalation in consumption and resolve as levels fall.
+TEACHING_POINTS:
+- Caffeine intoxication requires recent high intake plus signs such as restlessness, nervousness, insomnia, diuresis, tachycardia, and psychomotor agitation.
+- It can mimic anxiety disorders and mania; the temporal link to heavy intake and self-limited course are key.
+==================================================
+
+CASE_ID: 118
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurodevelopmental
+DIAGNOSIS:
+Social (Pragmatic) Communication Disorder
+ALIASES:
+SPCD
+pragmatic language impairment
+social communication disorder
+VIGNETTE_LINES:
+- 8yo struggles to take turns in conversation and misreads social cues with peers.
+- He speaks in an overly formal way and cannot adjust his tone for different listeners.
+- He has trouble following the unwritten rules of storytelling and greetings.
+- Unlike autism, he shows no restricted interests, repetitive behaviors, or insistence on sameness.
+- His structural language (grammar, vocabulary) is intact, but its social use is impaired.
+TEACHING_POINTS:
+- Social communication disorder is a primary deficit in the social use of verbal and nonverbal communication without restricted/repetitive behaviors.
+- The absence of restricted interests and repetitive behaviors distinguishes it from autism spectrum disorder.
+==================================================
+
+CASE_ID: 119
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurodevelopmental
+DIAGNOSIS:
+Childhood-Onset Fluency Disorder
+ALIASES:
+stuttering
+developmental stuttering
+childhood stuttering
+VIGNETTE_LINES:
+- 6yo has difficulty getting words out, with repetitions of initial sounds.
+- The disruptions began in early childhood and worsen when he is excited or stressed.
+- He prolongs sounds and sometimes blocks completely before a word emerges.
+- He has started avoiding certain words and shows frustration when speaking aloud in class.
+- His comprehension and nonverbal communication are entirely age-appropriate.
+TEACHING_POINTS:
+- Childhood-onset fluency disorder (stuttering) involves sound/syllable repetitions, prolongations, and blocks disrupting speech fluency.
+- Onset is in the developmental period; secondary avoidance and anxiety about speaking commonly develop and respond to speech therapy.
+==================================================
+
+CASE_ID: 120
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_sleep
+DIAGNOSIS:
+Delayed Sleep Phase Disorder
+ALIASES:
+delayed sleep phase syndrome
+DSPS
+circadian phase delay
+VIGNETTE_LINES:
+- 17yo cannot fall asleep until the early morning hours and is impossible to wake for school.
+- On vacation, when allowed to sleep on his own schedule, his sleep is normal in quality and length.
+- He has been labeled lazy and oppositional for chronic lateness and morning grogginess.
+- Sleep logs show a consistently shifted but stable sleep-wake timing.
+- His sleep architecture is normal once aligned to his preferred late schedule.
+TEACHING_POINTS:
+- Delayed sleep phase disorder is a circadian rhythm disorder with a stable sleep period shifted later than conventional times.
+- Sleep is normal when timed to the individual's internal clock; treatment includes timed light exposure, chronotherapy, and melatonin.
+==================================================
+
+CASE_ID: 121
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Alexithymia
+ALIASES:
+emotional blindness
+difficulty identifying feelings
+alexithymic trait
+VIGNETTE_LINES:
+- 40yo in couples therapy cannot describe what he feels when his partner is upset.
+- He reports physical sensations like a tight chest but cannot label the underlying emotion.
+- His descriptions of events are concrete and externally focused, with little inner reflection.
+- He struggles to distinguish anxiety from anger or sadness in himself.
+- Testing reveals marked difficulty identifying and verbalizing emotional states.
+TEACHING_POINTS:
+- Alexithymia is a trait marked by difficulty identifying and describing feelings and an externally oriented thinking style.
+- It is not a standalone DSM disorder but commonly accompanies somatic, autistic, and trauma-related conditions and complicates insight-oriented therapy.
+==================================================
+
+CASE_ID: 122
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Countertransference
+ALIASES:
+therapist countertransference
+clinician emotional reaction
+countertransference reaction
+VIGNETTE_LINES:
+- A therapist notices she feels unusually protective and parental toward a particular young client.
+- She finds herself extending sessions and worrying about the client between appointments.
+- On reflection, the client reminds her of her own estranged child.
+- Her emotional responses are shaped by her personal history rather than the client's actual needs.
+- Supervision helps her recognize and manage these reactions to protect the therapeutic frame.
+TEACHING_POINTS:
+- Countertransference is the therapist's redirected emotional response to a client, often rooted in the therapist's own past relationships.
+- Recognized and reflected upon, it can be a clinical tool; unexamined, it can distort treatment and boundaries.
+==================================================
+
+CASE_ID: 123
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Sublimation
+ALIASES:
+mature defense sublimation
+channeling impulses
+adaptive defense
+VIGNETTE_LINES:
+- A man with intense aggressive urges channels them into competitive boxing and a career as a surgeon.
+- He reports feeling calmer and more accomplished after redirecting his drives.
+- Rather than suppressing or denying his impulses, he transforms them into productive activity.
+- His behavior is socially valued and personally adaptive.
+- This coping style is associated with high functioning and psychological maturity.
+TEACHING_POINTS:
+- Sublimation is a mature defense mechanism that channels unacceptable impulses into socially acceptable and productive outlets.
+- It is considered adaptive, in contrast to immature defenses such as projection, denial, or acting out.
+==================================================
+
+CASE_ID: 124
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Splitting
+ALIASES:
+black-and-white thinking
+all-or-nothing defense
+dichotomous defense
+VIGNETTE_LINES:
+- An inpatient praises one nurse as the only person who understands her while condemning another as cruel.
+- Her views of staff flip rapidly and completely after minor disappointments.
+- She cannot hold both positive and negative qualities of a person in mind at once.
+- Staff begin to argue among themselves, mirroring her divided perceptions.
+- This pattern is prominent in individuals with borderline personality organization.
+TEACHING_POINTS:
+- Splitting is a primitive defense in which people and experiences are categorized as all good or all bad, with no integration.
+- It commonly drives staff conflict and is characteristic of borderline personality organization; naming it helps teams maintain consistency.
+==================================================
+
+CASE_ID: 125
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Learned Helplessness
+ALIASES:
+helplessness theory
+Seligman helplessness
+acquired helplessness
+VIGNETTE_LINES:
+- A woman in a long-term controlling relationship stops trying to change her circumstances.
+- She repeatedly states that nothing she does will ever make a difference.
+- Past attempts to assert herself were consistently punished or ignored.
+- She passively accepts adverse situations even when escape routes become available.
+- Her attributional style is global, stable, and internal regarding negative events.
+TEACHING_POINTS:
+- Learned helplessness develops when repeated uncontrollable aversive events lead to passive resignation even when control becomes possible.
+- It is a foundational model for depression, emphasizing perceived lack of control and a pessimistic attributional style.
+==================================================
+CASE_ID: 126
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Projection
+ALIASES:
+projective defense
+attribution defense
+projecting impulses
+VIGNETTE_LINES:
+- A jealous husband with his own wandering eye accuses his faithful wife of constant infidelity.
+- He is preoccupied with monitoring her for signs of cheating he cannot substantiate.
+- He denies any attraction to others while vividly imagining her betrayals.
+- His unacceptable impulses are experienced as belonging to someone else.
+- The accusation reflects his disowned desires rather than her behavior.
+TEACHING_POINTS:
+- Projection is attributing one's own unacceptable thoughts, feelings, or impulses to another person.
+- It is an immature defense and underlies many persecutory and jealous presentations.
+==================================================
+
+CASE_ID: 127
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Reaction Formation
+ALIASES:
+reaction formation defense
+opposite-behavior defense
+overcompensation defense
+VIGNETTE_LINES:
+- A man with strong unacknowledged hostility toward his brother is conspicuously and excessively kind to him.
+- His warmth feels exaggerated, rigid, and effortful rather than genuine.
+- He campaigns publicly against the very urges he privately struggles with.
+- The intensity of his opposite behavior hints at the underlying impulse.
+- His outward attitude is the exact reverse of his unconscious feeling.
+TEACHING_POINTS:
+- Reaction formation transforms an unacceptable impulse into its conscious opposite, often in an exaggerated form.
+- The characteristic clue is excessive, rigid behavior that masks the underlying contrary feeling.
+==================================================
+
+CASE_ID: 128
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Displacement
+ALIASES:
+displacement defense
+redirected affect
+transfer of impulse
+VIGNETTE_LINES:
+- A man humiliated by his boss goes home and snaps angrily at his wife and children.
+- He cannot express his frustration toward the person who actually provoked it.
+- The emotion is redirected from a threatening target to a safer one.
+- He later feels guilty, recognizing his family did nothing wrong.
+- The original feeling is preserved but its object is shifted.
+TEACHING_POINTS:
+- Displacement redirects an emotion from its original, threatening target onto a less threatening substitute.
+- It differs from projection (which misattributes the feeling to another) and sublimation (which channels it productively).
+==================================================
+
+CASE_ID: 129
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Transference
+ALIASES:
+client transference
+transference reaction
+redirected feelings in therapy
+VIGNETTE_LINES:
+- A client begins reacting to her therapist with the same resentment she felt toward her father.
+- She accuses the therapist of being controlling and disappointed in her, without evidence.
+- Her emotional responses seem disproportionate to anything occurring in session.
+- The pattern mirrors a significant early relationship being replayed in treatment.
+- Exploring this dynamic becomes central to the therapeutic work.
+TEACHING_POINTS:
+- Transference is the client's unconscious redirection of feelings from important past figures onto the therapist.
+- It is a core focus of psychodynamic therapy and is distinguished from countertransference, which originates in the therapist.
+==================================================
+
+CASE_ID: 130
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Operant Conditioning
+ALIASES:
+instrumental conditioning
+Skinnerian conditioning
+reinforcement learning
+VIGNETTE_LINES:
+- A toddler's tantrums increase after a parent gives candy each time to quiet him.
+- The behavior that is followed by a desirable consequence becomes more frequent.
+- When the parent later ignores the tantrums, their frequency gradually declines.
+- A brief burst of intensified tantrums precedes the eventual decrease.
+- The behavior is shaped by its consequences rather than by prior associations.
+TEACHING_POINTS:
+- Operant conditioning shapes voluntary behavior through consequences: reinforcement increases behavior, punishment decreases it.
+- Removing reinforcement produces extinction, often preceded by a temporary extinction burst; this differs from classical (Pavlovian) conditioning of reflexive responses.
+==================================================
+
+CASE_ID: 131
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Classical Conditioning
+ALIASES:
+Pavlovian conditioning
+respondent conditioning
+associative learning
+VIGNETTE_LINES:
+- A chemotherapy patient begins feeling nauseated the moment she enters the clinic waiting room.
+- The nausea now occurs before any drug is administered.
+- A previously neutral environment has come to trigger a reflexive bodily response.
+- The reaction developed after repeated pairing of the setting with the nausea-inducing treatment.
+- The response is involuntary and physiological rather than goal-directed.
+TEACHING_POINTS:
+- Classical conditioning pairs a neutral stimulus with an unconditioned stimulus until the neutral stimulus alone elicits the response.
+- It explains conditioned reflexive reactions (e.g., anticipatory nausea, phobias), distinct from operant conditioning of voluntary behavior.
+==================================================
+
+CASE_ID: 132
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Type A Behavior Pattern
+ALIASES:
+Type A personality
+coronary-prone behavior
+Type A pattern
+VIGNETTE_LINES:
+- A 48yo executive is described by colleagues as perpetually rushed and intensely competitive.
+- He becomes visibly irritated waiting in lines and interrupts others to finish their sentences.
+- He multitasks constantly and feels guilty when relaxing.
+- His hostility and time urgency are pervasive across work and home.
+- He presents with hypertension and a strong family concern about heart disease.
+TEACHING_POINTS:
+- The Type A behavior pattern is characterized by time urgency, competitiveness, and hostility.
+- The hostility component in particular is associated with increased cardiovascular risk; it is a behavioral pattern, not a DSM disorder.
+==================================================
+
+CASE_ID: 133
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_anxiety
+DIAGNOSIS:
+Test Anxiety
+ALIASES:
+performance anxiety
+evaluation anxiety
+exam anxiety
+VIGNETTE_LINES:
+- A college student blanks out and feels her heart racing whenever she sits for exams.
+- She knows the material well and performs fine on practice problems at home.
+- During tests she experiences sweating, nausea, and intrusive thoughts of failure.
+- Her anxiety is specifically tied to evaluative situations, not to social interaction broadly.
+- Her academic performance markedly underrepresents her actual knowledge.
+TEACHING_POINTS:
+- Test anxiety is a performance anxiety in evaluative situations, blending physiological arousal with worry that impairs retrieval.
+- It can be conceptualized within performance-type social anxiety or specific phobia and responds to cognitive-behavioral and relaxation strategies.
+==================================================
+
+CASE_ID: 134
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Gambling Disorder
+ALIASES:
+pathological gambling
+compulsive gambling
+problem gambling
+VIGNETTE_LINES:
+- A 45yo man has drained his savings and lied to family about where the money went.
+- He needs to bet increasing amounts to feel the same excitement.
+- He repeatedly returns to "chase" his losses, convinced the next bet will recover them.
+- He feels restless and irritable when he tries to cut back.
+- His behavior is not driven by any ingested substance.
+TEACHING_POINTS:
+- Gambling disorder is the only behavioral addiction classified among the substance-related and addictive disorders in DSM-5.
+- It shares features with substance addictions: tolerance-like escalation, withdrawal-like irritability, chasing losses, and impaired control.
+==================================================
+
+CASE_ID: 135
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Wernicke Encephalopathy
+ALIASES:
+Wernicke's encephalopathy
+acute thiamine deficiency
+thiamine deficiency encephalopathy
+VIGNETTE_LINES:
+- A 55yo with heavy alcohol use is brought in acutely confused and unsteady on his feet.
+- He has a wide-based, staggering gait and cannot walk unaided.
+- Examination reveals abnormal eye movements with horizontal gaze paresis.
+- His confusion developed rapidly over days, not the years typical of dementia.
+- Symptoms improve substantially with urgent thiamine administration.
+TEACHING_POINTS:
+- Wernicke encephalopathy is an acute thiamine deficiency presenting with the triad of confusion, ataxia, and ophthalmoplegia.
+- It is a medical emergency; give thiamine before glucose to avoid precipitating or worsening it, and untreated cases may progress to Korsakoff syndrome.
+==================================================
+
+CASE_ID: 136
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_med_effect
+DIAGNOSIS:
+Akathisia
+ALIASES:
+medication-induced akathisia
+restlessness syndrome
+neuroleptic akathisia
+VIGNETTE_LINES:
+- A patient recently started on an antipsychotic complains he cannot sit still.
+- He paces, shifts his weight, and crosses and uncrosses his legs constantly.
+- He describes an unbearable inner restlessness rather than anxiety about a specific worry.
+- The sensation began shortly after a dose increase.
+- He feels driven to move and is distressed by the inability to stay calm.
+TEACHING_POINTS:
+- Akathisia is a medication-induced state of subjective inner restlessness with a compelling urge to move.
+- It is commonly caused by dopamine antagonists; it must be distinguished from psychotic agitation or anxiety and is managed by dose reduction, beta-blockers, or switching agents.
+==================================================
+
+CASE_ID: 137
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_med_effect
+DIAGNOSIS:
+Antidepressant Discontinuation Syndrome
+ALIASES:
+SSRI discontinuation syndrome
+antidepressant withdrawal
+discontinuation syndrome
+VIGNETTE_LINES:
+- A patient who abruptly stopped her antidepressant reports dizziness and flu-like symptoms.
+- She describes brief "electric shock" sensations in her head when she moves her eyes.
+- She feels irritable, nauseated, and unusually anxious over the past few days.
+- Symptoms began within days of stopping a short-half-life serotonergic medication.
+- Restarting the medication promptly relieves the symptoms.
+TEACHING_POINTS:
+- Discontinuation syndrome arises after abrupt cessation of antidepressants, especially short-half-life SSRIs/SNRIs (the FINISH mnemonic: flu-like, insomnia, nausea, imbalance, sensory disturbances, hyperarousal).
+- It is distinguished from relapse by its rapid onset, characteristic sensory "zaps," and prompt resolution with reinstatement; taper to prevent it.
+==================================================
+
+CASE_ID: 138
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_mood
+DIAGNOSIS:
+Bipolar Disorder with Rapid Cycling
+ALIASES:
+rapid cycling bipolar
+rapid-cycling specifier
+rapid mood cycling
+VIGNETTE_LINES:
+- A 32yo with known bipolar disorder has had numerous distinct mood episodes this year.
+- Over twelve months she has swung between depression and elevated mood at least five times.
+- Each episode meets full criteria for a depressive, manic, or hypomanic state.
+- Her cycling worsened after exposure to an antidepressant without a mood stabilizer.
+- Thyroid dysfunction is identified as a contributing factor.
+TEACHING_POINTS:
+- The rapid-cycling specifier requires at least four mood episodes (depressive, manic, or hypomanic) within twelve months.
+- It is associated with antidepressant exposure and hypothyroidism, predicts a more difficult course, and favors mood stabilizers over antidepressant monotherapy.
+==================================================
+
+CASE_ID: 139
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_mood
+DIAGNOSIS:
+Major Depressive Disorder with Psychotic Features
+ALIASES:
+psychotic depression
+depression with psychosis
+delusional depression
+VIGNETTE_LINES:
+- A 60yo with severe depression becomes convinced his internal organs are rotting away.
+- He believes he is being justly punished for unforgivable sins he cannot specify.
+- His delusions are consistent with his profoundly depressed and guilty mood.
+- He has lost weight, stopped eating, and is nearly mute with psychomotor retardation.
+- He has no history of mood-incongruent psychosis or episodes outside of depression.
+TEACHING_POINTS:
+- Psychotic depression involves delusions or hallucinations occurring exclusively during a major depressive episode, often mood-congruent (guilt, nihilism, deserved punishment, somatic decay).
+- It requires combined antidepressant-antipsychotic treatment or electroconvulsive therapy and must be distinguished from schizoaffective disorder, where psychosis occurs apart from mood episodes.
+==================================================
+
+CASE_ID: 140
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_anxiety
+DIAGNOSIS:
+Anxiety Disorder Due to Another Medical Condition
+ALIASES:
+organic anxiety
+secondary anxiety
+medical anxiety syndrome
+VIGNETTE_LINES:
+- A 45yo with no psychiatric history develops sudden episodes of palpitations, sweating, and tremor.
+- The episodes are accompanied by pounding headaches and dramatic spikes in blood pressure.
+- He also reports recent weight loss and a feeling of impending doom during spells.
+- Routine reassurance and psychotherapy fail to alter the episodic physiological surges.
+- Workup reveals a catecholamine-secreting tumor as the underlying cause.
+TEACHING_POINTS:
+- Anxiety due to another medical condition is anxiety judged to be a direct physiological consequence of a medical illness.
+- Classic culprits include pheochromocytoma, hyperthyroidism, and cardiac/pulmonary disease; new-onset anxiety with prominent physical signs in older patients warrants medical workup.
+==================================================
+
+CASE_ID: 141
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotic
+DIAGNOSIS:
+Cotard Delusion
+ALIASES:
+Cotard syndrome
+nihilistic delusion
+walking corpse syndrome
+VIGNETTE_LINES:
+- A severely depressed 65yo states with conviction that he is already dead.
+- He insists his blood has stopped flowing and his body is decomposing.
+- He has stopped eating because he believes a corpse has no need to eat.
+- His belief is fixed and unshakable despite clear evidence of being alive.
+- The delusion arises in the context of profound mood disturbance and nihilism.
+TEACHING_POINTS:
+- Cotard delusion is a nihilistic delusion of being dead, nonexistent, or missing organs, often in severe depression or neurological disease.
+- It carries high risk from self-neglect and starvation; treatment targets the underlying disorder and may include electroconvulsive therapy.
+==================================================
+
+CASE_ID: 142
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotic
+DIAGNOSIS:
+Erotomania
+ALIASES:
+de Clerambault syndrome
+erotomanic delusion
+delusional love
+VIGNETTE_LINES:
+- A 38yo woman is convinced a famous television host is secretly in love with her.
+- She interprets his on-air gestures and word choices as coded messages meant for her.
+- She has written him hundreds of letters and once traveled to his studio.
+- She has no other delusions and otherwise functions and reasons normally.
+- She remains certain of his love despite his explicit public denials.
+TEACHING_POINTS:
+- Erotomania is a delusional belief that another person, often of higher status, is secretly in love with the patient.
+- It is a subtype of delusional disorder; functioning outside the delusion is relatively preserved, and it can carry stalking and safety risks.
+==================================================
+
+CASE_ID: 143
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_somatic
+DIAGNOSIS:
+Munchausen Syndrome by Proxy
+ALIASES:
+factitious disorder imposed on another
+medical child abuse
+FDIA
+VIGNETTE_LINES:
+- A mother repeatedly brings her child for unexplained recurrent infections and seizures.
+- The child's symptoms consistently resolve in the hospital but recur once home.
+- The mother is unusually knowledgeable, attentive, and reluctant to leave the bedside.
+- Laboratory findings are inconsistent and at times suggest deliberate contamination.
+- Covert monitoring reveals the caregiver inducing the child's symptoms.
+TEACHING_POINTS:
+- Factitious disorder imposed on another (Munchausen by proxy) is the falsification or induction of illness in a dependent for the perpetrator's psychological gain.
+- It is a form of abuse requiring child-protection involvement; the motive is to assume the sick-by-proxy role, not external reward (which would indicate malingering by proxy).
+==================================================
+
+CASE_ID: 144
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Normal Pressure Hydrocephalus
+ALIASES:
+NPH
+Hakim-Adams syndrome
+idiopathic normal pressure hydrocephalus
+VIGNETTE_LINES:
+- A 72yo presents with a gradually worsening shuffling, magnetic gait.
+- His family reports new urinary incontinence and slowed thinking over several months.
+- His gait disturbance is the most prominent and earliest feature.
+- Cognitive slowing is present but milder than in typical cortical dementias.
+- Imaging shows enlarged ventricles out of proportion to cortical atrophy, and symptoms improve after CSF removal.
+TEACHING_POINTS:
+- Normal pressure hydrocephalus presents with the triad of gait disturbance, urinary incontinence, and cognitive impairment ("wet, wobbly, wacky").
+- It is a potentially reversible cause of dementia; ventriculomegaly out of proportion to atrophy and improvement after large-volume lumbar puncture support shunt placement.
+==================================================
+
+CASE_ID: 145
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurodevelopmental
+DIAGNOSIS:
+Rett Syndrome
+ALIASES:
+Rett's disorder
+Rett disorder
+MECP2 disorder
+VIGNETTE_LINES:
+- An 18-month-old girl who had been developing normally begins losing skills she once had.
+- Her parents notice she has stopped using her hands purposefully.
+- She now makes repetitive hand-wringing and washing movements almost constantly.
+- Her head growth has decelerated since infancy.
+- Genetic testing reveals a mutation affecting the MECP2 gene.
+TEACHING_POINTS:
+- Rett syndrome is an X-linked neurodevelopmental disorder, almost exclusively in girls, marked by regression after a period of normal development.
+- Hallmarks include loss of purposeful hand use with stereotypic hand-wringing, deceleration of head growth, and MECP2 mutations.
+==================================================
+
+CASE_ID: 146
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Delirium Tremens
+ALIASES:
+DTs
+severe alcohol withdrawal
+alcohol withdrawal delirium
+VIGNETTE_LINES:
+- A hospitalized patient becomes acutely confused and agitated about three days after admission.
+- He is drenched in sweat, tremulous, and his heart is racing.
+- He is seeing insects crawling on the walls that are not there.
+- His level of consciousness fluctuates and he is disoriented to time and place.
+- History reveals heavy daily alcohol use abruptly halted on admission.
+TEACHING_POINTS:
+- Delirium tremens is the most severe form of alcohol withdrawal, typically emerging 48 to 96 hours after the last drink.
+- It features delirium with autonomic instability and hallucinations and is life-threatening; treat with benzodiazepines and supportive care.
+==================================================
+
+CASE_ID: 147
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_sleep
+DIAGNOSIS:
+Sleep Paralysis
+ALIASES:
+isolated sleep paralysis
+recurrent sleep paralysis
+sleep-onset paralysis
+VIGNETTE_LINES:
+- A 20yo describes terrifying episodes of being unable to move just as she wakes.
+- During these episodes she is fully aware but cannot speak or move for up to a minute.
+- She sometimes senses a frightening presence or feels pressure on her chest.
+- The episodes occur at sleep onset or upon awakening and resolve spontaneously.
+- They worsen with sleep deprivation and irregular schedules.
+TEACHING_POINTS:
+- Sleep paralysis is a transient inability to move or speak during sleep-wake transitions, reflecting intrusion of REM atonia into wakefulness.
+- It can include vivid hypnagogic/hypnopompic hallucinations; it is benign in isolation but may also be a feature of narcolepsy.
+==================================================
+
+CASE_ID: 148
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_eating
+DIAGNOSIS:
+Night Eating Syndrome
+ALIASES:
+NES
+nocturnal eating syndrome
+night eating disorder
+VIGNETTE_LINES:
+- A 40yo reports eating very little in the morning but consuming most of her calories after dinner.
+- She wakes during the night and feels she must eat to fall back asleep.
+- She is fully awake and aware during these nighttime eating episodes.
+- She feels guilty and low in mood, particularly in the evenings.
+- The pattern is persistent and distinct from binge episodes with loss of control.
+TEACHING_POINTS:
+- Night eating syndrome involves evening hyperphagia and/or awakenings to eat with full awareness, often with morning anorexia and mood worsening at night.
+- It is classified among other specified feeding/eating disorders and is distinguished from sleep-related eating disorder (which involves impaired awareness).
+==================================================
+
+CASE_ID: 149
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_trauma
+DIAGNOSIS:
+Prolonged Grief Disorder
+ALIASES:
+complicated grief
+persistent complex bereavement
+prolonged grief
+VIGNETTE_LINES:
+- A 55yo widow remains intensely preoccupied with her husband more than a year after his death.
+- She experiences daily yearning so severe that she cannot return to work or social life.
+- She feels that part of herself died with him and that life is now meaningless.
+- She avoids reminders yet is consumed by thoughts of him, with disbelief about the loss.
+- The intensity and persistence far exceed cultural norms for bereavement.
+TEACHING_POINTS:
+- Prolonged grief disorder is persistent, intense grief beyond expected social/cultural norms (at least 12 months in adults) causing significant impairment.
+- It is distinguished from normal bereavement by duration and severity and from major depression by the centrality of yearning and preoccupation with the deceased.
+==================================================
+
+CASE_ID: 150
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Schadenfreude-Driven Sadistic Personality Pattern
+ALIASES:
+sadistic personality pattern
+cruelty pattern
+sadistic traits
+VIGNETTE_LINES:
+- A 40yo man takes evident pleasure in demeaning subordinates and watching them squirm.
+- He uses cruelty and intimidation to control those around him, beyond any practical gain.
+- He is fascinated by violence and enjoys others' suffering and humiliation.
+- His harshness is pervasive across relationships and not limited to antisocial profit-seeking.
+- The gratification he derives is the suffering itself rather than material benefit.
+TEACHING_POINTS:
+- This sadistic personality pattern centers on deriving pleasure or control from others' physical or psychological suffering.
+- It appeared in a former DSM appendix and is not an official disorder, but recognizing gratuitous cruelty distinguishes it from antisocial personality disorder, where harm is typically instrumental.
+==================================================
+CASE_ID: 151
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Gerstmann Syndrome
+ALIASES:
+Gerstmann's syndrome
+angular gyrus syndrome
+parietal tetrad syndrome
+VIGNETTE_LINES:
+- A 64yo after a stroke cannot identify her own fingers when asked to name them.
+- She also confuses left and right and can no longer perform simple written calculations.
+- Her handwriting has deteriorated markedly though her speech is fluent.
+- The deficits localize to the dominant parietal region.
+- Imaging confirms a lesion in the dominant angular gyrus.
+TEACHING_POINTS:
+- Gerstmann syndrome is a tetrad of finger agnosia, left-right disorientation, agraphia, and acalculia.
+- It localizes to the dominant (usually left) angular gyrus of the parietal lobe.
+==================================================
+
+CASE_ID: 152
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Prosopagnosia
+ALIASES:
+face blindness
+facial agnosia
+prosopagnosic deficit
+VIGNETTE_LINES:
+- A 50yo can no longer recognize his wife or children by their faces.
+- He identifies them instantly by their voices, gait, or clothing instead.
+- He can still recognize objects and read without difficulty.
+- The problem began after a stroke affecting the underside of the occipitotemporal region.
+- Testing confirms a selective inability to recognize previously familiar faces.
+TEACHING_POINTS:
+- Prosopagnosia is a selective inability to recognize familiar faces despite intact vision and general object recognition.
+- It localizes to the fusiform face area in the occipitotemporal cortex; patients compensate using non-facial cues such as voice.
+==================================================
+
+CASE_ID: 153
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Kluver-Bucy Syndrome
+ALIASES:
+Kluver-Bucy
+bilateral amygdala syndrome
+temporal lobe syndrome
+VIGNETTE_LINES:
+- A patient after herpes encephalitis displays a striking lack of fear toward previously threatening stimuli.
+- He compulsively puts objects in his mouth to explore them.
+- He shows markedly increased and indiscriminate sexual behavior.
+- He appears placid and emotionally blunted even in provocative situations.
+- Imaging reveals bilateral damage to the medial temporal lobes.
+TEACHING_POINTS:
+- Kluver-Bucy syndrome follows bilateral medial temporal lobe (amygdala) damage and features hyperorality, hypersexuality, placidity, and visual agnosia.
+- Common causes include herpes simplex encephalitis, trauma, and neurodegeneration.
+==================================================
+
+CASE_ID: 154
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Hemispatial Neglect
+ALIASES:
+hemineglect
+unilateral neglect
+left-sided neglect
+VIGNETTE_LINES:
+- A 70yo after a stroke eats only the food on the right half of his plate.
+- He shaves only the right side of his face and bumps into objects on his left.
+- He denies any problem and is unaware of the left side of space.
+- When asked to copy a drawing, he reproduces only its right half.
+- The lesion involves the right parietal lobe.
+TEACHING_POINTS:
+- Hemispatial neglect is failure to attend to one side of space (usually the left) after a contralateral (usually right) parietal lesion.
+- It is an attentional deficit, not a primary sensory or motor loss, and often co-occurs with anosognosia (lack of awareness).
+==================================================
+
+CASE_ID: 155
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Transient Global Amnesia
+ALIASES:
+TGA
+transient amnestic episode
+acute global amnesia
+VIGNETTE_LINES:
+- A 62yo abruptly becomes unable to form new memories and repeatedly asks the same questions.
+- The episode began suddenly, sometimes after exertion or emotional stress.
+- He knows who he is but cannot retain new information for more than a few minutes.
+- There are no focal neurological signs, weakness, or language deficits.
+- His memory function returns to normal within 24 hours.
+TEACHING_POINTS:
+- Transient global amnesia is a sudden, temporary anterograde amnesia with preserved identity and no other neurological deficits.
+- It typically resolves within 24 hours, leaving only amnesia for the episode; it must be distinguished from seizures, stroke, and dissociative amnesia.
+==================================================
+
+CASE_ID: 156
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurocognitive
+DIAGNOSIS:
+Apraxia
+ALIASES:
+ideomotor apraxia
+motor apraxia
+limb apraxia
+VIGNETTE_LINES:
+- A 68yo cannot demonstrate how to wave goodbye or use a comb when asked.
+- His strength, coordination, and sensation are fully intact on examination.
+- He performs the same movements automatically and correctly in natural contexts.
+- He understands the request and is cooperative and not aphasic.
+- The deficit appears in carrying out learned, purposeful movements on command.
+TEACHING_POINTS:
+- Apraxia is the inability to perform learned, skilled movements despite intact motor, sensory, and comprehension function.
+- The classic clue is failure to pantomime an action on command while the same act may occur spontaneously; it often follows dominant parietal or frontal lesions.
+==================================================
+
+CASE_ID: 157
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotic
+DIAGNOSIS:
+Schizophrenia, Catatonic Features
+ALIASES:
+catatonia
+catatonic syndrome
+catatonic features
+VIGNETTE_LINES:
+- A young man with psychosis becomes mute and holds bizarre postures for long periods.
+- He resists attempts to reposition his limbs, then maintains whatever position is set.
+- He echoes the examiner's words and movements repetitively.
+- At times he is immobile and unresponsive, alternating with purposeless agitation.
+- His limbs remain in awkward positions placed by the examiner, like bending wax.
+TEACHING_POINTS:
+- Catatonia is a psychomotor syndrome with features such as mutism, posturing, waxy flexibility, negativism, echolalia, and echopraxia.
+- It can occur with psychotic, mood, and medical conditions; it responds to benzodiazepines and electroconvulsive therapy, and antipsychotics may worsen some forms.
+==================================================
+
+CASE_ID: 158
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_mood
+DIAGNOSIS:
+Mixed Features Specifier
+ALIASES:
+mixed episode
+mixed mood state
+mixed affective state
+VIGNETTE_LINES:
+- A 35yo is profoundly depressed yet simultaneously agitated, racing, and unable to slow down.
+- She reports hopelessness while her thoughts speed and her speech is pressured.
+- She is sleeping little but feels driven rather than fatigued.
+- Both depressive and activated symptoms are present together in the same episode.
+- This combination raises her agitation and suicide risk acutely.
+TEACHING_POINTS:
+- The mixed features specifier applies when symptoms of the opposite pole co-occur within a mood episode (e.g., depression with concurrent manic/hypomanic features).
+- Mixed states carry elevated suicide risk and influence treatment choice (mood stabilizers/atypical antipsychotics over antidepressant monotherapy).
+==================================================
+
+CASE_ID: 159
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_anxiety
+DIAGNOSIS:
+Generalized Anxiety Disorder with Somatic Predominance
+ALIASES:
+somatic anxiety
+anxiety with physical symptoms
+GAD somatic presentation
+VIGNETTE_LINES:
+- A 50yo presents to primary care repeatedly for headaches, muscle aches, and stomach upset.
+- Extensive medical testing has been persistently negative.
+- On gentle questioning he admits to constant, uncontrollable worry about many domains.
+- He has trouble relaxing, feels keyed up, and sleeps poorly.
+- His physical complaints track closely with his worry and tension over many months.
+TEACHING_POINTS:
+- Generalized anxiety frequently presents with somatic complaints (muscle tension, GI upset, headaches) that dominate the clinical picture, especially in primary care.
+- Eliciting the underlying pervasive, uncontrollable worry differentiates it from somatic symptom disorder and from primary medical illness.
+==================================================
+
+CASE_ID: 160
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_trauma
+DIAGNOSIS:
+Adjustment Disorder with Anxiety
+ALIASES:
+situational anxiety
+stress-response anxiety
+adjustment reaction with anxiety
+VIGNETTE_LINES:
+- A 28yo develops nervousness and worry within weeks of a major job relocation.
+- He has no prior psychiatric history and the stressor is clearly identifiable.
+- His symptoms are distressing and impair his work but do not meet criteria for an anxiety disorder.
+- There are no panic attacks, pervasive multi-domain worry, or trauma re-experiencing.
+- The symptoms are expected to remit as he adapts to the new circumstances.
+TEACHING_POINTS:
+- Adjustment disorder is an excessive emotional/behavioral reaction within three months of an identifiable stressor that does not meet criteria for another disorder.
+- Symptoms typically resolve within six months after the stressor ends; specifiers include anxious, depressed, or mixed presentations.
+==================================================
+
+CASE_ID: 161
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_ocd
+DIAGNOSIS:
+Hoarding Disorder with Excessive Acquisition
+ALIASES:
+compulsive hoarding
+acquisition-type hoarding
+hoarding with buying
+VIGNETTE_LINES:
+- A 60yo's home has become impassable, with rooms filled floor to ceiling with possessions.
+- She experiences extreme distress at the thought of discarding anything, even broken items.
+- She continues to acquire free items and bargains she cannot use or store.
+- Her clutter has rendered the kitchen and bathroom unusable, raising safety concerns.
+- She believes each object may be needed someday and feels responsible for it.
+TEACHING_POINTS:
+- Hoarding disorder involves persistent difficulty discarding possessions due to perceived need and distress, leading to disabling clutter.
+- The excessive acquisition specifier notes ongoing acquiring; it is distinguished from OCD by ego-syntonic attachment rather than intrusive obsessions.
+==================================================
+
+CASE_ID: 162
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_substance
+DIAGNOSIS:
+Inhalant Use Disorder
+ALIASES:
+solvent abuse
+huffing disorder
+volatile substance use disorder
+VIGNETTE_LINES:
+- A 15yo is found repeatedly with a chemical odor on his breath and clothing.
+- He has a perioral rash and reports brief euphoric "highs" followed by headaches.
+- His grades have dropped and he has been caught with empty aerosol cans.
+- He shows slurred speech and unsteady gait shortly after use, clearing within hours.
+- He continues using despite nosebleeds and reprimands, escalating the behavior.
+TEACHING_POINTS:
+- Inhalant use disorder involves repeated use of volatile solvents/aerosols for intoxication, most common in adolescents due to cheap availability.
+- Clues include a perioral "glue-sniffer's" rash and chemical odor; inhalants carry risk of sudden sniffing death from cardiac arrhythmia.
+==================================================
+
+CASE_ID: 163
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Avoidant Personality Disorder with Social Phobia Overlap
+ALIASES:
+avoidant PD
+anxious personality disorder
+avoidant personality overlap
+VIGNETTE_LINES:
+- A 30yo desperately wants friends but avoids nearly all social contact.
+- Unlike a purely schizoid pattern, he longs for closeness but is paralyzed by fear of rejection.
+- He views himself as inept, unappealing, and inferior to others.
+- He avoids work tasks involving interpersonal contact and takes no social risks.
+- The pattern is pervasive and lifelong rather than tied to a single feared situation.
+TEACHING_POINTS:
+- Avoidant personality disorder features pervasive social inhibition, feelings of inadequacy, and hypersensitivity to negative evaluation, with a desire for connection.
+- The desire for relationships distinguishes it from schizoid PD; it lies on a continuum with, and frequently overlaps, generalized social anxiety disorder.
+==================================================
+
+CASE_ID: 164
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_dissociative
+DIAGNOSIS:
+Depersonalization Disorder
+ALIASES:
+depersonalization syndrome
+chronic depersonalization
+depersonalization-type dissociation
+VIGNETTE_LINES:
+- A 24yo reports persistently feeling detached from her own body, as if watching herself in a film.
+- She describes her thoughts and emotions as muffled and not quite her own.
+- Reality testing is fully intact; she knows the experience is not literally true.
+- The episodes intensified after a period of severe stress and cannabis use.
+- The sensation is chronic and distressing but unaccompanied by unreality of the external world.
+TEACHING_POINTS:
+- Depersonalization is a persistent sense of detachment from one's own thoughts, body, or actions, with intact reality testing.
+- It is distinguished from derealization (unreality of surroundings); both fall under depersonalization/derealization disorder and are often triggered by stress or substances.
+==================================================
+
+CASE_ID: 165
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_somatic
+DIAGNOSIS:
+Pseudocyesis
+ALIASES:
+false pregnancy
+phantom pregnancy
+spurious pregnancy
+VIGNETTE_LINES:
+- A 32yo presents convinced she is pregnant, reporting amenorrhea and a growing abdomen.
+- She reports nausea, breast changes, and even sensations of fetal movement.
+- She has an intense desire for or fear of pregnancy in her history.
+- Repeated pregnancy tests are negative and ultrasound shows no fetus.
+- Her physical signs are genuine somatic changes rather than conscious fabrication.
+TEACHING_POINTS:
+- Pseudocyesis is a false belief of being pregnant accompanied by real physical signs of pregnancy without an actual fetus.
+- It reflects a mind-body interaction (not conscious deception) and is classified among other specified somatic symptom and related disorders.
+==================================================
+
+CASE_ID: 166
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Systematic Desensitization
+ALIASES:
+graded exposure with relaxation
+reciprocal inhibition therapy
+desensitization therapy
+VIGNETTE_LINES:
+- A therapist treats a client's elevator phobia by first teaching deep muscle relaxation.
+- Together they build a ranked ladder of feared situations from least to most frightening.
+- The client imagines and then approaches each step while staying relaxed.
+- Anxiety to each item is reduced before moving to the next level.
+- The relaxed state is paired with the feared stimulus to counter the fear response.
+TEACHING_POINTS:
+- Systematic desensitization is a behavioral technique pairing graded exposure to a fear hierarchy with relaxation (reciprocal inhibition).
+- The relaxation response is incompatible with anxiety, allowing the feared stimulus to be re-associated with calm; it is a core treatment for phobias.
+==================================================
+
+CASE_ID: 167
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Flooding
+ALIASES:
+implosive therapy
+intensive exposure
+flooding therapy
+VIGNETTE_LINES:
+- A therapist treats a client's fear of dogs by having him remain in a room full of dogs at once.
+- Rather than a gradual ladder, the most feared situation is confronted immediately.
+- The client is prevented from escaping until his anxiety naturally subsides.
+- Over the prolonged exposure his physiological arousal peaks and then declines.
+- He learns that the feared catastrophe does not occur and his fear extinguishes.
+TEACHING_POINTS:
+- Flooding is intense, prolonged exposure to the most feared stimulus without escape until anxiety habituates.
+- It contrasts with systematic desensitization's gradual hierarchy and relaxation; both rely on extinction of the conditioned fear response.
+==================================================
+
+CASE_ID: 168
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Token Economy
+ALIASES:
+token reinforcement system
+secondary reinforcement program
+token system
+VIGNETTE_LINES:
+- An inpatient unit awards plastic chips to patients for completing self-care and group tasks.
+- The chips can later be exchanged for privileges such as snacks or outings.
+- Desired behaviors increase steadily as patients accumulate and redeem chips.
+- The chips themselves have no inherent value but become motivating through exchange.
+- The program systematically reinforces target behaviors using these earned tokens.
+TEACHING_POINTS:
+- A token economy is a behavioral program using secondary reinforcers (tokens) exchangeable for desired rewards to increase target behaviors.
+- It is grounded in operant conditioning and is widely used in inpatient, developmental, and educational settings.
+==================================================
+
+CASE_ID: 169
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotherapy
+DIAGNOSIS:
+Cognitive Dissonance
+ALIASES:
+dissonance theory
+attitude-behavior conflict
+Festinger dissonance
+VIGNETTE_LINES:
+- A heavy smoker who knows the health risks feels mounting psychological discomfort.
+- To ease the tension he begins insisting the evidence on smoking is exaggerated.
+- His belief shifts to align with his behavior rather than changing the behavior itself.
+- The discomfort arises from holding two conflicting cognitions at once.
+- He rationalizes to restore internal consistency.
+TEACHING_POINTS:
+- Cognitive dissonance is the discomfort from holding conflicting beliefs or acting against one's beliefs, motivating attitude or behavior change.
+- People often reduce dissonance by altering a belief, adding justifications, or minimizing the conflict rather than changing the behavior.
+==================================================
+
+CASE_ID: 170
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_personality
+DIAGNOSIS:
+Identity Diffusion
+ALIASES:
+identity confusion
+diffuse identity
+unresolved identity
+VIGNETTE_LINES:
+- A 19yo cannot articulate any stable sense of values, goals, or career direction.
+- She rapidly adopts and abandons belief systems, friend groups, and self-presentations.
+- She has neither explored nor committed to a coherent set of life choices.
+- She feels chronically empty and unsure of who she really is.
+- The instability of self-definition is pervasive rather than situational.
+TEACHING_POINTS:
+- Identity diffusion (in Erikson's and Marcia's frameworks) is the lack of both exploration and commitment to a coherent identity.
+- Severe, persistent identity disturbance is a core feature of borderline personality organization and is distinguished from normative adolescent exploration.
+==================================================
+
+CASE_ID: 171
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_neurodevelopmental
+DIAGNOSIS:
+Developmental Coordination Disorder
+ALIASES:
+dyspraxia
+motor coordination disorder
+DCD
+VIGNETTE_LINES:
+- An 8yo is markedly clumsy, frequently tripping and dropping things.
+- He has great difficulty with handwriting, buttoning clothes, and using utensils.
+- His motor skills are far below expectations for his age and intelligence.
+- There is no cerebral palsy, muscle disease, or visual impairment to explain it.
+- The clumsiness significantly interferes with school and daily activities.
+TEACHING_POINTS:
+- Developmental coordination disorder is motor coordination substantially below expectation for age that impairs daily activities, not due to a medical/neurological condition.
+- It is a neurodevelopmental disorder often co-occurring with ADHD; occupational therapy is a mainstay of management.
+==================================================
+
+CASE_ID: 172
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_sleep
+DIAGNOSIS:
+Kleine-Levin Syndrome
+ALIASES:
+recurrent hypersomnia
+sleeping beauty syndrome
+periodic hypersomnia
+VIGNETTE_LINES:
+- An adolescent boy has recurrent episodes of sleeping up to 18 hours a day for a week at a time.
+- During episodes he is confused, childlike, and eats voraciously.
+- He also shows uncharacteristic hypersexual behavior during these spells.
+- Between episodes, lasting weeks to months, his sleep, mood, and cognition are entirely normal.
+- The episodes recur periodically and remit spontaneously.
+TEACHING_POINTS:
+- Kleine-Levin syndrome is a rare relapsing-remitting disorder of recurrent hypersomnia with cognitive, behavioral, and appetitive changes (hyperphagia, hypersexuality).
+- It predominantly affects adolescent males, with normal functioning between episodes, and tends to abate over years.
+==================================================
+
+CASE_ID: 173
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_eating
+DIAGNOSIS:
+Anorexia Nervosa, Binge-Eating/Purging Type
+ALIASES:
+anorexia binge-purge subtype
+AN-BP
+purging anorexia
+VIGNETTE_LINES:
+- A 19yo is significantly underweight yet describes herself as fat and fears weight gain.
+- Despite severe restriction overall, she has recurrent episodes of binge eating.
+- She then induces vomiting and misuses laxatives to compensate.
+- Her body mass index is well below normal and she has stopped menstruating.
+- Her self-evaluation is dominated almost entirely by her weight and shape.
+TEACHING_POINTS:
+- Anorexia nervosa is defined by restriction leading to significantly low weight, intense fear of weight gain, and body image disturbance.
+- The binge-eating/purging subtype includes binge/purge behaviors but, unlike bulimia nervosa, occurs in the context of significantly low body weight.
+==================================================
+
+CASE_ID: 174
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_med_effect
+DIAGNOSIS:
+Anticholinergic Toxicity
+ALIASES:
+anticholinergic syndrome
+anticholinergic delirium
+atropinic toxicity
+VIGNETTE_LINES:
+- An elderly patient on multiple medications becomes acutely confused and agitated.
+- His skin is flushed and dry, his pupils are dilated, and his mouth is parched.
+- He is febrile with a racing heart and is retaining urine.
+- He is picking at the air and reports seeing things that are not there.
+- The picture emerged after addition of a sedating antihistamine to his regimen.
+TEACHING_POINTS:
+- Anticholinergic toxicity classically presents as "hot as a hare, dry as a bone, red as a beet, mad as a hatter, blind as a bat" with urinary retention.
+- It is common with antihistamines, tricyclics, and antipsychotics, especially in the elderly; management is supportive, with physostigmine in severe cases.
+==================================================
+
+CASE_ID: 175
+DIFFICULTY: psychodle
+SYSTEM: psychiatry_psychotic
+DIAGNOSIS:
+Folie a Plusieurs
+ALIASES:
+shared psychosis of many
+induced psychosis of a group
+collective delusional disorder
+VIGNETTE_LINES:
+- Several members of an isolated household come to share an identical persecutory belief.
+- The conviction originated with one dominant, chronically delusional member.
+- The others have limited outside contact and high dependence on the index individual.
+- None of the secondary members had psychotic symptoms before joining the household.
+- The shared belief weakens in those separated from the originating individual.
+TEACHING_POINTS:
+- Folie a plusieurs is a shared delusional disorder involving more than two people, an extension of folie a deux to a group.
+- Risk factors include social isolation and a dominant primary case; separation from the inducer is often therapeutic for the secondary cases.
+==================================================
