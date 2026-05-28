@@ -1,1775 +1,1104 @@
 ==================================================
-CASE_ID: 010
+CASE_ID: 101
 DIFFICULTY: navle
 SYSTEM: small_animal_internal_medicine
 DIAGNOSIS:
-Canine Hypoadrenocorticism
+Diabetic Ketoacidosis
 ALIASES:
-Addison's disease
-adrenal insufficiency
+DKA
+complicated diabetes mellitus
 VIGNETTE_LINES:
-1. A 4-year-old FS Standard Poodle presents with intermittent vomiting, diarrhea, and weight loss.
-2. Owner notes dog collapsed after a recent stressful boarding event.
-3. Exam: bradycardia (HR 60 bpm), weak pulses, and severe dehydration.
-4. Labs: hyperkalemia, hyponatremia (Na:K ratio < 27), and azotemia.
-5. ACTH stim test shows flat cortisol response, confirming diagnosis.
-6. Treated with aggressive IV fluids (0.9% NaCl), DOCP, and oral prednisone.
+1. An 8-year-old dog presents for several days of vomiting, weakness, and collapse on a background of recent polyuria and polydipsia.
+2. The owner noticed weight loss despite a good appetite over the prior month but had not sought care.
+3. Exam reveals dehydration, tachypnea, obtundation, and a faintly sweet breath odor.
+4. Differentials for the acute crisis include pancreatitis and renal failure; a venous blood gas shows a high-anion-gap metabolic acidosis.
+5. Bloodwork reveals marked hyperglycemia, glucosuria, ketonuria, and a low potassium once fluids are started.
+6. Treatment is staged: isotonic fluids and potassium first, then a regular insulin CRI, with a search for the precipitating illness.
 TEACHING_POINTS:
-- Addison's disease often presents with waxing/waning GI signs mimicking renal failure.
-- Classic electrolyte abnormality is hyperkalemia and hyponatremia.
-- ACTH stimulation test is the gold standard for diagnosis.
+- DKA is decompensated diabetes with ketonemia and a high-anion-gap metabolic acidosis from unchecked lipolysis and ketogenesis.
+- A concurrent illness (pancreatitis, infection, hyperadrenocorticism, diestrus) usually precipitates the crisis; always look for it.
+- Restore volume and correct potassium (and phosphate) before/while giving insulin; total-body potassium is depleted even if serum K is initially normal.
+- Use short-acting regular insulin during stabilization; avoid lowering glucose faster than fluids/electrolytes can keep up.
+- Monitor for hypokalemia, hypophosphatemia (hemolysis), hypoglycemia, and cerebral edema during correction.
 ==================================================
-CASE_ID: 011
+CASE_ID: 102
 DIFFICULTY: navle
-SYSTEM: small_animal_endocrinology
+SYSTEM: small_animal_toxicology
 DIAGNOSIS:
-Canine Hyperadrenocorticism
+Anticoagulant Rodenticide Toxicosis
 ALIASES:
-Cushing's disease
-hypercortisolism
+warfarin toxicity
+vitamin K antagonist rodenticide
 VIGNETTE_LINES:
-1. A 9-year-old MC Dachshund presents for severe polyuria, polydipsia, and polyphagia.
-2. Owner notes a pot-bellied appearance and hair loss over the trunk.
-3. Exam reveals a pendulous abdomen, hepatomegaly, and bilaterally symmetric alopecia.
-4. Bloodwork shows markedly elevated ALP, hypercholesterolemia, and isosthenuria.
-5. Low-dose dexamethasone suppression test shows lack of suppression at 8 hours.
-6. Trilostane therapy is initiated, and the owner is warned about signs of hypoadrenocorticism.
+1. A young dog presents for acute lethargy, exercise intolerance, and labored breathing.
+2. The owner found chewed bait packaging in the garage several days earlier but didn't think the dog ate any.
+3. Exam reveals pale mucous membranes and muffled ventral lung sounds, with no petechiae or external bleeding.
+4. Differentials include immune-mediated disease and trauma; a coagulation panel shows markedly prolonged PT and aPTT with a normal platelet count.
+5. Thoracic imaging confirms pleural/pulmonary hemorrhage (a cavity bleed) rather than mucosal bleeding.
+6. Vitamin K1 is initiated, with plasma/whole-blood transfusion for the acute bleed, and the K1 duration is tailored to the anticoagulant generation.
 TEACHING_POINTS:
-- Pituitary-dependent Cushing's is most common in small breed dogs.
-- Elevated ALP is a hallmark finding due to steroid induction.
-- LDDST is highly sensitive for diagnosing hyperadrenocorticism.
+- Anticoagulant rodenticides inhibit vitamin K epoxide reductase, depleting factors II, VII, IX, and X.
+- Factor VII has the shortest half-life, so PT prolongs first; clinically both PT and aPTT prolong with a normal platelet count.
+- Bleeding is typically into cavities/spaces (hemothorax, hemoabdomen, hemarthrosis), unlike the petechiae of platelet disorders.
+- Treatment is vitamin K1 (oral once stable) plus FFP or whole blood for active life-threatening hemorrhage.
+- Second-generation products (e.g., brodifacoum) require longer K1 courses (often 3-4 weeks) with a PT recheck after stopping.
 ==================================================
-CASE_ID: 012
+CASE_ID: 103
 DIFFICULTY: navle
-SYSTEM: small_animal_endocrinology
+SYSTEM: small_animal_toxicology
 DIAGNOSIS:
-Canine Hypothyroidism
+Ethylene Glycol Toxicosis
 ALIASES:
-thyroid deficiency
-underactive thyroid
+antifreeze poisoning
+ethylene glycol intoxication
 VIGNETTE_LINES:
-1. A 6-year-old FS Golden Retriever presents for weight gain and lethargy despite normal food intake.
-2. Owner notes the dog seeks warm places and has recurring ear infections.
-3. Exam shows a dull, dry coat, rat tail (alopecia), and mild bradycardia.
-4. CBC/Chem shows mild non-regenerative anemia and hypercholesterolemia.
-5. Total T4 is low, and free T4 is low with an elevated TSH.
-6. Levothyroxine supplementation is started with rechecks planned in 4 weeks.
+1. A cat presents for acute lethargy and a drunken, ataxic gait beginning earlier that day.
+2. The owner reports garage access during a cold snap, and an antifreeze container was recently spilled.
+3. Early exam reveals ataxia, polydipsia, and tachypnea; hours later the cat becomes markedly depressed with developing oliguria.
+4. A venous gas shows a high-anion-gap metabolic acidosis with an elevated osmolal gap, and urine reveals calcium oxalate monohydrate crystals.
+5. Azotemia develops rapidly as oxalate crystals injure the renal tubules.
+6. Because of the narrow window, an alcohol-dehydrogenase inhibitor (fomepizole; ethanol as an alternative) is given early, with aggressive fluids and renal monitoring.
 TEACHING_POINTS:
-- Hypothyroidism is common in middle-aged large breed dogs.
-- Classic signs include weight gain, lethargy, and dermatological issues.
-- Low Free T4 paired with high TSH confirms primary hypothyroidism.
+- Ethylene glycol itself causes early CNS signs; its metabolites (glycolic/oxalic acid) cause acidosis and calcium oxalate nephrosis.
+- Phases: early CNS "drunkenness" with osmolar gap, then cardiopulmonary signs, then oligoanuric AKI.
+- A high-anion-gap acidosis with an osmolal gap and calcium oxalate monohydrate crystalluria is characteristic.
+- The antidote blocks alcohol dehydrogenase and must be given EARLY, before extensive metabolism.
+- Cats are exquisitely sensitive with a very short window; once anuric AKI develops, prognosis is grave.
 ==================================================
-CASE_ID: 013
+CASE_ID: 104
 DIFFICULTY: navle
-SYSTEM: small_animal_surgery
+SYSTEM: small_animal_neurology
 DIAGNOSIS:
-Gastric Dilatation-Volvulus
+Intervertebral Disc Disease
 ALIASES:
-GDV
-bloat
-twisted stomach
+IVDD
+Hansen type I disc herniation
 VIGNETTE_LINES:
-1. A 7-year-old MC Great Dane presents with sudden onset of unproductive retching and restlessness.
-2. The episode started shortly after eating a large meal and exercising.
-3. Exam shows profound abdominal distension, tympany, tachycardia, and weak pulses.
-4. Right lateral abdominal radiograph shows a classic 'Double Bubble' or 'Smurf hat' appearance.
-5. The dog is stabilized with shock doses of IV fluids and gastric decompression via trocharization.
-6. Emergency surgery (derotation and gastropexy) is performed immediately.
+1. A middle-aged dog presents for acute reluctance to move, a hunched back, and crying out when lifted.
+2. The signs began suddenly after jumping off furniture.
+3. Neurologic exam reveals paraparesis with intact-to-exaggerated hindlimb reflexes and focal spinal hyperesthesia.
+4. The upper-motor-neuron pattern localizes the lesion to the T3-L3 segments.
+5. Deep pain perception is carefully assessed and is present, which carries prognostic weight.
+6. MRI confirms a compressive extruded disc, and surgical decompression (hemilaminectomy) is recommended given the deficits.
 TEACHING_POINTS:
-- GDV is a life-threatening surgical emergency primarily affecting deep-chested large breeds.
-- Right lateral radiograph is diagnostic for compartmentalization of the stomach.
-- Gastropexy prevents recurrence of volvulus, though dilation may still occur.
+- Hansen type I disc extrusion is common in chondrodystrophic breeds and causes acute compressive myelopathy.
+- T3-L3 lesions produce UMN signs (intact-to-exaggerated reflexes) in the hindlimbs; localize before imaging.
+- Presence or absence of deep pain perception is the most important prognostic indicator.
+- MRI (or CT) confirms site and severity and guides surgery.
+- Significant or progressive deficits warrant surgical decompression; mild cases may respond to strict rest and analgesia.
 ==================================================
-CASE_ID: 014
-DIFFICULTY: navle
-SYSTEM: small_animal_oncology
-DIAGNOSIS:
-Canine Hemangiosarcoma
-ALIASES:
-HSA
-splenic hemangiosarcoma
-VIGNETTE_LINES:
-1. A 10-year-old MC German Shepherd collapses in the yard and presents with acute weakness.
-2. Owner reports the dog has been lethargic and had pale gums for the last 12 hours.
-3. Exam reveals severe tachycardia, muffled heart sounds, and pale mucous membranes.
-4. Ultrasound shows a large splenic mass with free fluid in the abdomen (hemoabdomen).
-5. Emergency splenectomy is performed; biopsy confirms hemangiosarcoma.
-6. Chemotherapy (doxorubicin) is recommended post-operatively due to high metastatic rate.
-TEACHING_POINTS:
-- Hemangiosarcoma is an aggressive endothelial cell tumor common in Golden Retrievers and GSDs.
-- Often presents as acute collapse due to spontaneous rupture of a splenic mass.
-- Prognosis is poor even with surgery, as metastasis (liver, right atrium) is common.
-==================================================
-CASE_ID: 015
-DIFFICULTY: navle
-SYSTEM: small_animal_oncology
-DIAGNOSIS:
-Canine Osteosarcoma
-ALIASES:
-OSA
-bone cancer
-VIGNETTE_LINES:
-1. An 8-year-old MC Rottweiler presents for acute severe lameness in the right forelimb.
-2. The owner noticed a firm swelling proximal to the carpus over the last two weeks.
-3. Exam reveals a painful, hard swelling of the distal radius.
-4. Radiographs show a lytic and proliferative bone lesion with a 'sunburst' pattern and Codman's triangle.
-5. Thoracic radiographs are clean; fine needle aspirate suggests mesenchymal neoplasia.
-6. Amputation of the affected limb is performed followed by carboplatin chemotherapy.
-TEACHING_POINTS:
-- Osteosarcoma is the most common primary bone tumor in dogs, usually affecting the appendicular skeleton.
-- Classic locations: 'Away from the elbow, towards the knee'.
-- Micro-metastasis is assumed at the time of diagnosis; chemotherapy significantly extends survival.
-==================================================
-CASE_ID: 016
-DIFFICULTY: navle
-SYSTEM: small_animal_oncology
-DIAGNOSIS:
-Mast Cell Tumor
-ALIASES:
-MCT
-mastocytoma
-VIGNETTE_LINES:
-1. A 6-year-old FS Boxer presents with a new skin mass on the lateral thorax.
-2. The owner reports the mass fluctuates in size and sometimes looks red and swollen.
-3. Exam shows a 2 cm dermal nodule with a positive Darier's sign (erythema upon manipulation).
-4. Fine needle aspirate reveals round cells with abundant metachromatic cytoplasmic granules.
-5. The dog is pre-treated with diphenhydramine before surgical excision with wide margins.
-6. Histopathology confirms a low-grade mast cell tumor with clean margins.
-TEACHING_POINTS:
-- MCTs are the most common skin tumor in dogs, with Boxers being highly predisposed.
-- Degranulation causes histamine release, leading to GI ulcers and local inflammation.
-- Wide surgical margins (2-3 cm) are typically required for curative intent.
-==================================================
-CASE_ID: 017
-DIFFICULTY: navle
-SYSTEM: small_animal_infectious_disease
-DIAGNOSIS:
-Canine Leptospirosis
-ALIASES:
-Lepto
-Weil's disease
-VIGNETTE_LINES:
-1. A 4-year-old MC mixed breed dog presents with acute lethargy, vomiting, and yellowing of the eyes.
-2. The dog has a history of swimming in a stagnant pond a week prior.
-3. Exam reveals scleral icterus, fever, and cranial abdominal pain.
-4. Bloodwork shows severe azotemia and marked elevation in liver enzymes (ALT, ALP, bilirubin).
-5. Leptospirosis MAT titers are pending; the dog is started on IV ampicillin and supportive care.
-6. Once stable, therapy is transitioned to oral doxycycline to eliminate the carrier state.
-TEACHING_POINTS:
-- Leptospirosis is a zoonotic spirochete transmitted via infected urine in water sources.
-- It causes acute kidney injury and/or hepatic disease in dogs.
-- Doxycycline is required to clear the organism from the renal tubules.
-==================================================
-CASE_ID: 018
-DIFFICULTY: navle
-SYSTEM: small_animal_infectious_disease
-DIAGNOSIS:
-Canine Lyme Disease
-ALIASES:
-Lyme borreliosis
-Borrelia burgdorferi
-VIGNETTE_LINES:
-1. A 5-year-old FS Labrador presents with shifting leg lameness and fever.
-2. The owner frequently takes the dog hiking in wooded areas in the Northeast US.
-3. Exam shows swollen, warm carpal and stifle joints with regional lymphadenopathy.
-4. A SNAP 4Dx test is positive for Borrelia burgdorferi antibodies.
-5. Urinalysis shows no proteinuria, ruling out Lyme nephritis.
-6. The dog responds rapidly to a 30-day course of oral doxycycline.
-TEACHING_POINTS:
-- Lyme disease is transmitted by Ixodes ticks and requires >24 hours of attachment.
-- Classic presentation is shifting leg lameness (polyarthritis) and fever.
-- Lyme nephritis is a rare but fatal complication involving protein-losing nephropathy.
-==================================================
-CASE_ID: 019
-DIFFICULTY: navle
-SYSTEM: small_animal_infectious_disease
-DIAGNOSIS:
-Canine Distemper
-ALIASES:
-CDV
-hardpad disease
-VIGNETTE_LINES:
-1. A 4-month-old unvaccinated rescue puppy presents with thick nasal and ocular discharge.
-2. The puppy has a history of vomiting, diarrhea, and a recent onset of coughing.
-3. Exam reveals fever (40.1C), hyperkeratosis of the footpads, and a twitching in the left hind leg.
-4. CBC shows severe lymphopenia; thoracic radiographs show an interstitial pneumonia pattern.
-5. Diagnosis is confirmed via PCR on conjunctival swabs.
-6. The puppy receives intensive supportive care but is euthanized due to progressive seizures.
-TEACHING_POINTS:
-- Distemper virus affects the respiratory, gastrointestinal, and central nervous systems sequentially.
-- Enamel hypoplasia and hyperkeratosis of the footpads/nose are classic long-term signs.
-- Neurological signs (myoclonus, chewing gum seizures) often carry a poor prognosis.
-==================================================
-CASE_ID: 020
-DIFFICULTY: navle
-SYSTEM: small_animal_infectious_disease
-DIAGNOSIS:
-Canine Rabies
-ALIASES:
-hydrophobia
-lyssavirus
-VIGNETTE_LINES:
-1. A 2-year-old unvaccinated stray dog is brought in after exhibiting sudden aggression and biting a person.
-2. The dog is hypersalivating, having difficulty swallowing, and shows facial twitching.
-3. The dog progresses to ataxia and paralysis of the hindlimbs within 24 hours.
-4. Due to human exposure and classic neurologic signs, the dog is euthanized.
-5. The head is submitted for direct fluorescent antibody (DFA) testing on brain tissue.
-6. Test results confirm Rabies; exposed humans are directed to public health for post-exposure prophylaxis.
-TEACHING_POINTS:
-- Rabies is a fatal viral encephalitis transmitted primarily through bite wounds.
-- It presents in furious (aggression) or dumb/paralytic (dropped jaw, dysphagia) forms.
-- Suspect animals must be tested via brain tissue (brainstem/cerebellum) via DFA.
-==================================================
-CASE_ID: 021
+CASE_ID: 105
 DIFFICULTY: navle
 SYSTEM: small_animal_cardiology
 DIAGNOSIS:
-Canine Heartworm Disease
+Myxomatous Mitral Valve Disease
 ALIASES:
-Dirofilariasis
-Heartworm infection
+degenerative mitral valve disease
+endocardiosis
 VIGNETTE_LINES:
-1. A 3-year-old MC rescue dog from the southern US presents for a mild, chronic cough and exercise intolerance.
-2. The dog has no history of heartworm prevention.
-3. Auscultation reveals normal heart sounds but split S2; thoracic rads show enlarged pulmonary arteries.
-4. A heartworm antigen test is positive, and microfilariae are seen on a modified Knott's test.
-5. The dog is staged, and treatment begins with doxycycline and macrocyclic lactone.
-6. Adulticide therapy (melarsomine) is administered via deep IM injection in a 3-dose protocol with strict rest.
+1. An older small-breed dog presents for a cough and reduced exercise tolerance, worse at night.
+2. The owner reports increased resting respiratory effort over recent weeks.
+3. Auscultation reveals a left apical systolic murmur that has progressively intensified, with crackles on the lungs.
+4. Differentials for the cough include airway disease; thoracic radiographs show left atrial enlargement and an interstitial-to-alveolar lung pattern.
+5. An elevated sleeping respiratory rate and radiographic edema support left-sided congestive heart failure.
+6. Furosemide, pimobendan, and an ACE inhibitor are started, and the owner monitors sleeping respiratory rate at home.
 TEACHING_POINTS:
-- Heartworms reside in the pulmonary arteries and right ventricle, causing pulmonary hypertension.
-- Antigen tests detect adult female worms; false negatives occur with all-male infections.
-- Strict cage rest during adulticide treatment is vital to prevent fatal pulmonary thromboembolism.
+- Myxomatous mitral valve disease is the most common acquired heart disease in dogs, especially small breeds.
+- Degeneration causes mitral regurgitation (left apical systolic murmur), left atrial enlargement, and eventually left-sided CHF.
+- Differentiate cardiac cough/CHF from primary airway disease with radiographs and resting respiratory rate.
+- Pimobendan delays CHF onset in stage B2 (cardiomegaly) and is part of CHF therapy with furosemide and an ACE inhibitor.
+- Owner-monitored sleeping/resting respiratory rate is a sensitive home indicator of decompensation.
 ==================================================
-CASE_ID: 022
+CASE_ID: 106
 DIFFICULTY: navle
-SYSTEM: small_animal_internal_medicine
+SYSTEM: small_animal_infectious_disease
 DIAGNOSIS:
-Portosystemic Shunt
+Canine Parvoviral Enteritis
 ALIASES:
-PSS
-liver shunt
+parvo
+CPV-2
 VIGNETTE_LINES:
-1. A 6-month-old Yorkshire Terrier presents for stunted growth and periods of disorientation.
-2. The owner notices the dog acts 'drunk' or presses its head against the wall shortly after eating.
-3. Bloodwork reveals low BUN, low albumin, low cholesterol, and mild microcytic anemia.
-4. Bile acids are markedly elevated both pre- and post-prandial.
-5. Abdominal ultrasound identifies a single extrahepatic vessel bypassing the liver.
-6. The dog is stabilized on a low-protein diet, lactulose, and neomycin prior to surgical ameroid constrictor placement.
+1. A 10-week-old incompletely vaccinated puppy presents for lethargy, anorexia, vomiting, and foul bloody diarrhea.
+2. The puppy came from a high-density environment and is one of several affected littermates.
+3. Exam reveals severe dehydration, fever, and painful, fluid-filled intestines.
+4. CBC shows profound neutropenia/leukopenia from crypt and marrow injury; differentials include other infectious enteritides.
+5. A fecal antigen ELISA is positive for parvovirus.
+6. The puppy is isolated and treated with aggressive IV fluids, antiemetics, antibiotics for bacterial translocation, and early enteral nutrition.
 TEACHING_POINTS:
-- Extrahepatic shunts are most common in small breed dogs; intrahepatic in large breeds.
-- Hepatic encephalopathy signs worsen after protein-rich meals due to ammonia accumulation.
-- Medical management bridges the gap to definitive surgical attenuation.
+- CPV-2 targets rapidly dividing cells: intestinal crypts (bloody diarrhea) and bone marrow (leukopenia).
+- Young, incompletely vaccinated dogs from crowded settings are at highest risk; some breeds appear predisposed.
+- Diagnosis is by fecal antigen ELISA; recent MLV vaccination can cause transient weak positives.
+- Treatment is intensive supportive care: fluids/electrolytes, antiemetics, glucose, antibiotics for sepsis, and early feeding.
+- The virus is environmentally hardy; disinfect with bleach, isolate cases, and prevent with vaccination.
 ==================================================
-CASE_ID: 023
+CASE_ID: 107
 DIFFICULTY: navle
-SYSTEM: small_animal_internal_medicine
+SYSTEM: small_animal_dermatology
 DIAGNOSIS:
-Canine Pancreatitis
+Sarcoptic Mange
 ALIASES:
-acute pancreatitis
-pancreatic inflammation
+scabies
+Sarcoptes scabiei
 VIGNETTE_LINES:
-1. A 5-year-old FS Miniature Schnauzer presents for acute vomiting, anorexia, and abdominal pain.
-2. The episode began the morning after the dog was fed bacon grease by a house guest.
-3. Exam shows the dog in a 'praying posture' (front end down, rear end up) to relieve abdominal pain.
-4. A canine specific pancreatic lipase (cPL) test is abnormal.
-5. The dog is hospitalized for aggressive IV fluid therapy, maropitant (antiemetic), and buprenorphine for pain.
-6. Enteral nutrition via a low-fat diet is instituted as soon as vomiting is controlled.
+1. A young dog presents for intense, relentless itching that has not responded to a course of steroids.
+2. The owner mentions recent boarding and that a family member has developed itchy papules on the arms.
+3. Exam reveals erythema, papules, and crusting concentrated on the ear margins, elbows, and ventral abdomen.
+4. A positive pinnal-pedal reflex (scratching when the ear margin is rubbed) is elicited.
+5. Superficial skin scrapings are sparse for mites, so a treatment trial is pursued given strong clinical suspicion.
+6. An isoxazoline or macrocyclic lactone is administered, with rapid resolution of pruritus.
 TEACHING_POINTS:
-- Pancreatitis is triggered by premature activation of digestive enzymes within the pancreas.
-- High-fat meals are a classic trigger, and Miniature Schnauzers are predisposed due to hyperlipidemia.
-- Treatment focuses on maintaining perfusion (fluids) and early enteral feeding to prevent mucosal breakdown.
+- Sarcoptic mange causes intense, often steroid-unresponsive pruritus with lesions on ear margins, elbows, hocks, and ventrum.
+- A positive pinnal-pedal (ear-scratch) reflex is suggestive.
+- Mites are frequently hard to find on scrapings, so a negative scrape does not rule it out; treat on suspicion.
+- It is contagious and zoonotic (transient pruritic papules in people).
+- Isoxazolines and macrocyclic lactones are effective; treat in-contact animals and the environment.
 ==================================================
-CASE_ID: 024
+CASE_ID: 108
 DIFFICULTY: navle
-SYSTEM: small_animal_internal_medicine
+SYSTEM: small_animal_theriogenology
 DIAGNOSIS:
-Immune-Mediated Hemolytic Anemia
+Pyometra
 ALIASES:
-IMHA
-autoimmune hemolytic anemia
+cystic endometrial hyperplasia-pyometra complex
+uterine empyema
 VIGNETTE_LINES:
-1. A 6-year-old FS Cocker Spaniel presents for acute lethargy, dark urine, and collapse.
-2. Exam reveals severely pale and icteric mucous membranes, tachycardia, and a new systolic heart murmur.
-3. CBC shows a severe regenerative anemia (PCV 12%), autoagglutination, and spherocytes.
-4. Serum chemistry shows hyperbilirubinemia.
-5. The dog is transfused with packed red blood cells and started on immunosuppressive doses of prednisone and cyclosporine.
-6. Clopidogrel is added to prevent thromboembolism, a major cause of mortality.
+1. An older intact female dog presents for lethargy, anorexia, vomiting, and marked thirst and urination.
+2. The signs began a few weeks after her last heat.
+3. Exam reveals dehydration, fever, and a distended, fluid-filled caudal abdomen; a sanguinopurulent vulvar discharge is found on closer inspection.
+4. Differentials include other causes of PU/PD and sepsis; bloodwork shows a marked left-shifted neutrophilia and azotemia.
+5. Abdominal ultrasound confirms a fluid-filled, enlarged uterus, consistent with an open pyometra.
+6. The dog is stabilized with fluids and antibiotics, then taken to surgery for ovariohysterectomy.
 TEACHING_POINTS:
-- IMHA involves antibody destruction of RBCs (IgG or IgM mediated).
-- Spherocytes (RBCs lacking central pallor) and autoagglutination are classic diagnostic markers.
-- Pulmonary thromboembolism is a common and often fatal complication requiring thromboprophylaxis.
+- Pyometra is a progesterone-influenced uterine infection of diestrus in intact bitches/queens (CEH-pyometra complex).
+- Classic signalment: older intact female weeks after estrus, with illness, PU/PD, and possibly purulent discharge (open) or none (closed).
+- A closed pyometra can be life-threatening (sepsis/endotoxemia) without external discharge; keep suspicion high.
+- Diagnosis combines history, inflammatory leukogram, and a fluid-filled enlarged uterus on ultrasound.
+- Ovariohysterectomy after stabilization is the treatment of choice; medical management is reserved for select breeding animals.
 ==================================================
-CASE_ID: 025
+CASE_ID: 109
 DIFFICULTY: navle
-SYSTEM: small_animal_internal_medicine
+SYSTEM: small_animal_endocrinology
 DIAGNOSIS:
-Immune-Mediated Thrombocytopenia
+Canine Diabetes Mellitus
 ALIASES:
-ITP
-autoimmune thrombocytopenia
+insulin-deficiency diabetes
+canine diabetes
 VIGNETTE_LINES:
-1. A 4-year-old FS Poodle presents with sudden appearance of red spots on the abdomen and bleeding gums.
-2. The dog is otherwise bright and alert.
-3. Exam reveals diffuse petechiae and ecchymoses on the ventrum, with mild melena on rectal exam.
-4. CBC shows profound thrombocytopenia (Platelets < 10,000/uL) with normal coagulation times (PT/PTT).
-5. Tick-borne disease panel is negative.
-6. The dog is started on immunosuppressive prednisone and vincristine to stimulate platelet release.
+1. A middle-aged dog presents for increased thirst, increased urination, and weight loss despite a strong appetite.
+2. The owner has also noticed the dog bumping into furniture.
+3. Exam reveals a thin dog in otherwise stable condition with bilateral cataracts.
+4. Differentials for PU/PD include hyperadrenocorticism and renal disease; persistent hyperglycemia with glucosuria is documented.
+5. An elevated fructosamine confirms sustained hyperglycemia rather than transient stress hyperglycemia.
+6. Therapy begins with a longer-acting insulin and a consistent diet, with client education on home monitoring and hypoglycemia.
 TEACHING_POINTS:
-- ITP results in destruction of platelets by the immune system, leading to primary hemostasis defects.
-- Primary hemostatic defects cause mucosal bleeding and petechiae, unlike secondary coagulopathies (cavity bleeds).
-- Vincristine accelerates platelet fragmentation from megakaryocytes, providing rapid clinical improvement.
+- Canine diabetes is typically insulin-deficient; classic signs are PU/PD and polyphagia with weight loss.
+- Diabetic cataracts (sorbitol accumulation in the lens) commonly cause acute blindness in dogs.
+- Persistent hyperglycemia with glucosuria establishes diabetes; fructosamine distinguishes it from stress hyperglycemia.
+- Treatment is insulin plus dietary consistency; diestrus or concurrent disease causes insulin resistance (spay intact bitches).
+- Owner education on insulin handling, feeding, and recognizing hypoglycemia is essential.
 ==================================================
-CASE_ID: 026
+CASE_ID: 110
 DIFFICULTY: navle
-SYSTEM: small_animal_ophthalmology
+SYSTEM: small_animal_neurology
 DIAGNOSIS:
-Canine Glaucoma
+Idiopathic Epilepsy
 ALIASES:
-primary glaucoma
-increased IOP
+primary epilepsy
+genetic epilepsy
 VIGNETTE_LINES:
-1. A 5-year-old FS Siberian Husky presents for sudden onset of a 'cloudy, red eye' and lethargy.
-2. The owner notes the dog is rubbing the face and seems severely painful.
-3. Exam reveals episcleral injection, diffuse corneal edema, and a dilated, unresponsive pupil.
-4. Intraocular pressure (IOP) is measured via tonometry at 55 mmHg (normal 10-20 mmHg).
-5. Topical latanoprost, dorzolamide, and IV mannitol are administered immediately to rapidly lower IOP.
-6. The owner is counseled that glaucoma often eventually affects the contralateral eye.
+1. A young-adult dog is presented after a second generalized seizure in two months, each with paddling, salivation, and loss of consciousness.
+2. The owner reports the dog is completely normal between events, with only brief postictal disorientation.
+3. Physical and interictal neurologic exams are unremarkable.
+4. Differentials include toxins, metabolic disease, and structural brain disease; bloodwork (glucose, electrolytes, bile acids) is normal.
+5. The age of onset (1-5 years), normal interictal exam, and unremarkable workup are consistent with idiopathic epilepsy.
+6. After meeting treatment criteria, maintenance therapy (e.g., phenobarbital or levetiracetam) is started with monitoring.
 TEACHING_POINTS:
-- Glaucoma is an emergency; pressures >30 mmHg can cause irreversible retinal damage within 24-48 hours.
-- Primary glaucoma is due to an iridocorneal angle defect, common in Huskies, Bassets, and Cockers.
-- Prophylactic therapy for the 'good' eye is highly recommended to delay onset.
+- Idiopathic (genetic) epilepsy usually begins between 1 and 5 years of age with a normal interictal exam.
+- It is a diagnosis of exclusion: rule out metabolic (hypoglycemia, hepatic encephalopathy), toxic, and structural causes.
+- Postictal disorientation is common and transient; cluster seizures and status epilepticus are emergencies.
+- Treat for frequent/cluster seizures or status; phenobarbital and levetiracetam are common first choices.
+- Monitor phenobarbital levels and hepatic enzymes; client education on seizure diaries and emergency plans matters.
 ==================================================
-CASE_ID: 027
-DIFFICULTY: navle
-SYSTEM: small_animal_surgery
-DIAGNOSIS:
-Cranial Cruciate Ligament Rupture
-ALIASES:
-CCL rupture
-ACL tear
-VIGNETTE_LINES:
-1. A 5-year-old MC Labrador Retriever presents for acute non-weight-bearing lameness in the left hind leg.
-2. The lameness occurred suddenly while playing fetch in the park.
-3. Orthopedic exam reveals positive cranial drawer and tibial compression tests.
-4. Medial buttress is palpable, and the dog shows pain on stifle extension.
-5. Radiographs show joint effusion (loss of the infrapatellar fat pad).
-6. A Tibial Plateau Leveling Osteotomy (TPLO) is performed to stabilize the stifle dynamically.
-TEACHING_POINTS:
-- CCL rupture is the most common cause of canine hindlimb lameness.
-- It is usually a degenerative process rather than pure trauma.
-- Medial meniscal tears are common concurrent injuries and must be addressed during surgery.
-==================================================
-CASE_ID: 028
-DIFFICULTY: navle
-SYSTEM: small_animal_surgery
-DIAGNOSIS:
-Medial Patellar Luxation
-ALIASES:
-MPL
-trick knee
-VIGNETTE_LINES:
-1. A 2-year-old FS Pomeranian presents for intermittent skipping lameness.
-2. The owner notes the dog will hold a hind leg up for a few steps, then kick it out and walk normally.
-3. Exam reveals the patella can be manually luxated medially but returns to the groove (Grade II MPL).
-4. Radiographs show medial displacement of the quadriceps mechanism.
-5. Since the lameness is frequent, surgical correction (tibial tuberosity transposition and trochlear block recession) is recommended.
-6. Post-operatively, the dog is restricted and undergoes physical therapy.
-TEACHING_POINTS:
-- MPL is extremely common in toy and small breed dogs.
-- Grade II luxates with manipulation/flexion but reduces spontaneously.
-- Surgical correction aligns the extensor mechanism and deepens the trochlear groove.
-==================================================
-CASE_ID: 029
-DIFFICULTY: navle
-SYSTEM: small_animal_respiratory
-DIAGNOSIS:
-Tracheal Collapse
-ALIASES:
-collapsed trachea
-VIGNETTE_LINES:
-1. A 7-year-old FS Yorkshire Terrier presents for a chronic, harsh 'honking' cough.
-2. The cough is worse when pulling on the leash, during excitement, or in hot weather.
-3. Exam reveals easily inducible coughing upon gentle palpation of the cervical trachea.
-4. Fluoroscopy confirms dynamic collapse of the cervical trachea on inspiration and intrathoracic trachea on expiration.
-5. The dog is managed medically with weight loss, harness use, hydrocodone, and bronchodilators.
-6. Owners are informed that surgical stenting is a salvage option if medical management fails.
-TEACHING_POINTS:
-- Tracheal collapse is caused by chondromalacia of the tracheal rings in toy breeds.
-- Cervical trachea collapses on inspiration; intrathoracic collapses on expiration.
-- Medical management (weight control, cough suppressants) is the first line of defense.
-==================================================
-CASE_ID: 030
+CASE_ID: 111
 DIFFICULTY: navle
 SYSTEM: feline_endocrinology
 DIAGNOSIS:
-Feline Hyperthyroidism
+Feline Diabetes Mellitus
 ALIASES:
-thyrotoxicosis
-overactive thyroid
+type 2-like diabetes
+feline diabetes
 VIGNETTE_LINES:
-1. A 12-year-old MC Domestic Shorthair presents with weight loss despite a ravenous appetite.
-2. The owner reports increased vocalization, restlessness, and increased vomiting.
-3. Exam reveals a palpable thyroid slip, tachycardia (HR 240 bpm), and a palpable gallop rhythm.
-4. Bloodwork shows elevated ALT and elevated Total T4.
-5. The cat is started on methimazole to normalize T4 levels and assess renal function unmasked by high GFR.
-6. Radioiodine (I-131) therapy is planned as a definitive, curative treatment.
+1. An overweight older cat presents for increased thirst and urination with gradual weight loss.
+2. The owner reports the cat has started walking oddly, dropping onto its hocks.
+3. Exam reveals obesity, muscle wasting, and a plantigrade hindlimb stance.
+4. Differentials include hyperthyroidism and CKD; persistent hyperglycemia with glucosuria is found, but stress hyperglycemia is a concern in cats.
+5. An elevated fructosamine confirms sustained hyperglycemia, supporting diabetes mellitus.
+6. A long-acting insulin (e.g., glargine) plus a low-carbohydrate diet is started, with diabetic remission discussed.
 TEACHING_POINTS:
-- Hyperthyroidism is the most common endocrine disease in older cats, usually due to benign adenomatous hyperplasia.
-- It artificially increases GFR, which can mask concurrent chronic kidney disease.
-- Radioiodine is the gold standard, curative therapy.
+- Feline diabetes resembles human type 2 (insulin resistance plus beta-cell dysfunction); obesity is a major risk factor.
+- A plantigrade ("dropped hock") stance reflects diabetic peripheral neuropathy.
+- Cats commonly have stress hyperglycemia, so fructosamine helps confirm sustained hyperglycemia.
+- Low-carbohydrate diets plus insulin (glargine/PZI) can achieve remission, especially with early tight control.
+- Monitor for hypoglycemia and the Somogyi effect; weight management is central.
 ==================================================
-CASE_ID: 031
-DIFFICULTY: navle
-SYSTEM: feline_internal_medicine
-DIAGNOSIS:
-Chronic Kidney Disease
-ALIASES:
-CKD
-renal failure
-CRF
-VIGNETTE_LINES:
-1. A 14-year-old FS Siamese cat presents for gradual weight loss, polydipsia, and polyuria.
-2. Exam reveals poor body condition, unkempt coat, and small, irregular kidneys on palpation.
-3. Bloodwork shows azotemia (elevated BUN/Creatinine), hyperphosphatemia, and a low USG (1.014).
-4. Blood pressure is 180 mmHg (hypertension), and urinalysis shows mild proteinuria.
-5. The cat is prescribed a renal therapeutic diet, amlodipine for hypertension, and a phosphate binder.
-6. Owner is taught to administer subcutaneous fluids at home for hydration support.
-TEACHING_POINTS:
-- CKD is staged based on the IRIS guidelines using Creatinine, SDMA, proteinuria, and blood pressure.
-- Hypertension is a common sequela leading to target organ damage (retinal detachment).
-- Renal diets (low protein, low phosphorus) significantly prolong survival time.
-==================================================
-CASE_ID: 032
-DIFFICULTY: navle
-SYSTEM: feline_internal_medicine
-DIAGNOSIS:
-Feline Lower Urinary Tract Disease
-ALIASES:
-FLUTD
-Feline Idiopathic Cystitis
-FIC
-VIGNETTE_LINES:
-1. A 4-year-old MC indoor-only cat is brought in for straining in the litterbox and crying.
-2. The owner thought the cat was constipated, but no urine is found in the box.
-3. Exam reveals a large, hard, painful urinary bladder.
-4. The cat is bradycardic, and an ECG reveals absent P waves and tall tented T waves indicative of hyperkalemia.
-5. The cat is sedated, and the urethral obstruction is relieved via catheterization after stabilizing with IV calcium gluconate.
-6. The urinary catheter is maintained for 48 hours with aggressive IV fluid diuresis.
-TEACHING_POINTS:
-- Urethral obstruction is a life-threatening emergency causing post-renal azotemia and hyperkalemia.
-- Calcium gluconate is cardioprotective against hyperkalemia but does not lower potassium levels.
-- Environmental enrichment and canned diets are critical for preventing recurrence of FIC.
-==================================================
-CASE_ID: 033
-DIFFICULTY: navle
-SYSTEM: feline_infectious_disease
-DIAGNOSIS:
-Feline Infectious Peritonitis
-ALIASES:
-FIP
-mutated coronavirus
-VIGNETTE_LINES:
-1. A 1-year-old male rescue cat presents for lethargy, anorexia, and a progressively distended abdomen.
-2. Exam reveals a non-painful fluid wave in the abdomen and a persistent fever unresponsive to antibiotics.
-3. Abdominocentesis yields a viscous, straw-colored fluid with high protein (>3.5 g/dL) and low cellularity.
-4. Bloodwork shows hyperglobulinemia and a low A:G ratio.
-5. Rivalta test is positive, and PCR on the effusion confirms mutated feline coronavirus.
-6. The owner is counseled on experimental antiviral treatments (GS-441524), which show high success rates.
-TEACHING_POINTS:
-- FIP is caused by a mutation of the ubiquitous enteric feline coronavirus within macrophages.
-- The 'effusive' (wet) form causes vasculitis leading to high-protein fluid accumulation.
-- Historically fatal, nucleoside analogs (like GS-441524) have revolutionized treatment.
-==================================================
-CASE_ID: 034
-DIFFICULTY: navle
-SYSTEM: feline_infectious_disease
-DIAGNOSIS:
-Feline Leukemia Virus
-ALIASES:
-FeLV
-feline leukemia
-VIGNETTE_LINES:
-1. A 2-year-old outdoor intact male cat presents for lethargy, weight loss, and pale mucous membranes.
-2. Exam reveals generalized lymphadenopathy and a palpable cranial mediastinal mass.
-3. Bloodwork shows severe non-regenerative macrocytic anemia.
-4. A point-of-care ELISA is positive for FeLV antigen.
-5. Thoracic radiographs confirm mediastinal lymphoma; the owner elects palliative care.
-6. The cat is kept strictly indoors to prevent transmission to other felines.
-TEACHING_POINTS:
-- FeLV is a retrovirus transmitted primarily via saliva ('friendly' interactions: grooming, sharing bowls).
-- Infection can cause immunosuppression, bone marrow suppression, and neoplasia (lymphoma).
-- Point-of-care tests detect FeLV *antigen* (active viremia).
-==================================================
-CASE_ID: 035
-DIFFICULTY: navle
-SYSTEM: feline_infectious_disease
-DIAGNOSIS:
-Feline Immunodeficiency Virus
-ALIASES:
-FIV
-feline AIDS
-VIGNETTE_LINES:
-1. A 6-year-old intact male stray cat with a history of fight wounds presents for severe stomatitis.
-2. The cat has a history of chronic recurrent upper respiratory infections.
-3. A point-of-care ELISA test is positive for FIV antibodies.
-4. Western blot confirms the positive result.
-5. The cat undergoes full mouth extractions for stomatitis and is strictly kept indoors.
-6. With good husbandry, the cat lives several more years completely asymptomatic.
-TEACHING_POINTS:
-- FIV is a lentivirus transmitted primarily through deep bite wounds ('unfriendly' interactions).
-- Unlike FeLV, the point-of-care test detects FIV *antibodies*.
-- Cats with FIV often live normal lifespans but are prone to chronic secondary infections and stomatitis.
-==================================================
-CASE_ID: 036
-DIFFICULTY: navle
-SYSTEM: feline_respiratory
-DIAGNOSIS:
-Feline Asthma
-ALIASES:
-allergic bronchitis
-feline lower airway disease
-VIGNETTE_LINES:
-1. A 4-year-old FS Siamese cat presents for acute respiratory distress and open-mouth breathing.
-2. The owner reports the cat has been 'coughing up hairballs' for months, extending its neck when coughing.
-3. Auscultation reveals severe expiratory wheezes.
-4. The cat is placed in an oxygen cage and administered albuterol via a metered-dose inhaler.
-5. Radiographs show a bronchial pattern ('donuts and tram lines') and lung hyperinflation.
-6. The cat is managed long-term with an inhaled corticosteroid (fluticasone).
-TEACHING_POINTS:
-- Feline asthma is an allergic bronchoconstriction often triggered by environmental aeroallergens.
-- Cats with asthma truly cough, which owners frequently mistake for retching hairballs.
-- Acute attacks require bronchodilators (albuterol); chronic management requires corticosteroids.
-==================================================
-CASE_ID: 037
-DIFFICULTY: navle
-SYSTEM: feline_internal_medicine
-DIAGNOSIS:
-Hepatic Lipidosis
-ALIASES:
-fatty liver disease
-idiopathic hepatic lipidosis
-VIGNETTE_LINES:
-1. A 6-year-old obese FS domestic shorthair presents for a 2-week history of complete anorexia.
-2. The anorexia started after the owner brought home a new puppy.
-3. Exam shows marked icterus, dehydration, and hepatomegaly, with loss of muscle mass.
-4. Bloodwork reveals dramatically elevated ALP, bilirubin, and ALT, but normal GGT.
-5. Fine needle aspirate of the liver shows severe hepatocellular vacuolation (fat).
-6. An esophageal feeding tube is placed to provide high-protein, calorie-dense nutrition.
-TEACHING_POINTS:
-- Hepatic lipidosis occurs in obese cats undergoing a period of negative energy balance.
-- A classic lab pattern is high ALP and bilirubin with normal/mildly elevated GGT.
-- Aggressive enteral nutritional support is the only definitive treatment and must be done slowly to avoid refeeding syndrome.
-==================================================
-CASE_ID: 038
-DIFFICULTY: navle
-SYSTEM: feline_infectious_disease
-DIAGNOSIS:
-Feline Panleukopenia
-ALIASES:
-feline distemper
-feline parvovirus
-VIGNETTE_LINES:
-1. A 12-week-old unvaccinated kitten from a hoarding situation presents with severe lethargy, vomiting, and bloody diarrhea.
-2. Exam reveals severe dehydration, hypothermia, and a painful, ropey abdomen.
-3. CBC shows a profound panleukopenia (WBC < 500 cells/uL).
-4. A canine parvovirus SNAP test run on feces is strongly positive (cross-reacts).
-5. The kitten receives intensive isolation therapy with IV fluids, antibiotics, and antiemetics.
-6. Despite aggressive care, the kitten succumbs to sepsis.
-TEACHING_POINTS:
-- Panleukopenia is caused by feline parvovirus and targets rapidly dividing cells (bone marrow, crypts).
-- Infection in pregnant queens can result in cerebellar hypoplasia in kittens.
-- The disease is highly contagious and environmentally resistant, requiring bleach for disinfection.
-==================================================
-CASE_ID: 039
-DIFFICULTY: navle
-SYSTEM: feline_infectious_disease
-DIAGNOSIS:
-Toxoplasmosis
-ALIASES:
-Toxoplasma gondii
-VIGNETTE_LINES:
-1. A 3-year-old indoor/outdoor cat presents with anterior uveitis, fever, and lethargy.
-2. The owner feeds the cat a raw meat diet and allows hunting of mice.
-3. Neurologic exam reveals mild ataxia and hyperesthesia.
-4. Toxoplasma IgM titers are markedly elevated, indicating active infection.
-5. The cat is treated with oral clindamycin for 4 weeks with rapid resolution of uveitis.
-6. The owner (pregnant) is counseled on having someone else clean the litterbox daily.
-TEACHING_POINTS:
-- Cats are the definitive host for Toxoplasma gondii, shedding oocysts in feces.
-- Clinical disease in cats often manifests as uveitis, pneumonia, or neurological signs.
-- Oocysts require >24 hours to sporulate and become infectious, so daily litter cleaning minimizes human risk.
-==================================================
-CASE_ID: 040
-DIFFICULTY: navle
-SYSTEM: feline_oncology
-DIAGNOSIS:
-Squamous Cell Carcinoma
-ALIASES:
-SCC
-oral squamous cell carcinoma
-VIGNETTE_LINES:
-1. An 11-year-old MC white cat presents with increased salivation, halitosis, and dropping food.
-2. Exam reveals an ulcerated, sublingual mass.
-3. Mandibular lymph nodes are enlarged.
-4. Biopsy confirms oral squamous cell carcinoma with deep tissue invasion.
-5. Due to the location and invasiveness, surgical resection is not possible; palliative NSAIDs are started.
-6. The owner elects humane euthanasia a month later due to inability to eat.
-TEACHING_POINTS:
-- SCC is the most common oral tumor in cats, often found under the tongue or on the gingiva.
-- White cats are also highly predisposed to cutaneous SCC on the ears/nose due to UV exposure.
-- Oral SCC carries a very poor prognosis due to local invasion and difficulty of surgical excision.
-==================================================
-CASE_ID: 041
-DIFFICULTY: navle
-SYSTEM: feline_gastroenterology
-DIAGNOSIS:
-Megacolon
-ALIASES:
-feline idiopathic megacolon
-VIGNETTE_LINES:
-1. An 8-year-old MC domestic shorthair presents for unproductive straining in the litterbox and vomiting.
-2. The owner notes the cat has a history of hard, dry stools and chronic constipation.
-3. Abdominal palpation reveals a massive, rock-hard tubular structure filling the caudal abdomen.
-4. Radiographs confirm a distended colon with a diameter >1.5 times the length of L7.
-5. The cat is rehydrated, anesthetized, and manual deobstipation via enemas is performed.
-6. Long-term management includes cisapride, lactulose, and a high-fiber/canned diet; subtotal colectomy is discussed if recurrent.
-TEACHING_POINTS:
-- Megacolon is often idiopathic in middle-aged cats, leading to loss of colonic motility.
-- Initial management is medical (prokinetics, laxatives, diet).
-- Subtotal colectomy is a salvage procedure that provides a good long-term quality of life.
-==================================================
-CASE_ID: 042
+CASE_ID: 112
 DIFFICULTY: navle
 SYSTEM: feline_cardiology
 DIAGNOSIS:
-Restrictive Cardiomyopathy
+Hypertrophic Cardiomyopathy
 ALIASES:
-RCM
-feline RCM
+HCM
+feline aortic thromboembolism
 VIGNETTE_LINES:
-1. A 10-year-old FS domestic shorthair presents with acute onset of respiratory distress.
-2. Auscultation reveals a gallop rhythm but no obvious murmur; crackles are heard bilaterally.
-3. Echocardiogram shows normal left ventricular wall thickness but massive biatrial enlargement and severe diastolic dysfunction.
-4. Endomyocardial fibrosis is noted on the ultrasound.
-5. Thoracocentesis resolves pleural effusion, and the cat is started on furosemide and clopidogrel.
-6. Owner is warned about the high risk of saddle thrombus.
+1. A middle-aged cat presents acutely for crying out and dragging both hindlimbs.
+2. The owner had not noticed prior signs of illness.
+3. Exam reveals absent femoral pulses with cold, cyanotic hindlimb pads and firm gastrocnemius muscles; a gallop sound is auscultated.
+4. The acute painful paraparesis with absent distal pulses points to arterial thromboembolism rather than a primary neurologic lesion.
+5. Echocardiography reveals concentric left ventricular hypertrophy with left atrial enlargement, consistent with HCM.
+6. Analgesia, antithrombotic therapy, and management of any heart failure are instituted, with a guarded prognosis discussed.
 TEACHING_POINTS:
-- RCM is characterized by stiff, non-compliant ventricles leading to poor diastolic filling.
-- Unlike HCM, ventricular wall thickness is usually normal.
-- Severe atrial enlargement predisposes the cat to arterial thromboembolism.
+- HCM is the most common feline cardiomyopathy, with concentric LV hypertrophy and diastolic dysfunction.
+- Many cats are subclinical until they present in CHF or with arterial thromboembolism (ATE).
+- Aortic ("saddle") thromboembolism causes acute painful paraparesis with cold, pulseless, cyanotic hindlimbs (the "5 P's").
+- A gallop sound, murmur, or arrhythmia may be the only premonitory clue; echocardiography is diagnostic.
+- Management includes analgesia, antithrombotics (clopidogrel), and CHF therapy; ATE carries a guarded prognosis.
 ==================================================
-CASE_ID: 043
+CASE_ID: 113
 DIFFICULTY: navle
-SYSTEM: feline_dentistry
+SYSTEM: feline_infectious_disease
 DIAGNOSIS:
-Feline Odontoclastic Resorptive Lesions
+Feline Upper Respiratory Complex
 ALIASES:
-FORL
-feline tooth resorption
-neck lesions
+feline herpesvirus-1
+feline calicivirus
+cat flu
 VIGNETTE_LINES:
-1. A 5-year-old MC cat presents for a routine wellness exam and vaccines.
-2. The owner reports the cat occasionally drops kibble and chatters its jaw when eating.
-3. Exam shows a focal area of inflamed gingiva covering a defect at the cementoenamel junction of tooth 307.
-4. Touching the lesion with a probe causes the cat to flinch and chatter its jaw under anesthesia.
-5. Dental radiographs show type 2 tooth resorption with replacement of the root by alveolar bone.
-6. A crown amputation is performed to resolve the painful lesion.
+1. A young cat from a shelter presents for sneezing, ocular and nasal discharge, and inappetence.
+2. The cat is squinting from conjunctivitis, and the owner notes drooling.
+3. Exam reveals serous-to-mucopurulent oculonasal discharge, conjunctivitis, and lingual ulceration.
+4. Differentials include feline herpesvirus-1 and calicivirus; oral ulcers point toward calicivirus while corneal ulceration points toward herpesvirus.
+5. The diagnosis is largely clinical; PCR can identify the agent when needed.
+6. Supportive care (nursing, fluids, nutrition, eye medications), with antivirals for severe herpesvirus cases, is provided, and stress is minimized.
 TEACHING_POINTS:
-- Tooth resorption is extremely common and highly painful in cats.
-- Type 1 lesions have distinct roots and require complete extraction.
-- Type 2 lesions involve ankylosis/root replacement and are treated with crown amputation.
+- Feline upper respiratory disease is most often caused by feline herpesvirus-1 (FHV-1) and feline calicivirus (FCV).
+- Oral/lingual ulceration suggests calicivirus; dendritic corneal ulcers and stress-related recrudescence suggest herpesvirus.
+- FHV-1 establishes latency in the trigeminal ganglia with reactivation under stress.
+- Diagnosis is usually clinical; PCR helps in outbreaks or atypical cases.
+- Treatment is supportive (hydration, nutrition, nursing, topical eye care); reduce crowding/stress and vaccinate to limit severity.
 ==================================================
-CASE_ID: 044
+CASE_ID: 114
+DIFFICULTY: navle
+SYSTEM: feline_endocrinology
+DIAGNOSIS:
+Feline Acromegaly
+ALIASES:
+hypersomatotropism
+growth hormone excess
+VIGNETTE_LINES:
+1. A diabetic cat is presented because its insulin requirement keeps climbing despite apparently appropriate management.
+2. The owner notes the cat's face and paws look broader and that it has gained weight.
+3. Exam reveals a large, big-boned cat with broad facial features, prognathia, and an enlarged abdomen.
+4. The severe insulin resistance prompts a search for an underlying cause; an elevated IGF-1 is found.
+5. Pituitary imaging (CT/MRI) identifies a pituitary mass, supporting hypersomatotropism.
+6. Options include hypophysectomy, radiation, or somatostatin analogs, along with high insulin doses to control diabetes.
+TEACHING_POINTS:
+- Feline acromegaly (hypersomatotropism) is caused by a GH-secreting pituitary tumor and is an under-recognized cause of insulin-resistant diabetes.
+- Suspect it in diabetic cats needing very high or escalating insulin doses.
+- Physical changes include broad facial features, prognathia, weight gain, and organomegaly (opposite the usual diabetic weight loss).
+- An elevated IGF-1 is a useful screening test; pituitary imaging confirms the mass.
+- Definitive options include hypophysectomy or radiation; somatostatin analogs and aggressive insulin help control disease.
+==================================================
+CASE_ID: 115
+DIFFICULTY: navle
+SYSTEM: feline_internal_medicine
+DIAGNOSIS:
+Feline Cholangitis
+ALIASES:
+neutrophilic cholangitis
+cholangiohepatitis
+VIGNETTE_LINES:
+1. A middle-aged cat presents for fever, vomiting, lethargy, and yellow-tinged gums.
+2. The signs have come on over several days, and the cat is eating poorly.
+3. Exam reveals icterus, dehydration, and cranial abdominal discomfort.
+4. Bloodwork shows elevated ALT, ALP, GGT, and bilirubin; differentials include hepatic lipidosis, pancreatitis, and IBD ("triaditis").
+5. Abdominal ultrasound shows thickened bile ducts, and bile/liver sampling supports neutrophilic cholangitis.
+6. Treatment includes antibiotics (ideally culture-based), fluids, nutritional support, and ursodiol, with evaluation for concurrent pancreatitis and IBD.
+TEACHING_POINTS:
+- Cholangitis is a leading feline hepatobiliary disease; the neutrophilic form often involves ascending enteric bacteria.
+- Unlike hepatic lipidosis, GGT is typically elevated along with ALP in cholangitis.
+- It frequently occurs as part of "triaditis" with pancreatitis and inflammatory bowel disease.
+- Diagnosis is supported by ultrasound and confirmed by bile/hepatic cytology and culture.
+- Treatment combines appropriate antibiotics, supportive care, and choleretics (ursodiol); the lymphocytic form may need immunosuppression.
+==================================================
+CASE_ID: 116
 DIFFICULTY: navle
 SYSTEM: feline_oncology
 DIAGNOSIS:
-Feline Injection Site Sarcoma
+Feline Intestinal Lymphoma
 ALIASES:
-FISS
-vaccine-associated sarcoma
+alimentary lymphoma
+small cell intestinal lymphoma
 VIGNETTE_LINES:
-1. A 9-year-old MC cat presents with a firm, non-painful mass between the shoulder blades.
-2. The owner notes the mass has been growing rapidly over the past month.
-3. Records show the cat received a multi-way vaccine in this location 2 years ago.
-4. Incisional biopsy confirms a high-grade fibrosarcoma.
-5. A radical wide excision is planned along with radiation therapy, but prognosis remains guarded.
-6. Veterinarians transition to administering vaccines low on the limbs to facilitate amputation if needed.
+1. An older cat presents for chronic weight loss, intermittent vomiting, and a changing appetite.
+2. The owner reports gradually worsening signs over months without an acute crisis.
+3. Exam reveals thin body condition with diffusely thickened intestines and mesenteric lymphadenopathy on palpation.
+4. Differentials include inflammatory bowel disease and hyperthyroidism; the latter is excluded by a normal T4.
+5. Ultrasound shows diffuse muscularis thickening, and full-thickness biopsy with immunohistochemistry/clonality testing differentiates small cell lymphoma from IBD.
+6. Small cell intestinal lymphoma is treated with chlorambucil and prednisolone, often with prolonged survival.
 TEACHING_POINTS:
-- FISS is an aggressive tumor associated with chronic inflammation, historically linked to adjuvanted vaccines.
-- The 3-2-1 rule indicates biopsy if a mass: persists >3 months, is >2cm, or grows 1 month post-injection.
-- Treatment requires aggressive surgical margins (3-5 cm), making interscapular tumors difficult to cure.
+- Alimentary lymphoma is among the most common feline cancers; the small cell form behaves indolently.
+- Chronic weight loss, vomiting, and altered appetite with thickened bowel and lymphadenopathy is a classic picture.
+- It can be hard to distinguish from IBD; full-thickness biopsy with immunohistochemistry and PARR (clonality) is often required.
+- Small cell lymphoma is treated with chlorambucil plus prednisolone and frequently has long survival times.
+- Large cell/lymphoblastic disease is more aggressive and treated with multi-agent protocols.
 ==================================================
-CASE_ID: 045
+CASE_ID: 117
 DIFFICULTY: navle
-SYSTEM: equine_orthopedics
+SYSTEM: feline_internal_medicine
 DIAGNOSIS:
-Equine Laminitis
+Feline Systemic Hypertension
 ALIASES:
-founder
+hypertensive retinopathy
+secondary hypertension
 VIGNETTE_LINES:
-1. A 12-year-old pony mare presents with severe bilateral forelimb lameness and reluctance to move.
-2. The owner recently allowed the pony access to lush spring pasture.
-3. Exam shows the pony standing in a 'sawhorse' stance, shifting weight to the hindlimbs.
-4. Bounding digital pulses are palpable, and the hooves are warm to the touch.
-5. Radiographs show ventral rotation and sinking of the third phalanx (coffin bone) in both front feet.
-6. Treatment includes deep bedding, NSAIDs (phenylbutazone), therapeutic shoeing, and strict dietary restriction.
+1. An older cat is presented for acute blindness that developed over a day or two.
+2. The owner reports the cat has also been drinking and urinating more recently.
+3. Exam reveals dilated, unresponsive pupils and, on fundic exam, retinal hemorrhage and detachment.
+4. The combination of acute blindness and ocular bleeding prompts immediate blood pressure measurement, which is markedly elevated.
+5. Underlying causes are sought, and chronic kidney disease is identified as the likely driver, with hyperthyroidism also screened.
+6. Amlodipine is started to lower blood pressure, with treatment of the underlying disease; some vision may return if detachment is recent.
 TEACHING_POINTS:
-- Laminitis involves inflammation and failure of the laminae attaching the hoof wall to the coffin bone.
-- Carbohydrate overload (lush pasture/grain) is a major trigger leading to hindgut acidosis and endotoxemia.
-- Radiographs are essential to assess the degree of rotation/sinking, which dictates prognosis.
+- Feline systemic hypertension is usually secondary, most often to CKD or hyperthyroidism.
+- Target-organ damage includes the eyes (hypertensive retinopathy: hemorrhage, detachment, acute blindness), brain, heart, and kidneys.
+- Acute blindness with retinal hemorrhage/detachment should trigger immediate blood pressure measurement.
+- Amlodipine is the first-line antihypertensive in cats; treat the underlying disease concurrently.
+- Early treatment can restore vision if detachment is recent; monitor blood pressure and target organs.
 ==================================================
-CASE_ID: 046
+CASE_ID: 118
 DIFFICULTY: navle
-SYSTEM: equine_orthopedics
+SYSTEM: equine_gastroenterology
 DIAGNOSIS:
-Navicular Disease
+Large Colon Volvulus
 ALIASES:
-navicular syndrome
-podochlear syndrome
+colon torsion
+strangulating large colon obstruction
 VIGNETTE_LINES:
-1. A 10-year-old Quarter Horse gelding presents for a chronic, intermittent, bilateral forelimb lameness.
-2. The lameness worsens when circled on hard ground, and the horse points a toe when resting.
-3. A palmar digital nerve block completely resolves the lameness in the tested foot.
-4. Radiographs of the navicular bone show enlarged vascular channels ('lollipops') and bony remodeling.
-5. Corrective shoeing (raised heel, rolled toe) and NSAIDs are prescribed.
-6. Long-term management may involve bisphosphonates or, as a last resort, palmar digital neurectomy.
+1. A postpartum broodmare presents for sudden, violent colic with rolling and a rapidly distending abdomen.
+2. The signs escalated quickly and respond poorly to standard analgesia.
+3. Exam reveals tachycardia, prolonged capillary refill time, and marked abdominal distension; pain returns quickly after analgesics.
+4. Rectal palpation reveals gas-distended large colon with tight bands; nasogastric intubation yields minimal reflux.
+5. The cardiovascular deterioration and unrelenting pain indicate a strangulating lesion requiring surgery.
+6. At exploratory celiotomy a large colon volvulus is found and corrected; rapid intervention is critical to survival.
 TEACHING_POINTS:
-- Navicular syndrome is a chronic degenerative condition of the navicular apparatus.
-- Quarter horses with large bodies and small feet are highly predisposed.
-- Palmar digital nerve block localizes the pain to the palmar third of the foot.
+- Large colon volvulus is a strangulating obstruction causing peracute, severe, poorly responsive colic, classically in postpartum broodmares.
+- Rapid abdominal distension, devitalizing pain, and cardiovascular compromise (tachycardia, poor perfusion) signal a surgical lesion.
+- Rectal findings (gas-distended colon, tight bands) and limited reflux help distinguish large-bowel strangulation from small-intestinal lesions.
+- Time to surgery strongly affects survival; delays allow colon necrosis and endotoxemia.
+- Postoperative management addresses endotoxemia, reperfusion injury, and laminitis risk.
 ==================================================
-CASE_ID: 047
+CASE_ID: 119
 DIFFICULTY: navle
-SYSTEM: equine_endocrinology
+SYSTEM: equine_internal_medicine
 DIAGNOSIS:
-Equine Metabolic Syndrome
+Potomac Horse Fever
 ALIASES:
-EMS
-peripheral Cushing's
+equine neorickettsiosis
+Neorickettsia risticii
 VIGNETTE_LINES:
-1. An 8-year-old overweight Morgan gelding presents for a mild bout of laminitis.
-2. Exam reveals a cresty neck, fat pads over the tailhead, and a body condition score of 8/9.
-3. Oral sugar test shows profound hyperinsulinemia and insulin dysregulation.
-4. ACTH levels are normal, ruling out PPID.
-5. Management centers on strict weight loss, soaked hay (to reduce water-soluble carbohydrates), and exercise.
-6. Thyro-L (levothyroxine) is prescribed temporarily to accelerate weight loss.
+1. A pastured horse near a river presents in mid-summer for fever, depression, and decreased gut sounds.
+2. Within a day the horse develops profuse, watery diarrhea and mild colic.
+3. Exam reveals fever, injected mucous membranes, dehydration, and warm digital pulses raising concern for impending laminitis.
+4. Differentials for acute fever plus diarrhea include salmonellosis and antibiotic-associated colitis; a history of aquatic insect exposure is noted.
+5. PCR on blood/feces is positive for Neorickettsia risticii, confirming the diagnosis.
+6. Oxytetracycline is administered with aggressive fluid support and laminitis prophylaxis, with rapid improvement.
 TEACHING_POINTS:
-- EMS is characterized by regional adiposity, insulin resistance, and a high risk of laminitis.
-- It is distinct from PPID (Cushing's) and typically affects younger/middle-aged horses.
-- Dietary management (low non-structural carbohydrates) is the cornerstone of treatment.
+- Potomac horse fever is caused by Neorickettsia risticii, acquired by ingesting aquatic insects (e.g., caddisflies) harboring infected trematodes.
+- It occurs near rivers/streams in warm months and causes fever, depression, enterocolitis (diarrhea), and colic.
+- Laminitis is a common and serious sequela; monitor digital pulses and provide foot support.
+- Distinguish from salmonellosis and other colitides; PCR confirms the organism.
+- Oxytetracycline is the treatment of choice; a vaccine exists but provides incomplete protection due to strain variation.
 ==================================================
-CASE_ID: 048
+CASE_ID: 120
 DIFFICULTY: navle
-SYSTEM: equine_endocrinology
+SYSTEM: equine_neonatology
 DIAGNOSIS:
-Pituitary Pars Intermedia Dysfunction
+Neonatal Maladjustment Syndrome
 ALIASES:
-PPID
-equine Cushing's
+hypoxic ischemic encephalopathy
+dummy foal syndrome
 VIGNETTE_LINES:
-1. A 20-year-old Arabian mare presents for delayed shedding, lethargy, and recurrent sole abscesses.
-2. Exam reveals a long, curly haircoat (hypertrichosis), muscle wasting along the topline, and pot-belly.
-3. Baseline endogenous ACTH is markedly elevated.
-4. The mare is started on daily oral pergolide (dopamine agonist).
-5. Over the next few months, the coat improves, and energy levels return.
-6. Management also involves regular dental/hoof care due to immunosuppression.
+1. A foal that appeared normal at birth is presented at one day of age for failure to nurse and abnormal behavior.
+2. The dystocia at delivery was prolonged, and the foal was slow to stand.
+3. Exam reveals a foal that wanders, loses the suckle reflex, and does not recognize the mare.
+4. Differentials include neonatal sepsis and hypoglycemia; a sepsis workup and IgG (failure of passive transfer) screen are pursued.
+5. Blood glucose is supported and sepsis is treated empirically while the foal is monitored, as signs can overlap.
+6. With intensive nursing, nutritional support, and management of any concurrent sepsis, the foal gradually normalizes over days.
 TEACHING_POINTS:
-- PPID is caused by a loss of dopaminergic inhibition of the pars intermedia, leading to excess ACTH.
-- Hypertrichosis (hirsutism) is the pathognomonic clinical sign in older horses.
-- Pergolide is the drug of choice to replace lost dopamine inhibition.
+- Neonatal maladjustment syndrome (hypoxic-ischemic encephalopathy, "dummy foal") follows peripartum hypoxia/ischemia.
+- Affected foals lose affinity for the mare, fail to suckle, wander, and may seizure; signs often appear within the first day.
+- Always rule out and treat concurrent neonatal sepsis and hypoglycemia, which can mimic or coexist.
+- Care is supportive: nutrition (often via tube), glucose, thermoregulation, and treating sepsis/failure of passive transfer.
+- Prognosis is good with intensive nursing if hypoxic injury is not severe; physical "squeeze" techniques are an area of interest.
 ==================================================
-CASE_ID: 049
+CASE_ID: 121
 DIFFICULTY: navle
-SYSTEM: equine_infectious_disease
+SYSTEM: equine_ophthalmology
 DIAGNOSIS:
-Strangles
+Equine Recurrent Uveitis
 ALIASES:
-Streptococcus equi subsp equi
+ERU
+moon blindness
 VIGNETTE_LINES:
-1. A 3-year-old Thoroughbred filly presents with sudden high fever, anorexia, and thick purulent nasal discharge.
-2. Exam reveals marked, painful swelling of the submandibular lymph nodes.
-3. One lymph node ruptures, draining thick white pus.
-4. A PCR wash of the guttural pouch confirms Streptococcus equi subsp equi.
-5. The filly is isolated, and hot packs are applied to maturing abscesses; antibiotics are withheld to allow maturation.
-6. The farm institutes strict biosecurity protocols due to high contagiousness.
+1. A horse presents for a painful, tearing eye with squinting and sensitivity to light.
+2. The owner reports a similar episode months earlier that seemed to resolve.
+3. Exam reveals blepharospasm, miosis, corneal edema, and aqueous flare in the anterior chamber.
+4. Differentials include corneal ulceration and trauma; fluorescein staining is negative, focusing attention on intraocular inflammation.
+5. The recurrent, immune-mediated nature and signs of anterior uveitis support the diagnosis.
+6. Treatment with topical and systemic anti-inflammatories and atropine controls the flare, with long-term recurrence prevention emphasized.
 TEACHING_POINTS:
-- Strangles is a highly contagious upper respiratory bacterial infection causing lymph node abscessation.
-- Antibiotic use in uncomplicated cases is controversial as it can delay abscess maturation or cause 'bastard strangles'.
-- Asymptomatic carriers harbor the bacteria in chondroids within the guttural pouches.
+- Equine recurrent uveitis is the leading cause of blindness in horses and is immune-mediated, with episodic flares.
+- An association with Leptospira exposure and certain breeds (Appaloosa) is recognized.
+- Active uveitis shows pain (blepharospasm), miosis, aqueous flare, and corneal edema; rule out a corneal ulcer with fluorescein before using steroids.
+- Treatment of flares uses anti-inflammatories (topical/systemic) and a mydriatic/cycloplegic (atropine).
+- Repeated episodes cause cataracts, synechiae, and glaucoma; a suprachoroidal cyclosporine implant can reduce recurrence.
 ==================================================
-CASE_ID: 050
+CASE_ID: 122
 DIFFICULTY: navle
-SYSTEM: equine_infectious_disease
+SYSTEM: equine_internal_medicine
 DIAGNOSIS:
-Equine Infectious Anemia
+Anhidrosis
 ALIASES:
-EIA
-Swamp fever
+dry coat
+non-sweating syndrome
 VIGNETTE_LINES:
-1. A 6-year-old Quarter Horse is tested prior to cross-state transport.
-2. The horse is asymptomatic but has a history of intermittent fever and weight loss last summer.
-3. A Coggins test (agar gel immunodiffusion) comes back positive.
-4. A confirmatory ELISA is also positive.
-5. By law, the state veterinarian is notified, and the horse must be permanently quarantined or euthanized.
-6. The owner elects euthanasia to protect the herd.
+1. A horse in a hot, humid climate presents for exercise intolerance and labored breathing after light work.
+2. The owner reports the horse no longer sweats normally despite the heat.
+3. Exam reveals tachypnea used for heat dissipation, an elevated rectal temperature after exercise, and a dry coat with patchy hair loss.
+4. Differentials for poor performance and tachypnea include lower airway disease; the absence of sweat in a hot environment is the key clue.
+5. The diagnosis is supported by the clinical picture and (where used) a terbutaline sweat-response test showing reduced sweating.
+6. Management centers on environmental cooling, exercise during cooler hours, and consideration of relocation to a cooler climate.
 TEACHING_POINTS:
-- EIA is a retrovirus transmitted by biting flies (horseflies, deerflies) or contaminated needles.
-- There is no vaccine and no cure; infected horses remain lifelong carriers.
-- The Coggins test is the gold standard for diagnosis and is required for travel/showing.
+- Anhidrosis is the loss of the ability to sweat, occurring in hot, humid climates and impairing evaporative cooling.
+- Affected horses rely on tachypnea to dissipate heat and overheat with exertion; coat changes/alopecia can develop.
+- It is a clinical diagnosis; intradermal beta-agonist (terbutaline) sweat testing can support it.
+- The mainstay is environmental management: cooling, shade, fans, exercising in cool hours, and electrolyte support.
+- Relocation to a cooler, drier climate is often the most effective long-term solution.
 ==================================================
-CASE_ID: 051
-DIFFICULTY: navle
-SYSTEM: equine_infectious_disease
-DIAGNOSIS:
-West Nile Virus
-ALIASES:
-WNV
-viral encephalitis
-VIGNETTE_LINES:
-1. A 5-year-old unvaccinated gelding presents for acute ataxia, muscle fasciculations, and behavior changes.
-2. Exam shows fine tremors of the face and neck, and profound hindlimb weakness.
-3. CSF tap reveals a mononuclear pleocytosis and elevated protein.
-4. IgM capture ELISA on serum is positive, confirming recent West Nile Virus infection.
-5. The horse is given supportive care, IV fluids, and anti-inflammatories.
-6. Over two weeks, the horse gradually recovers but retains mild residual ataxia.
-TEACHING_POINTS:
-- WNV is an arbovirus transmitted by mosquitoes; birds are the amplifying host.
-- Muscle fasciculations of the face/neck combined with ataxia are classic clinical signs.
-- Core vaccination is highly effective at preventing disease.
-==================================================
-CASE_ID: 052
-DIFFICULTY: navle
-SYSTEM: equine_infectious_disease
-DIAGNOSIS:
-Tetanus
-ALIASES:
-lockjaw
-Clostridium tetani
-VIGNETTE_LINES:
-1. A 10-year-old unvaccinated rescue horse presents with a stiff, stilted gait and hyperesthesia.
-2. The owner notices the third eyelid flashing across the eye when the horse is startled.
-3. Exam reveals 'sawhorse' stance, locked jaw (trismus), and erect ears.
-4. A recent puncture wound is found on the sole of the right hind foot.
-5. The horse is treated with tetanus antitoxin, penicillin, and placed in a dark, quiet stall.
-6. Despite aggressive muscle relaxant therapy, the horse progresses to recumbency and is euthanized.
-TEACHING_POINTS:
-- Clostridium tetani produces a neurotoxin that blocks inhibitory neurotransmitters (GABA/glycine).
-- This results in extreme, rigid spastic paralysis and classic third eyelid prolapse.
-- Tetanus toxoid is a highly effective core vaccine that provides excellent protection.
-==================================================
-CASE_ID: 053
+CASE_ID: 123
 DIFFICULTY: navle
 SYSTEM: equine_neurology
 DIAGNOSIS:
-Equine Protozoal Myeloencephalitis
+Cervical Vertebral Stenotic Myelopathy
 ALIASES:
-EPM
+wobbler syndrome
+cervical stenotic myelopathy
 VIGNETTE_LINES:
-1. A 7-year-old Warmblood presents with asymmetric ataxia and muscle atrophy of the left gluteals.
-2. The owner reports the horse has been stumbling when riding.
-3. Neurologic exam confirms severe, asymmetric spinal ataxia with no cranial nerve deficits.
-4. Serum/CSF ratio testing (SAG 2, 4/3 ELISA) is highly suggestive of active Sarcocystis neurona infection.
-5. The horse is started on Ponazuril for 28 days.
-6. The horse shows significant improvement and returns to light riding.
+1. A young, fast-growing horse presents for a symmetric gait abnormality and clumsiness noticed under saddle.
+2. The owner reports the horse stumbles and "swings" the hindlimbs, especially when turning.
+3. Neurologic exam reveals symmetric ataxia and proprioceptive deficits that are worse in the hindlimbs than the forelimbs.
+4. Differentials include EPM (usually asymmetric) and EHM; cervical radiographs show vertebral canal narrowing.
+5. A myelogram (or advanced imaging) confirms spinal cord compression at a cervical articulation.
+6. Management ranges from dietary/medical control of developmental disease in young horses to surgical stabilization in selected cases.
 TEACHING_POINTS:
-- EPM is caused by Sarcocystis neurona, transmitted via opossum feces contaminating feed/water.
-- The hallmark of EPM is ASYMMETRIC ataxia with focal muscle atrophy.
-- Ponazuril and Marquis are FDA-approved treatments targeting the protozoa.
+- Cervical vertebral stenotic myelopathy ("wobblers") causes spinal cord compression and symmetric ataxia, typically in young, rapidly growing horses.
+- Deficits are usually symmetric and worse in the hindlimbs, helping distinguish it from the asymmetric ataxia of EPM.
+- Diagnosis uses cervical radiographs (canal ratios) and myelography/CT to confirm and localize compression.
+- Contributing factors include rapid growth, genetics, and nutritional imbalance (developmental orthopedic disease).
+- Treatment options include dietary restriction in young horses, anti-inflammatories, and surgical vertebral stabilization in select cases.
 ==================================================
-CASE_ID: 054
+CASE_ID: 124
 DIFFICULTY: navle
-SYSTEM: equine_respiratory
+SYSTEM: equine_toxicology
 DIAGNOSIS:
-Recurrent Airway Obstruction
+Red Maple Leaf Toxicosis
 ALIASES:
-RAO
-Heaves
-Equine asthma
+Acer rubrum toxicosis
+oxidative hemolysis
 VIGNETTE_LINES:
-1. A 14-year-old stabled mare presents with a chronic cough, flared nostrils, and exercise intolerance.
-2. Exam reveals a visible 'heave line' along the costal arch from active expiration.
-3. Auscultation shows widespread expiratory wheezes.
-4. Bronchoalveolar lavage (BAL) fluid contains >25% non-degenerate neutrophils.
-5. The mare is moved to continuous outdoor pasture turnout and fed soaked hay.
-6. Inhaled fluticasone and albuterol are prescribed for acute flare-ups.
+1. A horse on autumn pasture presents for sudden lethargy, weakness, and dark, brownish urine.
+2. The owner notes wilted tree branches recently fell into the paddock after a storm.
+3. Exam reveals tachycardia, tachypnea, pale-to-icteric mucous membranes, and brown-tinged blood.
+4. Differentials for hemolysis and pigmenturia include other oxidants and infectious anemia; a blood smear shows Heinz bodies and methemoglobinemia is suspected.
+5. The history of access to wilted red maple leaves and the oxidative hemolytic picture support the diagnosis.
+6. Treatment is supportive with IV fluids, oxygen, and blood transfusion as needed, removing access to the offending leaves.
 TEACHING_POINTS:
-- RAO is an allergic, asthma-like airway disease triggered by dust and molds in hay/bedding.
-- Environmental management is the most critical component of treatment.
-- Expiratory effort causes hypertrophy of the abdominal obliques, creating the classic 'heave line'.
+- Wilted or dried red maple (Acer rubrum) leaves contain oxidants (e.g., gallic acid) that cause oxidative damage to equine red cells.
+- The result is Heinz-body hemolytic anemia and methemoglobinemia, with weakness, icterus, and pigmenturia (hemoglobinuria).
+- Wilted leaves (after storms or pruning) in autumn are the classic exposure.
+- A blood smear shows Heinz bodies; brown ("chocolate") blood suggests methemoglobinemia.
+- Treatment is supportive (fluids, oxygen, transfusion); the key is removing access to wilted maple leaves.
 ==================================================
-CASE_ID: 055
+CASE_ID: 125
 DIFFICULTY: navle
-SYSTEM: equine_internal_medicine
+SYSTEM: equine_cardiology
 DIAGNOSIS:
-Equine Gastric Ulcer Syndrome
+Atrial Fibrillation
 ALIASES:
-EGUS
-gastric ulcers
+equine atrial fibrillation
+AF
 VIGNETTE_LINES:
-1. A 4-year-old Thoroughbred racehorse presents for poor performance, picky eating, and mild recurrent colic.
-2. The horse frequently grinds its teeth (bruxism) and resents girthing.
-3. Gastroscopy reveals extensive, deep ulcerations along the squamous mucosa at the margo plicatus.
-4. The horse is prescribed oral omeprazole (Gastrogard) for 28 days.
-5. Management changes include free-choice access to alfalfa hay and reducing grain intake.
-6. Repeat gastroscopy shows complete mucosal healing.
+1. A large performance horse presents for poor performance and exercise intolerance noted by the rider.
+2. The horse is otherwise bright and eating well at rest.
+3. Auscultation reveals an irregularly irregular rhythm with no consistent pattern and variable intensity of heart sounds.
+4. Differentials for an irregular rhythm include second-degree AV block (which is regular in its irregularity); an ECG is obtained.
+5. The ECG shows absent P waves with an irregularly irregular ventricular response and baseline f waves, confirming atrial fibrillation.
+6. In a structurally normal heart, conversion is pursued (quinidine or transvenous electrical cardioversion), with echocardiography to assess underlying disease.
 TEACHING_POINTS:
-- EGUS is extremely common in performance horses due to high-grain diets, stress, and intermittent feeding.
-- Squamous ulcers occur above the margo plicatus due to acid splashing during exercise.
-- Omeprazole is the only FDA-approved proton pump inhibitor for treatment.
+- Atrial fibrillation is a common performance-limiting arrhythmia in horses, favored by their large atria and high vagal tone.
+- It is irregularly irregular with absent P waves and f waves on ECG, distinct from the regularly irregular pattern of physiologic second-degree AV block.
+- Many horses have no underlying structural disease ("lone AF"); echocardiography screens for atrial enlargement/valvular disease.
+- Treatment is conversion with quinidine (monitoring for toxicity) or transvenous electrical cardioversion.
+- Prognosis for return to performance is good when the heart is structurally normal; recurrence is possible.
 ==================================================
-CASE_ID: 056
+==================================================
+CASE_ID: 126
 DIFFICULTY: navle
-SYSTEM: equine_infectious_disease
+SYSTEM: bovine_reproduction
 DIAGNOSIS:
-Rhodococcus equi Pneumonia
+Retained Fetal Membranes
 ALIASES:
-R. equi
-foal pneumonia
+retained placenta
+RFM
 VIGNETTE_LINES:
-1. A 2-month-old Arabian foal presents with lethargy, fever, and tachypnea.
-2. The owner reports the foal has had a soft cough and failed to gain weight.
-3. Thoracic ultrasound reveals multiple subpleural pulmonary abscesses.
-4. Transtracheal wash cytology shows intracellular pleomorphic gram-positive rods.
-5. The foal is treated with a combination of a macrolide (clarithromycin) and rifampin for several weeks.
-6. The foal is kept in a dust-free environment out of the hot sun to prevent hyperthermia (a side effect of macrolides).
+1. A dairy cow is presented two days after calving with tissue hanging from the vulva and a mild drop in appetite.
+2. The calving had been assisted and somewhat difficult, and she carried twins.
+3. Exam reveals fetal membranes protruding from the vulva and a slightly elevated rectal temperature.
+4. Differentials for postpartum illness include metritis and hypocalcemia; the cow is monitored for systemic signs.
+5. The membranes fail to pass beyond the normal window, confirming retained fetal membranes with early risk of metritis.
+6. Management is largely supportive (avoid forced manual removal); systemic antibiotics and anti-inflammatories are reserved for cows that become febrile/toxic.
 TEACHING_POINTS:
-- R. equi causes severe pyogranulomatous pneumonia with abscessation in foals aged 1-6 months.
-- The bacteria reside in dry, dusty soil and are inhaled.
-- Combination therapy with a macrolide and rifampin is the gold standard treatment.
+- Retained fetal membranes is failure to expel the placenta within ~24 hours of calving.
+- Risk factors include dystocia, twins, abortion, milk fever, induced/premature parturition, and selenium deficiency.
+- Forced manual removal is discouraged: it can damage caruncles and worsen outcomes.
+- The main concern is progression to metritis and systemic illness; treat systemically only if febrile/toxic.
+- Prevention targets the risk factors (transition nutrition, calving management, mineral balance).
 ==================================================
-CASE_ID: 057
+CASE_ID: 127
 DIFFICULTY: navle
-SYSTEM: equine_orthopedics
+SYSTEM: bovine_reproduction
 DIAGNOSIS:
-Osteochondrosis Dissecans
+Bovine Metritis
 ALIASES:
-OCD
+puerperal metritis
+postpartum uterine infection
 VIGNETTE_LINES:
-1. A 1-year-old Warmblood yearling presents for effusion in the right stifle without severe lameness.
-2. The owner noticed the 'bog spavin' (joint swelling) after a growth spurt.
-3. Radiographs of the stifle reveal a flattened, irregular lateral trochlear ridge of the femur with a bone flap.
-4. Arthroscopic surgery is performed to remove the cartilage flap and debride the subchondral bone.
-5. The yearling returns to soundness after a period of rest.
+1. A fresh cow within the first two weeks postpartum presents for fever, depression, and a sharp drop in milk yield.
+2. She had a difficult calving with a retained placenta.
+3. Exam reveals fever, dehydration, an enlarged uterus on rectal palpation, and a fetid, watery red-brown vaginal discharge.
+4. Differentials for postpartum illness include mastitis, ketosis, and displaced abomasum; the uterine discharge focuses the diagnosis.
+5. The systemic signs with a foul uterine discharge confirm puerperal (toxic) metritis.
+6. Treatment includes systemic antibiotics (e.g., ceftiofur), anti-inflammatories, and fluid/supportive care for the toxemic cow.
 TEACHING_POINTS:
-- OCD is a failure of endochondral ossification leading to thickened, fragile cartilage that fragments.
-- Common sites in the horse include the lateral trochlear ridge of the femur (stifle) and distal intermediate ridge of the tibia (hock).
-- Fast growth, high-energy diets, and genetics contribute to its development.
+- Puerperal metritis is a systemic uterine infection within ~21 days postpartum, distinct from milder endometritis.
+- Risk factors: dystocia, retained fetal membranes, twins, and metabolic disease (hypocalcemia, ketosis).
+- The hallmark is a fetid, watery, red-brown uterine discharge with systemic illness (fever, anorexia, milk drop).
+- Systemic antibiotics effective against uterine pathogens (e.g., ceftiofur) plus anti-inflammatories and supportive care are indicated.
+- It impairs fertility; prevention focuses on calving hygiene and managing predisposing conditions.
 ==================================================
-CASE_ID: 058
+CASE_ID: 128
 DIFFICULTY: navle
-SYSTEM: equine_internal_medicine
+SYSTEM: bovine_mammary
 DIAGNOSIS:
-Synchronous Diaphragmatic Flutter
+Coliform Mastitis
 ALIASES:
-Thumps
+acute toxic mastitis
+E. coli mastitis
 VIGNETTE_LINES:
-1. A 6-year-old endurance horse presents at a vet check with a rhythmic twitching of the flanks.
-2. The twitching is perfectly synchronized with the horse's heartbeat.
-3. The horse is sweating profusely, dehydrated, and shows signs of exhaustion.
-4. Bloodwork reveals hypocalcemia, hypochloremia, and metabolic alkalosis from sweat loss.
-5. The horse is treated with IV calcium gluconate and oral electrolytes.
-6. The twitching resolves as electrolyte balance is restored.
+1. A high-producing dairy cow in early lactation presents for sudden severe depression, anorexia, and recumbency.
+2. The herd is housed on bedding, and the cow seemed normal at the prior milking.
+3. Exam reveals fever progressing toward hypothermia, injected mucous membranes, dehydration, and a swollen quarter producing watery, serous secretion with flecks.
+4. Differentials for acute toxemia include metritis and other causes of endotoxemic shock; the affected quarter localizes the source.
+5. Culture of the abnormal secretion grows a gram-negative coliform (e.g., E. coli), confirming coliform mastitis with endotoxemia.
+6. Treatment emphasizes aggressive IV fluids and anti-inflammatories for endotoxemia, frequent stripping of the quarter, and supportive care.
 TEACHING_POINTS:
-- SDF is caused by hypocalcemia altering the threshold of the phrenic nerve.
-- The phrenic nerve fires in sync with the electrical activity of the right atrium.
-- It is a classic sign of severe electrolyte depletion in endurance horses.
+- Coliform (environmental) mastitis causes peracute, often endotoxemic disease in fresh, high-producing cows.
+- Systemic signs (fever then hypothermia, shock) can dominate over local quarter changes; watery, serous secretion is typical.
+- Endotoxemia, not bacterial numbers, drives the severe systemic illness, so anti-inflammatories and fluids are central.
+- Frequent milk-out/stripping removes bacteria and toxin; systemic antibiotics are used judiciously.
+- Prevention is environmental: clean, dry bedding and good milking hygiene (contrast with contagious mastitis like Staph aureus).
 ==================================================
-CASE_ID: 059
+CASE_ID: 129
 DIFFICULTY: navle
-SYSTEM: equine_infectious_disease
+SYSTEM: bovine_metabolic
 DIAGNOSIS:
-Equine Herpesvirus Myeloencephalopathy
+Hepatic Lipidosis (Fatty Liver)
 ALIASES:
-EHM
-EHV-1
+fat cow syndrome
+bovine fatty liver
 VIGNETTE_LINES:
-1. A 6-year-old show jumper presents with acute hindlimb ataxia, urine dribbling, and weak tail tone.
-2. A week prior, several horses in the barn had fevers and mild respiratory signs.
-3. Neurologic exam localizes the lesion to the spinal cord.
-4. PCR on a deep nasal swab and buffy coat is positive for the neuropathogenic strain of EHV-1.
-5. The facility is immediately locked down and strictly quarantined.
-6. The horse receives supportive care, including urinary catheterization, but requires a sling due to recumbency.
+1. An over-conditioned dairy cow in early lactation presents for poor appetite, declining milk, and dullness.
+2. She was overfed during the dry period and calved in heavy body condition.
+3. Exam reveals depression, reduced rumen motility, and early ketosis on cow-side testing.
+4. Differentials include primary ketosis and displaced abomasum; the marked over-conditioning and poor response to glucose suggest fatty liver.
+5. Elevated liver enzymes/bile acids and a liver biopsy showing hepatocellular fat support hepatic lipidosis.
+6. Management is supportive (glucose/precursors, treat concurrent disease) with emphasis on preventing over-conditioning in dry cows.
 TEACHING_POINTS:
-- EHM is a neurologic disease caused by vascular endothelial damage and thrombosis in the spinal cord from EHV-1.
-- Classic signs include hindlimb ataxia, atonic bladder, and loss of tail tone.
-- Biosecurity is critical as the virus is highly contagious and spread via aerosols/fomites.
+- Bovine hepatic lipidosis ("fat cow syndrome") results from excessive fat mobilization in over-conditioned cows during negative energy balance.
+- It worsens and is worsened by ketosis and other transition diseases, and responds poorly to standard ketosis therapy.
+- Diagnosis is supported by history of over-conditioning, elevated liver parameters, and hepatic fat on biopsy.
+- Treatment is supportive (dextrose, propylene glycol, address concurrent disease); severe cases carry a guarded prognosis.
+- Prevention is avoiding over-conditioning in the dry period and ensuring smooth transition-cow nutrition.
 ==================================================
-CASE_ID: 060
-DIFFICULTY: navle
-SYSTEM: bovine_internal_medicine
-DIAGNOSIS:
-Parturient Paresis
-ALIASES:
-Milk Fever
-hypocalcemia
-VIGNETTE_LINES:
-1. A 5-year-old Holstein cow presents down in the pasture 12 hours post-calving.
-2. The cow is in sternal recumbency, has an S-shape kink to her neck, and is cold to the touch.
-3. Heart rate is elevated but heart sounds are very quiet.
-4. Slow IV administration of calcium gluconate is initiated while monitoring the heart for arrhythmias.
-5. The cow eructates, passes manure, and stands up within 15 minutes of treatment.
-6. The farmer is advised to implement a DCAD (Dietary Cation-Anion Difference) diet for dry cows.
-TEACHING_POINTS:
-- Milk fever is an acute hypocalcemia caused by the sudden demand of lactation.
-- Classic signs include flaccid paralysis, cold extremities, and an S-curved neck.
-- IV calcium must be given slowly to avoid fatal cardiotoxicity (heart block).
-==================================================
-CASE_ID: 061
-DIFFICULTY: navle
-SYSTEM: bovine_internal_medicine
-DIAGNOSIS:
-Ketosis
-ALIASES:
-Acetonemia
-VIGNETTE_LINES:
-1. A high-producing dairy cow, 3 weeks post-partum, presents for a sudden drop in milk production.
-2. She refuses to eat her grain but will selectively eat long-stem hay.
-3. A sweet, nail-polish remover odor is noted on her breath.
-4. A cow-side urine ketone strip shows strong positivity for acetoacetate.
-5. Treatment consists of IV 50% dextrose followed by oral propylene glycol.
-6. The farmer is counseled on maximizing dry matter intake in early lactation.
-TEACHING_POINTS:
-- Ketosis occurs in negative energy balance when fat mobilization overwhelms the liver's capacity.
-- Excess acetyl-CoA is converted to ketone bodies (BHBA, acetone, acetoacetate).
-- Propylene glycol serves as a glucose precursor to sustain energy metabolism.
-==================================================
-CASE_ID: 062
-DIFFICULTY: navle
-SYSTEM: bovine_surgery
-DIAGNOSIS:
-Left Displaced Abomasum
-ALIASES:
-LDA
-VIGNETTE_LINES:
-1. A 4-year-old Holstein 4 weeks post-calving presents for anorexia and decreased milk yield.
-2. Feces are scant and pasty.
-3. Simultaneous auscultation and percussion ('pinging') over the left paralumbar fossa reveals a high-pitched metallic ping.
-4. A right flank omentopexy is performed, deflating and replacing the abomasum to its normal ventral position.
-5. Post-operatively, the cow is treated with oral fluids and propylene glycol.
-6. Milk production rapidly returns to normal.
-TEACHING_POINTS:
-- LDA is most common in early lactation high-producing dairy cows on high-grain diets.
-- The classic diagnostic finding is a left-sided 'ping' between ribs 9-13.
-- Surgical correction (omentopexy or abomasopexy) is highly successful.
-==================================================
-CASE_ID: 063
-DIFFICULTY: navle
-SYSTEM: bovine_internal_medicine
-DIAGNOSIS:
-Traumatic Reticuloperitonitis
-ALIASES:
-Hardware Disease
-VIGNETTE_LINES:
-1. A 3-year-old beef cow presents for anorexia, an arched back, and a stiff gait.
-2. She exhibits a positive 'grunt test' when upward pressure is applied to the xyphoid region.
-3. Auscultation reveals ruminal stasis and a muffled heart with a 'washing machine' murmur.
-4. Ultrasound demonstrates fibrinous fluid around the heart and reticulum.
-5. A rumen magnet is administered, along with systemic antibiotics.
-6. Due to advanced pericarditis, the prognosis is deemed poor, and the animal is culled.
-TEACHING_POINTS:
-- Hardware disease occurs when ingested metal wires pierce the reticulum.
-- Puncture cranially leads to reticulopericarditis ('washing machine' murmur).
-- Prophylactic rumen magnets given to heifers prevent penetration by holding the metal safely in the reticulum.
-==================================================
-CASE_ID: 064
+CASE_ID: 130
 DIFFICULTY: navle
 SYSTEM: bovine_infectious_disease
 DIAGNOSIS:
-Johne's Disease
+Blackleg
 ALIASES:
-Paratuberculosis
-Mycobacterium avium subsp paratuberculosis
+Clostridium chauvoei
+clostridial myositis
 VIGNETTE_LINES:
-1. A 4-year-old Angus cow presents for chronic, profuse, watery 'pipe-stream' diarrhea.
-2. Despite a ravenous appetite, the cow is severely emaciated (bottle jaw present).
-3. An ELISA test on serum is positive for MAP antibodies.
-4. The cow is culled from the herd.
-5. The farmer is instructed to implement strict hygiene, cull offspring of the cow, and prevent calves from nursing infected colostrum.
+1. A well-grown young beef animal on pasture is found acutely lame and severely depressed, or dead, without prior illness.
+2. The herd is unvaccinated for clostridial diseases and grazes pasture recently disturbed by excavation.
+3. Exam of an affected animal reveals fever and a swelling over a heavy muscle mass that crackles (crepitates) on palpation.
+4. Differentials for sudden death/lameness include malignant edema and anthrax; the gas-filled muscle swelling is characteristic.
+5. Necropsy reveals dark, dry, rancid-smelling muscle with gas, and Clostridium chauvoei is confirmed.
+6. The remaining herd is vaccinated with a clostridial bacterin and moved off the contaminated pasture.
 TEACHING_POINTS:
-- Johne's disease causes a chronic granulomatous enteritis leading to protein-losing enteropathy.
-- Infection occurs in calfhood (fecal-oral), but clinical signs don't manifest until 2-5 years of age.
-- There is no treatment; control relies on testing, culling, and preventing neonatal exposure.
+- Blackleg is a clostridial myonecrosis caused by Clostridium chauvoei, typically in well-conditioned young cattle on pasture.
+- Spores in soil are ingested and lodge in muscle; activation (often after bruising/exercise) triggers fatal gas-forming myositis.
+- The hallmark is crepitant muscle swelling with fever, rapid progression, and frequent sudden death.
+- It is NOT primarily a wound infection (unlike malignant edema, Clostridium septicum); always rule out anthrax with sudden death.
+- Multivalent clostridial vaccination is highly effective and the cornerstone of prevention.
 ==================================================
-CASE_ID: 065
+CASE_ID: 131
 DIFFICULTY: navle
 SYSTEM: bovine_infectious_disease
 DIAGNOSIS:
-Bovine Viral Diarrhea Virus
+Anaplasmosis
 ALIASES:
-BVDV
-Mucosal Disease
+Anaplasma marginale
+bovine anaplasmosis
 VIGNETTE_LINES:
-1. A 6-month-old calf presents for severe bloody diarrhea, fever, and oral ulcerations.
-2. The calf's dam was exposed to a new herd addition during her first trimester of pregnancy.
-3. The calf is unthrifty and tests positive on an ear notch immunohistochemistry (IHC) test.
-4. Due to being a Persistently Infected (PI) calf that developed fatal Mucosal Disease, the calf is euthanized.
-5. The rest of the herd undergoes ear-notch testing to identify and eliminate other PI animals.
+1. An adult cow presents in late summer for weakness, exercise intolerance, and yellow-tinged mucous membranes.
+2. The herd grazes a tick-infested region, and biting flies are abundant.
+3. Exam reveals pallor progressing to icterus, fever, tachycardia, and aggression/belligerence from cerebral hypoxia.
+4. Differentials for anemia and icterus WITHOUT hemoglobinuria include anaplasmosis and other hemoparasites; younger animals in the herd are mildly affected.
+5. A blood smear reveals organisms at the margin of erythrocytes, and PCR confirms Anaplasma marginale.
+6. Tetracyclines are used to treat clinical cases; carrier animals persist, so vector control and herd management are emphasized.
 TEACHING_POINTS:
-- BVDV causes immunosuppression, respiratory disease, and reproductive failure.
-- PI calves are created when a non-immune dam is infected with a non-cytopathic strain between days 40-125 of gestation.
-- Mucosal disease occurs when a PI calf is later superinfected with a cytopathic strain, causing fatal ulceration.
+- Anaplasma marginale infects red cells and is removed by the spleen, causing an extravascular hemolytic anemia.
+- Because hemolysis is extravascular, there is anemia and icterus but typically NO hemoglobinuria (helping distinguish it from babesiosis/leptospirosis).
+- Adult cattle show severe disease (and may become aggressive from cerebral hypoxia); calves are relatively resistant.
+- Transmission is by ticks, biting flies, and blood-contaminated equipment; the marginal inclusions on smear and PCR confirm it.
+- Tetracyclines treat clinical disease; recovered cattle remain lifelong carriers, so vector control is key.
 ==================================================
-CASE_ID: 066
+CASE_ID: 132
 DIFFICULTY: navle
-SYSTEM: bovine_infectious_disease
+SYSTEM: bovine_neonatology
 DIAGNOSIS:
-Infectious Bovine Rhinotracheitis
+Calf Diarrhea Complex
 ALIASES:
-IBR
-Red nose
-Bovine Herpesvirus-1
+neonatal calf scours
+undifferentiated diarrhea
 VIGNETTE_LINES:
-1. Several feedlot steers present with high fevers, severe nasal discharge, and loud coughing.
-2. Exam reveals hyperemic, inflamed nasal mucosa ('red nose') and white plaques on the conjunctiva.
-3. Some pregnant heifers in an adjacent pen experience late-term abortions.
-4. Viral isolation confirms BoHV-1.
-5. Animals are treated supportively and given antibiotics to prevent secondary Pasteurella pneumonia.
-6. An intranasal modified-live vaccine is administered to the rest of the herd to boost local immunity rapidly.
+1. A group of dairy calves under three weeks of age presents with watery diarrhea, dehydration, and weakness.
+2. The calves received variable amounts of colostrum, and the affected ages cluster around specific time windows.
+3. Exam reveals sunken eyes, prolonged skin tent, weak suckle, and metabolic depression.
+4. Differentials are sorted by age of onset and pathogen: E. coli (first days), rotavirus/coronavirus and Cryptosporidium (about 5-14 days), and coccidiosis/Salmonella later.
+5. Fecal testing (antigen panels, oocyst counts) identifies the predominant agents.
+6. Treatment prioritizes oral/IV fluids and correction of acidosis and electrolyte loss, with pathogen-specific and management measures (colostrum, hygiene) for prevention.
 TEACHING_POINTS:
-- IBR is caused by Bovine Herpesvirus-1 and is a major component of Bovine Respiratory Disease complex.
-- Classic signs include hyperemic nasal planum, conjunctivitis, and tracheal plaques.
-- It can also cause abortion storms and infectious pustular vulvovaginitis.
+- Neonatal calf diarrhea is usually multifactorial; the age of onset narrows the likely pathogen.
+- Enterotoxigenic E. coli causes secretory diarrhea in the first few days; rotavirus, coronavirus, and Cryptosporidium peak around 5-14 days.
+- The proximate killer is dehydration with metabolic acidosis and electrolyte loss, regardless of agent.
+- Fluid therapy (oral electrolytes for mild cases, IV with bicarbonate for acidotic/recumbent calves) is the priority.
+- Adequate, timely colostrum (passive transfer) and sanitation are the most important preventive measures; Cryptosporidium is zoonotic.
 ==================================================
-CASE_ID: 067
+CASE_ID: 133
 DIFFICULTY: navle
-SYSTEM: bovine_respiratory
+SYSTEM: bovine_metabolic
 DIAGNOSIS:
-Bovine Respiratory Syncytial Virus
+Hypomagnesemic Tetany
 ALIASES:
-BRSV
+grass tetany
+grass staggers
 VIGNETTE_LINES:
-1. A group of weaned dairy calves present with high fevers, tachypnea, and open-mouth breathing.
-2. Auscultation reveals harsh lung sounds, crackles, and a characteristic expiratory 'grunt'.
-3. Necropsy of one deceased calf shows heavy, wet, non-collapsing lungs with severe subpleural emphysema.
-4. Histopathology reveals syncytial cells with intracytoplasmic inclusions.
-5. The surviving calves are treated with anti-inflammatories and broad-spectrum antibiotics.
+1. A lactating beef cow grazing lush spring pasture is found down with muscle tremors and paddling, or dead in the field.
+2. The pasture is rapidly growing grass that has been heavily fertilized.
+3. Exam of an affected cow reveals hyperexcitability, muscle fasciculations, a stiff gait, and convulsions with hypersensitivity to stimuli.
+4. Differentials for downer cows include milk fever (usually flaccid) and nervous ketosis; the hyperexcitable tetany points elsewhere.
+5. Low serum (and especially CSF/aqueous) magnesium confirms hypomagnesemia.
+6. Treatment is cautious IV calcium-magnesium solutions (monitoring the heart) followed by oral magnesium supplementation and pasture management.
 TEACHING_POINTS:
-- BRSV is a highly pneumotropic virus that destroys the ciliated respiratory epithelium.
-- It causes severe acute interstitial pneumonia and pulmonary emphysema.
-- It paves the way for secondary bacterial infections (Mannheimia haemolytica).
+- Grass tetany is acute hypomagnesemia, classically in lactating cattle on lush, rapidly growing, heavily fertilized spring pasture.
+- High potassium and nitrogen in lush grass impair magnesium absorption from the rumen.
+- Unlike the flaccid paralysis of milk fever, hypomagnesemia causes hyperexcitability, tetany, and convulsions.
+- Confirm with low serum magnesium (CSF/vitreous magnesium is more reliable, especially postmortem).
+- Treat with IV cal-mag solutions given slowly with cardiac monitoring; prevent with magnesium supplementation and grazing management.
 ==================================================
-CASE_ID: 068
+CASE_ID: 134
 DIFFICULTY: navle
-SYSTEM: bovine_neurology
+SYSTEM: small_ruminant_metabolic
 DIAGNOSIS:
-Listeriosis
+Pregnancy Toxemia
 ALIASES:
-Circling disease
-Listeria monocytogenes
+ovine ketosis
+twin lamb disease
 VIGNETTE_LINES:
-1. A 3-year-old dairy cow presents with unilateral facial paralysis (drooping ear, drooling).
-2. The cow is seen pressing her head into the corner and circling persistently to the left.
-3. The herd is fed poor-quality, improperly fermented corn silage.
-4. CSF analysis shows a mononuclear pleocytosis.
-5. The cow is treated aggressively with high doses of IV penicillin.
+1. A ewe in late gestation, carrying multiple fetuses, presents for going off feed, lagging behind the flock, and apparent blindness.
+2. The flock's nutrition was marginal during the last weeks of pregnancy.
+3. Exam reveals depression, incoordination, apparent central blindness, and a sweet ketone odor on the breath.
+4. Differentials include hypocalcemia and polioencephalomalacia; the late-gestation timing and multiple fetuses focus the diagnosis.
+5. Marked ketonuria/ketonemia with hypoglycemia confirms pregnancy toxemia.
+6. Treatment provides energy (oral propylene glycol, IV dextrose) and, in severe cases, induction of parturition or cesarean to remove fetal energy demand.
 TEACHING_POINTS:
-- Listeria monocytogenes thrives in poorly ensiled, high-pH silage.
-- It ascends the trigeminal nerve to cause a unilateral microabscess in the brainstem.
-- Unilateral cranial nerve deficits (CN VII, IX, X) combined with circling are pathognomonic.
+- Pregnancy toxemia is a negative-energy-balance ketosis in late-gestation ewes/does carrying multiple fetuses.
+- The large fetal glucose demand plus reduced rumen capacity and marginal nutrition precipitate severe hypoglycemia and ketosis.
+- Neurologic signs (depression, blindness, incoordination) reflect hypoglycemia; rule out hypocalcemia and PEM.
+- Treatment supplies glucose/precursors; if the ewe is deteriorating, removing the fetuses (induction or C-section) is often necessary.
+- Prevention is appropriate late-gestation energy nutrition and body-condition management, especially in multiparous pregnancies.
 ==================================================
-CASE_ID: 069
+CASE_ID: 135
 DIFFICULTY: navle
-SYSTEM: bovine_neurology
+SYSTEM: small_ruminant_urology
 DIAGNOSIS:
-Polioencephalomalacia
+Obstructive Urolithiasis
 ALIASES:
-PEM
-Polio
-Star-gazing
+water belly
+caprine/ovine urolithiasis
 VIGNETTE_LINES:
-1. A feedlot steer presents with acute blindness, aimless wandering, and head pressing.
-2. The steer is hyperesthetic, shows dorsomedial strabismus, and adopts a 'star-gazing' posture (opisthotonos).
-3. The steer's diet was recently changed to a high-grain concentrate.
-4. Treatment with thiamine (Vitamin B1) is initiated immediately via IV and IM routes.
-5. Within 24 hours, the steer's vision and mentation improve significantly.
+1. A young castrated male goat fed a grain-heavy diet presents for straining, vocalizing, and a hunched posture.
+2. The owner thought he was constipated, but no urine has been seen.
+3. Exam reveals a tense abdomen, a pulsing urethra, and crystalline material on the preputial hairs.
+4. Differentials include other causes of straining; the inability to urinate and a distended bladder point to urethral obstruction.
+5. The obstruction progresses, risking bladder or urethral rupture ("water belly") with uroabdomen.
+6. Management options include amputation of the urethral process, surgical relief (tube cystostomy/perineal urethrostomy), and dietary correction.
 TEACHING_POINTS:
-- PEM is a necrotic softening of the cerebrocortical gray matter.
-- Most common cause is thiamine deficiency due to altered rumen microflora (grain overload) or high-sulfur diets.
-- Cortical blindness with an intact pupillary light reflex is a classic finding.
+- Obstructive urolithiasis is common in castrated male small ruminants on high-grain (high phosphorus/magnesium) diets.
+- Early neutering yields a narrow urethra, predisposing to obstruction at the urethral process or sigmoid flexure.
+- Signs (straining, vocalizing, tail flagging, pulsing urethra) are frequently mistaken for constipation; check for an empty bladder/no urine.
+- Untreated obstruction causes bladder or urethral rupture (uroabdomen, "water belly") and azotemia.
+- Treatment ranges from urethral process amputation to surgery; prevention is dietary (Ca:P balance, ammonium chloride, increased water/salt) and delayed castration.
 ==================================================
-CASE_ID: 070
-DIFFICULTY: navle
-SYSTEM: bovine_gastroenterology
-DIAGNOSIS:
-Ruminal Acidosis
-ALIASES:
-Grain overload
-Lactic acidosis
-VIGNETTE_LINES:
-1. A beef steer broke into the grain bin overnight and consumed a large amount of corn.
-2. The steer presents depressed, completely anorexic, and has profuse watery diarrhea.
-3. Exam shows severe dehydration, a distended sloshy rumen, and a staggering gait.
-4. Rumen fluid pH is 4.5, and microscopic exam shows absent live protozoa.
-5. The steer is treated with IV sodium bicarbonate, oral antacids (magnesium hydroxide), and rumen transfaunation.
-TEACHING_POINTS:
-- Grain overload causes rapid fermentation of carbohydrates into lactic acid by Streptococcus bovis.
-- The acidic environment destroys normal rumen microbes and damages the rumen wall, leading to fungal rumenitis or liver abscesses.
-- Laminitis is a common delayed sequela due to systemic endotoxemia.
-==================================================
-CASE_ID: 071
-DIFFICULTY: navle
-SYSTEM: small_ruminant_medicine
-DIAGNOSIS:
-Haemonchosis
-ALIASES:
-Barber pole worm
-Haemonchus contortus
-VIGNETTE_LINES:
-1. A flock of pastured sheep presents with severe lethargy and sudden deaths in several lambs.
-2. Exam of an affected ewe shows profound pale mucous membranes (FAMACHA score 5) and submandibular edema (bottle jaw).
-3. Fecal flotation reveals massive numbers of strongyle-type eggs.
-4. The flock is treated with a targeted drenching program using moxidectin based on FAMACHA scoring.
-5. Rotational grazing and pasture spelling are implemented to reduce parasite burden.
-TEACHING_POINTS:
-- Haemonchus contortus is a voracious blood-sucking nematode in the abomasum.
-- It causes profound severe anemia and hypoproteinemia (bottle jaw) but typically NO diarrhea.
-- FAMACHA scoring evaluates eyelid color to treat only affected animals, slowing anthelmintic resistance.
-==================================================
-CASE_ID: 072
-DIFFICULTY: navle
-SYSTEM: small_ruminant_neurology
-DIAGNOSIS:
-Scrapie
-ALIASES:
-Transmissible Spongiform Encephalopathy
-TSE
-VIGNETTE_LINES:
-1. A 4-year-old Suffolk ewe presents with intense pruritus, rubbing off wool against fences.
-2. The ewe exhibits a 'nibbling reflex' when scratched over the dorsum and shows high-stepping ataxia.
-3. The condition progressively worsens over weeks to recumbency and emaciation.
-4. The ewe is euthanized, and the brainstem/obex is submitted for diagnosis.
-5. Histopathology confirms spongiform encephalopathy; the flock undergoes regulatory genetic testing.
-TEACHING_POINTS:
-- Scrapie is a fatal prion disease of sheep and goats.
-- It causes intense itching, lip smacking, and neurological deterioration.
-- Genetic susceptibility testing (Codon 171) is used to breed resistant flocks (RR is resistant).
-==================================================
-CASE_ID: 073
+CASE_ID: 136
 DIFFICULTY: navle
 SYSTEM: small_ruminant_infectious
 DIAGNOSIS:
-Contagious Ecthyma
+Caseous Lymphadenitis
 ALIASES:
-Orf
-Sore mouth
+CLA
+Corynebacterium pseudotuberculosis
 VIGNETTE_LINES:
-1. A group of 3-month-old goat kids present with thick, crusty, proliferative scabs on their lips and muzzles.
-2. Some kids have lesions on their gums, causing them to refuse nursing.
-3. Several nursing does develop painful lesions on their teats.
-4. The lesions are allowed to run their course, and supportive care (soft feed) is provided.
-5. The farmer is warned to wear gloves, as the disease is highly zoonotic.
+1. An adult sheep presents for a slowly enlarging, firm swelling at the angle of the jaw.
+2. The owner reports other animals in the flock have similar lumps near the head and shoulders.
+3. Exam reveals an abscessed peripheral lymph node; aspiration yields thick, pasty, greenish material.
+4. Differentials for peripheral lymph node enlargement include other abscesses and neoplasia; the characteristic caseous pus and flock pattern are suggestive.
+5. Culture of the aspirate grows Corynebacterium pseudotuberculosis, confirming caseous lymphadenitis.
+6. Affected animals are isolated/culled to control spread, and abscesses are managed to avoid environmental contamination.
 TEACHING_POINTS:
-- Orf is caused by a parapoxvirus that is highly resistant in the environment.
-- It causes painful papules and crusts primarily on mucocutaneous junctions.
-- It is zoonotic, causing painful singular nodules on human hands (milker's nodule).
+- Caseous lymphadenitis is a chronic infection of sheep and goats by Corynebacterium pseudotuberculosis.
+- The external form produces abscessed peripheral lymph nodes with thick, caseous ("cheese-like") pus, classically near the head/neck.
+- The internal form causes visceral/lymph node abscesses and chronic wasting ("thin ewe/doe").
+- It is contagious (pus contaminates the environment and shearing equipment) and a flock-level problem; it is zoonotic.
+- Control relies on culling/isolation, lancing abscesses away from the flock, biosecurity, and vaccination where available; treatment is usually unrewarding.
 ==================================================
-CASE_ID: 074
+CASE_ID: 137
 DIFFICULTY: navle
 SYSTEM: small_ruminant_infectious
 DIAGNOSIS:
-Caprine Arthritis Encephalitis
+Enterotoxemia
 ALIASES:
-CAE
-Hard bag
+overeating disease
+Clostridium perfringens type D
 VIGNETTE_LINES:
-1. A 3-year-old dairy doe presents with chronic weight loss and bilateral swelling of the carpal joints.
-2. The joints are firm, non-painful, and severely restrict movement.
-3. The doe recently freshened but has a firm, unproductive udder ('hard bag').
-4. Serology (AGID) is positive for CAE virus antibodies.
-5. The doe is culled; the farmer begins a program of taping teats and feeding pasteurized colostrum to kids.
+1. A fast-growing, well-fed lamb on a high-grain ration is found dead, or acutely convulsing, without prior illness.
+2. The lamb had recently been switched to a richer diet or was nursing a heavy-milking ewe.
+3. Exam of an affected lamb reveals neurologic signs (opisthotonos, convulsions) and, in some cases, diarrhea.
+4. Differentials for sudden death include other clostridial diseases and polioencephalomalacia; the diet change is a key clue.
+5. Necropsy may reveal pulpy kidney and glucosuria, and toxin/Clostridium perfringens type D is identified.
+6. The flock is vaccinated and the ration adjusted; affected animals are treated supportively, though many die peracutely.
 TEACHING_POINTS:
-- CAE is a retrovirus (lentivirus) transmitted primarily through infected colostrum and milk.
-- In adult goats, it causes chronic polyarthritis and indurative mastitis.
-- In goat kids (2-6 months), it causes a fatal ascending leukoencephalomyelitis (paralysis).
+- Enterotoxemia ("overeating disease") is caused by Clostridium perfringens type D epsilon toxin, triggered by a sudden increase in dietary carbohydrate.
+- It typically strikes the fastest-growing, best-fed lambs/kids, often with peracute death.
+- Signs include neurologic disease (convulsions, opisthotonos) with or without diarrhea; "pulpy kidney" is a postmortem finding.
+- Glucosuria can be present due to the toxin's effects; diagnosis combines history, lesions, and toxin/organism detection.
+- Prevention is clostridial (CD-T) vaccination and gradual diet changes; treatment of clinical cases is often unsuccessful.
 ==================================================
-CASE_ID: 075
+CASE_ID: 138
+DIFFICULTY: navle
+SYSTEM: porcine_neonatology
+DIAGNOSIS:
+Neonatal Colibacillosis
+ALIASES:
+baby pig scours
+enterotoxigenic E. coli
+VIGNETTE_LINES:
+1. A litter of piglets within the first days of life presents with watery diarrhea and rapid dehydration.
+2. The sow is a gilt, and litter hygiene/chilling are suboptimal in the farrowing area.
+3. Exam reveals dehydrated, weak piglets with a watery, sometimes yellowish diarrhea and high litter morbidity.
+4. Differentials for neonatal piglet diarrhea include rotavirus, coccidiosis, TGE/PED, and Clostridium perfringens; age and stool character help sort them.
+5. Culture identifies enterotoxigenic E. coli with relevant fimbrial antigens, confirming colibacillosis.
+6. Management includes fluids/warmth for piglets, sow vaccination for future litters, and improved hygiene and colostrum management.
+TEACHING_POINTS:
+- Neonatal colibacillosis is caused by enterotoxigenic E. coli (ETEC) that adhere via fimbriae (e.g., K88/F4) and secrete enterotoxins.
+- It produces a secretory, watery diarrhea in the first days of life with rapid dehydration and high mortality.
+- Risk factors include gilt litters (lower colostral immunity), chilling, and poor hygiene.
+- Differentiate by age/onset from rotavirus/coccidiosis (older) and TGE/PED (viral) and clostridial enteritis.
+- Prevention centers on sow vaccination (to boost colostral antibodies), warmth, hygiene, and ensuring colostrum intake.
+==================================================
+CASE_ID: 139
+DIFFICULTY: navle
+SYSTEM: porcine_musculoskeletal
+DIAGNOSIS:
+Glasser's Disease
+ALIASES:
+Haemophilus parasuis
+polyserositis
+Glaesserella parasuis
+VIGNETTE_LINES:
+1. Several recently weaned/transported nursery pigs present with fever, lameness, and reluctance to rise.
+2. The pigs were recently mixed and moved, and a few show labored breathing and swollen joints.
+3. Exam reveals fever, swollen painful joints, and signs of pleuritis/pericarditis (shallow breathing, depression); some have neurologic signs.
+4. Differentials include Streptococcus suis, Mycoplasma, and erysipelas; the polyserositis pattern is suggestive.
+5. Necropsy reveals fibrinous polyserositis (pleuritis, pericarditis, peritonitis) and arthritis, and Glaesserella (Haemophilus) parasuis is isolated.
+6. Affected pigs are treated promptly with antibiotics (e.g., penicillins/ceftiofur), and stress reduction plus vaccination are used for control.
+TEACHING_POINTS:
+- Glasser's disease is caused by Glaesserella (Haemophilus) parasuis and causes systemic fibrinous polyserositis and arthritis.
+- It is classically triggered by stress (weaning, transport, commingling) in nursery-age pigs.
+- The hallmark is fibrinous inflammation of serous surfaces (pleura, pericardium, peritoneum) plus polyarthritis and sometimes meningitis.
+- Differentiate from Streptococcus suis, Mycoplasma hyorhinis, and erysipelas based on lesions and culture.
+- Early antibiotic treatment, stress reduction, and vaccination/acclimatization control the disease.
+==================================================
+CASE_ID: 140
+DIFFICULTY: navle
+SYSTEM: porcine_neurology
+DIAGNOSIS:
+Streptococcus suis Meningitis
+ALIASES:
+strep suis
+porcine streptococcal meningitis
+VIGNETTE_LINES:
+1. A nursery pig presents for fever and neurologic signs after recent weaning and mixing.
+2. Pen-mates have shown lameness and some sudden deaths.
+3. Exam reveals an pig that is recumbent, paddling, with tremors, opisthotonos, and nystagmus.
+4. Differentials for nursery-pig CNS disease include Glasser's disease, edema disease, and salt toxicity/water deprivation; the meningitis pattern is prominent.
+5. CSF/culture identifies Streptococcus suis, confirming streptococcal meningitis.
+6. Early high-dose penicillin and supportive care are given; the zoonotic potential to handlers is noted.
+TEACHING_POINTS:
+- Streptococcus suis is a common cause of meningitis, arthritis, and septicemia in nursery pigs, often after weaning/mixing stress.
+- Neurologic signs include paddling, tremor, opisthotonos, and nystagmus from suppurative meningitis.
+- Differentiate from Glasser's disease (polyserositis), edema disease (E. coli Shiga toxin), and water deprivation/salt toxicity.
+- It is zoonotic, causing meningitis (and hearing loss) in people with pig contact; handle with care.
+- Treatment is prompt penicillin and supportive care; reduce stress and consider control measures in affected herds.
+==================================================
+CASE_ID: 141
 DIFFICULTY: navle
 SYSTEM: porcine_infectious_disease
 DIAGNOSIS:
-Porcine Reproductive and Respiratory Syndrome
+Mycoplasmal Pneumonia
 ALIASES:
-PRRS
-Blue ear disease
+enzootic pneumonia
+Mycoplasma hyopneumoniae
 VIGNETTE_LINES:
-1. A commercial swine herd experiences a sudden outbreak of late-term abortions and mummified fetuses.
-2. Simultaneously, the weaner pigs develop severe respiratory distress (thumping) and cyanosis of the ears.
-3. Pre-weaning mortality spikes to 40%.
-4. Serum PCR confirms the presence of PRRS virus.
-5. The farm implements strict biosecurity, herd closure, and controlled exposure to stabilize the herd.
+1. A group of growing pigs presents with a chronic, dry, non-productive cough that is worse with activity.
+2. The cough has spread slowly through the barn, and growth rates are subtly reduced.
+3. Exam reveals coughing pigs with relatively mild systemic signs and low mortality unless complicated.
+4. Differentials include influenza (more acute/explosive) and APP (peracute/fatal); the chronic low-grade pattern points to enzootic pneumonia.
+5. Slaughter checks show purple-gray consolidation of the cranioventral lung lobes, and Mycoplasma hyopneumoniae is identified.
+6. Control combines antibiotics for complicated cases, vaccination, all-in/all-out flow, and good air quality.
 TEACHING_POINTS:
-- PRRS is an arterivirus and the most economically devastating disease in the swine industry.
-- It infects alveolar macrophages, causing severe immunosuppression and secondary pneumonias.
-- Classic signs: reproductive failure in sows and respiratory disease in piglets with cyanotic ears.
+- Enzootic pneumonia (Mycoplasma hyopneumoniae) causes a chronic, dry cough with reduced growth and high morbidity but low mortality.
+- M. hyopneumoniae damages respiratory cilia, predisposing to secondary bacterial pneumonia (porcine respiratory disease complex).
+- Cranioventral lung consolidation is the characteristic lesion at slaughter check.
+- Differentiate from acute influenza and peracute APP based on tempo and severity.
+- Control uses vaccination, strategic antibiotics, all-in/all-out management, and good ventilation/air quality.
 ==================================================
-CASE_ID: 076
-DIFFICULTY: navle
-SYSTEM: porcine_infectious_disease
-DIAGNOSIS:
-Porcine Epidemic Diarrhea Virus
-ALIASES:
-PEDv
-VIGNETTE_LINES:
-1. A farrowing house experiences an explosive outbreak of watery diarrhea and vomiting in newborn piglets.
-2. Mortality in piglets under 1 week of age reaches 100% due to severe dehydration.
-3. Older pigs exhibit mild diarrhea and anorexia but recover within a week.
-4. Fecal PCR identifies a coronavirus distinct from TGE.
-5. The farm manages the outbreak via herd closure and feedback (exposing sows to infectious feces) to generate maternal immunity.
-TEACHING_POINTS:
-- PEDv is a highly contagious coronavirus that destroys enterocytes.
-- It causes profound malabsorptive diarrhea leading to death by dehydration in neonates.
-- Feedback of infected material to pregnant gilts ensures colostral antibodies for future litters.
-==================================================
-CASE_ID: 077
-DIFFICULTY: navle
-SYSTEM: porcine_gastroenterology
-DIAGNOSIS:
-Swine Dysentery
-ALIASES:
-Brachyspira hyodysenteriae
-Bloody scours
-VIGNETTE_LINES:
-1. A group of 10-week-old grower pigs present with mucohemorrhagic diarrhea.
-2. The pigs are febrile, anorexic, and have a slab-sided appearance from weight loss.
-3. Necropsy reveals severe inflammation and fibronecrotic pseudomembranes restricted strictly to the large intestine.
-4. Dark-field microscopy of colonic mucosa shows spirochete bacteria.
-5. The group is treated with water-medicated tiamulin and lincomycin.
-TEACHING_POINTS:
-- Swine dysentery affects the large intestine only, unlike Lawsonia or Salmonella which affect the small intestine.
-- It causes classic 'bloody scours' with copious mucus in growing-finishing pigs.
-- Rodent control is vital, as mice can act as biological vectors for Brachyspira.
-==================================================
-CASE_ID: 078
-DIFFICULTY: navle
-SYSTEM: porcine_infectious_disease
-DIAGNOSIS:
-Swine Erysipelas
-ALIASES:
-Diamond skin disease
-Erysipelothrix rhusiopathiae
-VIGNETTE_LINES:
-1. Several finishing pigs present with sudden death, while others exhibit high fever (106F) and reluctance to walk.
-2. Exam of the live pigs reveals distinct, raised, diamond-shaped erythematous skin lesions.
-3. A few older sows show signs of chronic arthritis.
-4. The acutely ill pigs are treated aggressively with intramuscular penicillin, with rapid improvement.
-5. Vaccination protocols are updated for the herd.
-TEACHING_POINTS:
-- Erysipelothrix is a ubiquitous soil bacterium causing acute septicemia.
-- Bacterial emboli in cutaneous blood vessels cause the pathognomonic diamond-shaped infarcts.
-- Chronic forms lead to vegetative endocarditis and chronic polyarthritis.
-==================================================
-CASE_ID: 079
-DIFFICULTY: navle
-SYSTEM: porcine_infectious_disease
-DIAGNOSIS:
-Porcine Circovirus Associated Disease
-ALIASES:
-PCVAD
-PMWS
-Circovirus
-VIGNETTE_LINES:
-1. A group of 8-week-old nursery pigs present with severe wasting, unthriftiness, and enlarged inguinal lymph nodes.
-2. Some pigs show pallor, jaundice, and respiratory distress.
-3. Mortality in the affected group gradually rises to 15%.
-4. Necropsy reveals massively enlarged lymph nodes, and histopath shows botryoid inclusion bodies in macrophages.
-5. Vaccination of the next batch of piglets at weaning successfully prevents the disease.
-TEACHING_POINTS:
-- PCV2 is a ubiquitous virus requiring a co-factor (like parvovirus or PRRS) to cause disease.
-- It causes Post-weaning Multisystemic Wasting Syndrome (PMWS) characterized by profound lymphoid depletion.
-- Commercial PCV2 vaccines are highly efficacious and widely used.
-==================================================
-CASE_ID: 080
-DIFFICULTY: navle
-SYSTEM: porcine_respiratory
-DIAGNOSIS:
-Actinobacillus pleuropneumoniae
-ALIASES:
-APP
-VIGNETTE_LINES:
-1. Several 16-week-old finishing pigs are found dead with blood-tinged, frothy fluid draining from their snouts.
-2. Live pen-mates exhibit severe respiratory distress, high fevers, and cyanosis.
-3. Necropsy of a dead pig reveals severe, bilateral, fibrinohemorrhagic pleuropneumonia localized to the diaphragmatic lobes.
-4. Culture confirms Actinobacillus pleuropneumoniae.
-5. The entire barn is immediately mass-medicated via water with ceftiofur.
-TEACHING_POINTS:
-- APP produces potent RTX toxins that cause rapid necrosis of lung tissue.
-- It causes acute, explosive outbreaks of fatal pneumonia in growing pigs.
-- Blood from the nose of a suddenly dead pig is highly characteristic.
-==================================================
-CASE_ID: 081
-DIFFICULTY: navle
-SYSTEM: porcine_respiratory
-DIAGNOSIS:
-Atrophic Rhinitis
-ALIASES:
-Pasteurella multocida and Bordetella bronchiseptica
-VIGNETTE_LINES:
-1. A farmer complains of sneezing, sniffling, and tear-staining in his nursery pigs.
-2. As the pigs reach finishing age, several develop obvious lateral deviation and shortening of the snout.
-3. Growth rates are poor, and feed efficiency is significantly decreased.
-4. Slaughterhouse checks reveal severe atrophy of the nasal turbinates.
-5. The farm initiates a vaccination program for sows pre-farrowing.
-TEACHING_POINTS:
-- Atrophic rhinitis is a synergistic infection; Bordetella causes mild damage, allowing Pasteurella to colonize.
-- Toxigenic Pasteurella multocida type D produces a dermonecrotic toxin that destroys osteoblasts in the turbinates.
-- The resulting snout deviation severely impacts the pig's ability to eat efficiently.
-==================================================
-CASE_ID: 082
-DIFFICULTY: navle
-SYSTEM: porcine_infectious_disease
-DIAGNOSIS:
-Pseudorabies
-ALIASES:
-Aujeszky's Disease
-Mad Itch
-PRV
-VIGNETTE_LINES:
-1. A small pastured pig operation notes several abortions in their sows.
-2. Simultaneously, the farm's guardian dogs develop severe pruritus, self-mutilate their faces, and die acutely.
-3. Newborn piglets exhibit severe neurological signs (tremors, paddling) and 100% mortality.
-4. Brain tissue submitted from a piglet confirms a porcine herpesvirus.
-5. Since the US commercial herd is PRV-free, state authorities are notified; feral swine are suspected as the source.
-TEACHING_POINTS:
-- Pseudorabies is caused by Porcine Herpesvirus-1 and is fatal in non-porcine hosts ('mad itch').
-- In adult pigs, it causes respiratory and reproductive signs (abortions).
-- In neonates, it causes fatal encephalitis with high mortality.
-==================================================
-CASE_ID: 083
-DIFFICULTY: navle
-SYSTEM: porcine_dermatology
-DIAGNOSIS:
-Exudative Epidermitis
-ALIASES:
-Greasy Pig Disease
-Staphylococcus hyicus
-VIGNETTE_LINES:
-1. A litter of 3-week-old piglets presents with generalized, non-pruritic, greasy, brown exudate over their bodies.
-2. The piglets are depressed, anorexic, and dehydrated.
-3. The sow is a first-parity gilt and seems unaffected.
-4. The piglets are treated with injectable penicillin and topical chlorhexidine washes.
-5. Environmental hygiene is improved to prevent abrasions from rough flooring.
-TEACHING_POINTS:
-- Staphylococcus hyicus produces an exfoliative toxin causing separation of the epidermis.
-- It gains entry through skin abrasions (fighting for teats, poor flooring).
-- Unlike mange, greasy pig disease is NOT pruritic (not itchy).
-==================================================
-CASE_ID: 084
-DIFFICULTY: navle
-SYSTEM: porcine_infectious_disease
-DIAGNOSIS:
-Porcine Parvovirus
-ALIASES:
-PPV
-VIGNETTE_LINES:
-1. A swine farm experiences an increase in the number of gilts returning to estrus.
-2. At farrowing, affected gilts deliver a mix of normal, mummified, and stillborn piglets (SMEDI syndrome).
-3. There are no signs of respiratory disease or maternal illness.
-4. Fetal tissues test positive for PPV via immunofluorescence.
-5. The farmer is advised to ensure all replacement gilts are vaccinated or naturally exposed prior to breeding.
-TEACHING_POINTS:
-- Porcine parvovirus is ubiquitous and causes SMEDI (Stillbirth, Mummification, Embryonic Death, Infertility).
-- The hallmark is finding fetuses at various stages of mummification in the same litter.
-- It only affects the fetuses of first-parity gilts; sows maintain lifelong immunity.
-==================================================
-CASE_ID: 085
-DIFFICULTY: navle
-SYSTEM: exotic_animal_medicine
-DIAGNOSIS:
-Ferret Adrenal Disease
-ALIASES:
-hyperadrenocorticism in ferrets
-VIGNETTE_LINES:
-1. A 5-year-old neutered male ferret presents for progressive, bilaterally symmetric alopecia starting at the tail base.
-2. The owner notes the ferret has become aggressive and is straining to urinate.
-3. Exam reveals a bald ferret with an enlarged prostate causing urethral obstruction.
-4. Ultrasound identifies an enlarged left adrenal gland.
-5. The ferret is treated with a Deslorelin (GnRH agonist) implant.
-TEACHING_POINTS:
-- Ferret adrenal disease causes overproduction of sex hormones (estrogen, testosterone), NOT cortisol.
-- Classic signs are alopecia, vulvar swelling in females, and prostatic enlargement in males.
-- Deslorelin downregulates LH/FSH, shrinking the adrenal gland and resolving signs.
-==================================================
-CASE_ID: 086
-DIFFICULTY: navle
-SYSTEM: exotic_animal_medicine
-DIAGNOSIS:
-Ferret Insulinoma
-ALIASES:
-pancreatic beta cell tumor
-VIGNETTE_LINES:
-1. A 6-year-old female ferret presents for acute collapse, hypersalivation, and 'star-gazing'.
-2. The owner reports she has been weak in the hindlimbs for weeks.
-3. Blood glucose is measured at 40 mg/dL (severe hypoglycemia).
-4. IV dextrose is given, and the ferret rapidly regains consciousness.
-5. Medical management with oral prednisone and diazoxide is initiated, along with frequent high-protein meals.
-TEACHING_POINTS:
-- Insulinomas are microadenomas of the pancreas that autonomously secrete insulin.
-- Signs of hypoglycemia in ferrets include ptyalism (drooling), pawing at the mouth, and hindlimb weakness.
-- Unlike dogs, surgical excision is rarely curative in ferrets, so medical management is mainstay.
-==================================================
-CASE_ID: 087
-DIFFICULTY: navle
-SYSTEM: exotic_animal_medicine
-DIAGNOSIS:
-Guinea Pig Scurvy
-ALIASES:
-Vitamin C deficiency
-hypovitaminosis C
-VIGNETTE_LINES:
-1. A 1-year-old guinea pig presents with reluctance to move, vocalization when handled, and swollen joints.
-2. The diet consists solely of a commercial rabbit pellet and Timothy hay.
-3. Exam reveals petechiae on the gums and loose teeth.
-4. Radiographs show enlarged costochondral junctions.
-5. The guinea pig is supplemented with oral Vitamin C and transitioned to a species-appropriate diet.
-TEACHING_POINTS:
-- Guinea pigs lack the enzyme L-gulonolactone oxidase and cannot synthesize Vitamin C.
-- Deficiency leads to defective collagen synthesis, causing bleeding gums, painful joints, and loose teeth.
-- Rabbit pellets do not contain adequate stabilized Vitamin C.
-==================================================
-CASE_ID: 088
-DIFFICULTY: navle
-SYSTEM: exotic_animal_medicine
-DIAGNOSIS:
-Rabbit Gastrointestinal Stasis
-ALIASES:
-GI Stasis
-Ileus
-VIGNETTE_LINES:
-1. A 3-year-old neutered male rabbit presents for acute anorexia and absence of fecal pellets for 24 hours.
-2. The owner fed the rabbit a large amount of yogurt drops and pellets, with minimal hay.
-3. Exam shows a painful, doughy abdomen with absent gut sounds.
-4. Radiographs rule out mechanical obstruction, showing a stomach full of gas and impacted food.
-5. Treatment includes aggressive IV and SQ fluids, meloxicam, buprenorphine, and syringe feeding critical care formula.
-TEACHING_POINTS:
-- GI stasis is a life-threatening symptom, not a primary disease, usually caused by lack of dietary fiber, pain, or stress.
-- Rabbits require high-fiber diets (free-choice grass hay) to maintain gut motility.
-- Pain management and rehydration are critical to restoring motility.
-==================================================
-CASE_ID: 089
-DIFFICULTY: navle
-SYSTEM: exotic_animal_medicine
-DIAGNOSIS:
-Rabbit Pasteurellosis
-ALIASES:
-Snuffles
-Pasteurella multocida
-VIGNETTE_LINES:
-1. A 2-year-old female rabbit presents with thick, white purulent nasal discharge and sneezing.
-2. The owner notes the fur on the medial aspect of the rabbit's front paws is matted and crusty.
-3. The rabbit also has a head tilt (torticollis) to the left.
-4. A deep nasal swab confirms Pasteurella multocida.
-5. The rabbit is treated with a long course of oral enrofloxacin.
-TEACHING_POINTS:
-- Pasteurella multocida is the most common bacterial pathogen in rabbits.
-- It causes 'snuffles' (rhinitis), pneumonia, and can travel up the Eustachian tube to cause otitis media/interna (head tilt).
-- Matted front paws result from the rabbit repeatedly wiping its discharging nose.
-==================================================
-CASE_ID: 090
+CASE_ID: 142
 DIFFICULTY: navle
 SYSTEM: avian_medicine
 DIAGNOSIS:
-Macaw Proventricular Dilatation Disease
+Avian Goiter (Iodine Deficiency)
 ALIASES:
-PDD
-Macaw Wasting Disease
-Avian Bornavirus
+thyroid hyperplasia
+budgerigar goiter
 VIGNETTE_LINES:
-1. A 15-year-old Blue and Gold Macaw presents for chronic weight loss and regurgitation.
-2. The owner notes the bird is passing completely undigested seeds in its droppings.
-3. Radiographs show massive distension of the proventriculus.
-4. Crop biopsy reveals lymphoplasmacytic ganglioneuritis.
-5. The bird is managed supportively with easily digestible liquid diets and NSAIDs.
+1. A small seed-eating pet bird presents for progressive difficulty breathing with a clicking respiratory noise and intermittent regurgitation.
+2. The diet has been almost exclusively seeds with no supplementation.
+3. Exam reveals a fluffed, dyspneic bird; the respiratory noise changes with neck position.
+4. Differentials for dyspnea include aspergillosis and airway foreign material; the all-seed diet raises suspicion of a goiter.
+5. The enlarged thyroid compresses the syrinx/esophagus, and the diet history supports iodine-deficiency goiter.
+6. Iodine supplementation is provided and the diet is corrected, with resolution of the respiratory and crop signs.
 TEACHING_POINTS:
-- PDD is caused by Avian Bornavirus.
-- It causes a lethal neurotropism that destroys the autonomic nerves of the GI tract.
-- Passing undigested seeds and proventricular distension are classic hallmarks.
+- Goiter (thyroid hyperplasia) in budgerigars and other seed-eating birds results from dietary iodine deficiency.
+- The enlarged thyroid is located at the thoracic inlet and compresses the syrinx and esophagus.
+- Signs include a position-dependent respiratory click/wheeze, dyspnea, and regurgitation/crop dysfunction.
+- An all-seed diet is the classic cause; rule out aspergillosis and other airway disease.
+- Treatment and prevention are iodine supplementation and dietary correction (formulated diets, supplementation).
 ==================================================
-CASE_ID: 091
+CASE_ID: 143
 DIFFICULTY: navle
 SYSTEM: avian_medicine
 DIAGNOSIS:
-Avian Chlamydiosis
+Heavy Metal Toxicosis
 ALIASES:
-Psittacosis
-Parrot Fever
-Chlamydia psittaci
+zinc toxicosis
+lead poisoning
 VIGNETTE_LINES:
-1. A newly purchased Cockatiel presents with ruffled feathers, lethargy, and lime-green urates.
-2. The bird has conjunctivitis and a mild respiratory wheeze.
-3. The owner has recently developed a severe, atypical pneumonia.
-4. A PCR test on a combined choanal/cloacal swab is positive for Chlamydia psittaci.
-5. The bird is treated with a 45-day course of doxycycline.
+1. A pet parrot presents for lethargy, regurgitation, and passing bright green droppings.
+2. The owner reports the bird chews on cage components, galvanized wire, and costume jewelry.
+3. Exam reveals weakness, biliverdinuria (green urates), and, in some birds, neurologic signs such as ataxia or seizures.
+4. Differentials for green urates include hepatic disease and chlamydiosis; the metal-chewing history is a strong clue.
+5. Whole-body radiographs reveal metallic densities in the GI tract, and elevated blood zinc/lead confirms heavy metal toxicosis.
+6. Treatment includes chelation (e.g., CaEDTA), supportive care, and removal/retrieval of the metal source.
 TEACHING_POINTS:
-- Chlamydiosis is an intracellular bacterium that causes hepatomegaly and biliverdinuria (green urates).
-- It is highly zoonotic, causing severe flu-like signs and pneumonia in humans.
-- Treatment requires a minimum 45-day course of tetracyclines to eliminate the organism.
+- Heavy metal toxicosis (lead, zinc) is common in parrots that chew galvanized metal, solder, paint, or jewelry.
+- Signs are nonspecific: GI (regurgitation, green droppings/biliverdinuria), hematologic, and neurologic (ataxia, seizures).
+- Radiographs often reveal metallic foreign material in the GI tract; confirm with blood lead/zinc levels.
+- Treatment is chelation (CaEDTA, sometimes DMSA) with supportive care and removing the metal source.
+- Prevention is "bird-proofing" the environment (avoid galvanized wire, lead weights, and accessible metals).
 ==================================================
-CASE_ID: 092
+CASE_ID: 144
+DIFFICULTY: navle
+SYSTEM: reptile_medicine
+DIAGNOSIS:
+Metabolic Bone Disease
+ALIASES:
+nutritional secondary hyperparathyroidism
+MBD
+VIGNETTE_LINES:
+1. A juvenile insectivorous lizard presents for weakness, tremors, and a swollen, rubbery jaw.
+2. The animal is kept without UVB lighting and fed mostly insects without calcium supplementation.
+3. Exam reveals a soft, pliable mandible, kinked spine, and reluctance to move; some animals show tetany.
+4. Differentials include trauma and primary skeletal disease; the husbandry history points to a nutritional cause.
+5. Radiographs reveal generalized decreased bone density and folding fractures, and an inverted calcium:phosphorus balance supports nutritional secondary hyperparathyroidism.
+6. Treatment provides calcium (and vitamin D3), corrects UVB lighting and diet, and supports any fractures.
+TEACHING_POINTS:
+- Metabolic bone disease in reptiles is most often nutritional secondary hyperparathyroidism from calcium and/or vitamin D3 deficiency and inadequate UVB.
+- Insectivores fed unsupplemented insects (poor Ca:P) without UVB are classic cases.
+- Signs include soft/rubbery jaw, limb and spinal deformities, pathologic ("folding") fractures, and tetany/tremors.
+- Diagnosis combines husbandry history, radiographic osteopenia/fractures, and calcium/phosphorus assessment.
+- Treatment and prevention require correcting diet (calcium, gut-loaded/dusted insects), vitamin D3, and proper UVB exposure.
+==================================================
+CASE_ID: 145
+DIFFICULTY: navle
+SYSTEM: reptile_medicine
+DIAGNOSIS:
+Reptile Dysecdysis
+ALIASES:
+abnormal shedding
+retained spectacle
+VIGNETTE_LINES:
+1. A pet snake presents because the owner found incomplete, patchy shed skin and the snake's eyes look cloudy/dull between sheds.
+2. The enclosure is dry with no humid hide or rough surfaces for rubbing.
+3. Exam reveals retained shed at the tail tip and retained eye caps (spectacles), with constriction risk at the tail.
+4. Differentials for ocular cloudiness include infection and trauma; the husbandry deficits point to dysecdysis.
+5. The retained spectacles and patchy shedding confirm dysecdysis secondary to inadequate humidity/husbandry.
+6. Management raises enclosure humidity, provides a humid hide and rub surfaces, and gently removes retained shed/spectacles after softening.
+TEACHING_POINTS:
+- Dysecdysis (abnormal shedding) in reptiles is usually a husbandry problem: low humidity, lack of rub surfaces, poor nutrition, mites, or skin disease.
+- In snakes, retained eye caps (spectacles) and retained tail-tip shed are common and the latter can cause constriction/ischemia.
+- Cloudy eyes during normal pre-shed ("blue") differ from persistent retained spectacles; examine carefully.
+- Correct the underlying husbandry (humidity, humid hide, rough surfaces) and gently remove retained shed after softening.
+- Recurrent dysecdysis warrants checking for systemic disease, mites, scarring, and inadequate nutrition.
+==================================================
+CASE_ID: 146
+DIFFICULTY: navle
+SYSTEM: exotic_animal_medicine
+DIAGNOSIS:
+Encephalitozoonosis
+ALIASES:
+Encephalitozoon cuniculi
+E. cuniculi
+VIGNETTE_LINES:
+1. A pet rabbit presents for a sudden head tilt and loss of balance, rolling to one side.
+2. There is no nasal discharge, and the rabbit had no recent trauma.
+3. Exam reveals vestibular signs (head tilt, nystagmus, ataxia) with normal ear canals and lungs.
+4. Differentials for head tilt include Pasteurella otitis and toxicity; the absence of respiratory disease and clean ears shifts suspicion.
+5. Serology (and supportive signs such as phacoclastic uveitis or renal disease) supports Encephalitozoon cuniculi infection.
+6. Treatment with fenbendazole, supportive care, and anti-inflammatories is begun, with a guarded-to-fair prognosis.
+TEACHING_POINTS:
+- Encephalitozoon cuniculi is a microsporidian parasite causing CNS, renal, and ocular disease in rabbits.
+- Vestibular disease (head tilt, nystagmus, rolling) is a common presentation and must be distinguished from Pasteurella otitis media/interna.
+- Other manifestations include phacoclastic uveitis (lens rupture with cataract) and chronic renal disease.
+- Diagnosis is supported by serology and clinical signs; definitive diagnosis is challenging antemortem.
+- Treatment is fenbendazole (which targets the organism) plus supportive and anti-inflammatory care; it is a potential zoonosis in immunocompromised people.
+==================================================
+CASE_ID: 147
+DIFFICULTY: navle
+SYSTEM: exotic_animal_medicine
+DIAGNOSIS:
+Rabbit Uterine Adenocarcinoma
+ALIASES:
+uterine adenocarcinoma
+rabbit reproductive neoplasia
+VIGNETTE_LINES:
+1. An older intact female rabbit presents for blood-tinged vaginal discharge and decreased appetite.
+2. The owner has noticed reduced activity and, more recently, labored breathing.
+3. Exam reveals a firm caudal abdominal mass and, on auscultation, increased respiratory effort.
+4. Differentials for hematuria/vaginal bleeding include cystitis and pyometra; the intact status and age raise concern for uterine neoplasia.
+5. Imaging reveals a uterine mass with pulmonary nodules suggestive of metastasis, and ovariohysterectomy with histopathology confirms uterine adenocarcinoma.
+6. Early ovariohysterectomy is both treatment and prevention; the owner is counseled on metastatic disease.
+TEACHING_POINTS:
+- Uterine adenocarcinoma is the most common reproductive tumor in intact female rabbits, with very high incidence in older does.
+- Presentations include hematuria/serosanguineous vaginal discharge, a palpable caudal abdominal mass, and signs of pulmonary metastasis.
+- The lungs are a common metastatic site; dyspnea may be the presenting complaint.
+- Ovariohysterectomy is curative if performed before metastasis and is the key preventive measure.
+- Routine spaying of pet does prevents this common, often fatal tumor.
+==================================================
+CASE_ID: 148
+DIFFICULTY: navle
+SYSTEM: exotic_animal_medicine
+DIAGNOSIS:
+Guinea Pig Ovarian Cysts
+ALIASES:
+cystic ovarian disease
+guinea pig ovarian cysts
+VIGNETTE_LINES:
+1. A middle-aged intact female guinea pig presents for bilaterally symmetric flank hair loss without itching.
+2. The owner reports a swollen abdomen and reduced activity.
+3. Exam reveals non-pruritic symmetric alopecia over the flanks and palpable, smooth, fluid-filled structures in the caudal abdomen.
+4. Differentials for symmetric alopecia include endocrine disease and ectoparasites; the palpable structures point to the reproductive tract.
+5. Ultrasound confirms large fluid-filled ovarian cysts, explaining the hormonally driven alopecia.
+6. Treatment is ovariohysterectomy (definitive); cyst aspiration and hormonal therapy are temporary measures.
+TEACHING_POINTS:
+- Cystic ovarian disease is very common in intact female guinea pigs, often increasing with age.
+- A hallmark is bilaterally symmetric, non-pruritic flank alopecia (hormonally driven) with abdominal distension.
+- Large cysts are palpable and confirmed on ultrasound; they may be serous (follicular) or functional.
+- Definitive treatment is ovariohysterectomy; aspiration or hormonal therapy provides only temporary relief.
+- Differentiate from primary skin disease and other causes of symmetric alopecia.
+==================================================
+CASE_ID: 149
 DIFFICULTY: navle
 SYSTEM: avian_medicine
 DIAGNOSIS:
-Avian Egg Binding
+Psittacine Beak and Feather Disease
 ALIASES:
-Dystocia in birds
+PBFD
+circovirus
 VIGNETTE_LINES:
-1. A 4-year-old female Budgerigar presents with depression, a wide-based stance, and tail-bobbing.
-2. The bird has been straining and has a swollen coelomic cavity.
-3. Palpation reveals a firm, shelled egg lodged in the caudal coelom.
-4. Radiographs confirm a retained egg; the bird is hypocalcemic.
-5. The bird is placed in a warm, humid incubator, given IM calcium gluconate, and oxytocin/PGF2a.
-6. The egg is passed successfully 2 hours later.
+1. A young parrot presents for progressive abnormal feathering, with feathers that are dystrophic, clubbed, or retained in their sheaths.
+2. The owner reports the bird has been more susceptible to infections than its cage-mates.
+3. Exam reveals symmetric feather dystrophy, areas of feather loss, and, in some birds, beak abnormalities.
+4. Differentials for feather disease include feather-destructive behavior and Polyomavirus; the symmetric dystrophy and immunosuppression point to circovirus.
+5. PCR for psittacine circovirus is positive, confirming psittacine beak and feather disease.
+6. There is no specific cure; supportive care and biosecurity/isolation are emphasized, with a guarded prognosis.
 TEACHING_POINTS:
-- Egg binding is often due to chronic calcium deficiency from an all-seed diet.
-- It is a life-threatening emergency causing compression of the kidneys and nerves.
-- Warming the bird, providing fluids, and supplementing calcium are first-line therapies before manual extraction.
+- PBFD is caused by a psittacine circovirus that attacks feather follicles and the immune system.
+- It produces progressive, symmetric feather dystrophy (clubbed, retained sheaths, abnormal color) and, later, beak lesions.
+- Associated immunosuppression predisposes to secondary infections.
+- Differentiate from behavioral feather-destruction (which spares the head, which the bird can't reach) and from Polyomavirus.
+- Diagnosis is by PCR; there is no specific treatment, so biosecurity, isolation, and testing protect collections.
 ==================================================
-CASE_ID: 093
-DIFFICULTY: navle
-SYSTEM: reptile_medicine
-DIAGNOSIS:
-Snake Inclusion Body Disease
-ALIASES:
-IBD
-Arenavirus
-VIGNETTE_LINES:
-1. A 3-year-old Boa Constrictor presents for regurgitation, anorexia, and severe neurological signs.
-2. The snake is 'star-gazing' and is unable to right itself when placed on its back.
-3. Exam reveals a heavy infestation of snake mites (Ophionyssus natricis).
-4. A liver biopsy reveals intracytoplasmic eosinophilic inclusion bodies.
-5. Due to the fatal and contagious nature, the snake is euthanized.
-TEACHING_POINTS:
-- IBD is caused by an Arenavirus, highly prevalent in captive boa constrictors.
-- Snake mites act as the primary vector for transmission.
-- Classic signs are regurgitation in pythons, and neurological signs (loss of righting reflex) in boas.
-==================================================
-CASE_ID: 094
-DIFFICULTY: navle
-SYSTEM: reptile_medicine
-DIAGNOSIS:
-Chelonian Vitamin A Deficiency
-ALIASES:
-Hypovitaminosis A
-Squamous metaplasia
-VIGNETTE_LINES:
-1. A juvenile Red-Eared Slider presents with severely swollen, closed eyelids and lethargy.
-2. The owner has been feeding the turtle an exclusive diet of dried shrimp.
-3. The turtle exhibits open-mouth breathing and nasal discharge.
-4. Parenteral Vitamin A is administered, and the turtle is transitioned to a balanced pelleted diet with dark leafy greens.
-5. The eyes open within a week.
-TEACHING_POINTS:
-- Vitamin A deficiency causes squamous metaplasia of epithelial tissues.
-- Swollen eyes (conjunctivitis/blepharoedema) and respiratory infections are the classic clinical signs.
-- Dietary correction is essential, but Vitamin A must be dosed carefully to avoid iatrogenic hypervitaminosis A (skin sloughing).
-==================================================
-CASE_ID: 095
-DIFFICULTY: navle
-SYSTEM: reptile_medicine
-DIAGNOSIS:
-Iguana Renal Failure
-ALIASES:
-Gout
-Metabolic bone/renal disease
-VIGNETTE_LINES:
-1. A 6-year-old Green Iguana presents for severe lethargy, anorexia, and firm swellings on its toes.
-2. The owner feeds the iguana a diet high in dog food and insects.
-3. Bloodwork reveals marked hyperuricemia and an inverted calcium:phosphorus ratio.
-4. Fine needle aspirate of the toe swellings shows needle-like uric acid crystals.
-5. The iguana is deeply dehydrated and euthanized due to end-stage renal disease.
-TEACHING_POINTS:
-- Green iguanas are strict herbivores; feeding animal protein causes severe renal damage.
-- Renal failure leads to hyperuricemia and precipitation of uric acid crystals in joints (articular gout) or organs (visceral gout).
-- Prevention requires a strict plant-based diet and appropriate humidity/hydration.
-==================================================
-CASE_ID: 096
+CASE_ID: 150
 DIFFICULTY: navle
 SYSTEM: aquatic_medicine
 DIAGNOSIS:
-Fish Ichthyophthirius multifiliis
+Columnaris Disease
 ALIASES:
-Ich
-White Spot Disease
+Flavobacterium columnare
+cotton wool disease
 VIGNETTE_LINES:
-1. A tank of freshwater Koi present with flashing (rubbing against rocks) and lethargy.
-2. Exam reveals multiple 1mm white nodules covering the skin, fins, and gills.
-3. Skin scrape and wet mount reveal large, ciliated protozoa with a classic horseshoe-shaped macronucleus.
-4. The tank water temperature is slowly increased, and formalin/malachite green is added to the water.
-5. The treatment is repeated every 3 days to catch the susceptible life stage.
+1. A group of freshwater fish in a warm, crowded tank present with grayish-white patches on the skin and frayed fins.
+2. Water quality has declined and the temperature is elevated.
+3. Exam reveals pale, raised "saddle-back" lesions over the dorsum and grayish material on the gills, with rapid opercular movement.
+4. Differentials include fungal infection (true fungus tends to look more like distinct tufts) and ich; a wet mount is examined.
+5. Wet mount of a lesion reveals long, thin, gliding rod-shaped bacteria forming "haystack" columns, supporting columnaris.
+6. Treatment improves water quality, lowers stocking density and temperature, and uses appropriate antibacterial therapy.
 TEACHING_POINTS:
-- Ich is a ciliated protozoan causing white spot disease in freshwater fish.
-- The parasite has a multi-stage life cycle; only the free-swimming theront stage is susceptible to chemical treatment.
-- Increasing water temperature speeds up the life cycle, bringing the parasite into the susceptible stage faster.
+- Columnaris is caused by Flavobacterium columnare, a gliding, filamentous gram-negative rod (not a fungus, despite "cotton wool" appearance).
+- It produces grayish-white skin patches (often a dorsal "saddleback"), fin erosion, and gill necrosis.
+- Warm water, crowding, poor water quality, and stress predispose to outbreaks.
+- Wet-mount microscopy shows characteristic "haystack/column" aggregates of gliding bacteria.
+- Treatment addresses water quality and stocking plus antibacterials; differentiate from true fungal (Saprolegnia) infection and ich.
 ==================================================
-CASE_ID: 097
-DIFFICULTY: navle
-SYSTEM: exotic_animal_medicine
-DIAGNOSIS:
-Hamster Proliferative Ileitis
-ALIASES:
-Wet Tail
-Lawsonia intracellularis
-VIGNETTE_LINES:
-1. A 4-week-old recently purchased Syrian hamster presents with profuse, watery diarrhea and a soiled hind end.
-2. The hamster is severely dehydrated, hunched, and hypothermic.
-3. The condition started two days after bringing the pet home from the pet store.
-4. Aggressive SQ fluids and enrofloxacin are initiated.
-5. Despite treatment, the hamster dies from intussusception.
-TEACHING_POINTS:
-- Wet tail is caused by Lawsonia intracellularis, an intracellular bacterium.
-- It causes profound proliferative enteritis and diarrhea in stressed, weanling hamsters.
-- It is highly fatal; rectal prolapse and intussusception are common terminal complications.
-==================================================
-CASE_ID: 098
-DIFFICULTY: navle
-SYSTEM: exotic_animal_medicine
-DIAGNOSIS:
-Chinchilla Dental Disease
-ALIASES:
-Slobbers
-Malocclusion
-VIGNETTE_LINES:
-1. A 4-year-old Chinchilla presents for weight loss, reduced fecal output, and excessive drooling.
-2. The fur under the chin and on the chest is wet and matted.
-3. The diet consists of a pellet mix with minimal hay.
-4. An oral exam under anesthesia reveals sharp enamel points on the lingual aspect of the mandibular premolars.
-5. The points are filed down using a high-speed burr.
-TEACHING_POINTS:
-- Chinchillas are elodonts (open-rooted, continuously growing teeth).
-- Lack of dietary roughage (hay) prevents normal attrition, leading to painful enamel spurs.
-- Drooling ('slobbers') is the classic sign of oral pain preventing swallowing.
-==================================================
-CASE_ID: 099
-DIFFICULTY: navle
-SYSTEM: exotic_animal_medicine
-DIAGNOSIS:
-Hedgehog Wobbly Hedgehog Syndrome
-ALIASES:
-WHS
-Demyelinating paralysis
-VIGNETTE_LINES:
-1. A 2-year-old African Pygmy Hedgehog presents for progressive hindlimb weakness.
-2. The owner notes the hedgehog falls over constantly when trying to walk and curls into a ball less tightly.
-3. Neurologic exam shows ataxia and paresis that is worse in the hindlimbs.
-4. No cure exists, and supportive care (lowering food bowls, padded bedding) is initiated.
-5. The hedgehog is euthanized 6 months later when it becomes tetraplegic.
-TEACHING_POINTS:
-- WHS is a progressive, fatal, neurodegenerative disease (demyelination) of hedgehogs.
-- Signs usually begin at 2-3 years of age, starting in the hindlimbs and ascending to the forelimbs.
-- Definitive diagnosis requires histopathology of the CNS post-mortem.
-==================================================
-CASE_ID: 100
-DIFFICULTY: navle
-SYSTEM: avian_medicine
-DIAGNOSIS:
-Avian Pacheco's Disease
-ALIASES:
-Psittacid Herpesvirus
-VIGNETTE_LINES:
-1. A rescue aviary experiences a sudden outbreak of acute death in several healthy Cockatoos.
-2. A few birds showed yellow urates and severe diarrhea hours before dying.
-3. Necropsy reveals massively enlarged, necrotic livers with petechiae.
-4. Histopathology shows eosinophilic intranuclear inclusion bodies in hepatocytes.
-5. The surviving exposed birds are treated with oral acyclovir.
-TEACHING_POINTS:
-- Pacheco's disease is a highly fatal herpesvirus of psittacine birds.
-- It primarily causes acute, massive hepatic necrosis, leading to sudden death.
-- Conures are known to be asymptomatic carriers and shedders of the virus.
