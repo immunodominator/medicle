@@ -853,9 +853,9 @@ export default function Home() {
 
       {/* PROGRESS BAR */}
       <div className="flex items-center gap-2 mb-3 text-sm w-full max-w-3xl" style={{ color: theme.textMuted }}>
-        <span className="whitespace-nowrap">Clue {revealed}/{current.clues.length}</span>
+        <span className="whitespace-nowrap">Clue {revealed}/{Math.min(current.clues.length, MAX_GUESSES)}</span>
         <div className="flex-1 h-1.5 rounded-full overflow-hidden" style={{ background: theme.border }}>
-          <div className="h-full rounded-full transition-all duration-500" style={{ width: `${(revealed / current.clues.length) * 100}%`, background: theme.accent }} />
+          <div className="h-full rounded-full transition-all duration-500" style={{ width: `${(revealed / Math.min(current.clues.length, MAX_GUESSES)) * 100}%`, background: theme.accent }} />
         </div>
         <span className="text-xs font-mono whitespace-nowrap" style={{ color: theme.textMuted }}>{guessesLeft} guess{guessesLeft !== 1 ? "es" : ""} left</span>
       </div>
