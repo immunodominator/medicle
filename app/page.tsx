@@ -4,6 +4,62 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Analytics } from "@vercel/analytics/next";
 
 // =============================================================
+// THEME TOKENS
+// =============================================================
+
+const DARK_THEME = {
+  bg:             "#022129",
+  bgCard:         "#0a2f38",
+  bgInput:        "#0a2f38",
+  bgMonitor:      "#011a1f",
+  border:         "#0e3d4a",
+  borderAccent:   "#14b8a6",
+  text:           "#e2e8f0",
+  textMuted:      "#6b7280",
+  textFaint:      "#2d7a8a",
+  accent:         "#14b8a6",
+  accentHover:    "#0d9488",
+  clueNum:        "#2d7a8a",
+  logoPanel:      "#0a2f38",
+  logoBorder:     "#0e3d4a",
+  selectBg:       "#0a2f38",
+  modalWin:       "#0a3320",
+  modalLose:      "#2d0a0a",
+  modalBorderWin: "#22c55e",
+  modalBorderLose:"#dc2626",
+  shareCard:      "#071f26",
+  teachPanel:     "#011a1f",
+  filterPanel:    "#0a2f38",
+};
+
+const LIGHT_THEME = {
+  bg:             "#f0f9ff",
+  bgCard:         "#ffffff",
+  bgInput:        "#ffffff",
+  bgMonitor:      "#e0f2fe",
+  border:         "#bae6fd",
+  borderAccent:   "#0891b2",
+  text:           "#0f172a",
+  textMuted:      "#64748b",
+  textFaint:      "#94a3b8",
+  accent:         "#0891b2",
+  accentHover:    "#0e7490",
+  clueNum:        "#0891b2",
+  logoPanel:      "#0f172a",
+  logoBorder:     "#1e293b",
+  selectBg:       "#ffffff",
+  modalWin:       "#f0fdf4",
+  modalLose:      "#fff1f2",
+  modalBorderWin: "#22c55e",
+  modalBorderLose:"#f43f5e",
+  shareCard:      "#f8fafc",
+  teachPanel:     "#f1f5f9",
+  filterPanel:    "#ffffff",
+};
+
+type Theme = typeof DARK_THEME;
+
+// =============================================================
 // TYPES
 // =============================================================
 
@@ -1083,7 +1139,7 @@ function Confetti() {
 // SHARE + RESULT MODAL
 // =============================================================
 
-function ShareCard({ shareText }: { shareText: string }) {
+function ShareCard({ shareText, theme }: { shareText: string; theme: Theme }) {
   const [copied, setCopied] = useState(false);
 
   const copyShareText = async () => {
@@ -1097,20 +1153,20 @@ function ShareCard({ shareText }: { shareText: string }) {
   };
 
   return (
-    <div className="mt-4 rounded-2xl p-4 text-left" style={{ background: "#071f26", border: "1px solid #0e3d4a" }}>
+    <div className="mt-4 rounded-2xl p-4 text-left" style={{ background: theme.shareCard, border: `1px solid ${theme.border}` }}>
       <div className="flex items-center justify-between gap-3 mb-3">
-        <p className="text-xs font-mono uppercase tracking-[0.2em]" style={{ color: "#94a3b8" }}>
+        <p className="text-xs font-mono uppercase tracking-[0.2em]" style={{ color: theme.textMuted }}>
           Share result
         </p>
         <button
           onClick={copyShareText}
           className="text-xs font-bold px-3 py-1.5 rounded-lg"
-          style={{ background: "#14b8a6", color: "#042b33" }}
+          style={{ background: theme.accent, color: "#ffffff" }}
         >
           {copied ? "Copied" : "Copy"}
         </button>
       </div>
-      <pre className="whitespace-pre-wrap text-sm leading-6 font-mono" style={{ color: "#e2e8f0" }}>
+      <pre className="whitespace-pre-wrap text-sm leading-6 font-mono" style={{ color: theme.text }}>
         {shareText}
       </pre>
     </div>
@@ -1123,12 +1179,14 @@ function ResultModal({
   guesses,
   solvedAtClueCount,
   onNext,
+  theme,
 }: {
   won: boolean;
   current: Case;
   guesses: Guess[];
   solvedAtClueCount: number;
   onNext: () => void;
+  theme: Theme;
 }) {
   const [showTeaching, setShowTeaching] = useState(false);
 
@@ -1143,31 +1201,31 @@ function ResultModal({
     <div className="fixed inset-0 z-40 flex items-center justify-center p-4" style={{ background: "rgba(0,0,0,0.75)" }}>
       <div
         className="w-full max-w-lg rounded-2xl p-7 text-center shadow-2xl max-h-[90vh] overflow-y-auto"
-        style={{ background: won ? "#0a3320" : "#2d0a0a", border: `1px solid ${won ? "#22c55e" : "#dc2626"}` }}
+        style={{ background: won ? theme.modalWin : theme.modalLose, border: `1px solid ${won ? theme.modalBorderWin : theme.modalBorderLose}` }}
       >
         {won ? (
           <>
             <p className="text-5xl mb-3">🎉</p>
-            <p className="text-3xl font-bold mb-1" style={{ color: "#86efac" }}>
+            <p className="text-3xl font-bold mb-1" style={{ color: "#22c55e" }}>
               Patient Saved!
             </p>
-            <p className="text-white text-xl font-semibold mb-1">{current.diagnosis}</p>
-            <p className="text-sm mb-1" style={{ color: "#bbf7d0" }}>
+            <p className="font-semibold text-xl mb-1" style={{ color: theme.text }}>{current.diagnosis}</p>
+            <p className="text-sm mb-1" style={{ color: theme.textMuted }}>
               Diagnosed in {guesses.length} guess{guesses.length !== 1 ? "es" : ""}.
             </p>
-            <p className="text-sm mb-4" style={{ color: "#bbf7d0" }}>
+            <p className="text-sm mb-4" style={{ color: theme.textMuted }}>
               Solved at clue {solvedAtClueCount}.
             </p>
-            <ShareCard shareText={shareText} />
+            <ShareCard shareText={shareText} theme={theme} />
           </>
         ) : (
           <>
             <p className="text-5xl mb-3">💀</p>
-            <p className="text-3xl font-bold mb-1" style={{ color: "#fca5a5" }}>
+            <p className="text-3xl font-bold mb-1" style={{ color: "#f43f5e" }}>
               Patient Lost
             </p>
-            <p className="text-white text-sm mb-1">The diagnosis was:</p>
-            <p className="text-white text-2xl font-bold mb-4">{current.diagnosis}</p>
+            <p className="text-sm mb-1" style={{ color: theme.textMuted }}>The diagnosis was:</p>
+            <p className="text-2xl font-bold mb-4" style={{ color: theme.text }}>{current.diagnosis}</p>
           </>
         )}
 
@@ -1176,15 +1234,15 @@ function ResultModal({
             <button
               onClick={() => setShowTeaching((s) => !s)}
               className="text-sm font-semibold px-4 py-2 rounded-xl"
-              style={{ background: "#0e3d4a", color: "#14b8a6", border: "1px solid #14b8a6" }}
+              style={{ background: theme.bgCard, color: theme.accent, border: `1px solid ${theme.accent}` }}
             >
               {showTeaching ? "Hide" : "📚 Show"} Teaching Points
             </button>
             {showTeaching && (
-              <div className="mt-3 rounded-xl p-4 text-left space-y-2" style={{ background: "#011a1f" }}>
+              <div className="mt-3 rounded-xl p-4 text-left space-y-2" style={{ background: theme.teachPanel }}>
                 {current.teachingPoints.map((pt, i) => (
-                  <p key={i} className="text-sm" style={{ color: "#94a3b8" }}>
-                    <span style={{ color: "#14b8a6" }}>•</span> {pt}
+                  <p key={i} className="text-sm" style={{ color: theme.textMuted }}>
+                    <span style={{ color: theme.accent }}>•</span> {pt}
                   </p>
                 ))}
               </div>
@@ -1194,8 +1252,8 @@ function ResultModal({
 
         <button
           onClick={onNext}
-          className="text-white px-10 py-3 rounded-xl font-bold text-lg w-full"
-          style={{ background: "#14b8a6" }}
+          className="px-10 py-3 rounded-xl font-bold text-lg w-full text-white"
+          style={{ background: theme.accent }}
         >
           Next Case →
         </button>
@@ -1228,6 +1286,10 @@ export default function Home() {
 
   const [showECG, setShowECG] = useState(true);
   const [showSystem, setShowSystem] = useState(false);
+
+  // ✅ Light / dark mode
+  const [lightMode, setLightMode] = useState(false);
+  const theme: Theme = lightMode ? LIGHT_THEME : DARK_THEME;
 
   // ✅ NEW: optional system filter (checkbox panel)
   const [showSystemFilter, setShowSystemFilter] = useState(false);
@@ -1510,14 +1572,13 @@ export default function Home() {
 
   if (loadError) {
     return (
-      <main className="min-h-screen flex items-center justify-center px-4" style={{ background: "#022129" }}>
-        <div className="max-w-xl rounded-2xl p-6 border" style={{ background: "#0a2f38", borderColor: "#0e3d4a" }}>
+      <main className="min-h-screen flex items-center justify-center px-4" style={{ background: DARK_THEME.bg, fontFamily: "'Poppins', sans-serif" }}>
+        <style>{`@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');`}</style>
+        <div className="max-w-xl rounded-2xl p-6 border" style={{ background: DARK_THEME.bgCard, borderColor: DARK_THEME.border }}>
           <p className="text-white text-lg font-semibold mb-2">Could not load the cases file.</p>
-          <p className="text-sm" style={{ color: "#94a3b8" }}>
-            {loadError}
-          </p>
-          <p className="text-sm mt-3" style={{ color: "#94a3b8" }}>
-            Put <span className="font-mono">cases_master_250.txt</span> in your <span className="font-mono">public</span> folder.
+          <p className="text-sm" style={{ color: DARK_THEME.textMuted }}>{loadError}</p>
+          <p className="text-sm mt-3" style={{ color: DARK_THEME.textMuted }}>
+            Put your cases file in <span className="font-mono">public/doctordle cases/</span> and add it to <span className="font-mono">CASES_FILES</span>.
           </p>
         </div>
       </main>
@@ -1526,7 +1587,8 @@ export default function Home() {
 
   if (!current) {
     return (
-      <main className="min-h-screen flex items-center justify-center" style={{ background: "#022129" }}>
+      <main className="min-h-screen flex items-center justify-center" style={{ background: DARK_THEME.bg, fontFamily: "'Poppins', sans-serif" }}>
+        <style>{`@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');`}</style>
         <p className="text-white text-xl">Loading...</p>
       </main>
     );
@@ -1537,7 +1599,13 @@ export default function Home() {
   // =============================================================
 
   return (
-    <main className="min-h-screen flex flex-col items-center px-4 pb-16" style={{ background: "#022129" }}>
+    <main
+      className="min-h-screen flex flex-col items-center px-4 pb-16 transition-colors duration-300"
+      style={{ background: theme.bg, fontFamily: "'Poppins', sans-serif", color: theme.text }}
+    >
+      {/* POPPINS FONT */}
+      <style>{`@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');`}</style>
+
       {showConfetti && <Confetti />}
       <Analytics />
 
@@ -1549,6 +1617,7 @@ export default function Home() {
           guesses={guesses}
           solvedAtClueCount={solvedAtClueCount}
           onNext={startNextCase}
+          theme={theme}
         />
       )}
 
@@ -1564,12 +1633,13 @@ export default function Home() {
           }}
           defaultValue="medicle"
           style={{
-            background: "#0a2f38",
-            border: "1px solid #0e3d4a",
-            color: "#ffffff",
+            background: theme.bgCard,
+            border: `1px solid ${theme.border}`,
+            color: theme.text,
             borderRadius: "8px",
             padding: "6px 10px",
             fontSize: "12px",
+            fontFamily: "'Poppins', sans-serif",
           }}
         >
           <option value="medicle">🧠 Medicle</option>
@@ -1578,6 +1648,29 @@ export default function Home() {
           <option value="dentdle">🦷 Dentdle — Dental cases</option>
           <option value="crimindle">⚖️ Crimindle — Criminal Law</option>
         </select>
+      </div>
+
+      {/* LIGHT/DARK TOGGLE */}
+      <div style={{ position: "absolute", top: "16px", right: "16px" }}>
+        <button
+          onClick={() => setLightMode((v) => !v)}
+          style={{
+            background: theme.bgCard,
+            border: `1px solid ${theme.border}`,
+            color: theme.text,
+            borderRadius: "20px",
+            padding: "6px 14px",
+            fontSize: "12px",
+            fontFamily: "'Poppins', sans-serif",
+            cursor: "pointer",
+            display: "flex",
+            alignItems: "center",
+            gap: "6px",
+            fontWeight: 500,
+          }}
+        >
+          {lightMode ? "🌙 Dark" : "☀️ Light"}
+        </button>
       </div>
 
       {/* HEADER */}
@@ -1590,46 +1683,63 @@ export default function Home() {
           alignItems: "center",
           textAlign: "center",
           gap: "10px",
+          width: "100%",
+          maxWidth: "720px",
         }}
       >
-        <img src="/logo.png" alt="Medicle" style={{ height: "80px" }} />
-
+        {/* LOGO PANEL — dark background so logo always looks right */}
         <div
           style={{
-            background: "#044",
-            border: "1px solid #0e3d4a",
-            borderRadius: "16px",
-            padding: "16px 20px",
-            maxWidth: "720px",
+            background: theme.logoPanel,
+            border: `1px solid ${theme.logoBorder}`,
+            borderRadius: "20px",
+            padding: "20px 32px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
             width: "100%",
           }}
         >
-          <p style={{ fontSize: "15px", color: "#ffffff", fontWeight: "600", marginBottom: "6px" }}>
-            Can you diagnose the patient before it's too late?
+          <img src="/logo.png" alt="Medicle" style={{ height: "72px" }} />
+        </div>
+
+        {/* INFO PANEL */}
+        <div
+          style={{
+            background: theme.bgCard,
+            border: `1px solid ${theme.border}`,
+            borderRadius: "16px",
+            padding: "16px 20px",
+            width: "100%",
+          }}
+        >
+          <p style={{ fontSize: "15px", color: theme.text, fontWeight: "600", marginBottom: "6px" }}>
+            Can you diagnose the patient before it&apos;s too late?
           </p>
-          <p style={{ fontSize: "12px", color: "#94a3b8", marginBottom: "8px" }}>
+          <p style={{ fontSize: "12px", color: theme.textMuted, marginBottom: "8px" }}>
             Endless progressive clue-based vignettes. A new case every round.
           </p>
           <a
             href="https://www.medicle.net"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ fontSize: "13px", fontWeight: "bold", color: "#14b8a6", textDecoration: "none" }}
+            style={{ fontSize: "13px", fontWeight: "bold", color: theme.accent, textDecoration: "none" }}
           >
             🔗 www.medicle.net
           </a>
         </div>
 
-        <div className="w-full max-w-3xl grid gap-3 sm:grid-cols-[1fr_auto] items-center">
+        {/* CASE SELECTOR */}
+        <div className="w-full grid gap-3 sm:grid-cols-[1fr_auto] items-center">
           <div className="text-left">
-            <label className="block text-xs font-mono tracking-widest mb-1" style={{ color: "#6b7280" }}>
+            <label className="block text-xs font-mono tracking-widest mb-1" style={{ color: theme.textMuted }}>
               Jump to case
             </label>
             <select
               value={selectedCaseId}
               onChange={(e) => loadCaseById(e.target.value)}
               className="w-full rounded-xl px-3 py-2 text-sm outline-none"
-              style={{ background: "#0a2f38", border: "1px solid #0e3d4a", color: "white" }}
+              style={{ background: theme.selectBg, border: `1px solid ${theme.border}`, color: theme.text, fontFamily: "'Poppins', sans-serif" }}
               disabled={!eligibleCases.length}
             >
               {caseOptions.map((opt) => (
@@ -1642,14 +1752,14 @@ export default function Home() {
 
           {current && (
             <div className="sm:text-right text-left">
-              <p className="text-xs font-mono tracking-widest" style={{ color: "#6b7280" }}>
+              <p className="text-xs font-mono tracking-widest" style={{ color: theme.textMuted }}>
                 CURRENT CASE
               </p>
-              <p className="text-lg font-bold" style={{ color: "#e2e8f0" }}>
+              <p className="text-lg font-bold" style={{ color: theme.text }}>
                 #{current.id}
               </p>
               {showSystem && current.system && (
-                <p className="text-xs" style={{ color: "#4a9aaa" }}>
+                <p className="text-xs" style={{ color: theme.accent }}>
                   {displaySystemLabel(current.system)}
                 </p>
               )}
@@ -1658,18 +1768,16 @@ export default function Home() {
         </div>
       </div>
 
-      {/* PROGRESS */}
-      <div className="flex items-center gap-2 mb-3 text-sm w-full max-w-3xl" style={{ color: "#6b7280" }}>
-        <span className="whitespace-nowrap">
-          Clue {revealed}/{current.clues.length}
-        </span>
-        <div className="flex-1 h-1.5 rounded-full overflow-hidden" style={{ background: "#0e3d4a" }}>
+      {/* PROGRESS BAR */}
+      <div className="flex items-center gap-2 mb-3 text-sm w-full max-w-3xl" style={{ color: theme.textMuted }}>
+        <span className="whitespace-nowrap">Clue {revealed}/{current.clues.length}</span>
+        <div className="flex-1 h-1.5 rounded-full overflow-hidden" style={{ background: theme.border }}>
           <div
             className="h-full rounded-full transition-all duration-500"
-            style={{ width: `${(revealed / current.clues.length) * 100}%`, background: "#14b8a6" }}
+            style={{ width: `${(revealed / current.clues.length) * 100}%`, background: theme.accent }}
           />
         </div>
-        <span className="text-xs font-mono whitespace-nowrap" style={{ color: "#6b7280" }}>
+        <span className="text-xs font-mono whitespace-nowrap" style={{ color: theme.textMuted }}>
           {guessesLeft} guess{guessesLeft !== 1 ? "es" : ""} left
         </span>
       </div>
@@ -1681,12 +1789,12 @@ export default function Home() {
             key={i}
             className="rounded-xl px-4 py-3 text-sm border-l-4 transition-all duration-300"
             style={{
-              background: "#0a2f38",
-              borderColor: i === revealed - 1 ? "#14b8a6" : "#0e3d4a",
-              color: "#e2e8f0",
+              background: theme.bgCard,
+              borderColor: i === revealed - 1 ? theme.accent : theme.border,
+              color: theme.text,
             }}
           >
-            <span className="text-xs font-mono mr-2" style={{ color: "#2d7a8a" }}>
+            <span className="text-xs font-mono mr-2" style={{ color: theme.clueNum }}>
               #{i + 1}
             </span>
             {clue}
@@ -1699,30 +1807,30 @@ export default function Home() {
         <div className="relative w-full max-w-3xl mb-2">
           <div className="flex gap-2">
             <input
-              className="min-w-0 flex-1 rounded-xl text-white px-3 py-2 outline-none text-sm"
-              style={{ background: "#0a2f38", border: "1px solid #0e3d4a", color: "white" }}
+              className="min-w-0 flex-1 rounded-xl px-3 py-2 outline-none text-sm"
+              style={{
+                background: theme.bgInput,
+                border: `1px solid ${theme.border}`,
+                color: theme.text,
+                fontFamily: "'Poppins', sans-serif",
+              }}
               placeholder="Enter diagnosis..."
               value={guess}
-              onChange={(e) => {
-                setGuess(e.target.value);
-                setShowDropdown(true);
-              }}
+              onChange={(e) => { setGuess(e.target.value); setShowDropdown(true); }}
               onKeyDown={(e) => e.key === "Enter" && submitGuess(guess)}
               onFocus={() => setShowDropdown(true)}
             />
-
             <button
               onClick={() => submitGuess(guess)}
-              className="text-white py-2 rounded-xl font-bold text-sm shrink-0"
-              style={{ background: "#14b8a6", minWidth: "64px" }}
+              className="py-2 rounded-xl font-bold text-sm shrink-0 text-white"
+              style={{ background: theme.accent, minWidth: "64px", fontFamily: "'Poppins', sans-serif" }}
             >
               Guess
             </button>
-
             <button
               onClick={() => submitGuess("", true)}
-              className="text-white py-2 rounded-xl font-bold text-sm shrink-0"
-              style={{ background: "#0e3d4a", minWidth: "52px" }}
+              className="py-2 rounded-xl font-bold text-sm shrink-0"
+              style={{ background: theme.border, color: theme.text, minWidth: "52px", fontFamily: "'Poppins', sans-serif" }}
             >
               Skip
             </button>
@@ -1731,16 +1839,16 @@ export default function Home() {
           {showDropdown && filtered.length > 0 && (
             <div
               className="absolute z-10 w-full rounded-xl mt-1 overflow-hidden shadow-lg"
-              style={{ background: "#0a2f38", border: "1px solid #0e3d4a" }}
+              style={{ background: theme.bgCard, border: `1px solid ${theme.border}` }}
             >
               {filtered.map((d, i) => (
                 <div
                   key={i}
-                  className="px-4 py-2 text-white cursor-pointer text-sm"
-                  style={{ borderBottom: "1px solid #0e3d4a" }}
+                  className="px-4 py-2 cursor-pointer text-sm"
+                  style={{ borderBottom: `1px solid ${theme.border}`, color: theme.text }}
                   onMouseDown={() => submitGuess(d)}
-                  onMouseOver={(e) => (e.currentTarget.style.background = "#14b8a6")}
-                  onMouseOut={(e) => (e.currentTarget.style.background = "transparent")}
+                  onMouseOver={(e) => { e.currentTarget.style.background = theme.accent; e.currentTarget.style.color = "#ffffff"; }}
+                  onMouseOut={(e) => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = theme.text; }}
                 >
                   {d}
                 </div>
@@ -1750,31 +1858,34 @@ export default function Home() {
         </div>
       )}
 
-      {/* GUESSES */}
+      {/* GUESS HISTORY */}
       <div className="mt-2 space-y-1 w-full max-w-3xl">
         {guesses.map((g, i) => (
           <div key={i} className="flex items-center gap-2 text-sm">
-            <span style={{ color: g.skipped ? "#6b7280" : g.correct ? "#4ade80" : "#f87171" }}>
+            <span style={{ color: g.skipped ? theme.textMuted : g.correct ? "#22c55e" : "#f87171" }}>
               {g.skipped ? "—" : g.correct ? "✓" : "✗"}
             </span>
-            <span style={{ color: g.skipped ? "#6b7280" : g.correct ? "#4ade80" : "#f87171" }}>{g.text}</span>
+            <span style={{ color: g.skipped ? theme.textMuted : g.correct ? "#22c55e" : "#f87171" }}>
+              {g.text}
+            </span>
           </div>
         ))}
       </div>
 
       {/* MONITOR + FILTER BUTTONS */}
       <div className="mt-8 w-full max-w-3xl">
-        <div className="flex items-center gap-2 mb-2">
+        <div className="flex flex-wrap items-center gap-2 mb-2">
           <button
             onClick={() => setShowECG((s) => !s)}
             className="flex items-center gap-2 text-xs font-mono mb-2 px-3 py-1 rounded-lg transition-all"
             style={{
-              background: showECG ? "#0a2f38" : "transparent",
-              border: "1px solid #0e3d4a",
-              color: showECG ? "#14b8a6" : "#2d7a8a",
+              background: showECG ? theme.bgCard : "transparent",
+              border: `1px solid ${theme.border}`,
+              color: showECG ? theme.accent : theme.textFaint,
+              fontFamily: "'Poppins', sans-serif",
             }}
           >
-            <span style={{ color: showECG ? "#22c55e" : "#2d7a8a" }}>●</span>
+            <span style={{ color: showECG ? "#22c55e" : theme.textFaint }}>●</span>
             {showECG ? "Hide" : "Show"} Patient Monitor
           </button>
 
@@ -1782,12 +1893,13 @@ export default function Home() {
             onClick={() => setShowSystem((s) => !s)}
             className="flex items-center gap-2 text-xs font-mono mb-2 px-3 py-1 rounded-lg transition-all"
             style={{
-              background: showSystem ? "#0a2f38" : "transparent",
-              border: "1px solid #0e3d4a",
-              color: showSystem ? "#14b8a6" : "#2d7a8a",
+              background: showSystem ? theme.bgCard : "transparent",
+              border: `1px solid ${theme.border}`,
+              color: showSystem ? theme.accent : theme.textFaint,
+              fontFamily: "'Poppins', sans-serif",
             }}
           >
-            <span style={{ color: showSystem ? "#14b8a6" : "#2d7a8a" }}>●</span>
+            <span style={{ color: showSystem ? theme.accent : theme.textFaint }}>●</span>
             {showSystem ? "Hide" : "Show"} Body System
           </button>
 
@@ -1795,34 +1907,35 @@ export default function Home() {
             onClick={() => setShowSystemFilter((s) => !s)}
             className="flex items-center gap-2 text-xs font-mono mb-2 px-3 py-1 rounded-lg transition-all"
             style={{
-              background: showSystemFilter ? "#0a2f38" : "transparent",
-              border: "1px solid #0e3d4a",
-              color: showSystemFilter ? "#14b8a6" : "#2d7a8a",
+              background: showSystemFilter ? theme.bgCard : "transparent",
+              border: `1px solid ${theme.border}`,
+              color: showSystemFilter ? theme.accent : theme.textFaint,
+              fontFamily: "'Poppins', sans-serif",
             }}
           >
-            <span style={{ color: selectedSystems.size > 0 ? "#14b8a6" : "#2d7a8a" }}>●</span>
+            <span style={{ color: selectedSystems.size > 0 ? theme.accent : theme.textFaint }}>●</span>
             Filter Systems{selectedSystems.size > 0 ? ` (${selectedSystems.size})` : ""}
           </button>
         </div>
 
         {showSystemFilter && (
-          <div className="w-full rounded-xl p-3 border mb-2" style={{ background: "#0a2f38", borderColor: "#0e3d4a" }}>
+          <div className="w-full rounded-xl p-3 border mb-2" style={{ background: theme.filterPanel, borderColor: theme.border }}>
             <div className="flex items-center justify-between gap-3">
-              <p className="text-xs font-mono tracking-widest" style={{ color: "#6b7280" }}>
+              <p className="text-xs font-mono tracking-widest" style={{ color: theme.textMuted }}>
                 FILTER BY BODY SYSTEM (OPTIONAL)
               </p>
               <div className="flex items-center gap-2">
                 <button
                   onClick={() => setSelectedSystems(new Set())}
                   className="text-xs font-bold px-3 py-1.5 rounded-lg"
-                  style={{ background: "#0e3d4a", color: "#e2e8f0" }}
+                  style={{ background: theme.border, color: theme.text }}
                 >
                   Clear
                 </button>
                 <button
                   onClick={() => setSelectedSystems(new Set(allSystems))}
-                  className="text-xs font-bold px-3 py-1.5 rounded-lg"
-                  style={{ background: "#14b8a6", color: "#042b33" }}
+                  className="text-xs font-bold px-3 py-1.5 rounded-lg text-white"
+                  style={{ background: theme.accent }}
                 >
                   Select all
                 </button>
@@ -1830,7 +1943,7 @@ export default function Home() {
             </div>
 
             {allSystems.length === 0 ? (
-              <p className="text-sm mt-2" style={{ color: "#94a3b8" }}>
+              <p className="text-sm mt-2" style={{ color: theme.textMuted }}>
                 No body-system tags were found in your cases file.
               </p>
             ) : (
@@ -1840,16 +1953,16 @@ export default function Home() {
                     key={sys}
                     className="flex items-center gap-2 px-3 py-1.5 rounded-lg border text-xs cursor-pointer select-none"
                     style={{
-                      background: selectedSystems.has(sys) ? "rgba(20,184,166,0.12)" : "transparent",
-                      borderColor: selectedSystems.has(sys) ? "#14b8a6" : "#0e3d4a",
-                      color: selectedSystems.has(sys) ? "#e2e8f0" : "#94a3b8",
+                      background: selectedSystems.has(sys) ? `${theme.accent}22` : "transparent",
+                      borderColor: selectedSystems.has(sys) ? theme.accent : theme.border,
+                      color: selectedSystems.has(sys) ? theme.text : theme.textMuted,
                     }}
                   >
                     <input
                       type="checkbox"
                       checked={selectedSystems.has(sys)}
                       onChange={() => toggleSystem(sys)}
-                      style={{ accentColor: "#14b8a6" }}
+                      style={{ accentColor: theme.accent }}
                     />
                     <span>{displaySystemLabel(sys)}</span>
                   </label>
@@ -1858,13 +1971,13 @@ export default function Home() {
             )}
 
             {selectedSystems.size > 0 && (
-              <p className="text-xs mt-3" style={{ color: "#2d7a8a" }}>
+              <p className="text-xs mt-3" style={{ color: theme.textFaint }}>
                 Active filter: {Array.from(selectedSystems).map(displaySystemLabel).join(", ")}
               </p>
             )}
 
-            <p className="text-xs mt-2" style={{ color: "#1d5a66" }}>
-              Tip: If you pick systems here, the game will only pull new cases from those systems for this session.
+            <p className="text-xs mt-2" style={{ color: theme.textFaint }}>
+              Tip: Picking systems here limits new cases to those systems for this session.
             </p>
           </div>
         )}
@@ -1874,19 +1987,19 @@ export default function Home() {
 
       {/* FOOTER */}
       <div className="mt-8 w-full max-w-3xl text-center space-y-3">
-        <p className="text-xs" style={{ color: "#2d7a8a" }}>
+        <p className="text-xs" style={{ color: theme.textFaint }}>
           ⚠️ Cases are AI-generated for educational purposes only and may contain inaccuracies. Not for clinical use.
         </p>
-        <p className="text-xs" style={{ color: "#1d5a66" }}>
+        <p className="text-xs" style={{ color: theme.textFaint }}>
           Medicle is an independent, fan-made endless diagnosis game inspired by{" "}
-          <a href="https://doctordle.org" target="_blank" rel="noopener noreferrer" style={{ color: "#14b8a6" }}>
+          <a href="https://doctordle.org" target="_blank" rel="noopener noreferrer" style={{ color: theme.accent }}>
             Doctordle
           </a>
           . We built this as a complement, not a competitor, so medical students can practice endlessly.
         </p>
-        <p className="text-xs" style={{ color: "#2d7a8a" }}>
+        <p className="text-xs" style={{ color: theme.textFaint }}>
           Questions or feedback?{" "}
-          <a href="mailto:jubolanosmed@gmail.com" style={{ color: "#14b8a6" }}>
+          <a href="mailto:jubolanosmed@gmail.com" style={{ color: theme.accent }}>
             Contact us
           </a>
         </p>
